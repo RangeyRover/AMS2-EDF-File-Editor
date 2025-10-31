@@ -26,7 +26,8 @@ Minimal desktop viewer/editor for **Madness-engine** `EDF/EDFBIN` engine files. 
   - Export torque tables to **CSV**
   - Save a **modified EDF** to a new file; original remains untouched
 
-[EDF-Main Window.png]()
+![EDF Main Window](<img width="822" height="521" alt="EDF-Main Window" src="https://github.com/user-attachments/assets/d3fa69fe-0e8f-4962-bdce-7661b8ecbd7f" />)
+
 ---
 
 ## Requirements
