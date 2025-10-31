@@ -27,7 +27,7 @@ Minimal desktop viewer/editor for **Madness-engine** `EDF/EDFBIN` engine files. 
   - Save a **modified EDF** to a new file; original remains untouched
 
 ![EDF Main Window](https://github.com/user-attachments/assets/d3fa69fe-0e8f-4962-bdce-7661b8ecbd7f)
-
+![EDF PlotWindow](https://github.com/RangeyRover/AMS2-EDF-File-Editor/blob/main/EDF-Main%20Window.png))
 ---
 
 ## Requirements
