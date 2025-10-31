@@ -1,0 +1,169 @@
+Project cars
+Engine translation
+by JDougNY
+Version 1.01 - April 12, 2019
+- clarified the byte count registers at the top of the file
+
+Version 1.00 - April 5, 2018
+
+# use this translation as a general guide to locate data in the file
+# search the hex strings []
+# Sometimes there is no data entered after the hex string.
+# When that occurs the strings begins with [28....]
+
+There are varying amounts of data after each string as defined by how
+the bytes are set for the end of the string.
+Some examples of hex string endings are....
+03 00] = byte, byte, byte
+03 02] = byte, byte, float
+23 00] = float, byte, byte
+83 00] = byte, float, byte
+83 02] = byte, float, float
+A3 00] = float, float, byte
+A3 02] = float, float, float
+A2] = float, float
+52] = integer, integer
+
+******Version 1.01 Clarifications******
+When adding/removing bytes, you must change 3 registers at the top of the
+file at addresses 0x08-0x0B, 0x14-0x17 and 0x24-0x27.
+For engines other than single cylinder, V10 and V12, there are 3 bytes at the very end of the file that
+are dedicated to engine layout as noted in this translation (further below).
+Single cylinder uses 8 bytes for engine layout
+V10 and V12 use 4 bytes for engine layout
+That byte count for engine layout is indicated at address 0x20.
+
+0x08-0x0B = byte count of the entire file
+
+0x14-0x17 = byte count starting at address 0x28 and ending at the last byte before the engine layout
+(see 0x20 for byte count of engine layout)
+
+0x24-0x27 = byte count from beginning of file and ending at the last byte before the engine layout
+(see 0x20 for byte count of engine layout)
+
+****************************************************
+*** BEGIN RPMTorque STEPPING ***********************
+****************************************************
+**0rpm step**
+The first RPMTorque step is 0rpm and the Hex ID string ends differently, along with some pad bytes removed.
+[24 8B 0A B7 71 83 02] RPMTorque={byte},{float},{float}
+1st byte = don't change the value from "0"
+1st float = engine compression.  Negative torque when off/partial throttle
+2nd float = engine torque in NM.  Positive value when on throttle.
+
+**Above 0rpm to end of rpm range** - use this format to build up your torque curve.  Typical stepping is 250rpm
+[24 8B 0A B7 71 93 02] RPMTorque={int},{float},{float}
+1st integer = RPMTorque value. Example: 250rpm = FA000000, 1000rpm = E8030000.  Entered as little endian.
+1st float = engine compression in -NM.  Negative torque when off/partial throttle,  Entered as little endian.
+2nd float = engine torque in NM.  Positive torque when on throttle.  Entered as little endian.
+
+**SMS has this variation at end of RPM range in some edfbin's. Not recommended as a normal method, though ****
+[24 8B 0A B7 71 93 00] RPMTorque={int},{float},{byte}
+1st integer = RPMTorque value. Example: 250rpm = FA000000, 1000rpm = E8030000.  Entered as little endian.
+1st float = engine compression in -NM.  Negative torque when off/partial throttle. Entered as little endian.
+byte at the end is usually set to "0"
+
+**Begin typical engine paramter section**
+[22 4A E2 DD 6C]       FuelConsumption={float}3.60e-5
+[22 D2 A2 92 32]       FuelEstimate={float}1.00
+[22 46 65 AE 87]       EngineInertia={float}0.300
+[22 40 F1 D2 B9]       ??Unknown??={float}0.00	// setting a value seems to make engine rev out of control when in neutral gear  
+[24 4D 23 97 54 A2]    IdleRPMLogic={float}1000.0,{float}1050.0
+**[24 4D 23 97 54 52]  IdleRPMLogic={integer},{integer}
+[22 21 98 99 AE]       LaunchEfficiency={float}0.969
+[24 79 02 B6 BD A2]    LaunchRPMLogic={float}4500.0,{float}5500.0
+[24 DE A7 2E B7 23 00] RevLimitRange={float}8000.0,{byte}0,{byte}0
+**[24 DE A7 2E B7 13 00]RevLimitRange={integer},{byte},{byte}
+[28 A5 5C C1 C4]       RevLimitSetting=		// no value set
+[22 19 66 8A F9]       RevLimitLogic={float}150.0
+[24 83 15 2F 20 03 00] EngineMapRange={byte}0,{byte}1,{byte}5
+[20 C4 44 73 F5]       EngineMapSetting={byte}2
+[24 BF 84 7C F1 A3 00] EngineBrakingMapRange={float}0.0,{float}0.00077,{byte}6
+[20 BE 71 ED 67]       EngineBrakingMapSetting={byte}2
+[22 AF D7 8A DD]       OptimumOilTemp={float}95.0
+[22 54 10 6D B1]       CombustionHeat={float}40.0
+[22 F6 E3 9F D9]       EngineSpeedHeat={float}12.000e-004
+[22 B3 0F 25 FC]       OilMinimumCooling={float}7.50e-003        
+[24 A7 00 D2 3A A2]    OilWaterHeatTransfer={float}3.962e-001,{float}7.925e-005
+[22 67 17 15 86]       WaterMinimumCooling={float}3.962e-003
+[24 6A DA 2B 3A A2]    RadiatorCooling={float}1.592e-004,{float}10.039e-005
+
+***Unknown chunk of code found in a file***
+21 3F 6B 7B E7 82 00 00 00 
+20 6D 47 C1 B2 73
+*******************************************
+
+[24 D3 94 64 AF A2]    LifetimeEngineRPM={float}8400.0,{float}95.0
+**[24 D3 94 64 AF 52]  LifetimeEngineRPM={integer},{integer}
+[24 0A CE A8 58 A2]    LifetimeOilTemp={float}100.00,{float}3.00
+#[24 05 71 C7 19 A2]   ??Unknown??={float}100000.0,{float}50000.0 // Present in Lmp_Rwd_P30
+[22 F7 5F 82 2B]       LifetimeAvg={float}300000000.00 // Use higher values for more endurance
+[22 52 7B 76 CD]       LifetimeVar={float}2250.00
+#[24 C1 F4 54 3C 83 02] ??Unknown??={byte}0,{float}0.53,{float}0.77 // Present in Lmp_Rwd_P30
+[24 CE B1 75 25 A3 02] EngineEmission={float}0.0,{float}0.53,{float}0.77
+[20 11 8B A3 81]       ??OnboardStarter=??{byte}1 //
+[26 AF 00 B3 BA]       ??Unknown??={byte}0        // EDF_UNKN_005
+[24 52 17 FB 41 A3 02] StarterTiming={float}1.4,{float}0.4,{float}1.5
+[22 92 C7 CD 7C]       ??Unknown??={float}3.00	// 
+[24 FC 89 E8 9C A3 00] AirRestrictorRange={float}0.08,{float}0.001,{byte}20
+#[20 C5 B4 08 FE]      AirRestrictorSetting={byte}20 // not included in all files
+#[28 C5 B4 08 FE]      AirRestrictorSetting= //no setting value (means zero)
+[20 2B 3E D3 40]       ??Unknown??={byte}2       // 
+[22 BA 65 DD 60]       ??Unknown??={float}6e-06	 // 
+[22 81 92 17 E0]       ??Unknown??={float}295.00 // 
+#[24 63 23 3A 14 A3 00] WasteGateRange={float},{float},{byte} // Float values are in pascal units.  This is replaced by boost control code below
+#[20 DF 86 64 FC]      WasteGateSetting={byte}10 // not included in all files.  This is replaced by boost control code below
+#[28 DF 86 64 FC]      WasteGateSetting= // no value set.  This is replaced by boost control code below
+#[23 00 00 50 C3 47]   ??Unknown??={byte}0,{byte}0 // 
+[24 D7 74 45 1A 83 00] BoostRange={byte}X, {float}X.X, {byte}X 
+[20 CA 2F D1 34]       BoostSetting={byte}X
+[28 CA 2F D1 34]       BoostSetting= // no setting value (means zero)
+
+*****BOOST CONTROL CODE RESIDES HERE************
+*****READ "EDFBIN BOOST CONTROL CODE.TXT********
+*****FOR DETAILED INFORMATION ******************
+
+[3 bytes following WasteGateSetting and any setting value] EngineLayout={byte}, {byte}, {byte} // see values for engine layout below
+#[4 bytes following WasteGateSetting and any setting value] EngineLayout={byte}, {byte}, {byte}, {byte}  // see values for engine layout below
+*****V10 and V12 engines have a 4 byte engine layout*****
+
+############################################################################
+# VALUES FOR ENGINE LAYOUT                                                 #
+#                                                                          #
+# Single Cylinder =  D7 50 75 68 A3 0A 62 // in Hex code                   #
+# Twin Cylinder =  ??                                                      #
+# 3 Rotor = C2 2D 3B // in Hex code                                        #
+# NOTE: 3 Rotor has same engine layout as Flat 4 per SMS                   #
+# Straight 4 = D7 2D 3B //  in Hex code                                    #
+# Straight 5 = D7 2C 3B //  in Hex code                                    #
+# Straight 6 = D7 2F 3B //  in Hex code                                    #
+# Flat 4  = C2 2D 3B  //  in Hex code                                      #
+# Flat 6  = C2 2F 3B  //  in Hex code                                      #
+# Flat 8  = D2 21 3B **same as V8**                                        #
+# Flat 12 = D2 28 09 2F // in Hex code                                     #
+# V6 =  D2 2F 3B    //  in Hex code                                        #
+# V8 =  D2 21 3B    //  in Hex code                                        #
+# V10 = D2 28 0B 2F //  in Hex code                                        #
+# V12 = D2 28 09 2F //  in Hex code                                        #
+############################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

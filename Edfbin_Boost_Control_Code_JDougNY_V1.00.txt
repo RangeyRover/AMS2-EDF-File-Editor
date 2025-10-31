@@ -1,0 +1,78 @@
+Written By JDougNY on Feb 8th, 2018
+Explanation of Turbo boost control look up table, which is embedded in 
+the engine edfbin files.
+
+Here is the new boost range code in edfbin..
+[code]
+[24 D7 74 45 1A 83 00] BoostRange={byte}X, {float}X.X, {byte}X
+[20 CA 2F D1 34] BoostSetting={byte}X
+[28 CA 2F D1 34] BoostSetting= // no setting value (means zero)
+[/code]
+For the lookup table, the format of the code is as follows...
+hex string for 0rpm is [24 51 5F 5E 83 86 AA].  This hex string is different, because only one byte is needed to set the value of 0 in the code.
+The hex string is followed by a 00 byte, which means 0rpm.
+Then there are 5 floats of 1.0 (1.0bar which is just atmospheric pressure without any added boost).  These represent the throttle position, which are 0%, 25%, 50%, 75%, 100%.  The values set for each throttle position represent the amount of turbo boost to be applied.  When set to 1.0, which is atmospheric pressure, there would be no boost (only the power established in engine edfbin).
+
+Code for 0rpm is this....
+[code]
+0rpm
+[24 51 5F 5E 83 86 AA] 00, 00 00 80 3F, 00 00 80 3F, 00 00 80 3F, 00 00 80 3F, 00 00 80 3F
+[/code]
+
+For rpm steps above 0rpm, the hex string is [24 51 5F 5E 83 96 AA].
+The hex string is followed by a 32 bit integer to set the rpm level.   To set 1000 rpm, the integer value would be E8 03 00 00.
+Then there are 5 floats for throttle position.  These represent the throttle position, which are 0%, 25%, 50%, 75%, 100%.  The values set for each throttle position represent the amount of turbo boost to be applied.  When set to 1.0, which is atmospheric pressure, there would be no boost (only the power established in engine edfbin).  Of course, at 1000rpm, there is a touch of boost beginning to build up in the example below.
+
+Code for 1000rpm is this....
+[code]
+1000rpm
+[24 51 5F 5E 83 96 AA] E8 03 00 00, 00 00 80 3F, 5C 8F 82 3F, B8 1E 85 3F, 14 AE 87 3F, 71 3D 8A 3F
+[/code]
+
+If you want 0.5 bar of boost, you would set a value of 1.5 (atmosphere + 0.5 boost).
+
+
+Here is sample boost control lookup table...
+[code]
+0rpm
+[24 51 5F 5E 83 86 AA] 00, 00 00 80 3F, 00 00 80 3F, 00 00 80 3F, 00 00 80 3F, 00 00 80 3F
+
+1000rpm
+[24 51 5F 5E 83 96 AA] E8 03 00 00, 00 00 80 3F, 5C 8F 82 3F, B8 1E 85 3F, 14 AE 87 3F, 71 3D 8A 3F
+
+1300rpm
+[24 51 5F 5E 83 96 AA] 14 05 00 00, 00 00 80 3F, 66 66 86 3F, 1F 85 8B 3F, 85 EB 91 3F, 3D 0A 97 3F
+
+1600rpm
+[24 51 5F 5E 83 96 AA] 40 06 00 00, 00 00 80 3F, 1F 85 8B 3F, 3D 0A 97 3F, AE 47 A1 3F, CD CC AC 3F
+
+2650rpm
+[24 51 5F 5E 83 96 AA] 5A 0A 00 00, 00 00 80 3F, 71 3D AA 3F, 33 33 D3 3F, A4 70 FD 3F, 33 33 13 40
+
+2800rpm
+[24 51 5F 5E 83 96 AA] F0 0A 00 00, 00 00 80 3F, CD CC AC 3F, EC 51 D8 3F, 5C 8F 02 40, EC 51 18 40
+
+2950rpm
+[24 51 5F 5E 83 96 AA] 86 0B 00 00, 00 00 80 3F, CD CC AC 3F, 9A 99 D9 3F, 33 33 03 40, 9A 99 19 40
+
+3250rpm
+[24 51 5F 5E 83 96 AA] B2 0C 00 00, 00 00 80 3F, CD CC AC 3F, 9A 99 D9 3F, 33 33 03 40, 9A 99 19 40
+
+4000rpm
+[24 51 5F 5E 83 96 AA] A0 0F 00 00, 00 00 80 3F, CD CC AC 3F, 9A 99 D9 3F, 33 33 03 40, 9A 99 19 40
+
+6950rpm
+[24 51 5F 5E 83 96 AA] 26 1B 00 00, 00 00 80 3F, CD CC AC 3F, 9A 99 D9 3F, 33 33 03 40, 39 b4 10 40
+
+8400rpm
+[24 51 5F 5E 83 96 AA] D0 20 00 00, 00 00 80 3F, CD CC AC 3F, 9A 99 D9 3F, 33 33 03 40, 39 b4 10 40
+
+14001rpm
+[24 51 5F 5E 83 96 AA] B1 36 00 00, 00 00 80 3F, CD CC AC 3F, 9A 99 D9 3F, 33 33 03 40, 39 b4 10 40
+[/code]
+All of the rpm steps can be adjusted to work properly for your engine.  In this example peak boost occurs at around 3000rpm (hex value 9A 99 19 40 @ 2950rpm).  Peak torque occurs at 4000rpm, based on torque curve set in edfbin (for this example).  If you need peak boost at a different RPM, just adjust the rpm steps and the float values for the throttle positions.
+Once peak boost and torque is accurate for your engine, carry those 5 floats for throttle positions to each higher rpm step, until you reach peak Hp rpm level.  In the example, the floats set for 2950rpm are repeated for 3250rpm and 4000rpm steps.
+
+Peak Hp is around 7100 rpm for this example, so an RPM step is set for 6950rpm in order to have an adjustment, which doesn't harm the boost settings below 6950rpm.   The remaining rpm steps above peak Hp are simply set to match the 6950rpm step.
+Adjust the throttle position boost levels at 6950 step, until you have correct peak hp.  Whenever changing your boost for peak HP, carry those values into the remaining higher rpm steps.
+In this example, the rev limit is 7600rpm, so the rpm steps above the rev limit are spares.
