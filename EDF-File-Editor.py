@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-# edf_tk_viewer.py
-# Minimal Tkinter viewer for Madness-engine EDF/EDFBIN engine files
-# Uses JDougNY's "Project CARS Engine translation" mapping (v1.01)
+# EDF/EDFBIN viewer with integrated hex viewer
+# Based on JDougNY's "Project CARS Engine translation" mapping (v1.01)
 # Supports torque curves and a set of common parameter tags.
 #
 # Python 3.9+ recommended. No external deps except tkinter (standard lib).
@@ -11,6 +10,11 @@ import csv
 from pathlib import Path
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
+try:
+    import ctypes
+    ctypes.windll.shcore.SetProcessDpiAwareness(1)
+except Exception:
+    pass
 
 # -------- Signatures (little-endian) --------
 SIG_0RPM   = b'\x24\x8B\x0A\xB7\x71\x83\x02'  # byte, float, float
@@ -37,14 +41,15 @@ PARAMS = {
     b'\x22\x4A\xE2\xDD\x6C': ('FuelConsumption', ('f',)),
     b'\x22\xD2\xA2\x92\x32': ('FuelEstimate',    ('f',)),
     b'\x22\x46\x65\xAE\x87': ('EngineInertia',   ('f',)),
-    b'\x22\x40\xF1\xD2\xB9': ('Unknown_EngineFreeRevs?', ('f',)),
+    b'\x22\x40\xF1\xD2\xB9': ('Unknown_EngineFreeRevs', ('f',)),  # Makes engine rev out of control
     b'\x24\x4D\x23\x97\x54\xA2': ('IdleRPMLogic', ('f','f')),   # alt 52: int,int
     b'\x24\x4D\x23\x97\x54\x52': ('IdleRPMLogic', ('i','i')),
     b'\x22\x21\x98\x99\xAE': ('LaunchEfficiency', ('f',)),
     b'\x24\x79\x02\xB6\xBD\xA2': ('LaunchRPMLogic', ('f','f')),
     b'\x24\xDE\xA7\x2E\xB7\x23\x00': ('RevLimitRange', ('f','b','b')),  # alt 13 00: int,b,b
     b'\x24\xDE\xA7\x2E\xB7\x13\x00': ('RevLimitRange', ('i','b','b')),
-    b'\x20\xA5\x5C\xC1\xC4': ('RevLimitSetting', ('b',)),  # Byte
+    b'\x20\xA5\x5C\xC1\xC4': ('RevLimitSetting', ('b',)),  # Byte with value
+    b'\x28\xA5\x5C\xC1\xC4': ('RevLimitSetting_NoValue', ()),  # No value variant
     b'\x22\x19\x66\x8A\xF9': ('RevLimitLogic',   ('f',)),
     b'\x24\x83\x15\x2F\x20\x03\x00': ('EngineFuelMapRange', ('b','b','b')),
     b'\x20\xC4\x44\x73\xF5': ('EngineFuelMapSetting', ('b',)),
@@ -57,21 +62,39 @@ PARAMS = {
     b'\x24\xA7\x00\xD2\x3A\xA2': ('OilWaterHeatTransfer', ('f','f')),
     b'\x22\x67\x17\x15\x86': ('WaterMinimumCooling', ('f',)),
     b'\x24\x6A\xDA\x2B\x3A\xA2': ('RadiatorCooling', ('f','f')),
+    # Unknown chunk signatures
+    b'\x21\x3F\x6B\x7B\xE7\x82\x00': ('Unknown_Chunk_213F6B', ('b','b')),
+    b'\x20\x6D\x47\xC1\xB2': ('Unknown_Chunk_206D47', ('b',)),
+    # Lifetime parameters
     b'\x24\xD3\x94\x64\xAF\xA2': ('LifetimeEngineRPM', ('f','f')),
     b'\x24\xD3\x94\x64\xAF\x52': ('LifetimeEngineRPM', ('i','i')),
     b'\x24\x0A\xCE\xA8\x58\xA2': ('LifetimeOilTemp', ('f','f')),
+    b'\x24\x05\x71\xC7\x19\xA2': ('Unknown_LMP_RWD_P30_A', ('f','f')),  # Present in LMP_RWD_P30
     b'\x22\xF7\x5F\x82\x2B': ('LifetimeAvg', ('f',)),
     b'\x22\x52\x7B\x76\xCD': ('LifetimeVar', ('f',)),
+    b'\x24\xC1\xF4\x54\x3C\x83\x02': ('Unknown_LMP_RWD_P30_B', ('b','f','f')),  # Present in LMP_RWD_P30
     b'\x24\xCE\xB1\x75\x25\xA3\x02': ('EngineEmission', ('f','f','f')),
     b'\x20\x11\x8B\xA3\x81': ('OnboardStarter?', ('b',)),
     b'\x26\xAF\x00\xB3\xBA': ('EDF_UNKN_005', ('b',)),
     b'\x24\x52\x17\xFB\x41\xA3\x02': ('StarterTiming', ('f','f','f')),
+    b'\x22\x92\xC7\xCD\x7C': ('Unknown_Float_3', ('f',)),  # Unknown with float 3.00
+    # Air restrictor
     b'\x24\xFC\x89\xE8\x9C\xA3\x00': ('AirRestrictorRange', ('f','f','b')),
+    b'\x20\xC5\xB4\x08\xFE': ('AirRestrictorSetting', ('b',)),
+    b'\x28\xC5\xB4\x08\xFE': ('AirRestrictorSetting_NoValue', ()),  # No value variant
+    # Other unknowns
     b'\x20\x2B\x3E\xD3\x40': ('Unknown_Byte_2B3ED340', ('b',)),
-    b'\x22\xBA\x65\xDD\x60': ('Unknown_Float_2265DD60', ('f',)),
-    b'\x22\x81\x92\x17\xE0': ('Unknown_Float_229217E0', ('f',)),
+    b'\x22\xBA\x65\xDD\x60': ('Unknown_Float_6e-06', ('f',)),
+    b'\x22\x81\x92\x17\xE0': ('Unknown_Float_295', ('f',)),
+    # Old WasteGate parameters (replaced by boost control)
+    b'\x24\x63\x23\x3A\x14\xA3\x00': ('WasteGateRange_OLD', ('f','f','b')),
+    b'\x20\xDF\x86\x64\xFC': ('WasteGateSetting_OLD', ('b',)),
+    b'\x28\xDF\x86\x64\xFC': ('WasteGateSetting_OLD_NoValue', ()),
+    b'\x23\x00\x00\x50\xC3': ('Unknown_2300005', ('b','b')),
+    # Boost control (current)
     b'\x24\xD7\x74\x45\x1A\x83\x00': ('BoostRange', ('b','f','b')),
     b'\x20\xCA\x2F\xD1\x34': ('BoostSetting', ('b',)),
+    b'\x28\xCA\x2F\xD1\x34': ('BoostSetting_NoValue', ()),  # No value variant
 }
 
 ENGINE_LAYOUT_CODES = {
@@ -177,10 +200,14 @@ def parse_params(data: bytes):
     for sig, (name, fmt) in PARAMS.items():
         for pos in find_all(data, sig):
             start = pos + len(sig)
-            vals, endp = read_by_fmt(data, start, fmt)
-            if vals is None:
-                continue
-            out.append((name, pos, tuple(vals)))
+            if len(fmt) == 0:
+                # No value variant (e.g., RevLimitSetting_NoValue)
+                out.append((name, pos, ()))
+            else:
+                vals, endp = read_by_fmt(data, start, fmt)
+                if vals is None:
+                    continue
+                out.append((name, pos, tuple(vals)))
     return out
 
 def detect_engine_layout(data: bytes):
@@ -245,8 +272,8 @@ def parse_boost_tables(data: bytes):
 class EDFViewer(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("EDF Viewer (JDougNY mapping) - WITH PLOTTING 📊")
-        self.geometry("1100x650")
+        self.title("EDF Viewer (JDougNY mapping) - WITH HEX VIEW 📊")
+        self.geometry("1400x750")
         self._build_ui()
         self.data = None
         self.current_file = None
@@ -271,6 +298,10 @@ class EDFViewer(tk.Tk):
             return str(val)
 
     def _build_ui(self):
+        # Configure tree row height
+        style = ttk.Style(self)
+        style.configure("Treeview", rowheight=25)
+        
         menubar = tk.Menu(self)
         filem = tk.Menu(menubar, tearoff=0)
         filem.add_command(label="Open EDF...", command=self.open_file)
@@ -278,7 +309,7 @@ class EDFViewer(tk.Tk):
         filem.add_command(label="Save Modified EDF...", command=self.save_modified_edf, state='disabled')
         filem.add_separator()
         filem.add_command(label="Plot Torque vs RPM", command=self.plot_torque_rpm)
-        filem.add_command(label="Plot Torque vs Compression", command=self.plot_torque_compression)
+        filem.add_command(label="Plot Compression vs RPM", command=self.plot_torque_compression)
         filem.add_command(label="Plot Both", command=self.plot_both)
         filem.add_separator()
         filem.add_command(label="Exit", command=self.destroy)
@@ -292,7 +323,7 @@ class EDFViewer(tk.Tk):
         # Add Plot menu
         plotm = tk.Menu(menubar, tearoff=0)
         plotm.add_command(label="Plot Torque vs RPM", command=self.plot_torque_rpm, state='disabled')
-        plotm.add_command(label="Plot Torque vs Compression", command=self.plot_torque_compression, state='disabled')
+        plotm.add_command(label="Plot Compression vs RPM", command=self.plot_torque_compression, state='disabled')
         plotm.add_command(label="Plot Both", command=self.plot_both, state='disabled')
         menubar.add_cascade(label="Plot", menu=plotm)
         
@@ -301,21 +332,18 @@ class EDFViewer(tk.Tk):
         self._file_menu_save_modified = filem
         self._plot_menu = plotm
         self._tools_menu = toolsm
-        self._tools_menu = toolsm
-        self.modified = False  # Track if data has been modified
 
-        top = ttk.Frame(self)
-        top.pack(fill='both', expand=True, padx=8, pady=8)
+        # ===== Paned layout (left / middle / right) =====
+        pw = ttk.Panedwindow(self, orient='horizontal')
+        pw.pack(fill='both', expand=True, padx=8, pady=8)
 
-        left = ttk.Frame(top, width=260)
-        left.pack(side='left', fill='y', padx=(0, 8))
-        left.pack_propagate(False)  # Don't let children shrink the frame
-        right = ttk.Frame(top)
-        right.pack(side='right', fill='both', expand=True)
+        # -- Left panel (info) --
+        left = ttk.Frame(pw, width=280)
+        pw.add(left, weight=0)
 
         # Info panel
-        self.info = tk.StringVar(value="Open an EDF/EDFBIN file.")
-        ttk.Label(left, textvariable=self.info, justify='left', wraplength=240).pack(anchor='nw', pady=(0,10))
+        self.info = tk.StringVar(value="Open an EDF/EDFBIN file.\n\nClick on tree items to see hex data.")
+        ttk.Label(left, textvariable=self.info, justify='left', wraplength=260).pack(anchor='nw', pady=(0,10))
 
         # Plot buttons panel
         plot_frame = ttk.LabelFrame(left, text="Plot Torque Curves", padding=5)
@@ -325,7 +353,7 @@ class EDFViewer(tk.Tk):
                                        command=self.plot_torque_rpm)
         self.btn_plot_rpm.pack(fill='x', pady=2)
         
-        self.btn_plot_comp = ttk.Button(plot_frame, text="Torque vs Compression", 
+        self.btn_plot_comp = ttk.Button(plot_frame, text="Compression vs RPM", 
                                         command=self.plot_torque_compression)
         self.btn_plot_comp.pack(fill='x', pady=2)
         
@@ -333,8 +361,14 @@ class EDFViewer(tk.Tk):
                                         command=self.plot_both)
         self.btn_plot_both.pack(fill='x', pady=2)
 
-        # Tree
-        self.tree = ttk.Treeview(right, columns=('c1','c2','c3'), show='tree headings')
+        # -- Middle panel (Tree with scrollbars) --
+        middle = ttk.Frame(pw)
+        pw.add(middle, weight=3)
+
+        tree_frame = ttk.Frame(middle)
+        tree_frame.pack(fill='both', expand=True)
+
+        self.tree = ttk.Treeview(tree_frame, columns=('c1','c2','c3'), show='tree headings')
         self.tree.heading('#0', text='Item')
         self.tree.heading('c1', text='Value 1')
         self.tree.heading('c2', text='Value 2')
@@ -343,17 +377,235 @@ class EDFViewer(tk.Tk):
         self.tree.column('c1', width=140, anchor='e')
         self.tree.column('c2', width=140, anchor='e')
         self.tree.column('c3', width=140, anchor='e')
-        self.tree.pack(fill='both', expand=True)
+
+        vsb = ttk.Scrollbar(tree_frame, orient="vertical", command=self.tree.yview)
+        hsb = ttk.Scrollbar(tree_frame, orient="horizontal", command=self.tree.xview)
+        self.tree.configure(yscrollcommand=vsb.set, xscrollcommand=hsb.set)
+
+        tree_frame.columnconfigure(0, weight=1)
+        tree_frame.rowconfigure(0, weight=1)
+        self.tree.grid(row=0, column=0, sticky='nsew')
+        vsb.grid(row=0, column=1, sticky='ns')
+        hsb.grid(row=1, column=0, sticky='ew')
         
-        # Bind double-click to edit parameters
+        # Bind tree selection to hex viewer
+        self.tree.bind('<<TreeviewSelect>>', self.on_tree_select)
         self.tree.bind('<Double-Button-1>', self.on_tree_double_click)
         
         # Store mapping of tree item IDs to parameter data for editing
         self.param_tree_items = {}  # tree_item_id -> (name, pos, vals, fmt)
 
+        # -- Right panel (Hex viewer with scrollbars) --
+        right = ttk.Frame(pw, width=520)
+        pw.add(right, weight=2)
+
+        hex_label = ttk.Label(right, text="Hex View", font=("", 10, "bold"))
+        hex_label.pack(anchor='nw', pady=(0, 5))
+
+        hex_frame = ttk.Frame(right)
+        hex_frame.pack(fill='both', expand=True)
+
+        self.hex_text = tk.Text(hex_frame, wrap=tk.NONE, font=("Courier", 9),
+                                width=60, bg="#f5f5f5", relief=tk.SUNKEN, bd=1)
+        hex_vsb = ttk.Scrollbar(hex_frame, orient="vertical", command=self.hex_text.yview)
+        hex_hsb = ttk.Scrollbar(hex_frame, orient="horizontal", command=self.hex_text.xview)
+        self.hex_text.configure(yscrollcommand=hex_vsb.set, xscrollcommand=hex_hsb.set)
+
+        hex_frame.grid_rowconfigure(0, weight=1)
+        hex_frame.grid_columnconfigure(0, weight=1)
+        self.hex_text.grid(row=0, column=0, sticky='nsew')
+        hex_vsb.grid(row=0, column=1, sticky='ns')
+        hex_hsb.grid(row=1, column=0, sticky='ew')
+
+        # Hex highlighting tags
+        self.hex_text.tag_configure('highlight', background='#ffff00', foreground='#000000')
+        self.hex_text.tag_configure('table_highlight', background='#90ee90', foreground='#000000')
+        self.hex_text.tag_configure('param_highlight', background='#ffa500', foreground='#000000')
+        self.hex_text.tag_configure('editing', background='#ff6b6b', foreground='#ffffff')
+        
+        # Bind left-click for hex editing
+        self.hex_text.bind('<Button-1>', self.on_hex_click)
+        
+        self.hex_text.config(state='disabled')
+        
+        # Track if warning has been shown
+        self.hex_edit_warning_shown = False
+
         # Status
         self.status = tk.StringVar(value="")
         ttk.Label(self, textvariable=self.status, anchor='w').pack(fill='x', padx=8, pady=(0,8))
+
+    def update_hex_view(self):
+        """Generate and display hex view of the file"""
+        if not self.data:
+            return
+        
+        self.hex_text.config(state='normal')
+        self.hex_text.delete('1.0', tk.END)
+        
+        # Generate hex dump (16 bytes per line)
+        lines = []
+        for i in range(0, len(self.data), 16):
+            # Offset
+            offset = f"{i:08X}  "
+            
+            # Hex bytes
+            hex_part = ""
+            ascii_part = ""
+            for j in range(16):
+                if i + j < len(self.data):
+                    byte = self.data[i + j]
+                    hex_part += f"{byte:02X} "
+                    # ASCII representation
+                    ascii_part += chr(byte) if 32 <= byte < 127 else '.'
+                else:
+                    hex_part += "   "
+                    ascii_part += " "
+                
+                # Add extra space in the middle
+                if j == 7:
+                    hex_part += " "
+            
+            lines.append(f"{offset}{hex_part} |{ascii_part}|")
+        
+        self.hex_text.insert('1.0', '\n'.join(lines))
+        self.hex_text.config(state='disabled')
+
+    def highlight_hex_range(self, start_offset: int, end_offset: int, tag: str = 'highlight'):
+        """Highlight a byte range in the hex view"""
+        if not self.data:
+            return
+        
+        self.hex_text.config(state='normal')
+        
+        # Remove previous highlights
+        self.hex_text.tag_remove('highlight', '1.0', tk.END)
+        self.hex_text.tag_remove('table_highlight', '1.0', tk.END)
+        self.hex_text.tag_remove('param_highlight', '1.0', tk.END)
+        
+        # Calculate positions for highlighting
+        for offset in range(start_offset, min(end_offset, len(self.data))):
+            line_num = offset // 16
+            byte_in_line = offset % 16
+            
+            # Calculate text position for hex part
+            col_start = 10 + (byte_in_line * 3)
+            if byte_in_line >= 8:
+                col_start += 1  # Extra space after 8th byte
+            
+            # Highlight hex bytes
+            hex_start = f"{line_num + 1}.{col_start}"
+            hex_end = f"{line_num + 1}.{col_start + 2}"
+            self.hex_text.tag_add(tag, hex_start, hex_end)
+            
+            # Highlight ASCII representation
+            ascii_col = 61 + byte_in_line
+            ascii_start = f"{line_num + 1}.{ascii_col}"
+            ascii_end = f"{line_num + 1}.{ascii_col + 1}"
+            self.hex_text.tag_add(tag, ascii_start, ascii_end)
+        
+        # Scroll to show the highlighted range
+        if start_offset < len(self.data):
+            line_num = start_offset // 16
+            self.hex_text.see(f"{line_num + 1}.0")
+        
+        self.hex_text.config(state='disabled')
+
+    def on_tree_select(self, event=None):
+        """Handle tree selection to highlight corresponding hex bytes"""
+        selection = self.tree.selection()
+        if not selection:
+            return
+        
+        item = selection[0]
+        tags = self.tree.item(item, 'tags')
+        if not tags:
+            return
+        
+        tag = tags[0]
+        
+        # Parse tag to determine what to highlight
+        if tag.startswith("torque_table:"):
+            # Highlight entire torque table
+            table_idx = int(tag.split(':')[1])
+            if table_idx < len(self.tables):
+                off, rows = self.tables[table_idx]
+                if rows:
+                    # Highlight from table start to last row end
+                    last_row = rows[-1]
+                    rpm, comp, tq, ptr, kind = last_row
+                    # Calculate end based on row type
+                    if kind == '0rpm':
+                        end = ptr + len(SIG_0RPM) + ROW0_STRUCT.size
+                    elif kind == 'row_i':
+                        end = ptr + ROWI_STRUCT.size
+                    elif kind == 'row_f':
+                        end = ptr + ROWF_STRUCT.size
+                    elif kind == 'endvar':
+                        end = ptr + ENDVAR_STRUCT.size
+                    else:
+                        end = ptr + 12
+                    
+                    self.highlight_hex_range(off, end, 'table_highlight')
+        
+        elif tag.startswith("torque_row:"):
+            # Highlight individual torque row
+            parts = tag.split(':')
+            table_idx = int(parts[1])
+            row_idx = int(parts[2])
+            
+            if table_idx < len(self.tables):
+                off, rows = self.tables[table_idx]
+                if row_idx < len(rows):
+                    rpm, comp, tq, ptr, kind = rows[row_idx]
+                    
+                    if kind == '0rpm':
+                        # Signature + data
+                        self.highlight_hex_range(ptr, ptr + len(SIG_0RPM) + ROW0_STRUCT.size, 'highlight')
+                    elif kind == 'row_i':
+                        # Signature before ptr + data
+                        self.highlight_hex_range(ptr - len(SIG_ROW_I), ptr + ROWI_STRUCT.size, 'highlight')
+                    elif kind == 'row_f':
+                        # Signature before ptr + data
+                        self.highlight_hex_range(ptr - len(SIG_ROW_F), ptr + ROWF_STRUCT.size, 'highlight')
+                    elif kind == 'endvar':
+                        self.highlight_hex_range(ptr - len(SIG_ENDVAR), ptr + ENDVAR_STRUCT.size, 'highlight')
+        
+        elif tag.startswith("boost_table:"):
+            # Highlight entire boost table
+            table_idx = int(tag.split(':')[1])
+            if table_idx < len(self.boost_tables):
+                off, rows = self.boost_tables[table_idx]
+                if rows:
+                    last_row = rows[-1]
+                    rpm, t0, t25, t50, t75, t100, ptr, kind = last_row
+                    if kind == 'boost_0rpm':
+                        end = ptr + len(SIG_BOOST_0RPM) + BOOST0_STRUCT.size
+                    else:
+                        end = ptr + BOOSTI_STRUCT.size
+                    
+                    self.highlight_hex_range(off, end, 'table_highlight')
+        
+        elif tag.startswith("param:"):
+            # Highlight parameter
+            param_idx = int(tag.split(':')[1])
+            if param_idx < len(self.params):
+                name, pos, vals = self.params[param_idx]
+                
+                # Find signature for this parameter
+                sig_len = 0
+                fmt = None
+                for sig, (pname, pfmt) in PARAMS.items():
+                    if pname == name:
+                        sig_len = len(sig)
+                        fmt = pfmt
+                        break
+                
+                if fmt:
+                    # Calculate total data size
+                    data_size = sum(4 if f in ('f', 'i') else 1 for f in fmt)
+                    # Highlight signature + data
+                    self.highlight_hex_range(pos, pos + sig_len + data_size, 'param_highlight')
 
     def open_file(self):
         path = filedialog.askopenfilename(title="Open EDF/EDFBIN", filetypes=[("EDF/EDFBIN","*.edf;*.edfx;*.bin;*.*")])
@@ -374,6 +626,8 @@ class EDFViewer(tk.Tk):
 
         # Populate UI
         self.tree.delete(*self.tree.get_children())
+        self.param_tree_items.clear()
+        
         root_file = self.tree.insert('', 'end', text=f"File: {Path(path).name}", values=('', '', ''))
         self.tree.insert(root_file, 'end', text="Byte count registers (addresses): 0x08-0x0B, 0x14-0x17, 0x24-0x27", values=('', '', ''))
         self.tree.insert(root_file, 'end', text=f"Engine layout: {layout_label}" + (f" (offset 0x{layout_off:X})" if layout_off is not None else ""), values=('', '', ''))
@@ -381,18 +635,25 @@ class EDFViewer(tk.Tk):
         # Torque tables
         tt_root = self.tree.insert(root_file, 'end', text=f"Torque tables found: {len(self.tables)}", values=('', '', ''))
         for t_idx, (off, rows) in enumerate(self.tables):
-            tnode = self.tree.insert(tt_root, 'end', text=f"Table {t_idx} @ 0x{off:X} (rows={len(rows)})", values=('', '', ''))
+            tnode = self.tree.insert(tt_root, 'end', 
+                                    text=f"Table {t_idx} @ 0x{off:X} (rows={len(rows)})", 
+                                    values=('', '', ''),
+                                    tags=(f"torque_table:{t_idx}",))
             self.tree.insert(tnode, 'end', text="Columns: RPM, Compression (-Nm), Torque (Nm)", values=('', '', ''))
             for i, (rpm, comp, tq, ptr, kind) in enumerate(rows):
                 tq_str = '' if tq is None else f"{tq:.3f}"
                 self.tree.insert(tnode, 'end',
                                  text=f"Row {i:02d} [{kind}] @ 0x{ptr:X}",
-                                 values=(f"{rpm:.1f}", f"{comp:.3f}", tq_str))
+                                 values=(f"{rpm:.1f}", f"{comp:.3f}", tq_str),
+                                 tags=(f"torque_row:{t_idx}:{i}",))
 
         # Boost tables
         bt_root = self.tree.insert(root_file, 'end', text=f"Boost tables found: {len(self.boost_tables)}", values=('', '', ''))
         for b_idx, (off, rows) in enumerate(self.boost_tables):
-            bnode = self.tree.insert(bt_root, 'end', text=f"Boost Table {b_idx} @ 0x{off:X} (rows={len(rows)})", values=('', '', ''))
+            bnode = self.tree.insert(bt_root, 'end', 
+                                    text=f"Boost Table {b_idx} @ 0x{off:X} (rows={len(rows)})", 
+                                    values=('', '', ''),
+                                    tags=(f"boost_table:{b_idx}",))
             self.tree.insert(bnode, 'end', text="Columns: RPM, Throttle 0%, 25%, 50%, 75%, 100% (bar)", values=('', '', ''))
             for i, (rpm, t0, t25, t50, t75, t100, ptr, kind) in enumerate(rows):
                 self.tree.insert(bnode, 'end',
@@ -405,11 +666,14 @@ class EDFViewer(tk.Tk):
 
         # Params
         pr_root = self.tree.insert(root_file, 'end', text=f"Parameters found: {len(self.params)}", values=('', '', ''))
-        for name, pos, vals in sorted(self.params, key=lambda x: (x[0], x[1])):
+        for param_idx, (name, pos, vals) in enumerate(sorted(self.params, key=lambda x: (x[0], x[1]))):
             v1 = self._format_param_value(vals[0]) if len(vals) > 0 else ''
             v2 = self._format_param_value(vals[1]) if len(vals) > 1 else ''
             v3 = self._format_param_value(vals[2]) if len(vals) > 2 else ''
-            item_id = self.tree.insert(pr_root, 'end', text=f"{name} @ 0x{pos:X}", values=(v1, v2, v3))
+            item_id = self.tree.insert(pr_root, 'end', 
+                                      text=f"{name} @ 0x{pos:X}", 
+                                      values=(v1, v2, v3),
+                                      tags=(f"param:{param_idx}",))
             
             # Store parameter info for editing - need to find the format
             fmt = None
@@ -468,15 +732,19 @@ class EDFViewer(tk.Tk):
                       f"Torque tables: {len(self.tables)}\n"
                       f"Boost tables: {len(self.boost_tables)}\n"
                       f"Params: {len(self.params)}\n"
-                      f"Engine layout: {layout_label}")
+                      f"Engine layout: {layout_label}\n\n"
+                      f"Click items to view hex data.")
         self.status.set("Ready")
         self._file_menu_export.entryconfig("Export torque CSV...", state='normal')
         
         # Enable plot menu items
         if self.tables:
             self._plot_menu.entryconfig("Plot Torque vs RPM", state='normal')
-            self._plot_menu.entryconfig("Plot Torque vs Compression", state='normal')
+            self._plot_menu.entryconfig("Plot Compression vs RPM", state='normal')
             self._plot_menu.entryconfig("Plot Both", state='normal')
+        
+        # Generate hex view
+        self.update_hex_view()
 
     def _calculate_known_ranges(self):
         """Calculate all byte ranges that we've parsed and know about."""
@@ -657,7 +925,8 @@ class EDFViewer(tk.Tk):
             entry = ttk.Entry(frame, width=20)
             entry.pack(side='left', padx=10)
             if f == 'f':
-                entry.insert(0, f"{val:.6g}")
+                # Always use fixed-point notation for floats, never scientific
+                entry.insert(0, f"{val:.6f}")
             else:
                 entry.insert(0, str(val))
             entries.append((entry, f))
@@ -757,18 +1026,25 @@ class EDFViewer(tk.Tk):
         # Torque tables
         tt_root = self.tree.insert(root_file, 'end', text=f"Torque tables found: {len(self.tables)}", values=('', '', ''))
         for t_idx, (off, rows) in enumerate(self.tables):
-            tnode = self.tree.insert(tt_root, 'end', text=f"Table {t_idx} @ 0x{off:X} (rows={len(rows)})", values=('', '', ''))
+            tnode = self.tree.insert(tt_root, 'end', 
+                                    text=f"Table {t_idx} @ 0x{off:X} (rows={len(rows)})", 
+                                    values=('', '', ''),
+                                    tags=(f"torque_table:{t_idx}",))
             self.tree.insert(tnode, 'end', text="Columns: RPM, Compression (-Nm), Torque (Nm)", values=('', '', ''))
             for i, (rpm, comp, tq, ptr, kind) in enumerate(rows):
                 tq_str = '' if tq is None else f"{tq:.3f}"
                 self.tree.insert(tnode, 'end',
-                                text=f"Row {i:02d} [{kind}] @ 0x{ptr:X}",
-                                values=(f"{rpm:.1f}", f"{comp:.3f}", tq_str))
+                                 text=f"Row {i:02d} [{kind}] @ 0x{ptr:X}",
+                                 values=(f"{rpm:.1f}", f"{comp:.3f}", tq_str),
+                                 tags=(f"torque_row:{t_idx}:{i}",))
         
         # Boost tables
         bt_root = self.tree.insert(root_file, 'end', text=f"Boost tables found: {len(self.boost_tables)}", values=('', '', ''))
         for b_idx, (off, rows) in enumerate(self.boost_tables):
-            bnode = self.tree.insert(bt_root, 'end', text=f"Boost Table {b_idx} @ 0x{off:X} (rows={len(rows)})", values=('', '', ''))
+            bnode = self.tree.insert(bt_root, 'end', 
+                                    text=f"Boost Table {b_idx} @ 0x{off:X} (rows={len(rows)})", 
+                                    values=('', '', ''),
+                                    tags=(f"boost_table:{b_idx}",))
             self.tree.insert(bnode, 'end', text="Columns: RPM, Throttle 0%, 25%, 50%, 75%, 100% (bar)", values=('', '', ''))
             for i, (rpm, t0, t25, t50, t75, t100, ptr, kind) in enumerate(rows):
                 self.tree.insert(bnode, 'end',
@@ -780,11 +1056,14 @@ class EDFViewer(tk.Tk):
         
         # Params
         pr_root = self.tree.insert(root_file, 'end', text=f"Parameters found: {len(self.params)}", values=('', '', ''))
-        for name, pos, vals in sorted(self.params, key=lambda x: (x[0], x[1])):
+        for param_idx, (name, pos, vals) in enumerate(sorted(self.params, key=lambda x: (x[0], x[1]))):
             v1 = self._format_param_value(vals[0]) if len(vals) > 0 else ''
             v2 = self._format_param_value(vals[1]) if len(vals) > 1 else ''
             v3 = self._format_param_value(vals[2]) if len(vals) > 2 else ''
-            item_id = self.tree.insert(pr_root, 'end', text=f"{name} @ 0x{pos:X}", values=(v1, v2, v3))
+            item_id = self.tree.insert(pr_root, 'end', 
+                                      text=f"{name} @ 0x{pos:X}", 
+                                      values=(v1, v2, v3),
+                                      tags=(f"param:{param_idx}",))
             
             fmt = None
             for sig, (pname, pfmt) in PARAMS.items():
@@ -905,12 +1184,6 @@ class EDFViewer(tk.Tk):
         
         scale_factor = result['value']
         
-        print(f"=== SCALE TORQUE DEBUG ===")
-        print(f"Scale factor: {scale_factor} ({scale_factor*100:.1f}%)")
-        print(f"self.data type before: {type(self.data)}")
-        print(f"self.data length: {len(self.data)}")
-        print(f"Number of tables: {len(self.tables)}")
-        
         # Make a copy of data as bytearray if not already modified
         if not self.modified:
             self.data = bytearray(self.data)
@@ -919,122 +1192,57 @@ class EDFViewer(tk.Tk):
             # Ensure it's a bytearray even if somehow it's bytes
             self.data = bytearray(self.data)
         
-        print(f"self.data type after conversion: {type(self.data)}")
-        print(f"self.modified: {self.modified}")
-        
         # Scale torque values in memory and update structures
         modifications = 0
         for t_idx, (off, rows) in enumerate(self.tables):
-            print(f"\n--- Table {t_idx} @ offset 0x{off:X} ---")
-            print(f"  Rows in table: {len(rows)}")
             new_rows = []
             for row_idx, (rpm, comp, tq, ptr, kind) in enumerate(rows):
                 if tq is not None:
                     new_tq = tq * scale_factor
-                    print(f"  Row {row_idx} [{kind}] @ 0x{ptr:X}: RPM={rpm:.1f}, old_tq={tq:.3f}, new_tq={new_tq:.3f}")
                     
                     # Write back to binary data based on row type
-                    # NOTE: ptr points to different locations depending on kind:
-                    # - '0rpm': ptr points to START of signature (need to skip signature)
-                    # - 'row_i'/'row_f': ptr points to data AFTER signature
-                    
                     if kind == '0rpm':
                         # ptr is at the signature start, data is after 7-byte signature
                         data_offset = ptr + len(SIG_0RPM)
-                        original = self.data[data_offset:data_offset+9]
-                        print(f"    Signature offset: 0x{ptr:X}, Data offset: 0x{data_offset:X}")
-                        print(f"    Original bytes: {original.hex()}")
-                        
-                        # 0rpm row: byte, float, float
                         b0 = self.data[data_offset]
                         struct.pack_into('<Bff', self.data, data_offset, b0, comp, new_tq)
                         
-                        modified = self.data[data_offset:data_offset+9]
-                        print(f"    Modified bytes: {modified.hex()}")
-                        
                     elif kind == 'row_i':
                         # ptr already points to data after signature
-                        original = self.data[ptr:ptr+12]
-                        print(f"    Original bytes (row_i): {original.hex()}")
-                        
-                        # int32, float, float
                         struct.pack_into('<iff', self.data, ptr, int(rpm), comp, new_tq)
-                        
-                        modified = self.data[ptr:ptr+12]
-                        print(f"    Modified bytes (row_i): {modified.hex()}")
                         
                     elif kind == 'row_f':
                         # ptr already points to data after signature
-                        original = self.data[ptr:ptr+12]
-                        print(f"    Original bytes (row_f): {original.hex()}")
-                        
-                        # float, float, float
                         struct.pack_into('<fff', self.data, ptr, rpm, comp, new_tq)
-                        
-                        modified = self.data[ptr:ptr+12]
-                        print(f"    Modified bytes (row_f): {modified.hex()}")
                     
                     # endvar doesn't have torque, skip
                     new_rows.append((rpm, comp, new_tq, ptr, kind))
                     modifications += 1
                 else:
-                    print(f"  Row {row_idx} [{kind}] @ 0x{ptr:X}: RPM={rpm:.1f}, tq=None (skipped)")
                     new_rows.append((rpm, comp, tq, ptr, kind))
             # Update table with new values
             self.tables[t_idx] = (off, new_rows)
         
-        print(f"\nTotal modifications: {modifications}")
-        print(f"=== END DEBUG ===\n")
-        
         # Refresh display
-        self.tree.delete(*self.tree.get_children())
-        root_file = self.tree.insert('', 'end', text=f"File: {Path(self.current_file).name} [MODIFIED]", values=('', '', ''))
-        
-        # Re-parse to get layout
-        layout_label, layout_off = detect_engine_layout(self.data)
-        self.tree.insert(root_file, 'end', text="Byte count registers (addresses): 0x08-0x0B, 0x14-0x17, 0x24-0x27", values=('', '', ''))
-        self.tree.insert(root_file, 'end', text=f"Engine layout: {layout_label}" + (f" (offset 0x{layout_off:X})" if layout_off is not None else ""), values=('', '', ''))
-        
-        # Torque tables with new values
-        tt_root = self.tree.insert(root_file, 'end', text=f"Torque tables found: {len(self.tables)}", values=('', '', ''))
-        for t_idx, (off, rows) in enumerate(self.tables):
-            tnode = self.tree.insert(tt_root, 'end', text=f"Table {t_idx} @ 0x{off:X} (rows={len(rows)})", values=('', '', ''))
-            self.tree.insert(tnode, 'end', text="Columns: RPM, Compression (-Nm), Torque (Nm)", values=('', '', ''))
-            for i, (rpm, comp, tq, ptr, kind) in enumerate(rows):
-                tq_str = '' if tq is None else f"{tq:.3f}"
-                self.tree.insert(tnode, 'end',
-                                 text=f"Row {i:02d} [{kind}] @ 0x{ptr:X}",
-                                 values=(f"{rpm:.1f}", f"{comp:.3f}", tq_str))
-        
-        # Re-add params
-        pr_root = self.tree.insert(root_file, 'end', text=f"Parameters found: {len(self.params)}", values=('', '', ''))
-        for name, pos, vals in sorted(self.params, key=lambda x: (x[0], x[1])):
-            v1 = f"{vals[0]:.6g}" if len(vals) > 0 and isinstance(vals[0], float) else (str(vals[0]) if len(vals) > 0 else '')
-            v2 = f"{vals[1]:.6g}" if len(vals) > 1 and isinstance(vals[1], float) else (str(vals[1]) if len(vals) > 1 else '')
-            v3 = f"{vals[2]:.6g}" if len(vals) > 2 and isinstance(vals[2], float) else (str(vals[2]) if len(vals) > 2 else '')
-            self.tree.insert(pr_root, 'end', text=f"{name} @ 0x{pos:X}", values=(v1, v2, v3))
-        
-        self.tree.item(root_file, open=True)
-        self.tree.item(tt_root, open=True)
+        self._refresh_tree_display()
         
         self.info.set(f"Loaded: {Path(self.current_file).name}\n[MODIFIED]\n"
                       f"Torque scaled by {scale_factor*100:.1f}%\n"
                       f"Torque tables: {len(self.tables)}\n"
-                      f"Params: {len(self.params)}")
+                      f"Params: {len(self.params)}\n\n"
+                      f"Click items to view hex data.")
         self.status.set(f"Scaled {modifications} torque values by {scale_factor*100:.1f}%")
         
         # Enable save option
         self._file_menu_save_modified.entryconfig("Save Modified EDF...", state='normal')
         
+        # Update hex view
+        self.update_hex_view()
+        
         messagebox.showinfo("Success", f"Scaled {modifications} torque values by {scale_factor*100:.1f}%\n\n"
                            "Use File > Save Modified EDF to save changes.")
 
     def save_modified_edf(self):
-        print(f"\n=== SAVE MODIFIED EDF DEBUG ===")
-        print(f"self.modified: {self.modified}")
-        print(f"self.data type: {type(self.data)}")
-        print(f"self.data length: {len(self.data) if self.data else 'None'}")
-        
         if not self.modified:
             messagebox.showwarning("No changes", "No modifications have been made.")
             return
@@ -1046,8 +1254,6 @@ class EDFViewer(tk.Tk):
         else:
             suggested_name = "modified.edf"
         
-        print(f"Suggested filename: {suggested_name}")
-        
         path = filedialog.asksaveasfilename(
             title="Save Modified EDF",
             initialfile=suggested_name,
@@ -1056,22 +1262,160 @@ class EDFViewer(tk.Tk):
         )
         
         if not path:
-            print("User cancelled save dialog")
             return
-        
-        print(f"Saving to: {path}")
         
         try:
             with open(path, 'wb') as f:
-                bytes_written = f.write(self.data)
-            print(f"Bytes written: {bytes_written}")
-            print(f"=== END SAVE DEBUG ===\n")
+                f.write(self.data)
             messagebox.showinfo("Saved", f"Modified EDF saved to:\n{path}")
             self.status.set(f"Saved modified EDF: {Path(path).name}")
         except Exception as e:
-            print(f"ERROR during save: {e}")
-            print(f"=== END SAVE DEBUG ===\n")
             messagebox.showerror("Error", f"Failed to save file:\n{e}")
+
+    def on_hex_click(self, event):
+        """Handle left-click in hex view for inline byte editing"""
+        if not self.data:
+            return
+        
+        # Show warning dialog once
+        if not self.hex_edit_warning_shown:
+            result = messagebox.askokcancel(
+                "Direct Hex Editing",
+                "⚠️ WARNING ⚠️\n\n"
+                "You are about to enable direct hex editing.\n\n"
+                "• This bypasses all validation\n"
+                "• Invalid edits can corrupt the file\n"
+                "• Use tree view editing when possible\n\n"
+                "Click in the hex area to edit bytes directly.\n"
+                "Type 2 hex digits and press Enter to apply.\n\n"
+                "Proceed?",
+                icon='warning'
+            )
+            if not result:
+                return
+            self.hex_edit_warning_shown = True
+        
+        # Get the position clicked
+        index = self.hex_text.index(f"@{event.x},{event.y}")
+        line, col = map(int, index.split('.'))
+        
+        # Line format: "00000000  XX XX XX XX XX XX XX XX  XX XX XX XX XX XX XX XX  |................|"
+        
+        # Only allow editing in hex area (cols 10-58), not ASCII area
+        if not (10 <= col <= 58):
+            return
+        
+        # Account for the extra space after 8th byte
+        if col > 34:
+            adjusted_col = col - 1
+        else:
+            adjusted_col = col
+        
+        # Calculate byte position in line (each byte is "XX " = 3 chars)
+        byte_in_line = (adjusted_col - 10) // 3
+        
+        # Ensure we're clicking on a hex digit, not a space
+        rel_pos = (adjusted_col - 10) % 3
+        if rel_pos >= 2:  # Clicked on space between bytes
+            return
+        
+        # Calculate absolute offset in file
+        offset = (line - 1) * 16 + byte_in_line
+        
+        if offset >= len(self.data):
+            return
+        
+        # Start inline editing
+        self.edit_hex_byte_inline(line, byte_in_line, offset)
+    
+    def edit_hex_byte_inline(self, line, byte_in_line, offset):
+        """Edit a byte inline in the hex view"""
+        current_byte = self.data[offset]
+        
+        # Calculate text position
+        col_start = 10 + (byte_in_line * 3)
+        if byte_in_line >= 8:
+            col_start += 1  # Extra space after 8th byte
+        
+        # Enable editing temporarily
+        self.hex_text.config(state='normal')
+        
+        # Select the byte
+        start_pos = f"{line}.{col_start}"
+        end_pos = f"{line}.{col_start + 2}"
+        self.hex_text.tag_add('editing', start_pos, end_pos)
+        self.hex_text.mark_set('insert', start_pos)
+        self.hex_text.see(start_pos)
+        
+        # Create a small entry widget overlay
+        bbox = self.hex_text.bbox(start_pos)
+        if not bbox:
+            self.hex_text.config(state='disabled')
+            return
+        
+        x, y, width, height = bbox
+        
+        entry = tk.Entry(self.hex_text, width=2, font=("Courier", 9), 
+                        justify='center', relief=tk.FLAT,
+                        bg='#ff6b6b', fg='#ffffff', insertbackground='#ffffff')
+        entry.place(x=x, y=y, width=width*2.5, height=height)
+        entry.insert(0, f"{current_byte:02X}")
+        entry.select_range(0, tk.END)
+        entry.focus()
+        
+        def save_edit(event=None):
+            try:
+                new_value = int(entry.get(), 16)
+                if not 0 <= new_value <= 255:
+                    raise ValueError("Byte must be 0x00-0xFF")
+                
+                # Apply the edit
+                if not isinstance(self.data, bytearray):
+                    self.data = bytearray(self.data)
+                
+                self.data[offset] = new_value
+                self.modified = True
+                
+                # Update the hex display
+                self.hex_text.delete(start_pos, end_pos)
+                self.hex_text.insert(start_pos, f"{new_value:02X}")
+                
+                # Update ASCII representation
+                ascii_col = 61 + byte_in_line
+                ascii_pos = f"{line}.{ascii_col}"
+                ascii_char = chr(new_value) if 32 <= new_value < 127 else '.'
+                self.hex_text.delete(ascii_pos, f"{line}.{ascii_col + 1}")
+                self.hex_text.insert(ascii_pos, ascii_char)
+                
+                # Re-parse structures
+                self.tables = parse_torque_tables(self.data)
+                self.boost_tables = parse_boost_tables(self.data)
+                self.params = parse_params(self.data)
+                
+                # Refresh tree
+                self._refresh_tree_display()
+                
+                # Enable save
+                self._file_menu_save_modified.entryconfig("Save Modified EDF...", state='normal')
+                
+                self.status.set(f"Modified 0x{offset:08X}: 0x{current_byte:02X} → 0x{new_value:02X}")
+                
+            except ValueError as e:
+                messagebox.showerror("Invalid Value", f"Invalid hex value: {entry.get()}\nMust be 00-FF")
+            finally:
+                entry.destroy()
+                self.hex_text.tag_remove('editing', '1.0', tk.END)
+                self.hex_text.config(state='disabled')
+        
+        def cancel_edit(event=None):
+            entry.destroy()
+            self.hex_text.tag_remove('editing', '1.0', tk.END)
+            self.hex_text.config(state='disabled')
+        
+        entry.bind('<Return>', save_edit)
+        entry.bind('<KP_Enter>', save_edit)
+        entry.bind('<Escape>', cancel_edit)
+        entry.bind('<FocusOut>', cancel_edit)
 
     def plot_torque_rpm(self):
         if not self.tables:
@@ -1084,24 +1428,53 @@ class EDFViewer(tk.Tk):
             messagebox.showerror("Error", "matplotlib is required for plotting.\nInstall it with: pip install matplotlib")
             return
         
-        fig, ax = plt.subplots(figsize=(10, 6))
+        fig, ax1 = plt.subplots(figsize=(10, 6))
+        
+        # Create second y-axis for power
+        ax2 = ax1.twinx()
+        
+        # Color schemes
+        torque_colors = ['#1f77b4', '#2ca02c', '#9467bd', '#8c564b']  # Blues/greens for torque
+        power_colors = ['#ff7f0e', '#ff9f3f', '#ffbf7f', '#ffd9a6']   # Orange shades for power
         
         for t_idx, (off, rows) in enumerate(self.tables):
             rpms = []
             torques = []
+            powers = []
             for rpm, comp, tq, ptr, kind in rows:
                 if tq is not None:  # Skip endvar rows without torque
                     rpms.append(rpm)
                     torques.append(tq)
+                    # Power (kW) = Torque (Nm) × RPM × 2π / 60000
+                    # Simplified: Power (kW) = Torque (Nm) × RPM / 9549.3
+                    power_kw = (tq * rpm) / 9549.3
+                    powers.append(power_kw)
             
             if rpms:
-                ax.plot(rpms, torques, marker='o', label=f'Table {t_idx} @ 0x{off:X}', linewidth=2, markersize=4)
+                torque_color = torque_colors[t_idx % len(torque_colors)]
+                power_color = power_colors[t_idx % len(power_colors)]
+                
+                # Plot torque on left axis
+                line1 = ax1.plot(rpms, torques, marker='o', label=f'Table {t_idx} Torque @ 0x{off:X}', 
+                                linewidth=2, markersize=4, color=torque_color)
+                # Plot power on right axis (dashed line, orange shades)
+                line2 = ax2.plot(rpms, powers, marker='s', label=f'Table {t_idx} Power @ 0x{off:X}', 
+                                linewidth=2, markersize=4, linestyle='--', color=power_color)
         
-        ax.set_xlabel('RPM', fontsize=12)
-        ax.set_ylabel('Torque (Nm)', fontsize=12)
-        ax.set_title(f'Torque vs RPM - {Path(self.current_file).name if self.current_file else "EDF File"}', fontsize=14)
-        ax.grid(True, alpha=0.3)
-        ax.legend()
+        ax1.set_xlabel('RPM', fontsize=12)
+        ax1.set_ylabel('Torque (Nm)', fontsize=12, color='tab:blue')
+        ax1.tick_params(axis='y', labelcolor='tab:blue')
+        ax2.set_ylabel('Power (kW)', fontsize=12, color='tab:orange')
+        ax2.tick_params(axis='y', labelcolor='tab:orange')
+        
+        ax1.set_title(f'Torque & Power vs RPM - {Path(self.current_file).name if self.current_file else "EDF File"}', fontsize=14)
+        ax1.grid(True, alpha=0.3)
+        
+        # Combine legends from both axes
+        lines1, labels1 = ax1.get_legend_handles_labels()
+        lines2, labels2 = ax2.get_legend_handles_labels()
+        ax1.legend(lines1 + lines2, labels1 + labels2, loc='best')
+        
         plt.tight_layout()
         plt.show()
 
@@ -1119,19 +1492,19 @@ class EDFViewer(tk.Tk):
         fig, ax = plt.subplots(figsize=(10, 6))
         
         for t_idx, (off, rows) in enumerate(self.tables):
+            rpms = []
             comps = []
-            torques = []
             for rpm, comp, tq, ptr, kind in rows:
                 if tq is not None:  # Skip endvar rows without torque
+                    rpms.append(rpm)
                     comps.append(comp)
-                    torques.append(tq)
             
-            if comps:
-                ax.plot(comps, torques, marker='o', label=f'Table {t_idx} @ 0x{off:X}', linewidth=2, markersize=4)
+            if rpms:
+                ax.plot(rpms, comps, marker='o', label=f'Table {t_idx} @ 0x{off:X}', linewidth=2, markersize=4)
         
-        ax.set_xlabel('Compression (-Nm)', fontsize=12)
-        ax.set_ylabel('Torque (Nm)', fontsize=12)
-        ax.set_title(f'Torque vs Compression - {Path(self.current_file).name if self.current_file else "EDF File"}', fontsize=14)
+        ax.set_xlabel('RPM', fontsize=12)
+        ax.set_ylabel('Compression (-Nm)', fontsize=12)
+        ax.set_title(f'Compression vs RPM - {Path(self.current_file).name if self.current_file else "EDF File"}', fontsize=14)
         ax.grid(True, alpha=0.3)
         ax.legend()
         plt.tight_layout()
@@ -1148,36 +1521,62 @@ class EDFViewer(tk.Tk):
             messagebox.showerror("Error", "matplotlib is required for plotting.\nInstall it with: pip install matplotlib")
             return
         
-        fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6))
+        fig, (ax1, ax3) = plt.subplots(1, 2, figsize=(16, 6))
+        
+        # Create second y-axis for power on left plot
+        ax2 = ax1.twinx()
+        
+        # Color schemes
+        torque_colors = ['#1f77b4', '#2ca02c', '#9467bd', '#8c564b']  # Blues/greens for torque
+        power_colors = ['#ff7f0e', '#ff9f3f', '#ffbf7f', '#ffd9a6']   # Orange shades for power
         
         for t_idx, (off, rows) in enumerate(self.tables):
             rpms = []
             comps = []
             torques = []
+            powers = []
             for rpm, comp, tq, ptr, kind in rows:
                 if tq is not None:  # Skip endvar rows without torque
                     rpms.append(rpm)
                     comps.append(comp)
                     torques.append(tq)
+                    # Power (kW) = Torque (Nm) × RPM / 9549.3
+                    power_kw = (tq * rpm) / 9549.3
+                    powers.append(power_kw)
             
             if rpms:
                 label = f'Table {t_idx} @ 0x{off:X}'
-                ax1.plot(rpms, torques, marker='o', label=label, linewidth=2, markersize=4)
-                ax2.plot(comps, torques, marker='o', label=label, linewidth=2, markersize=4)
+                torque_color = torque_colors[t_idx % len(torque_colors)]
+                power_color = power_colors[t_idx % len(power_colors)]
+                
+                # Left plot: Torque and Power
+                ax1.plot(rpms, torques, marker='o', label=f'Table {t_idx} Torque', 
+                        linewidth=2, markersize=4, color=torque_color)
+                ax2.plot(rpms, powers, marker='s', label=f'Table {t_idx} Power', 
+                        linewidth=2, markersize=4, linestyle='--', color=power_color)
+                # Right plot: Compression
+                ax3.plot(rpms, comps, marker='o', label=label, linewidth=2, markersize=4)
         
-        # Configure left plot (RPM)
+        # Configure left plot (Torque & Power vs RPM)
         ax1.set_xlabel('RPM', fontsize=12)
-        ax1.set_ylabel('Torque (Nm)', fontsize=12)
-        ax1.set_title('Torque vs RPM', fontsize=13)
+        ax1.set_ylabel('Torque (Nm)', fontsize=12, color='tab:blue')
+        ax1.tick_params(axis='y', labelcolor='tab:blue')
+        ax2.set_ylabel('Power (kW)', fontsize=12, color='tab:orange')
+        ax2.tick_params(axis='y', labelcolor='tab:orange')
+        ax1.set_title('Torque & Power vs RPM', fontsize=13)
         ax1.grid(True, alpha=0.3)
-        ax1.legend()
         
-        # Configure right plot (Compression)
-        ax2.set_xlabel('Compression (-Nm)', fontsize=12)
-        ax2.set_ylabel('Torque (Nm)', fontsize=12)
-        ax2.set_title('Torque vs Compression', fontsize=13)
-        ax2.grid(True, alpha=0.3)
-        ax2.legend()
+        # Combine legends from both y-axes
+        lines1, labels1 = ax1.get_legend_handles_labels()
+        lines2, labels2 = ax2.get_legend_handles_labels()
+        ax1.legend(lines1 + lines2, labels1 + labels2, loc='best', fontsize=9)
+        
+        # Configure right plot (Compression vs RPM)
+        ax3.set_xlabel('RPM', fontsize=12)
+        ax3.set_ylabel('Compression (-Nm)', fontsize=12)
+        ax3.set_title('Compression vs RPM', fontsize=13)
+        ax3.grid(True, alpha=0.3)
+        ax3.legend()
         
         fig.suptitle(f'{Path(self.current_file).name if self.current_file else "EDF File"}', fontsize=14, fontweight='bold')
         plt.tight_layout()
