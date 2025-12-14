@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# edf_tk_viewer_with_hex.py
 # EDF/EDFBIN viewer with integrated hex viewer
 # Based on JDougNY's "Project CARS Engine translation" mapping (v1.01)
 # Supports torque curves and a set of common parameter tags.
@@ -894,6 +895,79 @@ class EDFViewer(tk.Tk):
     def on_tree_double_click(self, event):
         """Handle double-click on tree items to edit parameters."""
         item_id = self.tree.focus()
+        if not item_id:
+            return
+
+        tags = self.tree.item(item_id, 'tags') or ()
+        if tags:
+            tag0 = tags[0]
+
+            # ---- NEW: edit individual torque row ----
+            if tag0.startswith("torque_row:"):
+                parts = tag0.split(':')
+                table_idx = int(parts[1])
+                row_idx = int(parts[2])
+
+                off, rows = self.tables[table_idx]
+                rpm, comp, tq, ptr, kind = rows[row_idx]
+
+                if tq is None:
+                    messagebox.showwarning("Cannot Edit", "This row has no torque value.")
+                    return
+
+                dialog = tk.Toplevel(self)
+                dialog.title("Edit Torque Row")
+                dialog.geometry("420x300")
+                dialog.transient(self)
+                dialog.grab_set()
+
+                ttk.Label(dialog, text="Edit Torque Row",
+                          font=('', 10, 'bold')).pack(pady=(10, 5))
+                ttk.Label(dialog,
+                          text=f"Table {table_idx}, Row {row_idx} [{kind}] @ 0x{ptr:X}",
+                          font=('', 9)).pack(pady=(0, 10))
+
+                fields = []
+
+                def add_field(label, value):
+                    frm = ttk.Frame(dialog)
+                    frm.pack(padx=20, pady=4, fill='x')
+                    ttk.Label(frm, text=label, width=14).pack(side='left')
+                    e = ttk.Entry(frm, width=18)
+                    e.pack(side='left', padx=10)
+                    e.insert(0, value)
+                    fields.append(e)
+
+                add_field("RPM:", f"{rpm:.1f}")
+                add_field("Compression:", f"{comp:.6f}")
+                add_field("Torque (Nm):", f"{tq:.6f}")
+
+                btns = ttk.Frame(dialog)
+                btns.pack(pady=18)
+
+                def save():
+                    try:
+                        new_rpm  = float(fields[0].get())
+                        new_comp = float(fields[1].get())
+                        new_tq   = float(fields[2].get())
+                    except ValueError:
+                        messagebox.showerror("Invalid Input", "All values must be numeric.")
+                        return
+                    dialog.destroy()
+                    self._apply_torque_row_edit(
+                        table_idx, row_idx,
+                        new_rpm, new_comp, new_tq
+                    )
+
+                ttk.Button(btns, text="Save", width=10,
+                           command=save).pack(side='left', padx=6)
+                ttk.Button(btns, text="Cancel", width=10,
+                           command=dialog.destroy).pack(side='left', padx=6)
+
+                dialog.wait_window()
+                return
+
+        
         if item_id not in self.param_tree_items:
             return
         
@@ -1417,6 +1491,68 @@ class EDFViewer(tk.Tk):
         entry.bind('<Escape>', cancel_edit)
         entry.bind('<FocusOut>', cancel_edit)
 
+    def _apply_torque_row_edit(self, table_idx: int, row_idx: int,
+                               new_rpm: float, new_comp: float, new_tq: float):
+        """Write RPM, compression and torque back into the binary."""
+        if table_idx >= len(self.tables):
+            return
+
+        off, rows = self.tables[table_idx]
+        if row_idx >= len(rows):
+            return
+
+        rpm, comp, tq, ptr, kind = rows[row_idx]
+
+        if tq is None:
+            messagebox.showwarning("Cannot Edit", "This row has no torque value (endvar).")
+            return
+
+        if not (plausible_rpm(new_rpm) and plausible_comp(new_comp) and plausible_torque(new_tq)):
+            messagebox.showerror("Invalid Values", "One or more values are out of range.")
+            return
+
+        if not isinstance(self.data, bytearray):
+            self.data = bytearray(self.data)
+        self.modified = True
+
+        if kind == '0rpm':
+            # RPM is implicit = 0, but allow editing for consistency
+            data_offset = ptr + len(SIG_0RPM)
+            b0 = self.data[data_offset]
+            struct.pack_into('<Bff', self.data, data_offset, b0, new_comp, new_tq)
+
+        elif kind == 'row_i':
+            struct.pack_into('<iff', self.data, ptr,
+                             int(new_rpm), new_comp, new_tq)
+
+        elif kind == 'row_f':
+            struct.pack_into('<fff', self.data, ptr,
+                             float(new_rpm), new_comp, new_tq)
+
+        else:
+            messagebox.showwarning("Cannot Edit", f"Unknown row kind: {kind}")
+            return
+
+        # Re-parse and refresh
+        self.tables = parse_torque_tables(self.data)
+        self.boost_tables = parse_boost_tables(self.data)
+        self.params = parse_params(self.data)
+
+        self._refresh_tree_display()
+        self.update_hex_view()
+
+        self._file_menu_save_modified.entryconfig(
+            "Save Modified EDF...", state='normal'
+        )
+
+        self.status.set(
+            f"Edited table {table_idx}, row {row_idx}: "
+            f"RPM={new_rpm:.1f}, Comp={new_comp:.3f}, Torque={new_tq:.3f}"
+        )
+
+
+
+    
     def plot_torque_rpm(self):
         if not self.tables:
             messagebox.showwarning("No data", "No torque tables to plot.")
