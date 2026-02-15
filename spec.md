@@ -38,15 +38,18 @@ The current codebase consists of a single 1700+ line Python script (`EDF-File-Ed
 
 ## 5. Requirements
 
+> [!IMPORTANT]
+> **Baseline Version**: functional requirements are derived strictly from **Version 0.2** of the application. Version 0.3 introduced regressions and is NOT to be used as a reference for expected behavior unless explicitly stated.
+
 ### 5.1. Functional Requirements
--   **FR1**: Must be able to open `.edf` and `.bin` files.
--   **FR2**: Must display Torque tables, Boost tables, and Parameters in a TreeView.
--   **FR3**: Must allow editing of Torque values and Parameters.
--   **FR4**: Must validate inputs (RPM, Torque, Compression) against plausible ranges.
--   **FR5**: Must allow saving modified data to a new file.
--   **FR6**: Must support Hex View with highlighting of selected elements.
--   **FR7**: Must support plotting of Torque/Power vs RPM and Compression.
--   **FR8**: Must detect engine layout based on known signatures.
+-   **FR1**: Must be able to open `.edf` and `.bin` files (v0.2 feature).
+-   **FR2**: Must display Torque tables, Boost tables, and Parameters in a TreeView (v0.2 feature).
+-   **FR3**: Must allow editing of Torque values and Parameters (v0.2 feature).
+-   **FR4**: Must validate inputs (RPM, Torque, Compression) against plausible ranges (v0.2 logic).
+-   **FR5**: Must allow saving modified data to a new file (v0.2 logic).
+-   **FR6**: Must support Hex View with highlighting of selected elements (v0.2 feature).
+-   **FR7**: Must support plotting of Torque/Power vs RPM and Compression (v0.2 feature).
+-   **FR8**: Must detect engine layout based on known signatures (v0.2 feature).
 
 ### 5.2. Non-Functional Requirements
 -   **NFR1**: All Core logic must be developed using Test-Driven Development (TDD).
