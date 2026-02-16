@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edf-hex-map version="0.1"
+             byteorder="little"
+             float="ieee754-32"
+             int32="twos-complement-32">
+  <!--
+    Purpose: Human-readable mapping of EDF/EDFBIN binary contents.
+    Scope: Signatures, search rules, field layouts, units, and value constraints.    
+  -->
+
+  <types>
+    <type name="byte"  size="1"/>
+    <type name="int32" size="4" signed="true"/>
+    <type name="float" size="4" ieee754="true"/>
+  </types>
+
+  <!-- ======================= -->
+  <!--     Parameter Blocks    -->
+  <!-- ======================= -->
+  <parameters>
+    <!-- Each block is identified by a fixed byte signature. Fields start immediately after signature. -->
+    <block name="FuelConsumption" signature="22 4A E2 DD 6C">
+      <field name="value" type="float"/>
+    </block>
+
+    <block name="FuelEstimate" signature="22 D2 A2 92 32">
+      <field name="value" type="float"/>
+    </block>
+
+    <block name="EngineInertia" signature="22 46 65 AE 87">
+      <field name="inertia" type="float" unit="kg·m²" min="0.0" max="2.0"/>
+    </block>
+
+    <block name="Unknown_EngineFreeRevs" signature="22 40 F1 D2 B9">
+      <field name="value" type="float"/>
+    </block>
+
+    <!-- IdleRPMLogic has two binary encodings sharing semantic meaning -->
+    <block name="IdleRPMLogic" signature="24 4D 23 97 54 A2">
+      <field name="rpm_low"  type="float" unit="rpm"/>
+      <field name="rpm_high" type="float" unit="rpm"/>
+    </block>
+    <block name="IdleRPMLogic" signature="24 4D 23 97 54 52">
+      <field name="rpm_low"  type="int32" unit="rpm"/>
+      <field name="rpm_high" type="int32" unit="rpm"/>
+    </block>
+
+    <block name="LaunchEfficiency" signature="22 21 98 99 AE">
+      <field name="eff" type="float"/>
+    </block>
+
+    <block name="LaunchRPMLogic" signature="24 79 02 B6 BD A2">
+      <field name="rpm1" type="float" unit="rpm"/>
+      <field name="rpm2" type="float" unit="rpm"/>
+    </block>
+
+    <!-- RevLimitRange has float/float/byte or int/int/byte variants -->
+    <block name="RevLimitRange" signature="24 DE A7 2E B7 23 00">
+      <field name="limit_min" type="float" unit="rpm" min="1000" max="20000"/>
+      <field name="limit_max" type="float" unit="rpm" min="2000" max="25000"/>
+      <field name="steps"     type="byte"/>
+    </block>
+    <block name="RevLimitRange" signature="24 DE A7 2E B7 13 00">
+      <field name="limit_min" type="int32" unit="rpm"/>
+      <field name="limit_max" type="int32" unit="rpm"/>
+      <field name="steps"     type="byte"/>
+    </block>
+
+    <block name="RevLimitSetting" signature="20 A5 5C C1 C4">
+      <field name="setting" type="byte"/>
+    </block>
+
+    <block name="RevLimitLogic" signature="22 19 66 8A F9">
+      <field name="value" type="float"/>
+    </block>
+
+    <block name="EngineFuelMapRange" signature="24 83 15 2F 20 03 00">
+      <field name="min"  type="byte"/>
+      <field name="max"  type="byte"/>
+      <field name="step" type="byte"/>
+    </block>
+
+    <block name="EngineFuelMapSetting" signature="20 C4 44 73 F5">
+      <field name="map_index" type="byte"/>
+    </block>
+
+    <block name="EngineBrakingMapRange" signature="24 BF 84 7C F1 A3 00">
+      <field name="min"   type="float"/>
+      <field name="max"   type="float"/>
+      <field name="steps" type="byte"/>
+    </block>
+
+    <block name="EngineBrakingMapSetting" signature="20 BE 71 ED 67">
+      <field name="map_index" type="byte"/>
+    </block>
+
+    <block name="OptimumOilTemp" signature="22 AF D7 8A DD">
+      <field name="temp" type="float" unit="°C"/>
+    </block>
+
+    <block name="CombustionHeat" signature="22 54 10 6D B1">
+      <field name="value" type="float"/>
+    </block>
+
+    <block name="EngineSpeedHeat" signature="22 F6 E3 9F D9">
+      <field name="value" type="float"/>
+    </block>
+
+    <block name="OilMinimumCooling" signature="22 B3 0F 25 FC">
+      <field name="value" type="float"/>
+    </block>
+
+    <block name="OilWaterHeatTransfer" signature="24 A7 00 D2 3A A2">
+      <field name="k1" type="float"/>
+      <field name="k2" type="float"/>
+    </block>
+
+    <block name="WaterMinimumCooling" signature="22 67 17 15 86">
+      <field name="value" type="float"/>
+    </block>
+
+    <block name="RadiatorCooling" signature="24 6A DA 2B 3A A2">
+      <field name="k1" type="float"/>
+      <field name="k2" type="float"/>
+    </block>
+
+    <block name="LifetimeEngineRPM" signature="24 D3 94 64 AF A2">
+      <field name="avg" type="float" unit="rpm"/>
+      <field name="max" type="float" unit="rpm"/>
+    </block>
+    <block name="LifetimeEngineRPM" signature="24 D3 94 64 AF 52">
+      <field name="avg" type="int32" unit="rpm"/>
+      <field name="max" type="int32" unit="rpm"/>
+    </block>
+
+    <block name="LifetimeOilTemp" signature="24 0A CE A8 58 A2">
+      <field name="avg" type="float" unit="°C"/>
+      <field name="max" type="float" unit="°C"/>
+    </block>
+
+    <block name="LifetimeAvg" signature="22 F7 5F 82 2B">
+      <field name="value" type="float"/>
+    </block>
+
+    <block name="LifetimeVar" signature="22 52 7B 76 CD">
+      <field name="value" type="float"/>
+    </block>
+
+    <block name="EngineEmission" signature="24 CE B1 75 25 A3 02">
+      <field name="e1" type="float"/>
+      <field name="e2" type="float"/>
+      <field name="e3" type="float"/>
+    </block>
+
+    <block name="OnboardStarter" signature="20 11 8B A3 81">
+      <field name="present" type="byte"/>
+    </block>
+
+    <block name="EDF_UNKN_005" signature="26 AF 00 B3 BA">
+      <field name="value" type="byte"/>
+    </block>
+
+    <block name="StarterTiming" signature="24 52 17 FB 41 A3 02">
+      <field name="t1" type="float"/>
+      <field name="t2" type="float"/>
+      <field name="t3" type="float"/>
+    </block>
+
+    <block name="AirRestrictorRange" signature="24 FC 89 E8 9C A3 00">
+      <field name="min"   type="float"/>
+      <field name="max"   type="float"/>
+      <field name="steps" type="byte"/>
+    </block>
+
+    <block name="Unknown_Byte_2B3ED340" signature="20 2B 3E D3 40">
+      <field name="value" type="byte"/>
+    </block>
+
+    <block name="Unknown_Float_2265DD60" signature="22 BA 65 DD 60">
+      <field name="value" type="float"/>
+    </block>
+
+    <block name="Unknown_Float_229217E0" signature="22 81 92 17 E0">
+      <field name="value" type="float"/>
+    </block>
+
+    <block name="BoostRange" signature="24 D7 74 45 1A 83 00">
+      <field name="min"   type="byte"/>
+      <field name="max"   type="float" unit="bar"/>
+      <field name="steps" type="byte"/>
+    </block>
+
+    <block name="BoostSetting" signature="20 CA 2F D1 34">
+      <field name="setting" type="byte"/>
+    </block>
+    <block name="BoostSetting_NoValue" signature="28 CA 2F D1 34">
+      <!-- No value variant -->
+    </block>
+
+    <!-- No-value variants (signature starts with 0x28 instead of 0x20) -->
+    <block name="RevLimitSetting_NoValue" signature="28 A5 5C C1 C4">
+      <!-- No value variant -->
+    </block>
+
+    <block name="AirRestrictorSetting" signature="20 C5 B4 08 FE">
+      <field name="setting" type="byte"/>
+    </block>
+    <block name="AirRestrictorSetting_NoValue" signature="28 C5 B4 08 FE">
+      <!-- No value variant -->
+    </block>
+
+    <!-- Legacy WasteGate parameters (replaced by BoostRange/BoostSetting in newer EDFs) -->
+    <block name="WasteGateRange_OLD" signature="24 63 23 3A 14 A3 00">
+      <field name="min"   type="float"/>
+      <field name="max"   type="float"/>
+      <field name="steps" type="byte"/>
+    </block>
+    <block name="WasteGateSetting_OLD" signature="20 DF 86 64 FC">
+      <field name="setting" type="byte"/>
+    </block>
+    <block name="WasteGateSetting_OLD_NoValue" signature="28 DF 86 64 FC">
+      <!-- No value variant -->
+    </block>
+
+    <!-- Unknown chunk signatures -->
+    <block name="Unknown_Chunk_213F6B" signature="21 3F 6B 7B E7 82 00">
+      <field name="byte1" type="byte"/>
+      <field name="byte2" type="byte"/>
+    </block>
+    <block name="Unknown_Chunk_206D47" signature="20 6D 47 C1 B2">
+      <field name="value" type="byte"/>
+    </block>
+
+    <!-- Unknown parameters found in specific EDF files (e.g. LMP_RWD_P30) -->
+    <block name="Unknown_LMP_RWD_P30_A" signature="24 05 71 C7 19 A2">
+      <field name="value1" type="float"/>
+      <field name="value2" type="float"/>
+    </block>
+    <block name="Unknown_LMP_RWD_P30_B" signature="24 C1 F4 54 3C 83 02">
+      <field name="byte1"  type="byte"/>
+      <field name="float1" type="float"/>
+      <field name="float2" type="float"/>
+    </block>
+
+    <block name="Unknown_Float_3" signature="22 92 C7 CD 7C">
+      <field name="value" type="float"/>
+    </block>
+
+    <block name="Unknown_2300005" signature="23 00 00 50 C3">
+      <field name="byte1" type="byte"/>
+      <field name="byte2" type="byte"/>
+    </block>
+  </parameters>
+
+  <!-- ======================= -->
+  <!--      Torque Tables      -->
+  <!-- ======================= -->
+  <torque-tables>
+    <row-signatures>
+      <row0  sig="24 8B 0A B7 71 83 02"/>
+      <row-i sig="24 8B 0A B7 71 93 02"/>
+      <row-f sig="24 8B 0A B7 71 A3 02"/>
+      <endvar sig="24 8B 0A B7 71 93 00"/>
+    </row-signatures>
+
+    <row-struct name="row0">
+      <field name="b0"   type="byte"/>
+      <field name="comp" type="float" unit="-Nm" min="-300" max="300"/>
+      <field name="tq"   type="float" unit="Nm"  min="-4000" max="10000"/>
+    </row-struct>
+
+    <row-struct name="row-i">
+      <field name="rpm"  type="int32" unit="rpm" min="0" max="25000"/>
+      <field name="comp" type="float" unit="-Nm" min="-300" max="300"/>
+      <field name="tq"   type="float" unit="Nm"  min="-4000" max="10000"/>
+    </row-struct>
+
+    <row-struct name="row-f">
+      <field name="rpm"  type="float" unit="rpm" min="0" max="25000"/>
+      <field name="comp" type="float" unit="-Nm" min="-300" max="300"/>
+      <field name="tq"   type="float" unit="Nm"  min="-4000" max="10000"/>
+    </row-struct>
+
+    <row-struct name="endvar">
+      <field name="rpm"  type="int32" unit="rpm"/>
+      <field name="comp" type="float"/>
+      <field name="tail" type="byte"/>
+    </row-struct>
+
+    <!-- Table boundary rule:
+         A table begins at a row0 signature; subsequent rows are row-i or row-f;
+         optional endvar may appear; the next row0 or unmatched sequence starts a new table. -->
+    <rules>
+      <rule>table-start = row0.sig</rule>
+      <rule>row sequence ∈ {row-i,row-f}*, optionally followed by endvar</rule>
+      <rule>new table when next row0.sig encountered or no further row signature matches</rule>
+    </rules>
+  </torque-tables>
+
+  <!-- ======================= -->
+  <!--       Boost Tables      -->
+  <!-- ======================= -->
+  <boost-tables>
+    <row-signatures>
+      <row0  sig="24 51 5F 5E 83 86 AA"/>
+      <row-i sig="24 51 5F 5E 83 96 AA"/>
+    </row-signatures>
+
+    <row-struct name="row0">
+      <field name="b0"  type="byte"/>
+      <field name="t0"  type="float" unit="bar" min="0.5" max="3.0"/>
+      <field name="t25" type="float" unit="bar" min="0.5" max="3.0"/>
+      <field name="t50" type="float" unit="bar" min="0.5" max="3.0"/>
+      <field name="t75" type="float" unit="bar" min="0.5" max="3.0"/>
+      <field name="t100" type="float" unit="bar" min="0.5" max="3.0"/>
+    </row-struct>
+
+    <row-struct name="row-i">
+      <field name="rpm" type="int32" unit="rpm" min="0" max="25000"/>
+      <field name="t0"  type="float" unit="bar" min="0.5" max="3.0"/>
+      <field name="t25" type="float" unit="bar" min="0.5" max="3.0"/>
+      <field name="t50" type="float" unit="bar" min="0.5" max="3.0"/>
+      <field name="t75" type="float" unit="bar" min="0.5" max="3.0"/>
+      <field name="t100" type="float" unit="bar" min="0.5" max="3.0"/>
+    </row-struct>
+
+    <rules>
+      <rule>table-start = row0.sig</rule>
+      <rule>subsequent rows are row-i until next row0.sig or no match</rule>
+    </rules>
+  </boost-tables>
+
+  <!-- ======================= -->
+  <!--    Engine Layout Tags   -->
+  <!-- ======================= -->
+  <engine-layout search-window="tail:64">
+    <code bytes="D7 50 75 68 A3 0A 62" label="Single Cylinder (8B sequence)"/>
+    <code bytes="C2 2D 3B"              label="Flat 4 / 3 Rotor (per SMS)"/>
+    <code bytes="D7 2D 3B"              label="Straight 4"/>
+    <code bytes="D7 2C 3B"              label="Straight 5"/>
+    <code bytes="D7 2F 3B"              label="Straight 6"/>
+    <code bytes="C2 2F 3B"              label="Flat 6"/>
+    <code bytes="D2 21 3B"              label="V8 / Flat 8"/>
+    <code bytes="D2 28 09 2F"           label="V12"/>
+    <code bytes="D2 28 0B 2F"           label="V10"/>
+  </engine-layout>
+
+  <!-- ======================= -->
+  <!--      Validation Notes   -->
+  <!-- ======================= -->
+  <validation>
+    <range name="rpm"       min="0"     max="25000"/>
+    <range name="torque"    min="-4000" max="10000"/>
+    <range name="comp"      min="-300"  max="300"/>
+    <range name="boost_bar" min="0.5"   max="3.0"/>
+    <note>All fields follow immediately after their block or row signature; no padding unless noted by the format.</note>
+  </validation>
+</edf-hex-map>

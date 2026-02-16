@@ -50,6 +50,15 @@ The current codebase consists of a single 1700+ line Python script (`EDF-File-Ed
 -   **FR6**: Must support Hex View with highlighting of selected elements (v0.2 feature).
 -   **FR7**: Must support plotting of Torque/Power vs RPM and Compression (v0.2 feature).
 -   **FR8**: Must detect engine layout based on known signatures (v0.2 feature).
+-   **FR9**: All float values displayed in TreeView and Dialogs must use fixed-point notation (no scientific/exponent notation). Values must be human-readable and easily editable.
+-   **FR10**: Dialog text entry fields must be wide enough to display any plausible float value without truncation.
+-   **FR11**: Must enable Windows High DPI awareness so the GUI renders sharply on scaled displays (v0.2 feature).
+-   **FR12**: TreeView row height must be tall enough to prevent text clipping on High DPI / scaled displays.
+-   **FR13**: Edit dialogs must dynamically size to fit all content; Save/Cancel buttons must always be visible without scrolling or resizing.
+-   **FR14**: The parse/write pipeline must be lossless: mutating all values, saving, reopening, reinstating originals, and saving again must produce a byte-identical copy of the original EDF file.
+-   **FR15**: Must be able to save the loaded EDF file (Save to overwrite original, Save As to choose a new path). Save must be accessible via menu and Ctrl+S.
+-   **FR16**: Must be able to close the current EDF file, resetting the UI and disabling save options until a new file is loaded.
+-   **FR17**: All parameters must display field labels, types (float/byte/int), and units where known, in both the TreeView and edit dialogs. The `edf-hex-map.xml` must document every parameter signature implemented.
 
 ### 5.2. Non-Functional Requirements
 -   **NFR1**: All Core logic must be developed using Test-Driven Development (TDD).

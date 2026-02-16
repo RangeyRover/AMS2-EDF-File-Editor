@@ -1,1 +1,33 @@
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# EDF data files (binary, large — don't commit)
+*.edf
+
+# Test/temp outputs
+test_output.txt
+float_demo.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Pytest
+.pytest_cache/
+
+# Working notes (keep spec.md and README.md)
+plan.md
+task.md
+tasks.md
+walkthrough.md
