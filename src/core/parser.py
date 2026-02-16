@@ -1,5 +1,5 @@
 import struct
-from typing import List, Tuple, Optional, Generator
+from typing import List, Tuple, Optional, Generator, Union
 
 from .constants import (
     SIG_0RPM, SIG_ROW_I, SIG_ROW_F, SIG_ENDVAR,
@@ -67,34 +67,40 @@ def parse_torque_tables(data: bytes) -> List[TorqueTable]:
                 # next table begins
                 break
             if data[q:q+len(SIG_ROW_I)] == SIG_ROW_I:
+                sig_off = q
                 q += len(SIG_ROW_I)
                 if q + ROWI_STRUCT.size > len(data): break
                 rpm_i, comp, tq = ROWI_STRUCT.unpack_from(data, q)
                 rpm = float(rpm_i)
                 if not (plausible_rpm(rpm) and plausible_comp(comp) and plausible_torque(tq)): break
-                rows.append(TorqueRow(rpm, comp, tq, q, 'row_i'))
+                rows.append(TorqueRow(rpm, comp, tq, sig_off, 'row_i'))
                 q += ROWI_STRUCT.size
                 continue
             if data[q:q+len(SIG_ROW_F)] == SIG_ROW_F:
+                sig_off = q
                 q += len(SIG_ROW_F)
                 if q + ROWF_STRUCT.size > len(data): break
                 rpm, comp, tq = ROWF_STRUCT.unpack_from(data, q)
                 if not (plausible_rpm(rpm) and plausible_comp(comp) and plausible_torque(tq)): break
-                rows.append(TorqueRow(rpm, comp, tq, q, 'row_f'))
+                rows.append(TorqueRow(rpm, comp, tq, sig_off, 'row_f'))
                 q += ROWF_STRUCT.size
                 continue
             if data[q:q+len(SIG_ENDVAR)] == SIG_ENDVAR:
                 # terminal oddball, read & stop
+                sig_off = q
                 q += len(SIG_ENDVAR)
                 if q + ENDVAR_STRUCT.size > len(data): break
                 rpm_i, comp, b = ENDVAR_STRUCT.unpack_from(data, q)
-                rows.append(TorqueRow(float(rpm_i), comp, None, q, 'endvar'))
+                rows.append(TorqueRow(float(rpm_i), comp, None, sig_off, 'endvar'))
                 q += ENDVAR_STRUCT.size
                 break
             # no known row signature -> end this table
             break
         if len(rows) >= 2:  # must have at least 0rpm + one row
             # Sort by RPM just for display clarity (source order is generally increasing already)
+            # rows.sort(key=lambda r: r.rpm) # Keep original order? No, sort is fine.
+            # But wait, verification requires checking offsets. If we sort, we might lose order?
+            # models.py says "rows: List[TorqueRow]".
             rows.sort(key=lambda r: r.rpm)
             tables.append(TorqueTable(off0, rows))
     return tables
@@ -124,6 +130,7 @@ def parse_boost_tables(data: bytes) -> List[BoostTable]:
                 break
             
             if data[q:q+len(SIG_BOOST_ROW)] == SIG_BOOST_ROW:
+                sig_off = q
                 q += len(SIG_BOOST_ROW)
                 if q + BOOSTI_STRUCT.size > len(data): 
                     break
@@ -136,7 +143,7 @@ def parse_boost_tables(data: bytes) -> List[BoostTable]:
                 if not all(0.5 <= v <= 3.0 for v in [t0, t25, t50, t75, t100]):
                     break
                 
-                rows.append(BoostRow(rpm, t0, t25, t50, t75, t100, q, 'boost_row'))
+                rows.append(BoostRow(rpm, t0, t25, t50, t75, t100, sig_off, 'boost_row'))
                 q += BOOSTI_STRUCT.size
                 continue
             
