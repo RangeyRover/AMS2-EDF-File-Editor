@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['ams2_edf_editor.py'],
+    ['run.py'],
     pathex=[],
     binaries=[],
     datas=[],
