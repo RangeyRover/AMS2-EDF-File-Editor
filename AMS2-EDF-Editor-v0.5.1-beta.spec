@@ -22,7 +22,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='AMS2-EDF-Editor-v0.5-testbuild',
+    name='AMS2-EDF-Editor-v0.5.1-beta',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
