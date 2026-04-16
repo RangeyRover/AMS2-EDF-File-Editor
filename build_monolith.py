@@ -23,7 +23,7 @@ def build():
     
     # 1. Header
     out.append('"""')
-    out.append('AMS2 EDF File Editor v0.5 — Monolithic Distribution Build')
+    out.append('AMS2 EDF File Editor v0.5-testbuild — Monolithic Distribution Build')
     out.append('==========================================================')
     out.append('Single-file version for easy command-line use.')
     out.append('Auto-generated from modular src/ tree.')

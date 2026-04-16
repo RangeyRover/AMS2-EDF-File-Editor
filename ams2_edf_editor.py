@@ -1,5 +1,5 @@
 """
-AMS2 EDF File Editor v0.5 — Monolithic Distribution Build
+AMS2 EDF File Editor v0.5-testbuild — Monolithic Distribution Build
 ==========================================================
 Single-file version for easy command-line use.
 Auto-generated from modular src/ tree.
@@ -1648,7 +1648,7 @@ class EDFTreeView(ttk.Treeview):
 class EDFEditorApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("AMS2 EDF File Editor v0.5")
+        self.title("AMS2 EDF File Editor v0.5-testbuild")
         self.geometry("1200x800")
         
         self.current_file = None
@@ -2002,7 +2002,7 @@ class EDFEditorApp(tk.Tk):
     def _set_dirty(self, dirty: bool):
         """Update the dirty state and the window title."""
         self._dirty = dirty
-        title = "AMS2 EDF File Editor v0.5"
+        title = "AMS2 EDF File Editor v0.5-testbuild"
         if self.current_file:
             title += f" - {self.current_file}"
         if self._dirty:
