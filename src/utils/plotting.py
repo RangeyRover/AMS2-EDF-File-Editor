@@ -1,10 +1,15 @@
 import logging
-from typing import List, Optional
+from typing import List, Optional, Tuple
 from pathlib import Path
 
 from ..core.models import TorqueTable
 
 logger = logging.getLogger(__name__)
+
+# Color schemes shared across plot modes
+TORQUE_COLORS = ['#1f77b4', '#2ca02c', '#9467bd', '#8c564b']
+POWER_COLORS = ['#ff7f0e', '#ff9f3f', '#ffbf7f', '#ffd9a6']
+
 
 def _ensure_matplotlib():
     """
@@ -16,6 +21,34 @@ def _ensure_matplotlib():
     except ImportError:
         logger.error("Matplotlib not found.")
         raise ImportError("matplotlib is required for plotting.\nInstall it with: pip install matplotlib")
+
+
+def extract_curve_data(table: TorqueTable) -> Tuple[List[float], List[float], List[float], List[float]]:
+    """Extract plottable data arrays from a single TorqueTable.
+
+    Skips endvar rows (where torque is None).
+
+    Args:
+        table: A TorqueTable with rows to extract.
+
+    Returns:
+        Tuple of (rpms, torques, compressions, powers_kw).
+        All lists are the same length. Power = Torque × RPM / 9549.3.
+    """
+    rpms = []
+    torques = []
+    compressions = []
+    powers = []
+
+    for row in table.rows:
+        if row.torque is not None:
+            rpms.append(row.rpm)
+            torques.append(row.torque)
+            compressions.append(row.compression)
+            powers.append((row.torque * row.rpm) / 9549.3)
+
+    return rpms, torques, compressions, powers
+
 
 def plot_torque_rpm(tables: List[TorqueTable], filename: str = "EDF File"):
     """
@@ -32,26 +65,12 @@ def plot_torque_rpm(tables: List[TorqueTable], filename: str = "EDF File"):
     # Create second y-axis for power
     ax2 = ax1.twinx()
     
-    # Color schemes
-    torque_colors = ['#1f77b4', '#2ca02c', '#9467bd', '#8c564b']  # Blues/greens for torque
-    power_colors = ['#ff7f0e', '#ff9f3f', '#ffbf7f', '#ffd9a6']   # Orange shades for power
-    
     for t_idx, table in enumerate(tables):
-        rpms = []
-        torques = []
-        powers = []
-        
-        for row in table.rows:
-            if row.torque is not None:  # Skip endvar rows without torque
-                rpms.append(row.rpm)
-                torques.append(row.torque)
-                # Power (kW) = Torque (Nm) × RPM / 9549.3
-                power_kw = (row.torque * row.rpm) / 9549.3
-                powers.append(power_kw)
+        rpms, torques, _comps, powers = extract_curve_data(table)
         
         if rpms:
-            torque_color = torque_colors[t_idx % len(torque_colors)]
-            power_color = power_colors[t_idx % len(power_colors)]
+            torque_color = TORQUE_COLORS[t_idx % len(TORQUE_COLORS)]
+            power_color = POWER_COLORS[t_idx % len(POWER_COLORS)]
             
             # Plot torque on left axis
             ax1.plot(rpms, torques, marker='o', label=f'Table {t_idx} Torque @ 0x{table.offset:X}', 
@@ -90,13 +109,7 @@ def plot_compression_rpm(tables: List[TorqueTable], filename: str = "EDF File"):
     fig, ax = plt.subplots(figsize=(10, 6))
     
     for t_idx, table in enumerate(tables):
-        rpms = []
-        comps = []
-        
-        for row in table.rows:
-            if row.torque is not None:
-                rpms.append(row.rpm)
-                comps.append(row.compression)
+        rpms, _torques, comps, _powers = extract_curve_data(table)
         
         if rpms:
             ax.plot(rpms, comps, marker='o', label=f'Table {t_idx} @ 0x{table.offset:X}', linewidth=2, markersize=4)
@@ -124,28 +137,13 @@ def plot_both(tables: List[TorqueTable], filename: str = "EDF File"):
     # Create second y-axis for power on left plot
     ax2 = ax1.twinx()
     
-    # Color schemes
-    torque_colors = ['#1f77b4', '#2ca02c', '#9467bd', '#8c564b']
-    power_colors = ['#ff7f0e', '#ff9f3f', '#ffbf7f', '#ffd9a6']
-    
     for t_idx, table in enumerate(tables):
-        rpms = []
-        comps = []
-        torques = []
-        powers = []
-        
-        for row in table.rows:
-            if row.torque is not None:
-                rpms.append(row.rpm)
-                comps.append(row.compression)
-                torques.append(row.torque)
-                power_kw = (row.torque * row.rpm) / 9549.3
-                powers.append(power_kw)
+        rpms, torques, comps, powers = extract_curve_data(table)
         
         if rpms:
             label = f'Table {t_idx} @ 0x{table.offset:X}'
-            torque_color = torque_colors[t_idx % len(torque_colors)]
-            power_color = power_colors[t_idx % len(power_colors)]
+            torque_color = TORQUE_COLORS[t_idx % len(TORQUE_COLORS)]
+            power_color = POWER_COLORS[t_idx % len(POWER_COLORS)]
             
             # Left plot: Torque and Power
             ax1.plot(rpms, torques, marker='o', label=f'Table {t_idx} Torque', 
@@ -178,3 +176,4 @@ def plot_both(tables: List[TorqueTable], filename: str = "EDF File"):
     fig.suptitle(f'{Path(filename).name}', fontsize=14, fontweight='bold')
     plt.tight_layout()
     plt.show()
+

@@ -87,3 +87,19 @@ class Parameter:
         
         return sig_len + data_size
 
+
+@dataclass
+class DragTransaction:
+    """Atomic record of a single drag operation for undo.
+
+    Created on mouse-up, pushed onto the undo stack.
+    Consumed on Ctrl+Z to restore previous values.
+    """
+    table_index: int              # Index of the TorqueTable in the tables list
+    row_index: int                # Index of the TorqueRow within the table
+    field: str                    # "torque" or "compression" — primary drag target
+    start_torque: float           # Torque value before drag (float32-quantised)
+    end_torque: float             # Torque value after drag (float32-quantised)
+    start_compression: float      # Compression value before drag (float32-quantised)
+    end_compression: float        # Compression value after drag (float32-quantised)
+

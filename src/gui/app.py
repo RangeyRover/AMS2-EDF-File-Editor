@@ -14,11 +14,14 @@ logger = logging.getLogger(__name__)
 class EDFEditorApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("AMS2 EDF File Editor v0.4")
+        self.title("AMS2 EDF File Editor v0.5")
         self.geometry("1200x800")
         
         self.current_file = None
         self.data = None
+        self._interactive_plot_open = False
+        self._interactive_plot = None
+        self._dirty = False
         
         self._setup_menu()
         self._setup_layout()
@@ -37,8 +40,11 @@ class EDFEditorApp(tk.Tk):
         menubar.add_cascade(label="File", menu=self.file_menu)
         
         tools_menu = tk.Menu(menubar, tearoff=0)
-        tools_menu.add_command(label="Plot Torque/Power", command=self.plot_torque)
-        tools_menu.add_command(label="Plot Compression", command=self.plot_compression)
+        tools_menu.add_command(label="Interactive Torque/Power", command=self.plot_torque_interactive)
+        tools_menu.add_command(label="Interactive Compression", command=self.plot_compression_interactive)
+        tools_menu.add_separator()
+        tools_menu.add_command(label="Plot Torque/Power (static)", command=self.plot_torque)
+        tools_menu.add_command(label="Plot Compression (static)", command=self.plot_compression)
         tools_menu.add_separator()
         tools_menu.add_command(label="Scale Torque Tables...", command=self.scale_torque_dialog)
         tools_menu.add_command(label="Export CSV...", command=self.export_csv)
@@ -82,7 +88,7 @@ class EDFEditorApp(tk.Tk):
                 self.data = bytearray(f.read())
             
             self.current_file = path
-            self.title(f"AMS2 EDF File Editor v0.4 - {path}")
+            self._set_dirty(False)
             
             # Parse
             self.tables = parse_torque_tables(self.data)
@@ -113,6 +119,7 @@ class EDFEditorApp(tk.Tk):
         try:
             with open(self.current_file, 'wb') as f:
                 f.write(self.data)
+            self._set_dirty(False)
             messagebox.showinfo("Success", f"Saved to {self.current_file}")
         except Exception as e:
             messagebox.showerror("Error", f"Failed to save: {e}")
@@ -131,7 +138,7 @@ class EDFEditorApp(tk.Tk):
             with open(path, 'wb') as f:
                 f.write(self.data)
             self.current_file = path
-            self.title(f"AMS2 EDF File Editor v0.4 - {path}")
+            self._set_dirty(False)
             messagebox.showinfo("Success", f"Saved to {path}")
         except Exception as e:
             messagebox.showerror("Error", f"Failed to save: {e}")
@@ -145,7 +152,10 @@ class EDFEditorApp(tk.Tk):
         self.params = []
         self.tree.populate([], [], [])
         self.hex_view.load_data(bytearray())
-        self.title("AMS2 EDF File Editor v0.4")
+        
+        self.current_file = None
+        self._set_dirty(False)
+        
         self.file_menu.entryconfig("Save", state='disabled')
         self.file_menu.entryconfig("Save As...", state='disabled')
         self.file_menu.entryconfig("Close", state='disabled')
@@ -165,6 +175,13 @@ class EDFEditorApp(tk.Tk):
         from ..core.models import TorqueRow, Parameter
         
         if isinstance(obj, TorqueRow):
+            # FR-035: block tree-view editing while interactive plot is open
+            if self._interactive_plot_open:
+                messagebox.showinfo(
+                    "Interactive Plot Active",
+                    "Close the interactive plot before editing torque rows in the tree view."
+                )
+                return
             EditTorqueDialog(self, obj, self.on_row_update)
         elif isinstance(obj, Parameter):
             EditParamDialog(self, obj, self.on_param_update)
@@ -187,11 +204,13 @@ class EDFEditorApp(tk.Tk):
         # Or just repopulate entire tree? (Slower but safer)
         # Or update data and re-populate.
         self.tree.populate(self.tables, self.boost, self.params)
+        self._set_dirty(True)
 
     def on_param_update(self, param):
         write_param(self.data, param)
         self.hex_view.load_data(self.data)
         self.tree.populate(self.tables, self.boost, self.params)
+        self._set_dirty(True)
 
     def on_tree_select(self, event):
         sel = self.tree.selection()
@@ -240,6 +259,67 @@ class EDFEditorApp(tk.Tk):
             logger.exception("Plotting failed")
             messagebox.showerror("Error", f"Plotting failed: {e}")
 
+    def plot_torque_interactive(self):
+        """Launch an interactive drag-editable Torque/Power plot."""
+        if not self.data or not hasattr(self, 'tables'):
+            messagebox.showwarning("No data", "No file loaded.")
+            return
+        if self._interactive_plot_open:
+            messagebox.showinfo("Already open", "An interactive plot is already open.")
+            return
+        try:
+            from ..utils.interactive_plot import DraggableTorquePlot
+            self._interactive_plot_open = True
+            self._interactive_plot = DraggableTorquePlot(
+                parent=self,
+                tables=self.tables,
+                data=self.data,
+                filename=self.current_file or "EDF File",
+                on_row_changed=self.on_row_update,
+                on_close=self._on_interactive_plot_close,
+                mode="torque",
+            )
+        except ImportError as e:
+            self._interactive_plot_open = False
+            messagebox.showerror("Error", str(e))
+        except Exception as e:
+            self._interactive_plot_open = False
+            logger.exception("Interactive plot failed")
+            messagebox.showerror("Error", f"Interactive plot failed: {e}")
+
+    def plot_compression_interactive(self):
+        """Launch an interactive drag-editable Compression plot."""
+        if not self.data or not hasattr(self, 'tables'):
+            messagebox.showwarning("No data", "No file loaded.")
+            return
+        if self._interactive_plot_open:
+            messagebox.showinfo("Already open", "An interactive plot is already open.")
+            return
+        try:
+            from ..utils.interactive_plot import DraggableTorquePlot
+            self._interactive_plot_open = True
+            self._interactive_plot = DraggableTorquePlot(
+                parent=self,
+                tables=self.tables,
+                data=self.data,
+                filename=self.current_file or "EDF File",
+                on_row_changed=self.on_row_update,
+                on_close=self._on_interactive_plot_close,
+                mode="compression",
+            )
+        except ImportError as e:
+            self._interactive_plot_open = False
+            messagebox.showerror("Error", str(e))
+        except Exception as e:
+            self._interactive_plot_open = False
+            logger.exception("Interactive plot failed")
+            messagebox.showerror("Error", f"Interactive plot failed: {e}")
+
+    def _on_interactive_plot_close(self):
+        """Callback from DraggableTorquePlot when its window is closed (FR-036)."""
+        self._interactive_plot_open = False
+        self._interactive_plot = None
+
     def export_csv(self):
         if not self.data or not hasattr(self, 'tables'):
             messagebox.showwarning("No data", "No file loaded.")
@@ -281,8 +361,19 @@ class EDFEditorApp(tk.Tk):
         # Refresh UI
         self.hex_view.load_data(self.data)
         self.tree.populate(self.tables, self.boost, self.params)
+        self._set_dirty(True)
         
         messagebox.showinfo("Success", f"Scaled torque by {percent}%")
+
+    def _set_dirty(self, dirty: bool):
+        """Update the dirty state and the window title."""
+        self._dirty = dirty
+        title = "AMS2 EDF File Editor v0.5"
+        if self.current_file:
+            title += f" - {self.current_file}"
+        if self._dirty:
+            title += " *"
+        self.title(title)
 
 if __name__ == "__main__":
     app = EDFEditorApp()
