@@ -1,0 +1,1693 @@
+SOURCE FILE: 3215406-TMR-1016RAOM-RPT-000001_C_Sector 1 South (M2VL) ETCS Upgrade - Ormeau Concept of Operations (3).pdf
+FULL PATH: C:\Users\markn\OneDrive - IXL Signalling\Sigtech\Downer QTMP\3215406-TMR-1016RAOM-RPT-000001_C_Sector 1 South (M2VL) ETCS Upgrade - Ormeau Concept of Operations (3).pdf
+EXTENSION: .pdf
+SIZE: 5419317 bytes
+============================================================
+
+--- PAGE 1 ---
+Sector 1 South (M2VL) ETCS Upgrade Project
+Ormeau Concept of Operations
+Sector 1 South (M2VL) ETCS Upgrade Project
+Document Number: 3215406-TMR-1016RAOM-RPT-000001
+Revision 3.0
+20 June 2025
+--- PAGE 2 ---
+Creative Commons information
+© State of Queensland (Department of Transport and Main Roads) 2015
+http://creativecommons.org.licences/by/4.0/
+This work is licensed under a Creative Commons Attribution 4.0 Licence. You are free to copy, communicate and adapt
+the work, as long as you attribute the authors. The Queensland Government supports and encourages the dissemination
+and exchange of information. However, copyright protects this publication. The State of Queensland has no objection to
+this material being reproduced, made available online or electronically but only if its recognised as the owner of the copyright
+and this material remains unaltered.
+The Queensland Government is committed to providing accessible services to Queenslanders of all cultural and
+linguistic backgrounds. If you have difficulty understanding this publication and need a translator, please call the
+Translating and Interpreting Service (TIS National) on 13 14 50 and ask them to telephone the Queensland
+Department of Transport and Main Roads on 13 74 68.
+Disclaimer: While every care has been taken in preparing this publication, the State of Queensland accepts no responsibility
+for decisions or actions taken as a result of any data, information, statement or advice, expressed or implied, contained
+within. To the best of our knowledge, the content was correct at the time of publishing.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - i -
+--- PAGE 3 ---
+Document control options
+Departmental approvals
+Refer to Section 2.3.3 of the ETCS Project DCMP for relevant approvals.
+Name Position Role Signature and Date
+Daniel Rabson Rail Operations Advisor, ETCS S1S Author
+Hayden Smith Rail Operations Advisor, ETCS S1S
+Tim Woodman QTMP Interface and Integration Lead Endorse
+Casey Milburn Sector 1 South - ETCS Engineering Lead Endorse
+Yuliya Piper Sector 1 South ETCS Project Director Approver
+Document Details
+Title Ormeau Concept of Operations
+Subtitle Sector 1 South (M2VL) ETCS Upgrade Project
+Branch & Division Passenger Rollingstock and Signalling Branch, Translink Division
+Project 3215406; Sector 1 South (Moorooka – Varsity Lakes), European Train Control System upgrade
+Location 10 – B2V Publish Date 20 June 2025
+Status Issued for Review Revision 3.0
+Document Number 3215406-TMR-1016RAOM-RPT-000001 CM10 Ref TL23/905
+GACC Risk Level Not applicable QGISCF Rating SENSITIVE
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - ii -
+
+[TABLE 1 on page 3]
+ | Name |  |  | Position |  |  | Role |  |  | Signature and Date | 
+ |  |  | Rail Operations Advisor, ETCS S1S Rail Operations Advisor, ETCS S1S |  |  | Author |  |  |  |  | 
+ |  |  | QTMP Interface and Integration Lead |  |  | Endorse |  |  |  |  | 
+ |  |  | Sector 1 South - ETCS Engineering Lead |  |  | Endorse |  |  |  |  | 
+ |  |  | Sector 1 South ETCS Project Director |  |  | Approver |  |  |  |  | 
+
+[TABLE 2 on page 3]
+ | Title |  |  |  |  | 
+ | Subtitle |  |  |  |  | 
+ | Branch & Division |  |  |  |  | 
+ | Project |  |  |  |  | 
+ | Location |  | 10 – B2V |  | Publish Date | 
+ | Status |  | Issued for Review |  | Revision | 
+ | Document Number |  | 3215406-TMR-1016RAOM-RPT-000001 |  | CM10 Ref | 
+ | GACC Risk Level |  | Not applicable |  | QGISCF Rating | 
+--- PAGE 4 ---
+Contents
+1. Background ............................................................................................................................................... 1
+1.1 Document Purpose ..................................................................................................................................... 1
+1.2 Document Scope ........................................................................................................................................ 2
+1.2.1 Out of Scope ............................................................................................................................................... 2
+1.3 Development and Governance ................................................................................................................... 2
+1.3.1 Stakeholder Context ................................................................................................................................... 2
+1.3.2 Interfacing Projects ..................................................................................................................................... 3
+1.3.3 ConOps Governance .................................................................................................................................. 4
+1.4 Assumptions and Inputs ............................................................................................................................. 4
+2. QTMP Project Requirements for Ormeau Facility ................................................................................. 5
+2.1 Strategic Context ........................................................................................................................................ 5
+2.2 Sponsor Requirements ............................................................................................................................... 5
+2.3 Performance Specification.......................................................................................................................... 6
+3. Facilities and Operations Overview ........................................................................................................ 8
+3.1 Site layout ................................................................................................................................................... 8
+3.1.1 Ormeau Facility Overview .......................................................................................................................... 9
+3.1.2 Principles .................................................................................................................................................. 11
+3.2 Roles and Responsibilities ....................................................................................................................... 12
+3.2.1 Queensland Rail ....................................................................................................................................... 12
+3.2.2 Downer ..................................................................................................................................................... 12
+3.2.3 Handover and Handback Locations ......................................................................................................... 13
+3.2.4 Site Communications ................................................................................................................................ 13
+3.3 Site Elements ........................................................................................................................................... 14
+3.3.1 Stabling Yard ............................................................................................................................................ 14
+3.3.2 Maintenance Facility ................................................................................................................................. 15
+3.3.3 Train Wash and AVIS ............................................................................................................................... 17
+3.3.4 Depot to Stabling Road ............................................................................................................................ 17
+3.3.5 Northern Connection ................................................................................................................................ 17
+3.3.6 Southern Connection ................................................................................................................................ 19
+3.3.7 Holding Positions ...................................................................................................................................... 20
+3.3.8 Signalised Level Crossing ........................................................................................................................ 21
+3.4 Control Boundaries and Operating Modes ............................................................................................... 22
+3.4.1 Control Layers .......................................................................................................................................... 22
+3.4.2 ETCS Level 2 ........................................................................................................................................... 23
+3.4.3 Conventional Signalling ............................................................................................................................ 24
+3.4.4 Transitions ................................................................................................................................................ 24
+3.4.5 Speed Supervision ................................................................................................................................... 25
+3.4.6 Intermediate Turnback / Change of Ends ................................................................................................. 26
+4. Normal Operations ................................................................................................................................. 27
+4.1 Periods of Operation ................................................................................................................................. 27
+4.2 Arrivals and Departures ............................................................................................................................ 27
+4.3 Repositioning Movements ........................................................................................................................ 28
+4.4 Stabling ..................................................................................................................................................... 28
+4.4.1 Cleaning in Stabling Yards ....................................................................................................................... 28
+4.4.2 Protection of Stabling Roads .................................................................................................................... 29
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - iii -
+--- PAGE 5 ---
+4.5 Fleet Maintenance .................................................................................................................................... 29
+4.6 Train Movements ...................................................................................................................................... 29
+4.6.1 Arrival to Stabling Roads from Northern Connection ............................................................................... 30
+4.6.2 Arrival from Northern Connection to Maintenance Facility ....................................................................... 33
+4.6.3 Departure from Stabling Yard to Northern Connection ............................................................................ 33
+4.6.4 Departure from Maintenance Facility via Northern Connection ............................................................... 35
+4.6.5 Arrival to Stabling from Southern Connection .......................................................................................... 36
+4.6.6 Arrival to Maintenance Facility via Southern Connection ......................................................................... 37
+4.6.7 Departure from Stabling via Southern Connection ................................................................................... 37
+4.6.8 Departure from Maintenance Facility via Southern Connection ............................................................... 38
+4.6.9 Movements from Maintenance Facility to Stabling ................................................................................... 39
+4.6.10 Movements from Stabling to Maintenance Facility ................................................................................... 40
+4.6.11 Track Maintenance Vehicle Stabling Moves ............................................................................................ 42
+5. Abnormal and Degraded Operations .................................................................................................... 43
+5.1 Alternate Routings .................................................................................................................................... 43
+5.1.1 Mainline Access to Stabling Yard ............................................................................................................. 43
+5.1.2 Access to Maintenance Facility ................................................................................................................ 44
+6. Maintenance Principles .......................................................................................................................... 46
+Table of Tables
+Table 1 Primary and secondary activities for each maintenance road ............................................................ 16
+Table 2 ETCS Modes ....................................................................................................................................... 23
+Table of Figures
+Figure 1 Ormeau facility layout and overview...................................................................................................... 8
+Figure 2 Ormeau facility line diagram overview ................................................................................................. 10
+Figure 3 Schematic of northern connection ....................................................................................................... 18
+Figure 4 Northern Mainline Connection Requirements ..................................................................................... 19
+Figure 5 Southern Arr/Dep Connection ............................................................................................................. 20
+Figure 6 Holding Positions within Ormeau Facility ............................................................................................ 21
+Figure 7 Control Layers ..................................................................................................................................... 22
+Figure 8 Maintenance Facility Transition ........................................................................................................... 25
+Figure 9 Train Arrival to the Stabling Yard via Arrival Road 1 ........................................................................... 30
+Figure 10 Train Arrival to the Stabling Yard via Arrival Road 2 ........................................................................... 31
+Figure 11 Train Arrival to Stabling Yard via train wash / AVIS road .................................................................... 31
+Figure 12 Indicative Train Wash/AVIS Road Layout ............................................................................................... 32
+Figure 13 Train movement entering Maintenance Facility .................................................................................. 33
+Figure 14 Train movement exiting Stabling Yard via Arrival/Departure Road 1 .................................................. 34
+Figure 15 Train movement exiting Stabling Yard via Arrival/Departure Road 2 .................................................. 34
+Figure 16 Train movement exiting Stabling Yard via Train Wash/AVIS Road .................................................... 35
+Figure 17 Departure form Maintenance via Northen Connection. ....................................................................... 36
+Figure 18 Arrival to Stabling Yard via Southern Connection ............................................................................... 36
+Figure 19 Arrival to Maintenance Facility via Southern Connection .................................................................... 37
+Figure 20 Departure from Stabling Yard via Southern Connection ..................................................................... 38
+Figure 21 Departure from Stabling Yard via Southern Connection ..................................................................... 38
+Figure 22 Train movement from Maintenance Facility to Stabling Roads via Depot to Stabling Road............... 39
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - iv -
+--- PAGE 6 ---
+Figure 23 Train movement from Maintenance Facility to Stabling Roads via Southern Holding Road .............. 40
+Figure 24 Train movement from Stabling Yard to Maintenance Facility via Depot to Stabling Road ................. 41
+Figure 25 Train movement from Stabling Yard to Maintenance Facility via Southern Holding Road ................. 41
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - v -
+--- PAGE 7 ---
+Abbreviation List
+Terms, abbreviation or acronym Meaning
+ARS Automatic Route Setting
+ATO Automatic Train Operation
+AVIS Automated Vehicle Inspection System
+B2V Beenleigh to Varsity Lakes ETCS implementation
+ConOps Concept of Operations
+CRR Cross River Rail
+DDR Detailed Design Review
+DMI Driver-Machine Interface (ETCS in-cab display)
+DPPS Depot Personal Protection System
+ETCS European Train Control System
+FOSO Fleet Operations Support Officer (Downer)
+LGCFR Logan and Gold Coast Faster Rail
+M2VL Moorooka to Varsity Lakes ETCS Upgrade Project
+MAC Minimum Aesthetic Condition
+MTP Master Train Plan
+NGR New Generation Rollingstock
+OHLE Overhead Line Equipment
+PRS TMR Passenger Rollingstock and Signalling division
+PSD Platform Screen Door
+QTMP Queensland Train Manufacturing Program
+RFID Radio Frequency Identification
+RIM Rail Infrastructure Manager
+RMC Queensland Rail’s Rail Management Centre
+S1S Sector 1 South
+SEMS Safety and Environmental Management System
+SEQ South East Queensland
+SMS Safety Management System
+TMR Department of Transport and Main Roads
+TMS Traffic Management System
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - vi -
+
+[TABLE 1 on page 7]
+ | Terms, abbreviation or acronym |  |  | Meaning | 
+ARS |  |  | Automatic Route Setting |  | 
+ATO |  |  | Automatic Train Operation |  | 
+AVIS |  |  | Automated Vehicle Inspection System |  | 
+B2V |  |  | Beenleigh to Varsity Lakes ETCS implementation |  | 
+ConOps |  |  | Concept of Operations |  | 
+CRR |  |  | Cross River Rail |  | 
+DDR |  |  | Detailed Design Review |  | 
+DMI |  |  | Driver-Machine Interface (ETCS in-cab display) |  | 
+DPPS |  |  | Depot Personal Protection System |  | 
+ETCS |  |  | European Train Control System |  | 
+FOSO |  |  | Fleet Operations Support Officer (Downer) |  | 
+LGCFR |  |  | Logan and Gold Coast Faster Rail |  | 
+M2VL |  |  | Moorooka to Varsity Lakes ETCS Upgrade Project |  | 
+MAC |  |  | Minimum Aesthetic Condition |  | 
+MTP |  |  | Master Train Plan |  | 
+NGR |  |  | New Generation Rollingstock |  | 
+OHLE |  |  | Overhead Line Equipment |  | 
+PRS |  |  | TMR Passenger Rollingstock and Signalling division |  | 
+PSD |  |  | Platform Screen Door |  | 
+QTMP |  |  | Queensland Train Manufacturing Program |  | 
+RFID |  |  | Radio Frequency Identification |  | 
+RIM |  |  | Rail Infrastructure Manager |  | 
+RMC |  |  | Queensland Rail’s Rail Management Centre |  | 
+S1S |  |  | Sector 1 South |  | 
+SEMS |  |  | Safety and Environmental Management System |  | 
+SEQ |  |  | South East Queensland |  | 
+SMS |  |  | Safety Management System |  | 
+TMR |  |  | Department of Transport and Main Roads |  | 
+TMS |  |  | Traffic Management System |  | 
+--- PAGE 8 ---
+1. Background
+Under the Queensland Train Manufacturing Program (QTMP), the Department of Transport and Main
+Roads (TMR) will build 65 new six-car passenger trains at a purpose-built manufacturing facility at
+Torbanlea as part of an expansion program to meet predicted future demand growth (with an option
+for a further 15 trains in future). QTMP also includes the construction of a Train Maintenance and
+Stabling Facility at Ormeau (Ormeau Facility).
+Downer will be delivering the design, construction, testing and commissioning of the new Ormeau
+Facility under the QTMP comprising of:
+• A train Maintenance Facility for the maintenance of the QTMP fleet; and
+• A 20-bay train Stabling Yard; including arrival and departure roads, plus a Train Wash and
+Automated Vehicle Inspection System (AVIS).
+Control of the Ormeau Facility is split into two main areas:
+• The Stabling Yard (including all arrival and departure roads to the Facility) to be operated by
+Queensland Rail
+o To be fitted with European Train Control System (ETCS) Level 2 delivered by TMR’s
+Sector 1 South (Moorooka to Varsity Lakes, M2VL) ETCS Upgrade Project.
+• The Maintenance Facility to be operated by Downer
+o To be fitted with conventional signalling delivered by Downer
+Ormeau Maintenance Facility must be capable of maintaining a full fleet of up to 65 trains in a six-car
+formation. It must not, however, preclude the future expansion to service a nine-car formation train as
+it is possible that the State’s future transport needs will drive a requirement for longer trains and
+therefore, it is expected that the train design is expected to allow for the expansion to nine-cars.
+1.1 Document Purpose
+The purpose this Concept of Operations (ConOps) is to:
+• Outline a concept vision for the proposed operation of the Ormeau Facility to ensure a common
+understanding of the roles and responsibilities of - and interaction between – site users Downer
+and Queensland Rail across the various elements of the site.
+• Detail normal operations of the Ormeau Facility to ensure all required operational functionality can
+be delivered.
+• Consider abnormal and degraded operations to ensure the Ormeau Facility site layout includes an
+appropriate level of flexibility to support resilient and reliable operations.
+• Support identification of any new/emerging operations-led requirements; and
+• Inform ongoing discussions with interfacing projects, notably mainline connection with the Logan
+and Gold Coast Faster Rail (LGCFR) project and rollout of European Train Control Level 2 (ETCS).
+This document is intended for use by the State, Queensland Rail and Downer as a reference point for
+the operational considerations of the proposed Ormeau Facility. This version has been developed in
+alignment with Detailed Design Review (DDR) layout designs for the Ormeau Facility and to provide a
+baseline version as input to ongoing development of ETCS Level 2 designs.
+The ConOps will continue to be updated as new revisions to reflect significant changes to design or
+other key inputs as the project progresses.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 1 -
+--- PAGE 9 ---
+The ConOps does not seek to include the assessment or analysis of options, but reflect the latest
+position, often based on outcomes of other workstreams. Where there are known open decision points
+the ConOps reflects a singular position for this point in time.
+1.2 Document Scope
+This ConOps describes the proposed operation of the Ormeau Facility in its end state, with all QTMP
+and ETCS works delivered – and a geographic scope commensurate with the QTMP project
+boundaries. Consideration of any intermediate configuration states or staged delivery of works will be
+included in later versions of this document as appropriate.
+The document is primarily focused on operations within and interfacing with the area of Queensland
+Rail control, in so far as Queensland Rail Rail Traffic Crew will be required to operate within. This
+includes operation within the Downer area of control as far as needed to travel to/from the designated
+Handover/Handback points only.
+1.2.1 Out of Scope
+Beyond operations to/from the Handover/Handback points by Queensland Rail Rail Traffic Crew,
+operations within the Downer area of control are covered by the Downer document Ormeau Concept
+of Operations QTMP-MNT-DOW-SM-RPT-000012 rev C and are not re-prosecuted herein.
+This document considers the mainline connection in so far as is needed to support arrival and
+departures from the Ormeau Facility – however it does not seek to describe operations on the mainline
+in detail. Any modifications to the mainline required to facilitate entry and exit into the Ormeau Facility
+in accordance with Section 3.2 of Schedule C1 – Performance Specification (Ormeau Facility). It is
+anticipated that Queensland Rail will undertake the detailed design and construction of the Network
+Connection Works (Ormeau Facility) and any realignment of the mainline in parallel with the delivery
+of the Ormeau Facility by Downer and produce documentation accordingly.
+This ConOps also does not seek to re-prosecute specific operational scenarios already developed for
+ETCS implementation on Queensland Rail’s SEQ network to date. The existing suite of scenarios -
+based on the Shorncliffe pilot line (and Robina Yard where available) - are assumed to be applicable
+to the Ormeau context. Any additional operational scenarios developed by the ETCS project specifically
+for the yard application will be reflected herein as appropriate when made available.
+1.3 Development and Governance
+1.3.1 Stakeholder Context
+This ConOps document has been developed in collaboration with key stakeholder representatives from
+TMR, Downer and Queensland Rail, with inputs and assumptions agreed through a series of
+workshops. These workshops have been attended by appropriate representatives of the following key
+stakeholder organisations:
+• TMR, notably Passenger Rollingstock and Signalling (PRS) and QTMP - as key stakeholders of
+the project and responsible for delivery of ETCS signalling works and development of future
+network strategy.
+• Queensland Rail – as the operator of the Stabling Yard and connected mainlines; and
+• Downer, including design and operations – as the contracted party to design, deliver the Ormeau
+Facility as well as operate and maintain the Maintenance Facility within it.
+A record of the workshops conducted to date is provided in Appendix A.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 2 -
+--- PAGE 10 ---
+1.3.1.1 TMR
+TMR is the sponsoring organisation for the QTMP project and is responsible for setting the overarching
+requirements for QTMP, meanwhile the State, acting through TMR, is responsible for managing the
+overall delivery of the QTMP.
+The Sector 1 South (M2VL) ETCS Upgrade Project within PRS is responsible for delivering ETCS Level
+2 works within the Ormeau Facility, alongside the mainline through the section as part of the Beenleigh
+to Varsity Lakes (B2V) ETCS scope of works.
+1.3.1.2 Queensland Rail
+As operator of the Stabling Yard and connected mainline, Queensland Rail are a key interface.
+Queensland Rail will be the Rail Infrastructure Manager (RIM) for the Stabling Yard and all
+connecting roads outside of the Maintenance Facility.
+Queensland Rail are also the operator of rollingstock being stabled at and maintained out of the
+Ormeau Facility.
+1.3.1.3 Downer
+As the contractor delivering QTMP, Downer will be responsible for the following:
+• Design and delivery of the Ormeau Facility (excluding ETCS).
+• Maintenance of Maintenance Facility.
+• Maintenance of the AVIS.
+• Design, manufacture, supply, commissioning and maintenance of the QTMP fleet.
+• Ensuring sufficient trains are available for service in line with requirements of the QTMP
+Performance Regime.
+• RIM for the Maintenance Facility.
+• Rail movements within the boundaries of the Maintenance Facility.
+1.3.1.4 Qtectic
+New Generation Rollingstock (NGR) fleet will also be stabled at Ormeau Stabling Yard. As such,
+dedicated facilities will be provided for servicing the NGR including a maintenance office, separate
+locker room and a cleaner’s wet and dry store. The Project Company, Qtectic have been contracted
+for the build and 30-year maintenance of the 75 NGR trains while Queensland Rail operates the NGR
+fleet. It is expected that Qtectic can provision the NGR fleet when it is stabled at Ormeau Stabling Yard.
+Additionally, the Train Wash, plus Stabling Yard decanting and potable water filling facilities will be
+capable of servicing the NGR fleet.
+1.3.2 Interfacing Projects
+1.3.2.1.1 Logan and Gold Coast Faster Rail
+The Logan and Gold Coast Faster Rail (LGCFR) project will deliver track and station upgrades for a
+section of the Gold Coast Line from Kuraby, a suburb approximately 16 kilometres south of Brisbane’s
+central business district, to Beenleigh, a suburb of Logan.
+LGCFR will be delivering infrastructure works between Kuraby and Beenleigh stations inclusive, in
+addition to European Train Control Signalling (ETCS) on the mainline for the Beenleigh and Gold Coast
+corridors, including the section past the Ormeau Facility. For future timetable operation, the ability to
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 3 -
+--- PAGE 11 ---
+empty-run All Stops trains terminated at Beenleigh station between continuing Express services and
+subsequently remove these empty trains from the mainline into Ormeau Facility is critical functionality.
+1.3.2.1.2 Beenleigh to Varsity Lakes ETCS Level 2 Implementation
+ETCS Level 2 fitment to the mainline to/from and past Ormeau Facility will be delivered by the
+Beenleigh to Varsity Lakes (B2V) package of works, as part of the ETCS Sector 1 South M2VL rollout.
+The scope of B2V includes fitment of ETCS to all mainline connections for Ormeau Facility and to cover
+the areas of ETCS control within the Facility itself.
+1.3.3 ConOps Governance
+Representatives from the following organisations have been engaged in the development, ongoing
+update and review of this ConOps:
+• TMR M2VL Project Team – and their supplier Sequence, as responsible for delivering ETCS
+Level 2 signalling within the Ormeau Facility
+• TMR QTMP Project Team as project sponsor for the Ormeau Facility
+• Queensland Rail, as end operator and maintainer of the Stabling Yard.
+• Downer, as designer and constructer of the Ormeau Facility and end operator and maintainer
+of the Maintenance Facility.
+Risks related to ETCS implementation are managed within 3215406-TMR-1000PMRI-REG-
+000001ETCS (B2V) RISK REGISTER
+1.4 Assumptions and Inputs
+At the time of writing this ConOps, the following documents have informed the development of this
+ConOps:
+• Schedule C1 – Performance Specification (Ormeau Facility) (Execution Version);
+• “QTMP Ormeau Concept of Operations Draft A v5” (QTMP project team);
+• QTMP-DJV-OSYRAAL00-DRG-LD1001.1.0.IFRQTMP – STABLING YARD – QR01 (Queensland
+Rail);
+• Ormeau Day-In-the-Life-Of (Queensland Rail);
+• Ormeau Concept of Operations QTMP-MNT-DOW-SM-RPT-000012 rev C (Downer);
+• QTMP – Ormeau – Signalling & Ops 24_01_11 (Downer)
+• QTMP-AAA-DOW-EM-ICD-000093_B_ICD093-OPERATIONS & MAINTENANCE TO QR
+(Downer)
+• QTMP-DHC-DOW-PM-PLN-000035_B_HANDOVER & HANDBACK PLAN (Downer)
+• Hitachi Rail STS Ormeau QTMP Yard Scheme Plan, Concept v1A (TMR B2V)
+• QTMP-DOW-OMFRNSI00-DRG-AS0001.A.IFI QTMP Maintenance Facility Signalling
+Arrangement, Preliminary v1A (Downer)
+• AU1300704_NT20250314_1.1 - ETCS Stabling Operations.pdf.
+• QTMP-AAA-DOW-EM-ICD-000093 -Interface Control Document- Operation and Maintenance to
+Queensland Rail.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 4 -
+--- PAGE 12 ---
+2. QTMP Project Requirements for Ormeau Facility
+2.1 Strategic Context
+The Ormeau Facility will fulfill several key functions for operations of the South East Queensland
+network, including:
+• Maintenance of the new QTMP fleet.
+• Provision of additional stabling capacity on the Gold Coast corridor – increasing overall network
+stabling capacity in line with increasing passenger service levels and replacing current stabling
+capacity at Beenleigh Yard (as impacted by LGCFR works).
+• Stabling and servicing for Tunnel Capable trains (including both QTMP and NGR) to resource
+future Sector 1 timetabled operations through the Cross River Rail tunnel; and
+• Provision of additional stabling capacity for maintenance vehicles as part of a network-wide
+strategy.
+The resulting facility must therefore support required stabling and maintenance capacity, with a layout
+that supports long-term efficient operation of the site, plus a high-capacity arrival and departure
+arrangement in line with increasing service levels on the mainline.
+2.2 Sponsor Requirements
+The high-level QTMP sponsor requirements as relevant to the Ormeau Facility set the context and
+direction for this ConOps and are summarised as follows:
+• The design of the rollingstock will be technically capable of operating in all sectors of the SEQ
+electrified rail network, including Cross River Rail (CRR) tunnel operations which will include ETCS
+Level 2 (ETCS L2), Automatic Train Operation (ATO) and Platform Screen Doors. Traction power
+should be modifiable to allow for future proofing with respect to providing a pathway to additional
+capacity, including enhanced speed/acceleration and/or additional cars.
+• Associated infrastructure required to deliver and operate rollingstock, including manufacturing,
+maintenance and stabling facilities will be designed to accommodate the Full Fleet and will be
+located to enhance operational efficiency.
+• The QTMP will support long-term social and economic benefits including future introduction of nine-
+car sets and the ability to expand manufacturing capability to meet accelerated delivery rates for
+future fleets.
+• The Contractor for the QTMP will design, manufacture, supply and maintain the Fleet (including
+cleaning/presentation services) and the Option Units, if elected by the State. The Fleet will be
+maintained to a high standard to ensure reliable and consistent performance over its design life.
+Maintenance regimes should consider and implement smart systems such as self-diagnostics and
+reporting to the extent practicable; and
+• The QTMP will work in an integrated and collaborative manner with Queensland Rail to facilitate
+best practice processes for rollingstock design management, testing and commissioning. This will
+include incorporation of key lessons learnt from the NGR project and recent rollingstock
+procurements in other Australian jurisdictions.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 5 -
+--- PAGE 13 ---
+2.3 Performance Specification
+The technical requirements for Ormeau Facility are captured in Schedule C1 – Performance
+Specification (Ormeau Facility) (Execution Version) which set the contractual requirements for the
+Ormeau Facility.
+The following operational requirements from the performance specification set the operational context
+for this ConOps and are summarised as follows:
+• The Ormeau Facility shall not interfere with adjacent Queensland Rail Limited infrastructure or
+facilities during design, construction or operation without permission from Queensland Rail Limited;
+• The Ormeau Facility must integrate with the TMR signalling design for the Logan to Gold Coast
+Faster Rail Project proven using operational simulation modelling in RailSys to:
+o Enable Train Consists to enter and exit the Mainline to and from the Ormeau Facility via a
+northern entry, such that they do not impart movement or speed restrictions on following or
+preceding trains on the Mainline, assuming:
+▪ Train Consists are travelling at a Technical Headway on the Mainline of 120 seconds
+from Beenleigh Station to Ormeau Facility in the up direction, and from Ormeau Facility
+to Beenleigh Station in the down direction; and
+▪ the main direction of travel and access for Train Consists to/from the Ormeau Facility is:
+• arrival from the north (up direction), comprising services that have terminated at
+Beenleigh Station; and
+• departure to the north (down direction), comprising services to commence at
+Beenleigh Station.
+• Support the following routes to and from Ormeau Stabling:
+o Receiving a Train Consist exiting the Up Mainline in the up direction, without impeding a
+following train travelling at Technical Headway of 120 seconds;
+o Receiving two consecutive Train Consists travelling at the Technical Headway of 120 seconds
+exiting the Up Mainline in the up direction, without impeding a following train travelling on the
+Up Mainline at Technical Headway of 120 seconds;
+o Dispatching a Train Consist crossing the Up Mainline in the down direction between two trains
+travelling at Technical Headway of 240 seconds, without impeding the approaching train on
+the Up Mainline, to stop between the Up and Down Mainlines;
+o Dispatching a Train Consist from stop between the Up Mainline and Down Mainlines to the
+Down Mainline in the down direction, between two trains travelling at 240 second headway,
+without impeding the following train on the Down Mainline; and
+o Dispatching a Train Consist from stop between the Up Mainline and Down Mainline, in the
+down direction to the Down Mainline and being within a 120 second Technical Headway from
+the preceding Mainline Train Consist. Dispatching trains from stabling requires a crossing of
+the Up Mainline, and merge to the Down Mainline. This movement is to be assumed to be
+undertaken in 2 separate movements on the basis that timetabled train paths on the Up
+Mainline and Down Mainline are not synchronised.
+• Immediately cater for six-car Multiple Units and designed to not preclude 9-car Multiple Units in the
+future;
+• Provide a southern connection from the Ormeau Facility to/from the Mainline to support operational
+flexibility and to enable repositioning of Train Consists to and from Stabling Sites south of Ormeau
+for all south facing Stabling Roads; and
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 6 -
+--- PAGE 14 ---
+• The performance requirements identified shall not apply to the southern connection between the
+Ormeau Facility and the Mainline, with these movements occurring outside of peak periods.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 7 -
+--- PAGE 15 ---
+3. Facilities and Operations Overview
+3.1 Site layout
+The following sections provide an overview and layout of the Ormeau Facility. Figure 1 below provides
+a visual of the layout and infrastructure. The site is bounded by:
+• Goldmine Road to the south;
+• Queensland Rail network rail corridor (Brisbane to Gold Coast) to the west;
+• Industrial precinct to the north accessed from Prairie Road;
+• Pastural land to the east of the land (acquired by the State); and
+• Residential and Ormeau Woods State High School to the east and south of the site.
+Figure 1 Ormeau facility layout and overview
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 8 -
+--- PAGE 16 ---
+3.1.1 Ormeau Facility Overview
+A brief overview of the Ormeau Facility is summarised below and is outlined in the line diagram in .
+The diagram also indicates the areas of the Ormeau Facility that will be under the control of Downer or
+Queensland Rail as the RIM.
+• A Stabling Yard comprising of:
+o Ten (10) stabling roads capable of holding 20 six-car QTMP or NGR; and
+o One (1) unpowered road for track maintenance vehicles.
+o A Train Wash and Automated Vehicle Inspection System (AVIS)
+o A northern-facing connection supporting arrivals and departures to/from the mainline in both
+the Up and Down direction.
+o A southern-facing connection supporting arrivals and departures to/from the mainline in both
+the Up and Down direction.
+• A Maintenance Facility comprising of:
+o Five (5) roads including one (1) wheel lathe road;
+o One (1) test road, capable of having ETCS & Platform Screen Door (PSD) interfaces test
+equipment installed
+o One (1) underframe biohazard wash road; and
+o One (1) presentation road.
+o Two (2) Shunt Necks.
+An overview of the Ormeau Facility is provided in Figure 2.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 9 -
+--- PAGE 17 ---
+Figure 2 Ormeau facility line diagram overview
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 10 -
+--- PAGE 18 ---
+3.1.2 Principles
+The following key principles form the basis of this document:
+• The Stabling Yard will have the capacity to stable up to 20 Tunnel Capable trains (QTMP and/or
+NGR);
+• The Ormeau Facility will accommodate a QTMP train of approximated length of 150m, but not
+preclude expansion to a train length of nine-car trains (approximately 225m);
+• Overall site operation of the Stabling Yard – including arrivals and departures to/from the mainline
+– will be managed by Queensland Rail from the Rail Management Centre (RMC):
+o This includes operation of arrival and departure roads; and
+o Movements between the Maintenance Facility and Stabling Yard will be undertaken by
+Queensland Rail Train Crew.
+• The Maintenance Facility will be functionally separate from Stabling Yard and be managed by
+Downer within their own, separate control system managed from within the Maintenance Facility
+by the Downer Yard Master:
+o Downer operates and controls all train movements within the confines of the Maintenance
+Facility and their RIM including the Northern and southern Shunt Necks.
+• All QTMP rollingstock maintenance activities at the Ormeau Facility (within the Stabling Yard and
+the Maintenance Facility) will be undertaken by Downer including cleaning, decanting and graffiti
+removal.
+All NGR rollingstock maintenance activities at the Ormeau Facility (within the Stabling Yard)
+will be undertaken by Qtectic including cleaning and decanting.
+• Trains arriving / departing the Ormeau Facility will be driven by Queensland Rail, Rail Traffic Crew,
+with handback of the trains for maintenance from Queensland Rail to Downer at designated
+Handover / Handback points.
+o The same applies for movements between the Stabling Yard and Maintenance Facility and
+vice versa.
+• Areas inside Train Gates for Stabling Roads and Maintenance Facility as well as the Shunt Necks
+are considered a yard environment and a speed of 8km/h applies.
+• Areas outside Train Gates are to be considered mainline environment. Speeds limits are to be
+applied to support safe operations and achievement of arrival and departure performance
+requirements.
+• Control of the Arrival and Departure roads and Stabling Yard will be under the ETCS Level 2
+system; Downer will employ a conventional signalling solution within the Maintenance Facility (see
+Section 3.4.1)
+• A single, unelectrified road in the Stabling Yard will be included for stabling and maintenance of
+Queensland Rail infrastructure maintenance plant and vehicles. Note that operations of this road
+are considered herein as far as impacts train movements and control – detail of operation of this
+road is subject to further development and is to be included in future updates to this ConOps.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 11 -
+--- PAGE 19 ---
+3.2 Roles and Responsibilities
+The primary interface in the Ormeau Facility is between Queensland Rail and Downer as the Rail
+Infrastructure Managers. The relevant role of each organisation for the operation of the Ormeau Facility
+is outlined below.
+3.2.1 Queensland Rail
+Queensland Rail will be the RIM for the mainline and all roads in the Ormeau Facility except for the
+Downer controlled Maintenance Facility. This involves coordinating movements within their defined
+boundaries and controlling access to the Ormeau Facility site. Queensland Rail’s responsibilities will
+include and are not limited to:
+• Coordinating train movements into Ormeau Facility from the mainline and within the Stabling Yard;
+• Rolling Stock Operator (RSO) for all movements outside of the Downer Controlled Maintenance
+Facility and for movements into and out of the Handover / Handback points inside the Downer
+controlled area.
+• Providing protection on all roads within the Stabling Yard.
+• Coordinating train movements into and out of the Ormeau Maintenance Facility by liaising with
+Downer;
+• Maintenance and cleaning of all Quensland Rail controlled areas, including facilities, overhead
+wiring, signalling and track;
+• Set up road protection and movements with Setting up safe systems of work within the Stabling
+Yard; and
+• Providing Rail Traffic Crew to support yard and mainline operation.
+3.2.2 Downer
+Downer is responsible for undertaking the maintenance activities to meet the project’s requirements
+for QTMP.
+Downer will be the Rail Infrastructure Manager (RIM) for the Maintenance Facility only and this involves
+coordinating movements within their defined boundaries such as depot maintenance and controlling
+access to the Ormeau Maintenance Facility. Downer’s responsibilities will include and are not limited
+to:
+• Control of QTMP train fleet movement and operation on Maintenance Facility roads only;
+Coordinating train movements within the Maintenance Facility, following receipt of trains at the
+designated handover / handback locations.
+• Rolling Stock Operator (RSO) for movements within the Maintenance Facility from the handover /
+handback with Queensland Rail.
+• Providing road protection within the Maintenance Facility
+• Liaising with Queensland Rail’s RMC to coordinate train movements to/from the Maintenance
+Facility
+• Maintenance and cleaning of the Maintenance Facility, including overhead wiring, signalling and
+track.
+• Maintenance, cleaning and management of facilities within the Maintenance Facility
+• Maintenance of the AVIS.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 12 -
+--- PAGE 20 ---
+• Setting up safe systems of work.
+• Maintenance and repair of QTMP fleet.
+Downer will be also working their own Safety Management System (SMS) and have the obligation to
+report incidents, faults, injuries, personnel changes under their SMS as they will be the RIM for the
+Maintenance facility.
+Downer will also manage and staff the security gatehouse for road vehicle and pedestrian access to
+the overall Ormeau Facility. A process is to be developed to ensure effective and efficient access for
+Queensland Rail staff, contractors and visitors.
+3.2.3 Handover and Handback Locations
+Designated handover and handback locations have been established at the Downer Maintenance
+Facility where trains will be exchanged between Downer and Queensland Rail as required for
+maintenance activities. The Downer Yard Master will coordinate with Queensland Rail network
+operations to communicate the particular location that each train is to be located, and Queensland Rail
+will place each train at these locations for handback and Downer will place trains being returned to
+service at these locations for handover.
+Infrastructure will be provided for safe access and egress of both Queensland Rail and Downer
+personnel.
+The handover and handback points are also shown in above and numbered as below. Each location
+is to be provided with egress platforms, pedestrian pathways and lighting.
+• 1 – 4 External Maintenance Roads
+• 5 Wheel Lathe Road
+• 6 – 7 Presentation Platform
+• 6 South beside Graffiti/ Bio Wash
+• 8 Test Track/Bypass Road
+Handover / handback points on roads 1-5, 6-south and road 8 are full handover/ handback points
+(Queensland Rail-to-Downer and Downer-to-Queensland Rail) while 6 and 7 at the Presentation
+Platform are Queensland Rail to Downer only.
+The handover/handback procedure is defined in detail within the Downer document QTMP-DHC-DOW-
+PM-PLN-000035 Handover & Handback Plan.
+A similar handover / handback procedure will also apply when NGR or QTMP maintenance staff attend
+vehicles within the Stabling Roads. Handover / handback will occur at the EMU stabling locations.
+3.2.4 Site Communications
+For communications between Rail Traffic Crew and the Downer Yard Master, the Queensland Rail
+depot operations channel will be used. Each Queensland Rail train is fitted with a train radio console
+and handheld radios are carried by Rail Traffic Crews for use when away from the train or in the event
+of train radio failure.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 13 -
+--- PAGE 21 ---
+3.3 Site Elements
+3.3.1 Stabling Yard
+The Stabling Roads in the Ormeau Facility comprise of the following:
+• Ten (10) Stabling Roads capable of holding 20 six-car EMUs; and
+• One (1) unpowered road for one-track infrastructure maintenance vehicles.
+Each EMU Stabling Road has:
+• 4 platforms that will allow Rail Traffic Crews and facility staff access to the trains;
+• 2 decanting points (shared between alternating roads);
+• 2 potable water filling points;
+• Hot water service and sinks; and
+• An access path on each side of the train wide enough for a sand cart to fill up QTMP trains- as
+portable sanding equipment will be available for the QTMP trains only - as well as sufficient access
+down both sides of the train to support Queensland Rail’s pre-service train preparation and
+inspections.
+Both QTMP and NGR fleets can be stabled at these roads. Light maintenance such as internal repairs
+and decanting activities can also be performed on multiple units that are stabled at the Stabling Yard.
+The Stabling Yard is to be fully signalled with ETCS Level 2 and controlled by Queensland Rail from
+the RMC.
+A building for Queensland Rail Traffic Crew will also be included within the Stabling Yard which
+includes:
+• A car park;
+• Offices for managers and Rail Traffic Crew;
+• Storage for Cleaner’s equipment and materials;
+• A sign-on room;
+• A lunchroom;
+• A TV room; and
+• A quiet room.
+Separate facilities are to be provided to cater for the cleaning of NGR trains stabled at Ormeau,
+including:
+• An additional maintenance office
+• Cleaners wet store
+• Cleaners dry store
+• Maintenance store; and
+• Separate locker room for NGR staff
+Queensland Rail controls and operates the Stabling Yard and is also responsible for its maintenance
+including Overhead Line Equipment (OHLE), signalling and track.
+One Stabling Road within the Stabling Yard is allocated for the stabling of infrastructure maintenance
+vehicles and other on-track maintenance equipment. This track is to be non-electrified, reflecting the
+equipment requiring access to this road.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 14 -
+--- PAGE 22 ---
+3.3.2 Maintenance Facility
+The Maintenance Facility within the Ormeau Facility is dedicated to the QTMP fleet and will be
+controlled and staffed by Downer.
+The Maintenance Facility will have a conventional colour light Signalling System which will provide
+route setting into and out of the Maintenance Facility, wheel lathe, presentation platform and bio / graffiti
+wash building. This area will operate in Shunt Mode as a Permanent Shunt Area under ETCS Level 2.
+Roads 1-4 in the Maintenance Facility are protected by a Depot Personnel Protection System (DPPS)
+at both ends by derailers, which retract and colour light indicators to allow movements into and out of
+the Maintenance Facility. For these roads, overhead wiring isolation will also be available and
+interlocked with the DPPS if there is a danger of contact with the overhead wiring during maintenance
+activities.
+The DPPS will:
+• Protect the maintenance workers from vehicle movements whilst maintenance workers are tagged
+on and undertaking work on the train.
+• Protect the maintenance workers from accessing roof platforms when no train is present.
+• Protect the maintenance workers from coming into contact with live overhead wiring when
+accessing roof platforms.
+• Protect the maintenance workers when using jet wash equipment in Graffiti/Bio Wash.
+The Maintenance Facility includes handover/handback positions on each road to support the
+handover/handback of trains between Queensland Rail and Downer staff upon entry or exit to the
+Maintenance Facility.
+The Maintenance Facility also includes two shunt necks – a Northern Shunt Neck and a Southern
+Shunt Neck - which allows repositioning moves for trains to/from roads within the Maintenance Facility.
+These shunt necks are located fully within Downer’s own area of control, such that repositioning moves
+within the Maintenance Facility can be conducted by Downer staff alone, without the need to interface
+with Queensland Rail.
+Table 1 below identifies each maintenance road and its primary and secondary activities based on
+Table 15 of Downer Concept of Operations Rev C (QTMP-MNT-DOW-SM-RPT-000012)
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 15 -
+--- PAGE 23 ---
+Table 1 Primary and secondary activities for each maintenance road
+Road No. Primary Activity Secondary Activities
+1 • Overhaul Activities • Corrective maintenance activities that do not require
+• Bogie Removal roof access
+• Underframe equipment removal • Internal corrective maintenance front cab access
+• Wipers
+• Couplers
+2 • Overhaul Activities • Gangway replacement
+• Remove refit of components • Coupler replacement
+• Underframe equipment replacement
+• Internal corrective maintenance front cab access
+• Windscreen
+• Wipers
+• Couplers
+3 • Overhaul and corrective maintenance activities • Preventative maintenance exams
+where roof is required
+• Internal corrective maintenance
+• HVAC
+• Front cab access
+• Pantograph
+• Windscreen
+• Door mech
+• Wiper
+• Leaf removal
+• Couplers
+4 • Dedicated preventative maintenance exam • Corrective maintenance activities that do not require
+road train lifting or car separation when exams are not
+being completed
+• Internal corrective maintenance
+• Front cab access
+• Windscreen
+• Wiper
+• Couplers
+5 • Dedicated wheel lathe road with single bogie • Single bogie removal
+removal system – primary use preventative and
+corrective wheel turn
+6 • Dedicated presentation road with full length • 30 day Detailed Cleans
+platform door access and drawbridge • Manual exterior cleans
+platforms for accessing cab front ends
+7 • Dedicated bio and graffiti cleaning • Presentation activities
+8 • Depot bypass road • Test track
+The Maintenance Facility also includes the following:
+• Administration office;
+• Downer Integrated Operation Centre (IOC) to manage the fleet while in service and provide support
+to the Downer Fleet Operations Support Officer (FOSO) help desk at RMC;
+• Offices, meeting rooms and training rooms for Downer staff;
+• Two depot stores- one light and one heavy store;
+• Amenities areas including toilet facilities, locker / change rooms and showers, and a meal room
+with associated food preparation equipment;
+• An electrical component workshop; and
+• A bogie workshop.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 16 -
+
+[TABLE 1 on page 23]
+ | Road No. |  |  | Primary Activity |  |  | Secondary Activities | 
+1 | 1 |  | • Overhaul Activities • Bogie Removal • Underframe equipment removal |  |  |  |  | 
+2 |  |  | • Overhaul Activities • Remove refit of components |  |  |  | • Gangway replacement | 
+ |  |  |  |  |  |  | • Coupler replacement | 
+ |  |  |  |  |  |  | • Underframe equipment replacement | 
+ |  |  |  |  |  |  | • Internal corrective maintenance front cab access | 
+ |  |  |  |  |  |  | • Windscreen | 
+ |  |  |  |  |  |  | • Wipers | 
+ |  |  |  |  |  |  | • Couplers | 
+3 |  |  | • Overhaul and corrective maintenance activities where roof is required • HVAC • Pantograph • Door mech • Leaf removal |  |  |  |  | 
+4 |  |  | • Dedicated preventative maintenance exam road |  |  |  | • Corrective maintenance activities that do not require | 
+ |  |  |  |  |  |  | train lifting or car separation when exams are not | 
+ |  |  |  |  |  |  | being completed | 
+ |  |  |  |  |  |  | • Internal corrective maintenance | 
+ |  |  |  |  |  |  | • Front cab access | 
+ |  |  |  |  |  |  | • Windscreen | 
+ |  |  |  |  |  |  | • Wiper | 
+ |  |  |  |  |  |  | • Couplers | 
+5 |  |  | • Dedicated wheel lathe road with single bogie removal system – primary use preventative and corrective wheel turn |  |  |  |  | 
+6 |  |  |  | • Dedicated presentation road with full length |  | • 30 day Detailed Cleans • Manual exterior cleans |  | 
+ |  |  |  | platform door access and drawbridge |  |  |  | 
+ |  |  |  | platforms for accessing cab front ends |  |  |  | 
+ | 7 |  | • Dedicated bio and graffiti cleaning |  |  |  |  | 
+ | 8 |  |  | • Depot bypass road |  |  | • Test track | 
+
+[TABLE 2 on page 23]
+• Overhaul Activities
+• Remove refit of components
+
+[TABLE 3 on page 23]
+• Dedicated preventative maintenance exam
+road
+
+[TABLE 4 on page 23]
+• 30 day Detailed Cleans
+• Manual exterior cleans
+--- PAGE 24 ---
+3.3.3 Train Wash and AVIS
+The Train Wash and AVIS are located on an arrival road between the northern connection and Stabling
+Yard as per the latest proposed yard layout on the Queensland Rail RIM- see Figure 1 . The automatic
+exterior train wash will be utilised by both fleet types and managed by Queensland Rail; the AVIS is for
+use with QTMP trains only and will be managed by Downer - non-QTMP units may pass through the
+AVIS, however data will not be available.
+By having these facilities adjacent to the entry of the Stabling Yard, it will allow the Multiple Units to be
+subjected to frequent inspections and cleans prior to the units entering the Stabling Yard. Whilst both
+Train Wash and AVIS are bi-directional, it is anticipated trains will be predominantly routed along the
+Train Wash / AVIS road following arrival from the Northern Connection.
+The train wash is capable of washing 10 multiple units per hour in side wash mode, or 3 multiple units
+per hour in full wash mode. Queensland Rail will be responsible for the scheduling of each train to
+undergo an external wash plant clean on a regular basis.
+QTMP trains are currently assumed to go through the AVIS every 7 days (averaging 10 trains per day).
+For further detail on operation of Train Wash and AVIS, see Section 4.6.1.2
+3.3.4 Depot to Stabling Road
+The Depot to Stabling Road allows movements within the yard to reposition trains between the Stabling
+Yard and Maintenance Facility. This move requires an intermediate turnback utilising part of the Depot
+to Stabling Road to reverse the train between the turnout to Stabling in the south and the turnout off
+the Stabling Arrival Road 1 in the north – see Section 4.2.4 for further detail.
+The Depot to Stabling Road is under the Queensland Rail RIM and is adjacent to the Downer RIM
+along the Northern Shunt Neck. It is envisaged that the primarily use of this road would be for re-
+positioning between the Maintenance Facility and Stabling Yard, however it may be used for routing
+trains between the northern connection mainline and Stabling Yard as required
+3.3.5 Northern Connection
+The northern connection comprises of two arrival and departure roads which merge onto a single
+connection to the Up Main, enabling southbound trains to enter directly into the Ormeau Facility from
+the north. A crossover within the mainline environment allows departing trains to continue onto the
+Down Main northbound towards Beenleigh.
+The track layout at the northern connection supports trains moving to / from the mainline directly to any
+roads in either the Stabling Yard or Maintenance Facility, else into the Stabling Yard via the Train Wash
+/ AVIS road.
+Queensland Rail RMC are responsible for all movements routed into the Ormeau Facility except for
+the Downer controlled Maintenance Facility.
+This control arrangement – along with track layout and signalling – must support the required arrival
+and departure frequencies through the Northern Connection in line with the performance requirements
+in Schedule C1 – Performance Specification (Ormeau Facility). This includes route setting to and from
+the mainline at sufficient speeds such that trains can enter and exit the Mainline via the Northern
+Connection without imparting movement or speed restrictions on following or preceding trains on the
+Mainline.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 17 -
+--- PAGE 25 ---
+Figure 3 Schematic of northern connection
+Arrivals from the North will typically be trains having terminated passenger service at Beenleigh. These
+trains will be required to diverge from the Up Main amongst Express Services operating at up to 12TPH
+in peak periods. Trains routed in the yard will diverge from the Up Main directly into the Northern
+Connection.
+Upon arrival, the subsequent sequence of train movements and activities within the Ormeau Facility
+itself must not prevent further arrivals into the yard at required headways. Multiple arrival routes are
+provided to allow alternate allocation of trains in support of this, notably the ability to bypass the Train
+Wash/AVIS road.
+For Northbound departures, a central holding track is located between the mainlines to regulate
+departure movements. Upon Northbound departure, trains will be allocated a slot to exit the yard and
+cross between oncoming Up direction traffic to reach the central holding road before continuing to
+merge between services in the Down direction. This departure move must be timed such that delays
+are not imparted to mainline traffic in either direction.
+Holding positions are provided on all arrival/departure roads prior to the exit of Ormeau Facility.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 18 -
+--- PAGE 26 ---
+Figure 4 Northern Mainline Connection Requirements
+3.3.6 Southern Connection
+The southern connection comprises a single arrival and departure road, which connects to the Up Main,
+allowing departing trains to continue directly south towards Varsity Lakes. A crossover within the
+mainline environment allows northbound trains travelling from the south on the Down Main to cross
+onto the Up Main to enter the Ormeau Facility. The track layout at the southern connection supports
+trains moving to / from the mainline directly to any roads in either the Stabling Yard or Maintenance
+Facility. As with the northern connection, the southern connection and connected arrival and departure
+roads will be controlled from the RMC.
+As stated in Schedule C1 – Performance Specification (Ormeau Facility), there are no performance
+requirements for the Southern Connection between the Ormeau Facility and the Mainline, with these
+movements occurring outside of peak periods.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 19 -
+--- PAGE 27 ---
+Figure 5 Southern Arr/Dep Connection
+As detailed in Section 4.6 use of the Southern Connection is currently intended as alternate access to
+the Ormeau Facility. There are currently no performance requirements set for this southern connection
+in terms of arrival and departure headways. It is acknowledged that timetabling and service planning
+is ongoing and more frequent entry and exit moves from the South may be required.
+3.3.7 Holding Positions
+In addition to the designated stabling berths, additional holding locations are provided at key locations
+within the yard, to support operations either by enabling intermediate turnback’s during re-positioning
+moves, else providing opportunities to hold trains before entering/leaving sections to regulate traffic.
+These holding locations have been provided to both avoid conflicting moves with the yard itself and
+prevent potential delay to mainline operations.
+Holding positions are indicated in Figure 6, with key locations including:
+• On the arrival and departure roads to regulate both entry into the depot and the launch of trains
+between mainline services (at both Northern and Southern connections)
+• Before specialist equipment (i.e. Train Wash and AVIS)
+• Prior to arrival into the stabling roads
+• At Handover / Handback Points
+• Within shunt necks
+• At intermediate shunt points (e.g. between Maintenance Facility and Stabling Connection Road)
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 20 -
+--- PAGE 28 ---
+Figure 6 Holding Positions within Ormeau Facility
+3.3.8 Signalised Level Crossing
+A signalised at-grade vehicular level crossing exists in the yard, where the main access road for
+Ormeau Facility intersects the route between the Stabling Roads and Southern Connection. Operation
+of this level crossing is to be interlocked with the ETCS Level 2 system as required to ensure safe
+operation.
+This routes to/from the Southern Connection and between the Maintenance Facility and Stabling Roads
+via the Southern Holding Road traverse this signallised level crossing. Hence vehicular movements
+into/out of the facility will be impacted during the duration of routes being set across the level crossing.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 21 -
+--- PAGE 29 ---
+3.4 Control Boundaries and Operating Modes
+3.4.1 Control Layers
+Multiple systems are employed within the Ormeau Facility to safely control the movement of trains.
+These are:
+• ETCS Level 2 on the mainline and within the Stabling Yard.
+o Controlled by Queensland Rail from the RMC, including a Traffic Management System
+(TMS) layer
+o Automatic Route Setting (ARS) is available with trains operating under Full Supervision
+mode into and out of the Stabling Yards.
+• Conventional signalling within the Maintenance Facility configured as a Permanent Shunt Area
+for ETCS
+o Controlled by Downers Yard Master.
+• Downer will also employ a Depot Personnel Protection System (DPPS) as required within the
+Maintenance Facility to protect staff and equipment from train movements.
+Extents of these control layers are illustrated in Figure 7.
+Figure 7 Control Layers
+All movements within the Queensland Rail controlled Stabling Yards will be controlled under ETCS
+Level 2 and movements within the Downer Controlled Maintenance Facility will be controlled using
+conventional signaling with the onboard ETCS operating in Shunt Mode. The interface between the
+two systems are located at each end of the Maintenance Facility at the Control Boundary Boards
+between the Downer controlled Maintenance Facility and the Queensland Rail controlled Stabling Yard.
+The shunt necks at each end of the Maintenance Facility are within the area of Downer’s control such
+that they can conduct repositioning moves between roads within the Maintenance Facility independent
+of Queensland Rail.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 22 -
+--- PAGE 30 ---
+3.4.2 ETCS Level 2
+ETCS Level 2 is a type of automatic train protection system that continuously calculates a safe
+maximum speed for each train. An overview of a reference ETCS system configuration (trackside +
+onboard) and illustration of ETCS operations at stabling yards is provided in Appendix B.
+With Level 2, digital devices on the trains use radio communication to receive up-to-date information
+on track authority, speed restrictions and other operational parameters. Lineside signals are not
+required as authority information is presented to the driver on a screen on their desk called the Driver
+Machine Interface (DMI). The DMI information is continuously updated as operating parameters
+change.
+The ETCS Level 2 system has a variety of operational modes for managing routine train operations
+and allow for a range of operational conditions with varying degrees of supervision. Predominately
+trains will operate in Full Supervision Mode but in order to accommodate specific operating
+requirements (including within yard environments), other Modes may be used.
+Once rolling stock is fitted with ETCS the onboard equipment must always operate in a Mode including
+in areas outside of the ETCS fitted area.
+The following modes are used for operation within the Ormeau Facility:
+Table 2 ETCS Modes
+Mode Description
+Full Typically used for normal mainline operations – and providing the highest level of
+Supervision supervision - Full Supervision provides the highest level of supervision. FS provides
+(FS) constant speed and distance supervision and enforces a dynamic speed profile.
+Full Supervision is automatically selected by the onboard equipment when a valid
+Movement Authority is available. Movement Authorities are only granted to a train when
+the line is clear up to the End of Authority including overlap (if provided). The DMI will
+display train speed, permitted speed, target distance, target speed.
+Shunting Shunt Mode can be selected via the DMI in pre-configured ‘Shunting Areas’ or ordered by
+(SH) trackside at specific locations. Shunt Mode allows forward and reverse movements and
+enforces a ceiling speed. When moving into Shunt Mode from Full Supervision, the
+change must be acknowledged on the DMI as levels of supervision are being reduced.
+Upon entering Shunt Mode, connection with the Radio Block Centre is lost and no
+Movement Authority is provided. Balises can be fitted with a ‘Stop if in Shunt Mode’
+message, which will stop a train operating in Shunt Mode. These will be strategically
+positioned to prevent trains in Shunt Mode exiting the “Shunting Area”.
+On Sight Mode is typically used for entering a section with a signalling fault or other
+On Sight
+obstruction. On Sight Provides a constant speed and distance supervision, and enforces
+(OS)
+a dynamic speed profile. The driver is responsible for stopping short of any obstruction.
+On Sight is automatically selected when a valid Movement Authority is provided by the
+wayside. Proceeding in On Sight Mode requires acknowledgement on the DMI prior to
+entering the section.
+Staff Staff Responsible Mode used where a Movement Authority is unavailable or when a train
+Responsible position is invalid or unknown by the onboard system. Staff Responsible is selected via
+(SR) the DMI and enforces a ceiling speed.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 23 -
+
+[TABLE 1 on page 30]
+ | Mode |  |  | Description | 
+Full Supervision (FS) | Full |  |  |  | 
+ | Supervision |  |  |  | 
+ | (FS) |  |  |  | 
+Shunting (SH) |  |  |  | Shunt Mode can be selected via the DMI in pre-configured ‘Shunting Areas’ or ordered by | 
+ |  |  |  | trackside at specific locations. Shunt Mode allows forward and reverse movements and | 
+ |  |  |  | enforces a ceiling speed. When moving into Shunt Mode from Full Supervision, the | 
+ |  |  |  | change must be acknowledged on the DMI as levels of supervision are being reduced. | 
+ |  |  |  | Upon entering Shunt Mode, connection with the Radio Block Centre is lost and no | 
+ |  |  |  | Movement Authority is provided. Balises can be fitted with a ‘Stop if in Shunt Mode’ | 
+ |  |  |  | message, which will stop a train operating in Shunt Mode. These will be strategically | 
+ |  |  |  | positioned to prevent trains in Shunt Mode exiting the “Shunting Area”. | 
+On Sight (OS) |  |  |  |  | 
+ | Staff |  |  | Staff Responsible Mode used where a Movement Authority is unavailable or when a train | 
+ | Responsible |  |  | position is invalid or unknown by the onboard system. Staff Responsible is selected via | 
+ | (SR) |  |  | the DMI and enforces a ceiling speed. | 
+
+[TABLE 2 on page 30]
+Shunting
+(SH)
+
+[TABLE 3 on page 30]
+On Sight
+(OS)
+--- PAGE 31 ---
+3.4.3 Conventional Signalling
+The Downer controlled Maintenance Facility area will be fitted with conventional colour light signalling.
+This area will be configured as a Permanent Shunting Area for the ETCS system, meaning that ETCS
+fitted rolling stock can enter Shunt Mode at any time when requested via the DMI or ordered by
+trackside balise.
+3.4.4 Transitions
+The ETCS must transition between Modes when moving between the Full Supervision, Shunt Mode,
+and On Sight Mode areas described. When transitioning from Full Supervision to On Sight or Shunt
+Mode the Rail Traffic Crew must acknowledge the Transition via the DMI. When transitioning between
+On Sight Mode and Full Supervision no acknowledgement is required.
+The ETCS System is unable to transition between Shunt Mode and Full Supervision Mode so in order
+to exit the Downer Controlled area the Rail Traffic Crew must select Staff Responsible Mode before
+passing the control boundary.
+Movements between the Maintenance Facility and Ormeau Stabling Yard will require an interface and
+co-ordination between RMC and Downer’s Yard Master to communicate and plan the most effective
+time and direction of movements to meet Queensland Rail network requirements and ensure no impact
+to network operations. Trains scheduled for maintenance will normally be allocated within the MTP.
+The following sections detail the key transition areas and proposed processes within the Ormeau
+Facility. Note - ETCS Transition scenarios are currently under review; therefore, the detail herein is
+subject are subject to change upon finalisation of these scenarios.
+3.4.4.1 Arrival to Maintenance Facility
+A transition from Full Supervision to Shunt Mode is required when entering the conventionally signalled
+Downer controlled Maintenance Facility from the RMC controlled ETCS area. The interface between
+areas of Downer and Queensland Rail control are denoted by Control Boundary Boards at the transition
+points at each end of the Maintenance Facility.
+A Permanent Shunting Area will be configured within the conventionally signalled Downer controlled
+Maintenance Facility. The transition into Shunt Mode will be triggered by a balise at the Control
+Boundary Boards, such that the train can enter the Downer controlled area without the need for a hard
+stop. The transition must be acknowledged by the Rail Traffic Crew via the DMI.
+On approach to the Maintenance Facility, Movement Authority will be provided to the Control Boundary.
+Train speed must be reduced on approach to the maximum yard speed of 8km/h before passing the
+Control Boundary Boards. The Rail Traffic Crew must make contact with the Downer Yard Master to
+confirm a route is set into the Maintenance Facility and on to the allocated Handover / Handback point.
+Once the route is set, the Train Gates will open and the train can proceed to the appropriate Handover
+/ Handback location using conventional signals. A route indicator is provided entering the Maintenance
+Facility indicating route set to roads 1-8.
+The Rail Traffic Crew will position the train at the designated Handover / Handback points and exit the
+train “handing back” the train to Downer. From the handback, Downer is responsible for all train
+operation. All movements inside the Downer controlled area are performed using Shunt Mode under
+the direction of the Downer Yard Master.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 24 -
+--- PAGE 32 ---
+3.4.4.2 Departure from Maintenance Facility
+When exiting the Maintenance Facility conventionally signalling area, the interface between areas of
+Downer and Queensland Rail control are denoted by Control Boundary Boards at the transition points
+at each end of the Maintenance Facility.
+In the absence of ETCS control and wayside equipment within the conventional signalling area, trains
+powering on within the Maintenance Facility must enter Staff Responsible mode to support initial
+departure movement.
+Downer will position the train at the designated Handover / Handback points ready for “handover” to
+Queensland Rail and the Downer Yard Master will interact with the Rail Traffic Crew when they arrive
+to inform them of location of their allocated train for pickup and its location. After completing the
+handover procedure, the Rail Traffic Crew will perform the required preservice checks, select Staff
+Responsible Mode via the DMI and liaise with the Downer Yard Master to arrange a route and gain
+authorisation to move out of the Maintenance Facility.
+The Downer Yards Master will coordinate with the RMC and set the route which will open the gates
+and allow the train to move out toward the Control Boundary Boards using conventional signalling. A
+Transition from Staff responsible to Full Supervision Mode is required at the Control Board location,
+where balises will automatically transition the onboard into Full Supervision Mode under RMC Control.
+Figure 8 Maintenance Facility Transition
+3.4.5 Speed Supervision
+The ETCS system will supervise the maximum speed of movements based on a range of factors,
+depending on conditions and operating Mode.
+• Full Supervision - provides a dynamic speed profile
+• On Sight – provides a dynamic speed profile, with a configurable ceiling speed
+• Shunt Mode – enforces a configurable ceiling speed
+ETCS speed supervision will be set at 10km/h within Stabling Roads and through the Wash / AVIS
+area, with operational rules to be adhered to requiring maximum operation of 8km/h, in line with
+Queensland Rail standards for stabling yards.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 25 -
+--- PAGE 33 ---
+3.4.6 Intermediate Turnback / Change of Ends
+Movements between the Maintenance Facility and Stabling Yard will require intermediate turnback
+moves to change of direction in either the Depot/Stabling Road for movements at the North End or the
+Southern Holding Road at the South (see Section 4.6 for further detail).
+The Rail Traffic Crew will liaise with RMC to coordinate movements, initially with a Movement Authority
+provided to the designated turnback position. Once in the relevant turnback position, the Rail Traffic
+Crew will de-energise the cab and walk through the train to the opposite end and perform a startup
+procedure before receiving a Full Supervision Movement Authority to proceed. It is expected that a
+total maximum of 8 minutes will be required for the turnback procedure (as per allowance at terminus
+stations – still TBC for yard applications), during which time onward routes between the mainline
+connection and entries to the Maintenance Facility may be blocked.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 26 -
+--- PAGE 34 ---
+4. Normal Operations
+4.1 Periods of Operation
+Under normal timetabled operations, the Ormeau Facility will primarily receive and dispatch trains that
+commence or terminate passenger service at Beenleigh.
+Primary activity at the site includes:
+• Launch of trains to resource the AM peak;
+• Arrival of trains following the AM peak for stabling inter-peak;
+• Servicing and maintenance of trains during the inter-peak period;
+• Launch of trains to resource the PM Peak;
+• Arrival of trains following the PM for overnight stabling; and
+• Servicing and maintenance of trains overnight.
+Queensland Rail is required to provide Run In (planned arrival times and stabling locations) and Run
+Out (planned departure times from stabling locations) information to Downer. This will enable Downer
+to plan work for Technicians and Presentation Staff.
+Downer is required to provide an initial fleet utilisation report to Queensland Rail at 2:30am daily, with
+subsequent updates to be advised ahead of a final utilisation report at 5:00am to allow time for
+Queensland Rail to resource train crew accordingly.
+Downer is also required to provide an afternoon availability report by 12:00pm daily to communicate
+status of multiple units for the afternoon services.
+4.2 Arrivals and Departures
+For timetabled operations, arrivals and departures will be predominantly via the northern connection.
+Southbound trains on the Up Main will enter directly through the northern connection and proceed
+either:
+• Directly into the Stabling Yard via Arrival Road 1 or 2
+• Into the Stabling Yard via Train Wash/AVIS road.
+• Directly into the Maintenance Facility.
+Conversely, departing trains can all be dispatched from any of these locations. It may be necessary to
+stack trains on the Arrival/Departure Roads 1 and 2 to meet maximum departure headways.
+Routes in and out of the Ormeau Facility will be set from the RMC. Trains must be able to complete
+arrival and departure moves to/from a point within the facility boundary such that no impact to mainline
+traffic occurs.
+After terminating services and completion of associated checks / sweeps, Queensland Rail, Rail Traffic
+Crew will bring trains straight off mainline and into required stabling road.
+If a particular train is required to go directly into the Maintenance Facility, the Rail Traffic Crew will take
+the train as far as the appropriate Handover / Handback location within the Maintenance Facility. This
+would be a pre-determined and scheduled movement, organised in advance with the Downer Yard
+Master who will, prior to the train's arrival, in communication with the RMC, allocate a slot for entry into
+the Maintenance Facility area of control.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 27 -
+--- PAGE 35 ---
+The reverse applies for trains departing directly from the Maintenance Facility or Stabling Yard onto
+the mainline.
+4.3 Repositioning Movements
+Moves to reposition between Stabling Yard and Maintenance Facility will be conducted using the Depot
+to Stabling Road and Southern Holding Road. Queensland Rail, Rail Traffic Crew will be able to
+conduct repositioning movements whilst within the area of Queensland Rail RIM and to/from the
+designated Handover/Handback points within the Maintenance Facility. Downer drivers are able to
+move trains within the Maintenance Facility and within the area of Downer RIM only.
+Once within the Maintenance Facility, most of the movements between maintenance roads will be
+conducted using either the Northern Shunt Neck or Southern Shunt Neck.
+4.4 Stabling
+When trains are required to enter stabling, the RMC will set the path between the mainline and the
+allocated road within the Stabling Yard – see Section 4.6 for further detail.
+Within the Stabling Yard, Downer are able to undertake all Permitted Use Activities as defined in the
+Stabling Site License, including light maintenance and cleaning of the QTMP rollingstock as well as
+undertaking windscreen cleaning, internal cleaning and category 5 graffiti removal.
+The following sections detail arrangements for Downer as the maintainer for QTMP conducting
+cleaning and light maintenance activities within the Stabling Yard, noting similar processes will also
+take place for Qtectic as the maintainer of the NGR fleet to clean and provision NGR trains when
+stabled at the Stabling Yard.
+4.4.1 Cleaning in Stabling Yards
+Downer is required to perform two levels of cleaning, as per the Minimum Aesthetic Condition (MAC).
+Daily Cleans will be conducted on trains within the Stabling Yard:
+• Daily cleans:
+o Must be performed on a daily basis.
+o Taking place after handback of multiple units at the end of each day which will be carried out
+overnight in the Maintenance Facility and Stabling Yard in preparation for next day passenger
+service.
+o Cleaning includes interior cleaning in the passenger saloon (incl. toilet modules) and cabs,
+plus external windscreen surface cleaning.
+In addition to the above cleaning, the below provisioning activities are also required:
+• Decanting- occurs when QTMP rollingstock is stabled overnight and the waste level tank exceeds
+75% of tank capacity; and
+• Water refilling.
+The rollingstock is handed over to Queensland Rail once Downer have completed the necessary
+activities and after Rail Traffic Crew have completed the necessary pre-departure preparation and
+checks, may move the unit out of the Maintenance Facility.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 28 -
+--- PAGE 36 ---
+4.4.2 Protection of Stabling Roads
+In order for cleaning and provisioning activities to be safely conducted within the Stabling Yard, Downer
+will need to liaise with the RMC to provide staff with safe access to perform cleaning and provisioning
+via the pedestrian pathway and fixed platforms and to ensure adequate protection is applied and
+confirmed for the stabling berth (and adjacent roads as required) appropriate to the activity being
+conducted.
+Roads to be locked out in pairs (i.e. both north and south berths) using a function equivalent to Points
+Block to provide a blocking facility. Cleaning and Maintenance staff are expected to have radio
+communications with the NCO and a visual indication that a road is blocked will be provided. 1
+4.5 Fleet Maintenance
+When trains are required to enter Maintenance from the mainline, the required route will cross the
+interface between areas of Queensland Rail and Downer Control – see Section 4.6 for detail.
+The Rail Traffic Crew will handback the train at a designated handover/handback point within the
+Maintenance Facility. While operating on the Downer RIM roads, the Downer team will be able to shunt
+the train as required.
+Downer will have control of trains within the Maintenance Facility and be able to complete the required
+tasks including but not limited to:
+• Decanting.
+• Cleaning (including Monthly Cleans in accordance with the MAC);
+• Graffiti removal.
+• Bio clean
+• Maintenance - both preventative and corrective maintenance.
+• Wheel turning.
+• Single bogie exchange.
+• Mid-life overhaul.
+Once the train is available for service or stabling from the Maintenance Facility, Downer will need to
+provide the rollingstock at a designated handover point and liaise with Queensland Rail RMC so the
+Rail Traffic Crew can complete the required checks and inspections and return the train to the control
+of Queensland Rail. A departure route will be set across the interface and back out into the area of
+Queensland Rail control.
+4.6 Train Movements
+Typical train movements within Ormeau Facility are outlined in the following sections. In line with the
+scope of operations as described in Section 1.2, these moves focus on those to be undertaken by
+Queensland Rail, Rail Traffic Crew fully within the area of Queensland Rail control, else to/from the
+designated Handover/Handback locations within the Maintenance Facility. Train movements within the
+1 Note: Detail on Blocking / Protection is being developed by a Working Group.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 29 -
+--- PAGE 37 ---
+Maintenance Facility are covered within the Downer Ormeau Concept of Operations QTMP-MNT-
+DOW-SM-RPT-000012 rev C.
+Transitions between control boundaries and between Stabling Yard and Maintenance Facility are as
+described in Section 3.4.4
+4.6.1 Arrival to Stabling Roads from Northern Connection
+Trains arriving into Ormeau Facility from the mainline will do so predominantly through the Northern
+Connection. Typically, these trains will have terminated revenue service at Beenleigh and merged
+between Up direction services toward Varsity Lakes, before routing into the Ormeau Facility. Entry into
+the Ormeau Facility will be a continuation of mainline operation under ETCS Level 2 Full Supervision.
+The arrival and departure roads are considered part of the mainline environment, up to the appropriate
+set of train gates that denote the interface with the yard environment. Line speeds shall be designed
+and managed such that trains can safely and efficiently reduce speed down to the required 8km/h yard
+speed prior to the train gates.
+Arrival routes from the mainline will be set by the RMC. Upon arrival into the yard, Rail Traffic Crew will
+be made aware of their onward route via a text message to be displayed on the in-cab Driver-Machine
+Interface (DMI). If a path has not been set correctly, the Rail Traffic Crew will be required to stop and
+liaise with the RMC.
+The order in which Stabling Roads are allocated and filled will be dictated by requirements of the MTP
+– noting the designation of certain roads by fleet type to ease efficiency of cleaning and maintenance
+activities is to be determined. Individual stabling berths within the double-stacked Stabling Roads are
+to be clearly indicated with block marker boards.
+4.6.1.1 Arrival to Stabling Roads via Arrival Road 1 and 2
+Where trains are not required to pass through either the Train Wash or AVIS, direct routes into the
+Stabling Roads are provided via Arrival/Departure Roads 1 and 2. Routes will be set by the RMC - from
+arrival all the way through to Stabling Berth where possible, else holding positions are provided on both
+roads between mainline connection and Train Gates, should trains need to be held before entering the
+Stabling Roads.
+Entry to the Stabling Roads via Arrival Road 1 or 2 from the Northern connection is shown in and
+below.
+Figure 9 Train Arrival to the Stabling Yard via Arrival Road 1
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 30 -
+--- PAGE 38 ---
+Figure 10 Train Arrival to the Stabling Yard via Arrival Road 2
+As detailed in Section 5.1.1, it will also be possible to route trains from the Northern Connection into
+the Stabling Yard via the Depot to Stabling Road if required, however this route is primarily utilised to
+reposition trains between the two areas.
+4.6.1.2 Arrival to Stabling Roads via Train Wash/AVIS Road
+Where a train is required to access the Train Wash and/or AVIS, a route will be set by the RMC as
+shown in Figure 11 below. Whilst both are capable of operating bi-directionally, under Normal
+Operations, Train Wash and AVIS will typically be operated for trains passing through as part of an
+arrival move.
+Movements routed via the Train Wash AVIS/Road will operate in Full Supervision Mode. 2
+Figure 11 Train Arrival to Stabling Yard via train wash / AVIS road
+2 Note: Wash / Avis – ETCS configuration Working Group to be established.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 31 -
+--- PAGE 39 ---
+On arrival, a Movement Authority will be provided to a Marker Board on approach to the Train Wash.
+An indicative layout for the Train Wash/AVIS road is provided in Figure 12.
+Figure 12 Indicative Train Wash/AVIS Road Layout
+4.6.1.2.1 Train Wash Operation
+Wash movements will use Full Supervision Mode with a 10km/h supervised speed.
+Before entering the Train Wash, speed must be reduced to a maximum 8km/h if not undertaking a
+wash. Train speeds through an active wash are to be limited to a maximum 3km/h.
+Marker Boards are to be situated in an appropriate location on approach to the Train Wash to support:
+• QTMP trains to be put into Wash Mode by the Rail Traffic Crew (both limiting speed and
+preparing the train to go through the wash). It is anticipated that the train will remain in Wash
+Mode until the movement through the Wash and AVIS is complete.
+• NGR to be driven to local speed boards.
+• Trains to stop in consistent locations before entry to the Train Wash and during the train wash
+as required.
+Requirements for a train to be washed will be determined through the MTP, with wash modes assigned
+to each train based on a default setting - which can be configured as either full, side, or no wash - by
+Queensland Rail control. Once the Train Wash is activated, Rail Traffic Crew will proceed in
+accordance with the coloured-light conditions displayed within and 150m either side of the Train Wash,
+linked to the required wash cycle type.
+Radio Frequency Identification (RFID) tags on the train will be read by the train wash system to allocate
+collected wash data and recordings. An RFID reader is to be placed at a sufficient distance on the
+approach to the Train Wash.
+Following completion of a wash, trains are to maintain a consistent speed (up to a maximum of 8km/h)
+on the short approach to AVIS. It is envisaged that QTMP will remain in Wash Mode, to avoid the need
+for multiple mode changes
+4.6.1.2.2 AVIS Operation
+AVIS will detect QTMP trains and automatically take measurements for QTMP only. Both fleet types
+must maintain a reduced speed of 3 - 8km/h through AVIS.
+Before entry into AVIS, Movement Authority is required through to a point such that the train will not be
+required to stop or alter speed within the AVIS building. If a train is forced to stop before clearing the
+equipment or the speed deviates by 10% of the entrance speed, then the collection of maintenance
+data will be void.
+Therefore, a route must be set by the RMC and a Movement Authority provided through to the allocated
+Stabling Road, allowing the train to proceed through the Train Gates and into the Stabling Roads.
+Route allocation into Stabling Roads 1 – 4 will allow a train to proceed directly; for roads 5 – 10, the
+train will be required to cross to the other side of the fan.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 32 -
+--- PAGE 40 ---
+For the latter, route setting for a train coming from the Train Wash/AVIS road will potentially block any
+other movements to/from the Stabling Roads through this fan for the length of time required to traverse
+equipment – hence road allocation and route timing will need to be managed such that other train
+movements are not consequentially delayed.
+4.6.2 Arrival from Northern Connection to Maintenance Facility
+If a QTMP train is required to enter the Maintenance Facility, under Normal Operations the train will
+follow the same arrival procedure as for the Stabling Yard but will be routed into the northern end of
+the Maintenance Facility.
+A route will be set by the RMC from the mainline up to the Control Boundary with the Downer area of
+control on approach to the Maintenance Facility, whereby a transition from RMC control in Full
+Supervision to Shunt Mode under the Downer Yard Master will be required.
+The Rail Traffic Crew will take the train through to the required Handover/Handback point and complete
+the required handback procedure.
+Once inside the Maintenance Facility, The Downer Yard Master has the authority to oversee train
+movements within the Maintenance Facility and therefore will path the QTMP train to the appropriate
+maintenance road. Downer staff drive the train into the Maintenance Facility and finally isolates and
+secures the train.
+Figure 13 Train movement entering Maintenance Facility
+4.6.3 Departure from Stabling Yard to Northern Connection
+Under Normal Operations, departure moves from the Ormeau Facility will predominantly be from the
+Northern connection onto the mainline, via Arrival/Departure Roads 1 or 2, else the Train Wash/AVIS
+road.
+At the commencement of a departure, the Rail Traffic Crew will be informed of the allocated unit and
+train number after signing in. The Rail Traffic Crew will make their way to the allocated unit and perform
+the required pre-departure train preparation.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 33 -
+--- PAGE 41 ---
+Once pre-departure preparation is complete, the Rail Traffic Crew will liaise with RMC for a route to be
+set and confirmed to exit Ormeau Facility and receive authority to depart under Full Supervision and
+proceed to enter the mainline. After passing through the train gates at the entry/exit of the Stabling
+Roads, the train will move from yard into mainline environment.
+As described in Section 3.3.5, the exit move requires crossing in conflict with services on the Up Main
+and into a central holding track, before merging between Down direction services.
+Departure routes will be set from Stabling Road to mainline where possible, else Holding Positions
+are provided on all roads and on the common section between arrival/departure fan and the mainline
+connection, should trains need to stop before entering the mainline to regulate traffic.
+4.6.3.1 Exit Stabling Yard via Departure Road 1 and 2
+Routes for exiting the Stabling Yard via Arrival/Departure Road 1 and 2 are shown in Figure 14 and
+Figure 15 below.
+Figure 14 Train movement exiting Stabling Yard via Arrival/Departure Road 1
+Figure 15 Train movement exiting Stabling Yard via Arrival/Departure Road 2
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 34 -
+--- PAGE 42 ---
+4.6.3.2 Departure from Stabling Yard via Train Wash/AVIS Road
+As detailed in Section 4.6.1.2 , under Normal Operations, trains will typically be washed entering the
+Stabling Yard, however bi-directional functionality of the Train Wash provides the option to wash trains
+as they exit the Stabling Yard and go out onto the northern connection as they travel via the Train
+Wash/Avis Road. Principles for operation of Train Wash and AVIS in the departure direction will be the
+same as described in Section 4.6.1.2.
+As with arrival movements, speeds through the AVIS and Train Wash (not washing) are limited to a
+maximum 8km/h. Transition up to line speed as allowed by the Arrival/Departure Road can occur once
+clear of the Train Wash.
+Movements routed via the Train Wash AVIS/Road will operate in Full Supervision Mode.3
+Route for exiting the Stabling Yard via the Train Wash/AVIS road is shown in Figure 16 below.
+Figure 16 Train movement exiting Stabling Yard via Train Wash/AVIS Road
+4.6.4 Departure from Maintenance Facility via Northern Connection
+When a QTMP train is ready to leave the Maintenance Facility and exit via the Northern Connection,
+the train is taken to an appropriate handover point by the Downer staff. Rail Traffic Crew will then
+access the train and perform the required pre-departure checks and select Staff Responsible Mode for
+initial departure. The Downer Yard Master will set a departure route as far as the interface with RMC
+control, whereby a transition to Full Supervision will occur before proceeding through to the Northern
+Connection and onto the mainline.
+The RMC will set a departure route onto the Up Main and across to the Down Main toward Beenleigh.
+3 Note: Wash / Avis – ETCS configuration Working Group to be established.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 35 -
+--- PAGE 43 ---
+Figure 17 Departure form Maintenance via Northen Connection.
+4.6.5 Arrival to Stabling from Southern Connection
+The Southern Connection provides alternative access to the Ormeau Facility and while it is intended
+that the Northern Connection is used as the primary access for rail traffic, the Southern Connection
+may see several planned moves daily to meet operational requirements.
+Trains arriving from the South will typically have terminated service at Pimpama Station and will be
+required to cross via a facing move with traffic on the Up Main to access Ormeau Facility. Arrival routes
+will be set by the RMC, with the Rail Traffic Crew receiving Movement Authority to the allocated Stabling
+Road via the Southern Holding Road, with a text message on the DMI detailing the route set. With this
+route set and confirmed, the Train Gates will open to allow the train to proceed toward the Stabling
+Roads, at which point the train enters the yard environment and by which speed must have reduced to
+a maximum 8km/h.
+The route from the Southern Connection to Stabling Roads is shown in Figure 18.
+Figure 18 Arrival to Stabling Yard via Southern Connection
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 36 -
+--- PAGE 44 ---
+4.6.6 Arrival to Maintenance Facility via Southern Connection
+Should a QTMP train be required to go straight to maintenance from an entry from the South, an arrival
+route will be set by the RMC to provide a Movement Authority as far as the Control Boundary Boards
+at the interface with the area of Downer control at the Southern end of the Maintenance Facility.
+A transition from Full Supervision into Shunt Mode for entry into the Downer conventional signalling
+system will occur, with an onward route set by the Downer Yard Master to the allocated
+Handover/Handback point. The Rail Traffic Crew will proceed with the train to Handover/Handback
+point and conduct the required handback procedure to secure the train for a Downer shunter to take
+on to the required maintenance road.
+The arrival route from the Southern Connection into the Maintenance Facility is shown in Figure 19
+Figure 19 Arrival to Maintenance Facility via Southern Connection
+4.6.7 Departure from Stabling via Southern Connection
+When a train is ready to leave the Stabling Yard and exit via the Southern Connection, Rail Traffic
+Crew access the train and perform the required pre-departure checks.
+A departure route will be set by the RMC under Full Supervision, into mainline environment on the
+Southern Holding Road an onto the Southern Connection. Holding positions are available should the
+train have to stop before departing onto the Up Main to regulate traffic on the mainline in the direction
+of Varsity Lakes.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 37 -
+--- PAGE 45 ---
+Figure 20 Departure from Stabling Yard via Southern Connection
+4.6.8 Departure from Maintenance Facility via Southern Connection
+When a QTMP train is ready to leave the Maintenance Facility and exit via the Southern Connection,
+the train is taken to an appropriate handover point by the Downer staff. Rail Traffic Crew will then
+access the train and perform the required pre-departure checks and select Staff Responsible for the
+initial departure move.
+The Downer Yard Master will set a departure route as far as the Control Boundary, where a route will
+be set by the RMC and a transition to Full Supervision occurs, before proceeding to the Southern
+Holding Road and onto the mainline. Departing trains will be required to merge between traffic on the
+Up Main towards Varsity Lakes.
+Figure 21 Departure from Stabling Yard via Southern Connection
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 38 -
+--- PAGE 46 ---
+4.6.9 Movements from Maintenance Facility to Stabling
+4.6.9.1 Maintenance Facility to Stabling via Depot to Stabling Road
+When required to reposition from the Maintenance Facility to a Stabling Road (for example upon
+completion of a maintenance activity and into place for pre-service preparation and departure), trains
+exiting the Maintenance Facility at the northern end will be routed via the Depot to Stabling Road.
+Rail Traffic Crew will meet the train at the allocated Handover / Handback location, completed the
+required pre-service checks and select Staff Responsible mode for initial departure. The departure
+sequence from the Maintenance Facility into the Stabling Yard will occur, with a Movement Authority
+then set as far as the designated turnback location on the route toward the Northern Connection,
+beyond the points to the Depot to Stabling Road.
+At this turnback location, the change of ends procedure as described in Section 3.4.6 will be conducted.
+Once the turnback process has been completed, a route will be set by the RMC and Movement
+Authority provided into the required Stabling Road via the Depot to Stabling Road and through the
+Train Gates. This will typically be all the way to the Stabling Road, however a holding position is located
+on the Depot to Stabling Road should the train need to be held in advance of the Train Gates.
+The route from the Maintenance Facility to the Stabling Yard via Depot to Stabling Road is shown in
+Figure 22 below.
+Figure 22 Train movement from Maintenance Facility to Stabling Roads via Depot to Stabling Road
+4.6.9.2 Maintenance Facility to Stabling via Southern Holding Road
+When required to reposition from the Maintenance Facility to a Stabling Road, trains exiting the
+Maintenance Facility at the southern end will be routed via the Southern Holding Road.
+Once departing Downer control within the Maintenance Facility, a route will be set by the RMC to a
+holding position on the Southern Holding Road, where the intermediate turnback process will be
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 39 -
+--- PAGE 47 ---
+conducted. Once complete, a route will be set and Movement Authority provided through the Train
+Gates and onto the allocated Stabling Road.
+The route from the Maintenance Facility to the Stabling Roads via Southern Holding Road is shown in
+Figure 23 below.
+Figure 23 Train movement from Maintenance Facility to Stabling Roads via Southern Holding Road
+This routing will traverse the signallised level crossing over the main facility access road. Vehicular
+movements into/out of the facility may therefore be impacted during the duration of the route allocation
+through the level crossing.
+4.6.10 Movements from Stabling to Maintenance Facility
+Downer will advise the RMC of the intention to move a QTMP train from the Stabling Yard to the
+Maintenance Facility when required. Authorised Rail Traffic Crew are responsible for driving the train
+from the Stabling Yard to the Handover / Handback point on the allocated maintenance road in the
+Maintenance Facility.
+4.6.10.1 Stabling to Maintenance Facility via Depot to Stabling Road
+From the Stabling Road, the RMC will set a route and provide authority to the Rail Traffic Crew to
+proceed along the Depot to Stabling Road and onto the turnback location.
+Following completion of the turnback procedure, a route will be set by the RMC to the interface with
+Downer control on the approach to the Maintenance Facility, where the transition between control
+systems and associated route setting will be conducted. Rail Traffic Crew will proceed with the train to
+the allocated Handover/Handback point at the northern end of the Maintenance Facility.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 40 -
+--- PAGE 48 ---
+Figure 24 Train movement from Stabling Yard to Maintenance Facility via Depot to Stabling Road
+4.6.10.2 Stabling to Maintenance Facility via Southern Holding Road
+For QTMP trains entering the southern end of the Maintenance Facility from Stabling Roads, an
+intermediate turnback move is required at the holding position on the Southern Holding Road.
+Once this turnback process is completed, a route will be set to the interface with Downer control at the
+southern end of the Maintenance Facility, before transitioning to Downer control and proceeding to the
+designated Handover/Handback position.
+The route from Stabling Roads to the Maintenance Facility via the Southern Holding Road is shown in
+Figure 25 below.
+Figure 25 Train movement from Stabling Yard to Maintenance Facility via Southern Holding Road
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 41 -
+--- PAGE 49 ---
+4.6.11 Track Maintenance Vehicle Stabling Moves
+Track maintenance vehicles will access the dedicated Stabling Road via Arrival/Departure Roads 1
+and 2 to/from the Northern Connection, else via the Southern Holding Road to/from the Southern
+Connection.
+Track maintenance vehicles are to remain stabled during the peak, with no movements allowed that
+may impact other operations within the Stabling Yard. Outside the peak, track maintenance vehicles
+are expected to move in and out of the stabling facility when required. It is also expected that track
+maintenance vehicles will be maintained in the Stabling Yard where track maintenance crew will also
+be provided access to.
+This road is to be fitted with ETCS Level 2, consistent with the rest of the Stabling Yard. However, it is
+anticipated that much of the on-track equipment accessing the roads will not be enabled with ETCS
+onboard equipment. Control and position management of these vehicles must still be able to interact
+with the ETCS system.
+At present it is assumed that the solution developed for management of unfitted vehicles developed for
+the B2V mainline will be applicable to yard also. Further detail will be added to this ConOps as this
+solution – currently proposed via a handheld device - is developed.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 42 -
+--- PAGE 50 ---
+5. Abnormal and Degraded Operations
+In addition to supporting Normal Operations as described in Section 4, the layout of the Ormeau Facility
+further needs to provide an appropriate level of redundancy and resilience to support reliable
+operations. Notably, it is crucial to avoid any single points of failure that would prevent effective
+operation of the yard, else block trains arriving and departing - thus significantly impacting timetabled
+operations – in the event of asset failure.
+This resilience in the layout includes:
+• Multiple arrival and departure roads for the northern connection;
+• Provision of a southern and northern connection, should access either be lost.
+• Multiple potential routes for repositioning of trains between Stabling Yard and Maintenance Facility.
+Note in some of these cases, performance may be impacted such that arrival and departure
+frequencies to the Ormeau Facility will be reduced, else an increased number of intermediate shunt
+moves may be required to reposition trains, but a basic level of functionality is still supported.
+In addition to the track layout, electrical sectioning should also be arranged such that loss of traction
+power (either planned for maintenance, else due to failure) to the Maintenance Facility should not
+impact operation of either the Stabling Yard or mainline, and vice-versa for all three elements.
+5.1 Alternate Routings
+5.1.1 Mainline Access to Stabling Yard
+With normal operation the majority of trains will enter and exit the Stabling Yard via the northern
+connection. The roads between mainline and Stabling Yard have all been designed to support
+bidirectional operation. Access from the north mainline has 4 roads:
+• Train Wash/AVIS Road.
+• Arrival/Departure 1 Road.
+• Arrival/Departure 2 Road.
+• Depot to Stabling Road.
+This design provides redundancy in case any one or two of these roads are unavailable, access
+between the northern mainline and Stabling Yard is still available even if the trains operate at reduced
+capacity. It is worth noting that there is a fourth road available- Depot to Stabling Road for access
+between the mainline and Stabling Yard however it is not intended to be used for accessing the
+mainline. Based on its location, if there is a failure that makes the Train Wash/AVIS Road, Arrival
+Departure 1 and 2 Roads unavailable, it will also affect access for the Depot to Stabling Road.
+In addition to these 3 northern-connection facing roads, access from the south mainline is also available
+to the Stabling Yard, should the north mainline be unavailable - e.g. points failure in the northern
+connection. Trains may enter and exit the Stabling Yard via the Southern Holding Road and travel on
+the Up Main in the southbound direction.
+This track design allows access from the mainline to Stabling Roads in both the northbound and
+southbound directions from a total of 4 bidirectional roads, providing inherent redundancy for accessing
+the Stabling Roads.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 43 -
+--- PAGE 51 ---
+5.1.2 Access to Maintenance Facility
+Similarly, redundancy for access to the Maintenance Facility is provided through provision of
+connections to both the north and south. Both of these connections have routes available to Stabling
+Roads and the mainline.
+Once within the Maintenance Facility, two shunt necks – at north and south – also provide flexibility for
+repositioning moves independent of the unavailability of a single route.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 44 -
+--- PAGE 52 ---
+6. Maintenance Principles
+Downer’s approach for the maintenance and facilities management of the Ormeau Facility is outlined
+in QTMP-DHC-DOW-PM-PLN-000016_C O&M Services Management Plan.
+Outside of the Maintenance Facility, for the Stabling Yard- including Arrival and Departure roads – is
+considered mainline environment, Scheduled Corridor Access System (SCAS) processes will apply for
+maintenance access. The number and scope of SCAS boundaries within the Stabling Yard are to be
+determined, however it shall be possible to for a SCAS to be taken for maintenance of assets in the
+Stabling Yard without impacting operation of the mainline or the Maintenance Facility.
+As the Train Wash / AVIS road is considered mainline environment, a SCAS will be required for
+maintenance of this equipment to be conducted. The AVIS assets are to be managed by Downer -
+access for maintenance works by Downer will occurs under Queensland Rail’s SEMS processes (and
+as to be agreed within the Licence Agreement and Safety Interface Agreement documents).
+Provision has been made to provide blocking on the Train Wash/ AVIS road without impacting
+movements between Arrival/Departure Roads 1 and 2 and the Stabling Yard.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 45 -
+--- PAGE 53 ---
+Appendix A – Stakeholder Workshop Record
+Development of this Ormeau ConOps has been informed by the workshops listed below. Records of
+these workshops can be found in 3215406-TMR-1016RAOM-RPT-000001_Appendix A.zip.
+Each revision of this document has further been subject to review comment and close-out with
+appropriate representatives from each organization included below:
+Date Topic Attendees
+06/12/24 Ormeau TMR ETCS S1S: Daniel Rabson
+ConOps
+TMR QTMP: Sophie Tan, Ian Garrad
+Update -
+Initiation QR: James Garske, Russell Barrett
+13/12/24 Ormeau TMR ETCS S1S: Daniel Rabson
+ConOps
+TMR QTMP: Sophie Tan, Ian Garrad, Tim Woodman, Kevyn
+Update
+Neal, Matthew Barden
+Meeting
+#1 QR: James Garske, Russell Barrett
+Downer: Carl Thornton
+Sequence: Dhinesh Chinnappan
+16/12/24 Ormeau TMR ETCS S1S: Daniel Rabson, Kylee Bishop
+ConOps
+TMR QTMP: Sophie Tan, Ian Garrad, Tim Woodman, Kevyn
+Update
+Neal, Matthew Barden
+Meeting
+#2 QR: James Garske, Russell Barrett, Pattie Pozzebon
+Downer: Carl Thornton
+Sequence: Dhinesh Chinnappan
+23/01/25 Ormeau TMR ETCS S1S: Daniel Rabson, Kylee Bishop
+ConOps
+TMR QTMP: Sophie Tan, Ian Garrad, Tim Woodman, Kevyn
+Update
+Neal, Matthew Barden
+Meeting
+#3 QR: James Garske, Russell Barrett, Pattie Pozzebon
+Downer: Carl Thornton
+Sequence: Dhinesh Chinnappan
+31/03/25 ETCS TMR ETCS S1S: Nick Terry, Brendan Wilson, Casey
+Stabling Milburn, Hayden Smith, Daniel Rabson, Kylee Bishop
+Operations
+TMR QTMP: Kevyn Neal, Tim Woodman,
+QR: James Garske, Russell Barrett, Shannon Barr, Pattie
+Pozzebon, Jeff Porter, Sohan Kochhar.
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 46 -
+
+[TABLE 1 on page 53]
+ | Date |  |  | Topic |  |  | Attendees | 
+06/12/24 | 06/12/24 |  | Ormeau ConOps Update - Initiation |  |  |  |  | 
+13/12/24 |  |  | Ormeau ConOps Update Meeting #1 |  |  |  | TMR ETCS S1S: Daniel Rabson | 
+ |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | TMR QTMP: Sophie Tan, Ian Garrad, Tim Woodman, Kevyn | 
+ |  |  |  |  |  |  | Neal, Matthew Barden | 
+ |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | QR: James Garske, Russell Barrett | 
+ |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | Downer: Carl Thornton | 
+ |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | Sequence: Dhinesh Chinnappan | 
+16/12/24 |  |  | Ormeau ConOps Update Meeting #2 |  |  |  |  | 
+23/01/25 |  |  | Ormeau ConOps Update Meeting #3 |  |  |  | TMR ETCS S1S: Daniel Rabson, Kylee Bishop | 
+ |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | TMR QTMP: Sophie Tan, Ian Garrad, Tim Woodman, Kevyn | 
+ |  |  |  |  |  |  | Neal, Matthew Barden | 
+ |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | QR: James Garske, Russell Barrett, Pattie Pozzebon | 
+ |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | Downer: Carl Thornton | 
+ |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  | Sequence: Dhinesh Chinnappan | 
+31/03/25 |  |  | ETCS Stabling Operations |  |  |  |  | 
+
+[TABLE 2 on page 53]
+Ormeau
+ConOps
+Update
+Meeting
+#1
+
+[TABLE 3 on page 53]
+Ormeau
+ConOps
+Update
+Meeting
+#3
+--- PAGE 54 ---
+Appendix B - AU1300704_NT20250314_1.1 - ETCS
+Stabling Operations
+See AU1300704_NT20250314_1.1 - ETCS Stabling Operations.pdf
+Sector 1 South (M2VL), ETCS Project 3215406-TMR-1016RAOM-RPT-000001 Rev 3.0
+Ormeau Concept of Operations – Sector 1 South (M2VL) ETCS Upgrade Project - 47 -

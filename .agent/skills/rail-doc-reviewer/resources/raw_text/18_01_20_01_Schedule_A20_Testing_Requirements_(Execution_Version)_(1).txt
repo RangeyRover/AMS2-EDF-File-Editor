@@ -1,0 +1,3958 @@
+SOURCE FILE: 18.01.20.01 Schedule A20 - Testing Requirements (Execution Version) (1).pdf
+FULL PATH: C:\Users\markn\OneDrive - IXL Signalling\Sigtech\Downer QTMP\18.01.20.01 Schedule A20 - Testing Requirements (Execution Version) (1).pdf
+EXTENSION: .pdf
+SIZE: 393747 bytes
+============================================================
+
+--- PAGE 1 ---
+Schedule A20 – Testing Requirements (Execution Version)
+SCHEDULE A20
+s
+t
+n
+Testing Requirements e
+m
+e
+1. DEFINITIONS r
+ui
+q
+In this Schedule A20 (Testing Requirements), unless the context otherwise reequires, the
+R
+following expressions have the following meanings:
+g
+n
+"Assimilation" means the carrying out of testing and trials on the va tirious elements
+s
+constituting the Ormeau Facility Works or the Manufacturing Facility Woerks, as applicable,
+T
+either singly or in combination, when the infrastructure is connected to the Network (and
+-
+notwithstanding that the Network Connection Works are to be ca1rried out by the Operator)
+0
+2
+to demonstrate that the Ormeau Facility or the Manufacturing Facilit2y, as applicable, can be
+1
+A
+operated on an integrated basis and in a manner which will 2s.atisfy the requirements of the
+3 e
+Ormeau Facility Technical Requirements or Manufacturing
+2
+Facil
+u
+itly Technical Requirements,
+as applicable, and that the Ormeau Facility or Manufactur5i.ng Fadcility, as applicable, is safely
+e
+assimilated with the Network. 2 h
+2
+c
+.
+5 S
+"Commissioning" means the inspection and testi6ng of, and performance of trials upon,
+1 2
+various elements constituted in the Ormeau Facilit y Wo2rks or Manufacturing Facility Works,
+as applicable, either singularly or in combinatimon bu8t . with the Ormeau Facility Works or
+o 1 m
+Manufacturing Facility Works, as applicable, or
+c
+relev
+,
+a nt eleme
+a
+nt, isolated from the Network.
+p . d f g r
+"Integration" means the testing of and puerform p ance of torials upon the various elements
+al o ) . T r
+c a
+t F h
+o
+a
+p
+e
+n
+c
+p
+i
+s l
+o l
+i
+i
+t c
+t p
+i
+y
+a t
+e
+u
+,
+b
+r
+t l
+a a
+i e n
+s t
+,
+i
+g
+o a
+e
+n p
+i t t
+p
+h
+o
+h
+l
+e
+f
+e
+i c
+r
+t a h
+in
+b
+s
+e
+f i
+l
+n r
+e s
+a g
+, i
+s
+g
+l
+b
+y t
+n u
+r
+a
+u o
+t l
+c r
+l w i
+t
+n
+u i
+i
+n
+t g o
+r
+h
+e
+n
+c
+a f t
+o
+i n h d
+o m
+d
+e
+e
+f n b
+o s r
+t t
+w
+i
+e
+i
+y
+h n
+l sn
+e
+e
+a
+t
+e
+v
+t
+e
+ri O
+a
+g
+m
+o
+V
+r
+n
+r n
+e s
+m
+t
+,
+r
+s
+w O
+e ai
+0
+o a
+i r
+n
+t :
+n
+m
+u
+2 h
+d
+1 i e n
+t F G
+a
+h a
+a t u
+M e
+h n
+c i
+s F e
+t l
+i
+i
+a
+e
+o
+t
+O c
+y sn
+i r
+t
+l
+P
+m i
+o
+t
+o
+y
+r
+e
+r
+a W
+t p
+u
+h e
+o
+e r
+F r
+f
+k a
+o M
+s c
+r
+i
+m a
+o li
+n
+t r
+a
+y
+u
+M
+n f
+o
+c a
+a r
+e c
+n
+t
+t u
+o u
+h f
+f r
+e a
+i n t
+c M
+r
+t
+g i
+u a
+a
+r n
+l F s
+i u n
+a i
+f g
+c n
+a
+i l v
+F c
+it o
+t a
+y
+u
+l
+c
+v ,
+r i l
+i
+i
+n
+i n
+a
+t
+g
+g y
+s
+Works, as applicable, isolateCd fromd then Netw0ork. p
+@ ti o 3 E x
+u 1
+"Physically Complete" mean
+s
+s:
+c - k
+t e 6 c
+e r x 0 o
+(a) in relation to the MbanufEactur
+3
+in-g F
+s
+atcility, where all elements of the Manufacturing
+Facility Works ha
+. r
+voe be
+s
+e(n c
+0
+o2nstr
+n
+ugcted and installed and are physically complete in
+accordance wit
+h
+hn any
+e
+n
+Mtanu2fact
+o
+u
+l
+r liing Facility Technical Requirements; or
+o m R
+(b) in relation toJ the Ormeau Facility, where all elements of the Ormeau Facility Works
+have been
+r t
+s
+c on
+u
+s
+i
+trr
+e
+ucted anPd
+-
+i nstalled and are physically complete in accordance with
+any Ormeeau Fqacility TechFnical Requirements,
+b e R
+o
+R
+subject onlyR to the carrying out of Commissioning, Integration and Assimilation and that
+g
+any systemns annd facilities which are not subject to commissioning and testing as part of the
+h
+Commissoioningti, Integration and Assimilation are functioning correctly, and Physical
+s
+Comple J tione has a corresponding meaning.
+T
+-
+2. TESTIN0G AND VALIDATION – MULTIPLE UNITS
+2
+A
+2.1 Gene ral
+e
+ul
+(ad) As an integral part of the certification and validation process for the Multiple Units,
+e
+h the Contractor must nominate the tests which are to be undertaken to demonstrate
+c compliance with the Rollingstock Technical Requirements, associated standards and
+S
+specifications, all Applicable Requirements and this deed.
+1
+0
+.
+2 (b) These tests must be undertaken at the different stages of the project life cycle,
+2
+. including but not limited to:
+8
+1
+1
+11:47\02 May 2023\AUS\MATTSM\689401203.01
+--- PAGE 2 ---
+Schedule A20 – Testing Requirements (Execution Version)
+(i) factory acceptance tests – all components must be routine/type tested at the
+s
+Contractor's or its Subcontractors premises prior to fitment to a TTP or ta
+n
+Multiple Unit (as applicable in accordance with the Commissioning and Teseting
+m
+Plan and the Commissioning and Testing Program (Rollingstock)) to confirm
+e
+suitable operation; r
+ui
+q
+(ii) Multiple Unit acceptance tests – all type/routine tests must be careried out in
+R
+accordance with IEC 61133; and
+g
+n
+(iii) Multiple Unit special tests – all type/routine tests required tito demonstrate
+s
+compliance with the specification requirements which are neot covered by the
+T
+scope of IEC 61133.
+-
+1
+0
+2
+(c) The Contractor must ensure that the first article, TTP o1r Mult2iple Unit (as applicable
+A
+in accordance with the Commissioning and Testing Pl2a.n an d the Commissioning and
+3 e
+Testing Program (Rollingstock)) is type tested, wit
+2
+h all
+u
+slubsequent articles, TTP or
+Multiple Units (as applicable in accordance with th5e. Comdmissioning and Testing Plan
+e
+and the Commissioning and Testing Program (Ro2llinghstock)) being routine tested.
+2
+c
+.
+5 S
+(d) Within 60 Business Days of the Commencem6ent D ate the Contractor must provide
+1 2
+to the Reviewing Parties a further version of the C2ommissioning and Testing Plan and
+the Commissioning and Testing Program m (Ro8ll . ingstock) demonstrating how it will
+o 1 m
+comply with and discharge its obligatiocns in
+,
+r elation toa paragraph 2.1(a) above.
+p . d f g r
+(e) In the course of its Review al of o t u he C ) .o p mmTission r oing and Testing Plan and the
+C
+a
+t M e
+c
+o
+u s
+c
+m
+l t
+o
+t s i
+r
+m
+p
+d
+w l
+i
+a
+e
+s
+h
+n
+s
+U i
+c
+i
+c
+o
+n
+e
+h
+n
+i t
+w
+i
+i
+n
+t h
+i
+g
+t
+a r
+h
+e s
+a
+a
+t
+n
+s
+h
+s a
+d
+e
+o t n i
+R
+T
+s a o
+e
+f
+e
+b in
+v
+s
+e l f
+i
+t
+y d i
+e
+d
+i n
+we
+o r
+g
+n
+e r o
+P t
+q w
+iP
+w
+r
+un
+o
+r
+i i
+o
+e
+l
+c
+r l
+r
+g
+e
+e g
+sV s
+r
+d
+r
+a
+a
+e
+u
+t i
+m
+rn i
+r s
+s
+e i
+f 0
+o
+o
+s
+y
+(
+:
+n
+,
+r
+R
+2 t d1
+p
+o
+h e
+r
+l
+G
+e
+l
+o
+r a
+i nM
+v
+nr t
+g
+e
+i
+o s
+d
+s
+q i
+o e
+t
+b u
+n
+o
+e
+c
+i
+c
+r
+P
+o
+e
+k
+a
+m
+m
+)
+s
+m
+s e
+e
+u n
+a
+e
+r t
+c
+n
+e s
+h
+t
+d
+s
+o
+R
+t f
+s
+h
+e
+p
+t a h
+v
+e
+t
+i
+i
+c
+e
+s
+i
+t
+w
+f
+d h
+y
+i
+e e
+i
+n
+n
+e
+g
+g
+r d e .
+P
+a
+l e
+a
+n
+v
+r
+y
+t
+a
+y
+a
+n
+d
+t
+m
+d
+T
+i
+a
+t
+T
+i
+y
+o
+P
+,
+n
+o
+i
+a
+n
+r
+l
+C d n 0 p
+(f) The Commissioning and@ T esti
+t
+ni o g Pla3n anEd x the Commissioning and Testing Program
+u 1
+(Rollingstock) will tosg ethecr de-scribek and set out the nature of the tests,
+specifications, metho
+e
+rd t olog
+x
+ey, pa0s 6 s/fa
+o
+icl criteria, test location and date for each test
+against the correspbondinEg pa3r - t ofs tthe relevant Technical Requirements and must
+include: . r o s ( 0 2 n g
+(i) the facoto h
+n
+ry
+m
+tees
+n
+t
+t
+s (se
+2
+e
+R
+poa l r
+li
+agraph 2.2);
+J
+(ii) the
+r
+ta
+s
+cce
+u
+p
+i
+rt
+e
+ance tesPts
+-
+(see paragraph 2.3);
+e F
+q
+(iii) ot b he one-track test R ing (see paragraph 2.4);
+R
+R
+g
+(iv) nthne testing of the ETCS system and GSM-R radio (see paragraph 2.5);
+h
+o
+ti
+s
+(Jv) ethe testing of the PSD system (see paragraph 2.6);
+T
+-
+(vi ) the testing of Cross River Rail (CRR) interfaces (see paragraph 2.8);
+0
+2
+A
+(vii) the testing of the ATO system (see paragraph 2.7); and
+e
+ul
+d (viii) the testing of accessibility of the Multiple Unit (see paragraph 2.9).
+e
+h
+c(g) Where the Contractor does not submit a full specification (as part of the draft Works
+S
+Test Plan and Specification) to the Independent Certifier (with a copy to the State
+1
+0 and the Operator) in respect of each test it must indicate a date in the Commissioning
+.
+2 and Testing Program (Rollingstock) when such test specification will be provided to
+2
+. the Independent Certifier for review and acceptance in accordance with clause 16
+8
+1 (Commissioning and Testing of Works) of the deed (which must be no later than
+three months before such test is scheduled to be carried out).
+2
+11:47\02 May 2023\AUS\MATTSM\689401203.01
+--- PAGE 3 ---
+Schedule A20 – Testing Requirements (Execution Version)
+(h) If the Contractor wishes to change any test in the Commissioning and Testing Plan
+s
+(in addition to submitting the updated Commissioning and Testing Plan for Revietw
+n
+under the Review Procedures) it must submit to the Independent Certifier (wieth a
+m
+copy to the State and the Operator) for review and acceptance the proposed test
+e
+specification (as part of the draft Works Test Plan and Specification) withr clearly
+ui
+defined pass/fail criteria at least three months prior to the conduct of any qscheduled
+test, in accordance with clause 16 (Commissioning and Testing of Works) oef the deed.
+R
+g
+2.2 Factory Tests n
+ti
+s
+(a) The Contractor must provide a list of the major items of Rollinegstock Equipment
+T
+within the Commissioning and Testing Plan that are to be sub jected to type and
+-
+routine tests to demonstrate compliance. 1 0
+2
+2
+1
+A
+(b) The items of Rollingstock Equipment shall include but2 n.ot b e limited to:
+3 e
+2 ul
+(i) carbody structure; 5 . d
+e
+2
+h
+2
+(ii) bogie assembly; . c
+5 S
+6
+1 2
+(iii) bogie frame; 2
+m 8 .
+(iv) wheels/wheelset assemblies; o 1 m
+c , a
+p . d f g r
+(v) suspension components; u p o
+al o ) . T r
+(
+(
+v
+v
+i
+i
+)
+i)
+b
+p
+r
+a
+a
+n
+k
+t
+e
+o g
+e
+r
+q
+a
+u
+p
+i
+h
+p
+;
+m en
+o n
+t;
+fi d
+e n
+o
+t
+w
+i
+n
+e r g
+V
+r
+e r
+si
+0
+o
+:
+n
+2 1
+G
+a
+M
+n si
+o n P
+C d n 0 p
+(viii) main circuit break@e r an
+t
+d
+i
+o ear
+3
+th ing
+E
+xswitch;
+u 1
+(ix) main transform t e s r; e c 6 - c k
+e r x 0 o
+(x) traction co
+. r
+nov b ert
+s
+e (r E ;
+0
+2
+3 -
+n
+g
+s t
+(xi) traction hd n rive
+e
+nu t nit/g 2 ear
+o
+blli ox;
+o m R
+J
+(xii) aux
+r t
+isli ary
+u i r
+ceonverter
+P
+; -
+e F
+(xiii) abir co
+e
+nqditioning Runit (HVAC);
+o
+R
+R
+(xiv) toigle t module (including door, sink, dispenser);
+n
+n
+h
+(xov) sd
+ti
+oors;
+J e
+T
+(xv-i ) internal and external lighting;
+0
+2
+A(xvii) off-board and on-board ICT systems;
+e
+ul(xviii) event recorder;
+d
+e
+h (xix) seat comfort (including driver seats);
+c
+S
+1 (xx) load tests;
+0
+.
+2 (xxi) audibility including horn;
+2
+.
+8
+1 (xxii) glazing;
+3
+11:47\02 May 2023\AUS\MATTSM\689401203.01
+--- PAGE 4 ---
+Schedule A20 – Testing Requirements (Execution Version)
+(xxiii) wiring and HV cabling;
+s
+t
+n
+(xxiv) fire testing; e
+m
+e
+(xxv) EMC – Electromagnetic Compatibility; r
+ui
+q
+(xxvi) battery charger and battery load; e
+R
+(xxvii) emergency lighting; g
+n
+ti
+s
+(xxviii) auxiliary motors; e
+T
+(xxix) main compressor; 1 -
+0
+2
+2
+1
+(xxx) air reservoirs; . A
+2
+3 e
+2 ul
+(xxxi) safety and supervisory systems;
+. d
+5
+e
+2
+h
+(xxxii) control system electronics and display; 2 c
+.
+5 S
+6
+(xxxiii) communications system electronics1 and d2isplay; and
+2
+m 8 .
+(xxxiv) DVSS and displays. o 1 m
+c , a
+(c) The Contractor must prepare the
+u
+p t . estp d s f pecifica
+o
+tgio r ns based upon the defined
+standards and the Performanacle Spoecific)a.tionT (Rollringstock). All test specifications
+m I
+c
+n
+o
+u d
+m
+s e
+m
+t p e b
+e
+n e
+n
+d
+t
+s e
+i
+u
+n
+n b t
+a
+m C
+c
+i
+c
+e t
+o
+t r e
+r
+ti
+d
+d fi
+a
+e (
+n
+r a
+c o
+s (
+e n
+w
+f
+p
+wi d
+i a t
+i
+eh r
+t
+n
+h
+t
+o
+t a
+w
+i o
+p n
+f
+a
+c eo
+r
+t r
+a
+h g p
+V g
+e r y
+er r a
+d tso
+p
+r i
+0
+oa
+h :
+n t f
+2
+t h
+2 1
+e
+.
+W G
+1 a
+S
+.
+o M
+n
+t r
+s
+a k
+i
+ot s e n T P a e n s d t P t l h a e n O a p n e d r a S t p o e r c ) if f i o c r a t r io e n vi ) e w to a t n h d e
+(d) T
+w
+h
+h
+e
+e r
+C
+e
+o
+s
+n
+y
+tr
+s
+a
+te
+ct
+m
+or
+s
+m
+in
+u
+te
+s
+r
+tC
+f a
+u
+c
+n
+e @
+d e
+w
+r d t
+it
+a
+uh
+k
+t i
+eo
+o
+n
+t
+p
+h
+r
+1e
+e
+3 r
+l i 0 m
+sy
+i
+s
+n
+Et
+a
+x e
+r p
+m
+y
+s
+s y
+(
+s
+e
+t
+g
+e m
+tr a
+te
+ct
+s
+i
+t
+o
+s
+n
+i
+/
+n
+b r
+t
+a
+h
+k
+e
+i n
+f
+g
+ac
+i
+t
+n
+o
+t
+r
+e
+y
+r
+,
+f a
+p
+c
+a
+e
+r
+s
+ti
+)
+c
+.
+u la
+T
+r
+h
+l
+e
+y
+final system type test
+t
+ws ill b
+e
+ec req6u-ired
+c
+kto be completed on a TTP or a Multiple Unit as
+part of the acceptanece r tesxts. 0 o
+b E 3 - s t
+(e) The Contractor .mr
+o
+usts
+(
+cond0
+2
+uct ne
+g
+ach factory test on each component, system,
+sub-system, TThP n an
+e
+dn M t ultip 2 le U olnli it in accordance with the Commissioning and Testing
+Plan and the C o ommmissioning Rand Testing Program (Rollingstock).
+J
+2.3 Acceptance tesrtts
+s
+ui r
+e
+P
+-
+e F
+q
+b e R
+o
+(a) The ContraRctor must ensure that all relevant type and routine tests are completed
+R
+on th e TTgP s and Multiple Units to confirm that they comply with the requirements of
+n
+n
+theh Performance Specification (Rollingstock) and IEC 61133.
+o
+ti
+s
+J e
+(b) The TContractor must prepare the Commissioning and Testing Plan detailing the type
+and- routine tests which are to be performed on each TTP and Multiple Unit prior to
+0
+Provisional Acceptance and Final Acceptance.
+2
+A
+(c) eThe Contractor must prepare the Commissioning and Testing Plan for each Multiple
+ul
+Unit detailing the routine tests which are to be performed on each Multiple Unit prior
+d
+e to Provisional Acceptance and Final Acceptance.
+h
+c
+S(d) In accordance with the Commissioning and Testing Plan, a structured set of
+1 hold/witness points must be identified within the Commissioning and Testing Plan
+0
+. whereby the Operator, the Independent Certifier, the State or its nominee can
+2
+2 inspect the results or witness specific tests.
+.
+8
+1
+4
+11:47\02 May 2023\AUS\MATTSM\689401203.01
+--- PAGE 5 ---
+Schedule A20 – Testing Requirements (Execution Version)
+(e) With reference to IEC 61133 - Testing of Rollingstock on completion of construction
+s
+and before entry into service, in addition to the obligatory routine/type tests, thte
+n
+following tests are also to be completed by the Contractor during the acceptance etest
+m
+process:
+e
+r
+ui
+(i) Static tests:
+q
+e
+R
+(A) subclause 8.3.3 Coefficient of flexibility type test;
+g
+n
+(B) subclause 8.6.3 Sealing routine test; ti
+s
+e
+T
+(C) subclause 8.9.4 Air System Functional routine test;
+-
+1
+0
+2
+(D) subclause 8.15.5 HVAC Passenger Area type/ro2utine test; and
+1
+A
+.
+2
+(E) subclause 8.15.8 Software control/safe3ty rel e ated routine test; and
+2 ul
+. d
+5
+(ii) Dynamic tests: 2 e
+h
+2
+c
+.
+5 S
+(A) subclause 9.2 Traction Performance type/routine test;
+6
+1 2
+2
+(B) subclause 9.5 Traction Themrm al C
+8
+a.pacity type test;
+o 1 m
+(C) subclause 9.6 Resistanc
+p
+e
+.
+c to M
+d
+fo, tion typ
+g
+e
+r
+a test;
+u p o
+(D) subclause 9.9.2a S l uspoensio)n . /Inte T r-Carr clearances type test;
+(
+(
+E
+F)
+) s
+s
+u
+u
+b
+b
+c
+c
+l
+l
+a
+a
+u
+u
+s
+so
+e
+e n f
+9
+9 i d
+.
+.
+e1
+1
+n 0
+5o
+t
+w
+.
+.
+i 2
+1 n
+eR
+E
+r
+M
+i g d
+V
+r
+C
+e
+e r I
+cs
+n
+i o
+0
+o
+t
+m
+:
+n
+e 2 r 1
+fo
+n
+G r
+aa
+t M
+l n
+q
+i s n
+u
+i
+o
+t
+a
+e
+n l
+r
+i P t
+fe
+y
+r
+t
+e
+y
+n
+p
+c
+e
+e
+t
+t
+e
+y
+s
+p
+t
+e
+;
+test;
+C d n 0 p
+(G) subclause @ 9. 17.2ti o Nois 3 e typEe x test; and
+u 1
+s c - k
+t e 6 c
+(H) subclaue rse 9.x20 Tr0ain Coontrol Systems type/routine test.
+b E 3 - s t
+(f) As soon as reason
+.
+ra
+o
+bly sp
+(
+ract0i
+2
+cablen
+g
+(and in any event no later than 10 Business Days)
+of successfully
+h
+c n om
+e
+pnle t ting 2 a t
+o
+e
+l
+slit on a Simulator or item of Project Equipment, the
+Contractor muost smupply a tesRt report to the Independent Certifier (with a copy to the
+J
+S
+in
+t a
+c
+t
+la
+e
+u
+a
+s
+n
+e
+d
+1 r
+t
+t6
+s
+h
+.
+e
+4
+O
+u(Ci
+p
+r
+e
+e
+e
+r
+r
+t
+a
+if
+t
+i
+o
+c
+r
+a
+)
+t
+.
+i oP
+T
+n
+-h
+o
+e
+f
+s
+t
+e
+e s
+re
+ts
+p
+)
+o
+o
+rt
+f
+s
+t h
+m
+e
+u
+d
+st
+e e
+c
+d
+o
+.
+m ply with the requirements set out
+e F
+q
+b e R
+2.4 On track tesotingR of the TTPs and Multiple Units on Network
+R
+g
+n
+(a) To hfacilitnate all dynamic tests (as set out in paragraph 2.3(e)(ii)) of a TTP or Multiple
+Uonit osn t i the Network, the Operator will grant, and the Contractor may use, the
+J e
+NetwTork Access Rights for the purposes of Testing and Commissioning using the
+Op-e rator Accreditation in accordance with clause 16 (Network Access Rights) of the
+C0ooperation Agreement.
+2
+A
+(b) e The Contractor will be responsible for:
+ul
+d
+e (i) any equipment and spares required for the on-track testing; and
+h
+c
+S (ii) the provision of any other persons required to conduct and supervise such
+1 test.
+0
+.
+2
+22.5 Testing of the ETCS system and GSM-R radio
+.
+8
+1 (a) The Contractor must perform type testing to prove the ETCS On-Board Equipment
+and GSM-R radio integration into the TTP or Multiple Unit in accordance with the
+5
+11:47\02 May 2023\AUS\MATTSM\689401203.01
+--- PAGE 6 ---
+Schedule A20 – Testing Requirements (Execution Version)
+Commissioning and Testing Plan and Commissioning and Testing Program
+s
+(Rollingstock). t
+n
+e
+m
+(b) The Contractor must submit all type testing documentation (as part of the draft
+e
+Works Test Plan and Specification) to the Independent Certifier (with a copyr to the
+ui
+State and the Operator) for review and comment, in accordance with clause 16
+q
+(Commissioning and Testing of Works) of the deed, three months prior toe any actual
+R
+testing being conducted.
+g
+n
+(c) The State must provide a section of the Network installed with tEiTCS Trackside
+s
+Equipment for the purpose of type testing the ETCS On-Board Equeipment.
+T
+-
+2.6 Testing of the PSD system 1
+0
+2
+2
+1
+A
+(a) The Contractor must perform type testing to prove th2e. PSD system integration into
+3 e
+the TTP or Multiple Unit in accordance with the Com
+2
+miss
+u
+iolning and Testing Plan and
+Commissioning and Testing Program (Rollingstock5).. d
+e
+2
+h
+2
+(b) The Contractor must submit all type testing .documcentation (as part of the draft
+5 S
+Works Test Plan and Specification) to the In6depen dent Certifier (with a copy to the
+1 2
+State and the Operator) for review and comm2ent, in accordance with clause 16
+(Commissioning and Testing of Works) ofm t he d8e . ed, three months prior to any actual
+o 1 m
+testing being conducted.
+c , a
+p . d f g r
+2.7 Testing of TTPs and Multiple Units fitteud wit p h an ATOo system
+al o ) . T r
+(a) T
+t C h
+h
+o e
+e
+m T
+C
+m T
+o
+P i
+n
+s s
+t
+o
+r
+i r o
+a
+n M
+c
+i
+t
+n u
+o
+g l
+r
+t i
+m
+p an le
+u
+d
+s
+U
+t
+T n e
+p
+o i s
+e
+t n t
+r
+f i i i n
+f
+n d
+o e
+g
+r
+a
+n m
+o c P
+t
+w
+i
+c r on
+t
+o
+y
+r
+e
+g d
+pr
+r
+g
+a
+e
+Va
+r
+n m e
+t
+cr
+e s
+e
+s
+(
+i
+0
+o
+R
+t
+w :
+n i
+2 o
+n
+i1t l
+g
+l h i
+G
+n
+t
+a t
+o M
+gn h s s e
+p
+t i
+o
+o
+r
+C
+on
+c o
+v
+k
+P
+m
+e
+). m
+t h
+i
+e
+s s
+A
+io
+T
+n
+O
+in
+s
+g
+y s
+a
+t
+n
+e
+d
+m
+T
+i
+e
+n
+s
+t
+t
+e
+in
+g
+g
+ra
+P
+ti
+l
+o
+a
+n
+n
+i
+a
+n
+n
+t
+d
+o
+C d n 0 p
+(b) The Contractor must su@bm it
+t
+a
+i
+o ll ty3p e t
+E
+esxting documentation (as part of the draft
+Works Test Plan and S
+s
+p ecifi
+c
+cuation
+-
+1) to
+k
+t he Independent Certifier (with a copy to the
+State and the Oper
+e
+arttor)
+x
+feor r
+0
+e 6 view
+o
+cand comment, in accordance with clause 16
+(Commissioning anbd TesEting o
+3
+f- Wo
+s
+rkts) of the deed, three months prior to any actual
+testing being con
+.
+d
+r
+oucte
+s
+d (.
+0
+2
+n
+g
+2.8 Testing of CRR inter h f
+n
+acees
+n t
+(inc
+2
+ludion
+ll
+g
+i
+PSD and ATO integration with CRR)
+o m R
+J
+(a) The Contr
+r
+a
+t
+sc to
+u
+r
+i
+rm e ust per
+P
+fo - rm type testing to prove the TTP or Multiple Unit is
+compatibele with CRR infrFastructure and systems, including:
+q
+b e R
+o
+R
+(i) Rto prove the PSD system integrates with the CRR infrastructure and systems;
+g
+nand
+n
+h
+o
+ti
+s
+(Jii) eto prove the ATO system integrates with the CRR infrastructure and systems,
+T
+-
+in accordance with the Commissioning and Testing Plan and Commissioning and
+0
+T2esting Program (Rollingstock).
+A
+e
+(b)
+u
+lThe Contractor must submit all type testing documentation (as part of the draft
+d Works Test Plan and Specification) to the Independent Certifier (with a copy to the
+e
+State and the Operator) for review and comment, in accordance with clause 16
+h
+c (Commissioning and Testing of Works) of the deed, three months prior to any actual
+S
+testing being conducted.
+1
+0
+.
+22.9 Testing accessibility of Multiple Units
+2
+.
+8
+1 (a) The Contractor must perform accessibility testing on a TTP or Multiple Unit, in
+accordance with the Testing and Commissioning Plan (Rollingstock), to prove the
+6
+11:47\02 May 2023\AUS\MATTSM\689401203.01
+--- PAGE 7 ---
+Schedule A20 – Testing Requirements (Execution Version)
+Multiple Unit is compliant with the Disability Standard for Accessible Public Transport
+s
+(DSAPT) and the accessibility requirements of the Performance Specificatiotn
+n
+(Rollingstock). e
+m
+e
+(b) Three months prior to any actual testing being conducted, the Contractor murst:
+ui
+q
+(i) submit all type testing documentation (as part of the draft Workes Test Plan
+R
+and Specification) to the Independent Certifier (with a copy to the State and
+g
+the Operator) for review and comment, in accordance with clause 16
+n
+(Commissioning and Testing of Works) of the deed; and ti
+s
+e
+T
+(ii) identify all disability and accessibility stakeholders that it considers are
+-
+required to attend and observe any accessibility te1sting.
+0
+2
+2
+1
+A
+(c) The State may engage relevant disability and accessib2il.ity st akeholders to attend and
+3 e
+observe accessibility testing as set out in the Co
+2
+mmu ulnications and Stakeholder
+Engagement Plan. 5 . d
+e
+2
+h
+2
+(d) The Contractor must prove the dwell time of th.e Mucltiple Unit matches, or is better
+5 S
+than that prescribed by the State. 6
+1 2
+2
+3. TESTING AND VALIDATION – SIMULATORSm A ND8 . PROJECT EQUIPMENT
+o 1 m
+c , a
+3.1 General p . d f g r
+u p o
+al o ) . T r
+(a) A P
+u a
+r
+s n
+s o
+s d
+a
+o
+j
+e
+e n
+c r
+c
+i t a
+t i
+a
+n
+t k e
+t E e
+e d
+q g
+n
+u
+s
+r i
+t
+a p
+a t
+l
+o
+m
+n
+p
+d
+a e
+d a
+n r
+e r
+t t
+d m
+, o
+s
+f
+o
+t
+a o
+t h
+n n
+h
+n
+e
+s f
+e
+d t i dr
+c C
+a s
+e e
+p
+n
+t
+o
+o e
+r t
+e
+n
+w
+i t
+c
+i t
+n
+f
+i
+r
+c f
+i e a c
+i o
+r
+c
+c a g
+m aV
+t tr o
+t
+i
+e p
+o
+i
+r
+r o l
+n s
+i n a
+i
+0
+o m
+s
+a
+n :
+n
+,2
+n
+c
+u
+1e a
+d s
+l
+Gt
+l
+v
+a w
+M
+A
+a
+n
+n
+p i
+l
+s t
+i o
+i
+d
+p h
+o m a
+l
+n
+i
+t
+c
+i
+t
+P n i
+a
+o
+h
+a
+b
+n
+e
+t
+l
+e
+e
+p
+T
+r
+R
+t o
+e e
+h c
+c q
+e e
+h u
+s
+n i
+s t
+i r c
+e
+e
+f
+a
+s o
+m l
+t r s
+e
+t
+R n
+h w
+e t
+e
+s q
+h
+u
+S
+a
+ic
+i n
+i
+r
+h m
+e d m
+u a
+t
+l
+h e
+a re
+i n
+t
+s
+o
+t s
+r
+d
+t s o
+e e a
+a
+d n
+n b
+. d
+d e
+C d n 0 p
+(b) These tests must be un@d erta
+t
+k
+i
+o en a3t th
+E
+ex different stages of the project life cycle,
+including, but not limit
+s
+e d to
+c
+: u
+-
+1
+k
+t e 6 c
+e r x 0 o
+(i) factory accep
+b
+tancEe test
+3
+s- – a
+s
+l
+t
+l components must be tested at the Contractor's
+or its Subc
+. r
+oontra
+s
+c (tors
+0
+2prem
+n
+gises prior to Delivery; and
+(ii) site accehp
+n
+tanec
+n
+e
+t
+test
+2
+upooln
+li
+Delivery.
+o m R
+J
+(c) W
+to
+i t
+t
+h
+h
+i
+e
+n
+R
+6
+e
+0
+ev ri t
+B
+e
+s
+w
+u s
+in
+i
+u
+n
+g i r
+e e
+P
+ss
+a r
+D
+ti
+a
+es
+y s
+Fa P
+o
+f u
+f-
+r
+t
+t
+h
+h
+e
+e r
+C
+v
+o
+e
+m
+rs
+m
+io
+e
+n
+n
+o
+ce
+f
+m
+th
+e
+e
+n
+C
+t
+o
+D
+m
+a
+m
+te
+i s
+t
+s
+h
+i
+e
+o n
+C
+in
+o
+g
+n t
+a
+r
+n
+a
+d
+ct
+T
+o
+e
+r
+s
+m
+tin
+u
+g
+st
+P
+p
+la
+r
+n
+o v
+a
+i
+n
+d
+d
+e
+q
+the Combmisseioning andR Testing Program (Rollingstock) demonstrating how it will
+o
+R
+compRly with and discharge its obligations in relation to paragraph 3.1(a).
+g
+n
+n
+h
+(d) In
+o
+the ticourse of its Review of the Commissioning and Testing Plan and the
+s
+CJommeissioning and Testing Program (Rollingstock), in accordance with the Review
+T
+Procedures, each Reviewing Party may provide comments, specifying any additional
+-
+tes ts which it requires in order to be assured that the relevant Simulator or item of
+0
+P2roject Equipment has satisfied or will satisfy the requirements of this deed.
+A
+e
+(e)
+u
+lThe Commissioning and Testing Plan and the Commissioning and Testing Program
+d (Rollingstock) will together describe and set out the nature of the tests,
+e
+specifications, methodology, pass/fail criteria, test location and date for each test
+h
+c against the corresponding part of the relevant Technical Requirements and must
+S
+include:
+1
+0
+.
+2 (i) the factory tests (see paragraph 3.2); and
+2
+.
+8
+1 (ii) the acceptance tests (see paragraph 3.3);
+7
+11:47\02 May 2023\AUS\MATTSM\689401203.01
+--- PAGE 8 ---
+Schedule A20 – Testing Requirements (Execution Version)
+(f) Where the Contractor does not submit a full specification (as part of the draft Works
+s
+Test Plan and Specification) to the Independent Certifier (with a copy to the Statte
+n
+and the Operator) in respect of each test it must indicate a date in the Commissioneing
+m
+and Testing Program (Rollingstock) when such test specification will be provided to
+e
+the Independent Certifier (with a copy to the State and the Operator) for revirew and
+ui
+acceptance, in accordance with clause 16 (Commissioning and Testing of qWorks) of
+the deed (which must be no later than three months before such test ise scheduled
+R
+to be carried out).
+g
+n
+(g) If the Contractor wishes to change any test in the Commissioning atind Testing Plan
+s
+(in addition to submitting the updated Commissioning and Testineg Plan for Review
+T
+under the Review Procedures) it must submit to the Independe nt Certifier (with a
+-
+copy to the State and the Operator) for review and acc1epta0n ce the proposed test
+2
+2
+specification (as part of the draft Works Test Plan an1d Specification) with clearly
+A
+.
+defined pass/fail criteria at least three months prior to2 the conduct of any scheduled
+3 e
+test, in accordance with clause 16 (Commissionin2g andul Testing of Works) of the
+. d
+deed. 5
+e
+2
+h
+2
+c
+3.2 Factory tests 5 . S
+6
+1 2
+(a) The Contractor must provide a list of the majo2r items of Project Equipment within
+m 8 .
+the Commissioning and Testing Plan
+o
+that
+1
+are to bme subjected to testing to
+demonstrate compliance. c , a
+p . d f g r
+(b) The items for review in factor
+a
+yl test
+o
+in u g m
+)
+.u p st inTclude
+r
+o but not be limited to:
+(
+(
+i
+i
+)
+i)
+c
+tr
+o
+a
+m
+in
+p
+m
+ut
+a
+e
+n
+r
+a
+g
+g
+e
+e
+n
+m
+e
+o
+r
+e
+a
+nn
+t
+fi
+t
+e
+d
+d
+s
+e
+y
+n
+o
+i t
+s
+m
+w
+i
+te
+n
+a e
+m
+gre g
+sV
+r r
+;
+e
+y
+r
+s (iC
+0
+o
+:
+G n
+2 1
+I )G
+a
+d M
+n
+a
+s
+t
+i
+a o bn a P se review;
+C d n 0 p
+(iii) review of possible@ s imu
+t
+li o ated3 f ault
+E
+xscenarios;
+u 1
+s c - k
+(iv) train perform
+e
+arntce,
+x
+ienclu
+0
+d 6 ing
+o
+rcelevant interfaces with ETCS, the PSD system
+and the ATOb systeEm; a 3 n-d s t
+(v) training
+h
+snc.e r
+o
+n
+e
+a n rti s o s
+(
+. 2 0
+2
+olli n
+g
+o m R
+(c) The ContracJtor must prepare the test specifications based upon the defined
+standards
+r t
+as nd
+u
+t
+i
+rh e e Perfor
+P
+m - a nce Specification (Simulators). All test specifications
+must be esubmitted to thFe Independent Certifier (with a copy to the State and the
+q
+Operatoo b r) foer review an R d comment in accordance with paragraph 3.1.
+R
+R
+g
+(d) Then Contractor must undertake preliminary system tests in the factory.
+n
+h
+o
+ti
+s
+(e) TJhe Ceontractor must conduct each factory test in accordance with the Commissioning
+T
+and Testing Plan and the Commissioning and Testing Program (Rollingstock).
+-
+0
+3.3 Accept2ance tests
+A
+e
+As
+u
+sloon as reasonably practicable (and in any event no later than 10 Business Days) of
+sudccessfully completing a test on a Simulator or item of Project Equipment, the Contractor
+e
+must supply a test report to the Independent Certifier (with a copy to the State and the
+h
+cOperator). These reports must comply with the requirements set out in clause 16.4
+S
+(Certification of tests) of the deed.
+1
+0
+.
+2
+2
+.
+8
+1
+8
+11:47\02 May 2023\AUS\MATTSM\689401203.01
+--- PAGE 9 ---
+Schedule A20 – Testing Requirements (Execution Version)
+4. TESTING AND VALIDATION – MANUFACTURING FACILITY
+s
+t
+n
+4.1 General e
+m
+e
+(a) As an integral part of the certification and validation process for the Manufarcturing
+Facility the Contractor must nominate the tests which will be undertua i ken to
+q
+demonstrate compliance with the Manufacturing Facility Technical Requireements, all
+R
+Applicable Requirements and this deed with respect to the Manufacturing Facility.
+g
+n
+(b) Within 60 Business Days of the Commencement Date the Contracttoir must provide
+s
+to the Reviewing Parties a further version of the Commissioning aned Testing Plan and
+T
+the Commissioning and Testing Program (Manufacturing Facility) for Review in
+-
+accordance with the Review Procedures, demonstrating1 how it will comply with
+0
+2
+paragraph 4.1(a) above. 1 2
+A
+.
+2
+3 e
+(c) In the course of its Review of the Commis
+2
+sionin
+u
+gl and Testing Plan and
+Commissioning and Testing Program (Manufactur5i.ng Fadcility) each Reviewing Party
+e
+may provide comments, in accordance with the2 Revhiew Procedures, specifying any
+2
+additional tests which it requires in order to as.suredc that the Manufacturing Facility
+5 S
+has satisfied and will satisfy the requirement6s of th is deed.
+1 2
+2
+(d) The Commissioning and Testing Plan man d C8o . mmissioning and Testing Program
+o 1 m
+(Manufacturing Facility) will together d
+c
+escri
+,
+b e and se
+a
+t out the nature of the tests,
+specifications, methodology, pass/failp c.riterdi f a, test lo
+g
+cartion and date for each test for
+the corresponding part of the
+a
+Mlanu
+o
+fa u ctur
+)
+i.n p g FaTcility
+r
+oTechnical Requirement and must
+i
+(
+n
+i)
+c lude
+P
+:
+hysical Compl
+o
+e
+n
+ti
+f
+o
+i
+dn
+e n
+o
+o
+t
+w
+f
+i
+nth
+e
+e
+r g
+V
+r
+M
+e
+ar
+s
+n
+i
+0
+o
+u
+:
+n
+2
+fa1c
+G
+t
+a
+u
+M
+n
+r
+s
+ini
+o
+g
+n
+F
+P
+acility (see paragraph 4.2); and
+(ii) Commissionin
+C
+g and dIntegnratio0n of tphe Manufacturing Facility and Assimilation
+with the Network@ (s ee p ti o arag3r aph E 4x.3).
+u 1
+s c - k
+(e) Where the Contracto
+e
+rr tdoe
+x
+se not
+0
+s 6 ubm
+o
+ict a full specification (as part of the draft Works
+Test Plan and SpecbificatiEon) t
+3
+o- the
+s
+tIndependent Certifier (with a copy to the State
+and the Operator
+. r
+)o in r
+s
+e (spe
+0
+c2t of
+n
+egach test described it must indicate a date in the
+C
+sp
+o
+e
+m
+ci
+m
+fic
+is
+a
+s
+t
+i
+i
+o
+o
+n
+n
+i
+s
+n
+o
+g
+w h i
+n
+ll
+a
+b m
+n
+e
+d
+e
+n
+p
+t
+r
+T
+o
+e
+v
+s
+i
+t
+d
+2in
+e
+g
+d R oto
+P lli r
+t
+o
+h
+g
+e
+r a
+In
+m
+d ep
+(M
+en
+a
+d
+n
+e
+u
+n
+fa
+t
+c
+C
+tu
+er
+r
+t
+in
+if
+g
+ie r
+F
+f
+a
+o
+c
+r
+i
+r
+li
+e
+ty
+v
+)
+ie w
+w
+a
+h
+n
+e
+d
+n
+a
+s
+c
+u
+ce
+c
+p
+h
+t a
+t
+n
+e
+c
+s
+e
+t
+i
+(
+n
+w h
+a
+i
+c
+c
+c
+h
+o
+m
+rd
+u
+a
+r
+st
+n
+s
+t
+c J
+b
+e
+e
+u
+w
+i
+nr
+e
+i
+o
+th
+la
+c
+te
+la
+r
+u
+t
+s
+h
+e
+Pa n
+1
+-
+6
+th
+(
+re
+C
+e
+o m
+m
+m
+on
+is
+t
+s
+h
+i
+s
+o n
+b
+i
+e
+n
+f
+g
+o re
+a n
+s
+d
+u c
+T
+h
+e
+t
+s
+e
+t
+s
+in
+t
+g
+is
+o
+s
+f
+c h
+W
+ed
+o
+u
+rk
+le
+s
+d
+)
+t
+o
+o
+f
+b
+t
+e
+h e
+c a
+d
+rr
+e
+ie
+e
+d
+d
+out). e q F
+b e R
+o
+R
+R
+(f) If the Cont ractor wishes to change any test in the Commissioning and Testing Plan
+g
+(in nadditnion to submitting the updated Commissioning and Testing Plan for Review
+h
+unoder stth i e Review Procedures) it must submit to the Independent Certifier (with a
+c J opy eto the State and the Operator) for review and acceptance, the proposed test
+T
+spe cification (as part of the draft Works Test Plan and Specification) with clearly
+-
+d0efined pass/fail criteria, at least three months prior to the conduct of any scheduled
+2
+Atest, in accordance with clause 16 (Commissioning and Testing of Works) of the
+e deed.
+ul
+d
+4.2 Physical Completion
+e
+h
+c
+SThe Contractor must provide a testing regime and list of tests which will demonstrate that
+1 the Manufacturing Facility Works are Physically Complete prior to undertaking any
+0 Commissioning, Integration or Assimilation.
+.
+2
+2
+.
+8
+1
+9
+11:47\02 May 2023\AUS\MATTSM\689401203.01
+--- PAGE 10 ---
+Schedule A20 – Testing Requirements (Execution Version)
+4.3 Commissioning, Integration and Assimilation
+s
+t
+n
+(a) Only once the Contractor has demonstrated that the Manufacturing Facility Woerks
+m
+are Physically Complete in accordance with the procedures referred to in
+e
+paragraph 4.2, will the Contractor have the right to complete Commissrioning,
+ui
+Integration and Assimilation.
+q
+e
+R
+(b) The Contractor must develop tests and procedures in respect of Commissioning,
+g
+Integration and Assimilation as set out below:
+n
+ti
+s
+(i) the tests must determinate that the Manufacturing Feacility has been
+T
+completed in accordance with the Manufacturing Facility Technical
+-
+Requirements; 1
+0
+2
+2
+1
+A
+(ii) the tests will be undertaken in a progressive a2n.d log ical sequence;
+3 e
+2 ul
+(iii) the Commissioning, Integration and Assimila.tion dprocedures developed by the
+5
+e
+Contractor must ensure that all activitie2s involving movement of TTPs and
+h
+2
+Multiple Units (in accordance with the C.ommcissioning and Testing Plan and
+5 S
+the Commissioning and Testing Progr6am (R ollingstock)) are segregated from
+1 2
+other construction, Commissioning , Int2egration and Assimilation and the
+Contractor is solely responsible fomr the8 . control and movement of TTPs and
+o 1 m
+Multiple Units;
+c , a
+p . d f g r
+(iv) the Commissioning and Inutegra p tion of tohe Manufacturing Facility and
+al o ) . T r
+(v)
+M d
+th
+e a
+e
+m n u o f
+C
+n a
+o
+s c t
+n
+t r u
+t
+a
+r
+r t
+a
+i e n
+c
+g
+t
+s
+o
+y
+o r
+F s
+n
+a t
+f
+e
+i
+c
+m d
+m i
+e
+li
+u
+n t
+o
+p y
+s
+t
+w
+i
+t
+e
+n
+r s
+e
+f y o
+n
+r s g r
+oV
+tr m e
+t e
+m
+r
+a
+s
+ni
+c
+s
+0
+o c
+a :
+n
+2
+e
+r
+m
+1 r
+a
+y
+u Gn
+a
+sM d t
+no s
+c
+u
+b
+i
+o
+a
+t
+e np a Pc
+A
+c a i
+s
+r t
+s
+r y
+i
+i
+m
+e a d s
+il a
+n o
+t
+e u
+io
+c t
+n
+e s b s y
+a
+a
+c
+r t y
+t
+h
+i
+;
+v
+e
+i t
+C
+ie
+o
+s
+n tr
+u
+a
+n
+c
+t
+t
+i
+o
+l
+r
+a
+to
+ll
+Commissionin
+C
+g and dIntegnratio0n actipvities have been successfully completed;
+@ ti o 3 E x
+(vi) the Contractor
+s
+m ust
+c
+uensu
+-
+r1e as
+k
+part of the Commissioning and Integration
+procedures th
+e
+ar tt the
+x
+e Stat
+0
+e 6 and
+o
+c any of its personnel or subcontractors receive
+the Primary bTrainEing re
+3
+g-ard
+s
+intg the Manufacturing Facility; and
+(vii) t
+o
+h
+r
+e
+d in
+C
+a
+o
+t
+n
+e h
+t
+d
+rn a.
+p
+r c
+o
+r
+t
+oe
+o
+g n
+r t
+r
+s
+a
+m
+(
+m
+u s2
+i
+t
+n
+0
+2
+l
+r
+ia
+eo
+i
+s l
+s
+l p
+ie n
+e
+g
+c
+w
+t
+i t
+o
+h
+f C
+th
+o
+e
+m
+S
+m
+ta
+is
+t
+s
+e
+i o
+a
+n
+n
+in
+d
+g
+t
+,
+h
+I
+e
+n t
+O
+eg
+p
+r
+e
+a
+r
+t
+a
+i
+t
+o
+o
+n
+r
+a
+t
+n
+o
+d
+e
+A
+n
+s
+s
+s
+u
+i
+r
+m
+e
+il
+a
+a t
+c
+io
+o
+n
+-
+o m R
+with tJhe Network Connection Works to be carried out by the Operator.
+r t
+s
+ui r
+e
+P
+-
+5. TESTING AND eVALIDATION –FORMEAU FACILITY
+q
+b e R
+o
+R
+5.1 General R
+g
+n
+n
+h
+(a) A
+o
+s an intitegral part of the certification and validation process for the Ormeau Facility
+s
+tJhe Ceontractor must nominate the tests which will be undertaken to demonstrate
+T
+compliance with the Ormeau Facility Technical Requirements, all Applicable
+-
+Re quirements and this deed with respect to the Ormeau Facility.
+0
+2
+A
+(b) Within 60 Business Days of the Commencement Date the Contractor must provide
+e
+ulto the Reviewing Parties a further version of the Commissioning and Testing Plan and
+d the Commissioning and Testing Program (Ormeau Facility) for Review in accordance
+e
+h with the Review Procedures, demonstrating how it will comply with paragraph 5.1(a)
+c above.
+S
+1
+0 (c) In the course of its Review of the Commissioning and Testing Plan and
+.
+2 Commissioning and Testing Program (Ormeau Facility) each Reviewing Party may
+2
+. provide comments, in accordance with the Review Procedures, specifying any
+8
+1 additional tests which it requires in order to assured that the Ormeau Facility has
+satisfied and will satisfy the requirements of this deed.
+10
+11:47\02 May 2023\AUS\MATTSM\689401203.01
+--- PAGE 11 ---
+Schedule A20 – Testing Requirements (Execution Version)
+(d) The Commissioning and Testing Plan and Commissioning and Testing Program
+s
+(Ormeau Facility) will together describe and set out the nature of the testts,
+n
+specifications, methodology, pass/fail criteria, test location and date for each teste for
+m
+the corresponding part of the Ormeau Facility Technical Requirement and must
+e
+include: r
+ui
+q
+(i) Physical Completion of the Ormeau Facility (see paragraph 5.2); aend
+R
+g
+(ii) Commissioning and Integration of the Ormeau Facility and Assimilation with
+n
+the Network (see paragraph 5.3). ti
+s
+e
+T
+(e) Where the Contractor does not submit a full specification (as part of the draft Works
+-
+Test Plan and Specification) to the Independent Certifier1 (with a copy to the State
+0
+2
+and the Operator) in respect of each test described it1 must2 indicate a date in the
+A
+Commissioning and Testing Program (Ormeau Facility2). whe n such test specifications
+3 e
+will be provided to the Independent Certifier for revi
+2
+ew an
+u
+dl acceptance in accordance
+with clause 16 (Commissioning and Testing of W5o.rks) dof the deed (which must be
+e
+no later than three months before such test is sc2heduhled to be carried out).
+2
+c
+.
+5 S
+(f) If the Contractor wishes to change any test 6in the Commissioning and Testing Plan
+1 2
+(in addition to submitting the updated Com miss2ioning and Testing Plan for Review
+under the Review Procedures) it must s m ub mit8 . to the Independent Certifier (with a
+o 1 m
+copy to the State and the Operator) fcor rev
+,
+iew and aacceptance the proposed test
+specification (as part of the draft Wpo.rks dT f est Plan garnd Specification) with clearly
+defined pass/fail criteria at lea
+a
+slt th
+o
+re u e m
+)
+o. p nthsT prio
+r
+ro to the conduct of any scheduled
+5.2 Physic
+t
+a
+e
+l
+s
+C
+t,
+o
+in
+m
+a
+p
+c
+l
+c
+e
+o
+t
+r
+i
+d
+o
+a
+n
+n ce wit
+o
+h
+n
+c
+fi
+l
+d
+a e u n
+o
+st
+w
+ie
+n
+1 e 6 r g
+V
+(rC
+e r
+o s m i
+0
+o
+:
+nm
+2 1
+i s G s
+a
+Mi
+n
+o
+s
+n
+i
+o in n g P and Testing of Works) of the deed.
+The Contractor must providCe a tedsting nregim0e anpd list of tests which will demonstrate that
+the Ormeau Facility Works are P@hy sic
+t
+ai o lly C3o mplEe x te prior to undertaking any Commissioning,
+u 1
+Integration or Assimilation. s c - k
+t e 6 c
+e r x 0 o
+5.3 Commissioning, Integrabtion Eand 3A-ssim
+s
+tilation
+. r
+o
+s
+(
+0
+2
+n
+g
+(a) O
+Ph
+n
+y
+ly
+s ic
+o
+a
+n
+ll
+c
+y
+e
+C
+t
+o
+h
+m
+e
+o h p
+nC
+le
+o
+m t
+n
+ee
+t r
+n
+in
+at c
+a
+t
+c
+o
+c
+r2
+o
+h
+rd R
+a
+a
+s
+on
+llid
+ce
+e m
+w
+o
+it
+n
+h
+s
+t
+t
+h
+ra
+e
+t e
+p
+d
+ro c
+th
+e
+a
+d
+t
+u r
+t
+e
+h
+s
+e
+re
+O
+f
+r
+e
+m
+rr
+e
+e
+a
+d
+u
+t o
+F a
+in
+c i
+p
+li
+a
+ty
+r a
+W
+gr
+o
+a
+r
+p
+k
+h
+s
+5
+a
+.
+r
+2
+e
+,
+w
+As
+il
+s
+l
+im
+th
+il
+e
+a ti
+C
+o r
+o
+tn
+s
+n
+.
+J tra
+ui
+c
+r
+e
+tor have
+P
+t
+-
+h e right to complete Commissioning, Integration and
+e F
+q
+(b) The Coon b tracetor must d R evelop tests and procedures in respect of Commissioning,
+R
+R
+Integration and Assimilation as set out below:
+g
+n
+n
+h
+(io) tthie tests must determinate that the Ormeau Facility has been completed in
+s
+J eaccordance with the Ormeau Facility Technical Requirements;
+T
+-
+(i0i) the tests will be undertaken in a progressive and logical sequence;
+2
+A
+(iii) the Commissioning, Integration and Assimilation procedures developed by the
+e
+ul Contractor must ensure that all activities involving movement of TTPs and
+d Multiple Units (in accordance with the Commissioning and Testing Plan and
+e
+h the Commissioning and Testing Program (Rollingstock)) are segregated from
+c
+S other construction, Commissioning, Integration and Assimilation and the
+1 Contractor is solely responsible for the control and movement of TTPs and
+0 Multiple Units;
+.
+2
+2
+. (iv) the Commissioning and Integration of the Ormeau Facility and Ormeau Facility
+8
+1 systems must be carried out by the Contractor using TTPs and Multiple Units
+(in accordance with the Commissioning and Testing Plan and the
+11
+11:47\02 May 2023\AUS\MATTSM\689401203.01
+--- PAGE 12 ---
+Schedule A20 – Testing Requirements (Execution Version)
+Commissioning and Testing Program (Rollingstock)) to demonstrate system
+s
+performance and capacity as necessary; t
+n
+e
+m
+(v) the Contractor must not carry out Assimilation activities until all
+e
+Commissioning and Integration activities have been successfully comprleted;
+ui
+q
+(vi) the Contractor must ensure as part of the Commissioning and eIntegration
+R
+procedures that the State and any of its personnel or subcontractors receive
+g
+the Primary Training regarding the Ormeau Facility; and
+n
+ti
+s
+(vii) the Contractor must liaise with the State and the Operatoer to ensure a co-
+T
+ordinated program in respect of Commissioning, Integration and Assimilation
+-
+with the Network Connection Works to be carried o1ut by the Operator.
+0
+2
+2
+1
+A
+6. OTHER STATE SITES 2 .
+3 e
+2 ul
+The Contractor must support the State and the State.’s Adssociates in respect of the
+5
+e
+commissioning, integration and assimilation of other si2tes and facilities on the Network to
+h
+2
+which the TTPs and Multiple Units have access (inc.ludincg the Stabling Sites and wash
+5 S
+plants). 6
+1 2
+2
+7. GENERAL m 8 .
+o 1 m
+c , a
+Save as where otherwise provided under thi
+p
+s. deeddf, any del
+g
+ary howsoever caused or arising
+in relation to conducting a test in or other evuent cpontemplatoed by this Schedule A20 (Testing
+al o ) . T r
+R
+(
+(
+a
+b
+e
+)
+)
+q uire
+c
+e
+m
+o
+n
+n
+t
+e
+i
+s
+t
+n
+t
+le
+t
+it
+s
+u
+)
+t
+t
+h
+w
+e
+e
+i
+a
+l
+C
+l
+V
+n
+o
+o
+n
+a
+t
+r
+t
+:
+r
+ia
+a
+t
+c
+i
+t
+o
+o
+n
+C
+r o
+u
+t n
+n
+o
+fi d d
+a
+e
+e
+dn
+r
+n
+o
+t
+t w
+e
+i
+h
+x
+ne
+t
+e
+ne
+r
+V
+g
+n V
+a
+r
+s
+e r
+i
+ri
+o
+a
+s
+0
+n
+i
+t
+0
+o
+i
+:
+o
+n
+o
+2 n
+f
+1
+t
+p
+P
+G
+i a m
+r
+M
+n
+o
+e
+s c i e
+o
+t
+d
+n
+o
+u
+P
+a
+re ;
+R e levant Acceptance Date for a
+Multiple Unit, Simulato@r or i
+t
+t
+i
+o em 3o f P
+E
+roxject Equipment or otherwise entitle the
+Contractor to any relie
+s
+f fro
+c
+mu any
+-
+1 of
+k
+it s obligations under this deed including any
+adjustment to any Protgrame; or 6 c
+e r x 0 o
+b E 3 - s t
+(c) i
+i
+n
+n cu
+a
+r
+n
+r
+y
+e d
+w
+o
+a
+r
+y
+o
+e
+th
+n
+h
+e
+t
+n
+i
+r
+t
+.w
+l
+r
+eo
+i s
+e
+e
+t
+n
+h
+tc s
+e
+o
+(
+m
+Co
+2p
+n
+0 e
+2t
+n
+r
+s
+a
+o
+a
+l
+c
+li t
+t
+n e
+og
+d
+r
+i
+t
+n
+o
+a
+b
+n
+e
+y
+r
+fo
+e
+r
+im
+m
+b
+o
+u
+r
+r s
+m
+ed
+an
+f
+n
+o
+e
+r
+r .
+a ny costs and expenses
+o m R
+J
+r t
+s
+ui r
+e
+P
+-
+e F
+q
+b e R
+o
+R
+R
+g
+n
+n
+h
+o
+ti
+s
+J e
+T
+-
+0
+2
+A
+e
+ul
+d
+e
+h
+c
+S
+1
+0
+.
+2
+2
+.
+8
+1
+12
+11:47\02 May 2023\AUS\MATTSM\689401203.01

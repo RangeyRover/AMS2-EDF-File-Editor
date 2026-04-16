@@ -1,0 +1,77 @@
+SOURCE FILE: DMD-15-48 - Downer General Signalling Specifications Guide.docx
+FULL PATH: C:\Users\markn\OneDrive - IXL Signalling\Sigtech\Downer QTMP\Downer - GSS\Downer - GSS\Part 1 - User Guide\DMD-15-48 - Downer General Signalling Specifications Guide.docx
+EXTENSION: .docx
+SIZE: 739390 bytes
+============================================================
+
+
+# Revision History
+
+# Contents
+Revision History	2
+Contents	3
+1.	Introduction	4
+1.1	Purpose	4
+1.2	Scope	4
+2.	Standards Definition	5
+3.	Downer GSS – Website Orientation	5
+4.	Process Definitions	6
+4.1	Standards Use	6
+4.2	Amendment Process	6
+
+# Introduction
+
+## Purpose
+The purpose of this guide is to define and maintain a consistent set of standards for the design, construction, operation, and maintenance of railway signalling infrastructure and associated systems at Ormeau Depot. These standards aim to,
+Ensure safety and reliability of railway operations for rollingstock and personnel.
+Provide clarity and uniformity for stakeholders, including engineers, contractors, operators, and regulators, to reduce ambiguity and improve quality outcomes.
+Replicate Queensland Rail standards where applicable to ensure consistency with local best practice.
+This document serves as a reference for all parties involved in Ormeau Depot, ensuring that the railway network meets the highest standards of safety, efficiency, and durability.
+
+## Scope
+As depicted in Figure 1 Ormeau Facility Rail Layout, the Downer Depot Control is connected to the Queensland Rail stabling yard by a southern and northern connection. The scope of this document is highlighted in blue.
+Figure 1 Ormeau Facility Rail Layout
+
+# Standards Definition
+The initial set of signalling standards applicable at Ormeau Depot is listed in Table 1 below. This list reflects Queensland Rail’s general signalling specifications initially identified as applicable to the project and is subject to continuous review and update.
+GSS Part 01B Version and Amendments Control Document (DMD-15-49) is the live standards register which will be updated to track all amendments to the Table 1 documents. This register can be accessed via the following link:
+[Insert hyperlink to Standards Register]
+Table 1 - Initial Applicable Queensland Rail Signalling Standards
+
+# Downer GSS – Website Orientation
+The Downer GSS website is split into four main areas and located via this link.
+User Guide (this document)
+Document Library (where all standards are located)
+Version and Amendments Control Document (GSS control and documented amendments)
+Engineering Amendments - Risk Assessments (documented risk assessed changes to original GSS)
+
+# Process Definitions
+
+## Standards Use
+Downer GSS documents are applied in a two-stage process,
+- Review the applicable GSS from the document library.
+- Review the Version and Amendments Control Document to check for applicable amendments.
+Design, verification, operation, maintain, test and commission must all interpret the Downer GSS by using the two-stage process.
+
+## Amendment Process
+Where a stakeholder wishes to modify or challenge a Downer GSS the requestor must email the Downer Infrastructure Managers Office (DIMO) (insert email) with the following details,
+Name & Company.
+Relevant GSS and clause number.
+Identified issue.
+Proposed amendment.
+Required resolution date.
+On receipt of the email the DIMO shall assess the request and take one of the following courses of action.
+Reject the amendment.
+Accept the amendment.
+Undertake an engineering risk assessment (required for any engineering change).
+In the circumstances when an amendment is required the DIMO shall update the Version and Amendments Control Document.
+In the circumstances where an engineering risk assessment is undertaken the DIMO shall publish the risk assessment and associated documentation within the Engineering Amendments folder.
+
+[TABLE 1]
+Downer  General Signalling  Specifications Guide Ormeau Depot
+
+[TABLE 2]
+REV | ISSUE DATE | CHANGE DETAILS
+A - Draft | 10/02/2025 | Frist Issue
+A - Draft |  | 
+0 |  | Official Issue

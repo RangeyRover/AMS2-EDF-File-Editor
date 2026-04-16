@@ -1,0 +1,321 @@
+SOURCE FILE: ICD027_C - Ormeau Signalling (Conventional - ETCS) DRAFT.docx
+FULL PATH: C:\Users\markn\OneDrive - IXL Signalling\Sigtech\Downer QTMP\ICD027_C - Ormeau Signalling (Conventional - ETCS) DRAFT.docx
+EXTENSION: .docx
+SIZE: 1837756 bytes
+============================================================
+
+Revision History
+Contents
+Revision History	2
+Contents	3
+Table of Figures	4
+Table of Tables	4
+Table of Abbreviations and Definitions	5
+1.	Introduction	6
+2.	Interface Control Document Status	7
+3.	Stage 1	7
+3.1	Introduction	7
+3.2	Interface Scope Split	7
+3.3	Baseline	8
+3.4	Demarcation Sketches & Operational Scenarios	8
+3.5	Testing & Commissioning	10
+4.	Stage 2	11
+4.1	Interface Scope Split	11
+4.2	Baseline Documentation	11
+4.3	Integration Demarcation & Identification	12
+4.4	Design Interface Definition	13
+4.5	Slot Requirements	15
+4.6	Interface Agreement	17
+5.	Responsible Interface Representatives	24
+Table of Figures
+Figure 1 - Ormeau Facility Rail Layout & ICD Locations	6
+Figure 2 - Stage 1 Southern Connection	8
+Figure 3 - Stage 1 Northern Connection	9
+Figure 4 – Northen Interface Demarcation	12
+Figure 5 – Southern Interface Demarcation	13
+Figure 6 – Physical Interface Demarcation Drawing for 1 Slot (Handshake)	17
+Figure 7 – MF06 Interfacing SER	18
+Figure 8 – ETCS within SY Northern Interfacing Location OSM2	19
+Table of Tables
+Table 1: Southern Connection OMC Inputs (OS Outputs)	20
+Table 2: Southern Connection OMC Outputs (OS Inputs)	21
+Table 3: Northern Connection OMC Inputs (OS Outputs)	22
+Table 4: Northern Connection OMC Outputs (OS Inputs)	23
+Table 5: Representatives	24
+
+# Table of Abbreviations and Definitions
+The following abbreviations are used through this ICD and have been defined in the following table:
+
+# Introduction
+The purpose of this Interface Control Document (ICD) is to define the signalling interface between the Ormeau Maintenance Facility and the Ormeau Stabling Yard.
+The project was originally planned to commission the Maintenance Facility and the Stabling Yard concurrently. However, with the introduction of ETCS in the Yard, the commissioning sequence has changed. The Maintenance Facility will now be commissioned first as Stage One, followed by the Stabling Yard as Stage Two. ICD027 addresses the boundary where the safe working system transitions, applicable to both stages. Sequence is responsible for delivering all safe working systems, including ETCS signalling design, within the Stabling Yard, while QTMP will deliver the conventional signalling within the Depot.
+Figure 1 illustrates the Ormeau Facility divided into two control zones: Gold lines represent the Stabling Yard, controlled by Queensland Rail’s Rail Management Centre (RMC). Blue lines represent the Maintenance Depot, controlled by the Contractor’s Depot Yardmaster. The schematic also identifies other relevant ICD interface locations.
+Figure 1 - Ormeau Facility Rail Layout & ICD Locations
+
+# Interface Control Document Status
+This Interface Control Document is currently at the Issued For Use (IFU) stage to allow QTMP to progress critical path activities. Activities which may trigger a future revision of this ICD include:
+Stakeholder review and comment assessment and response.
+Incorporation of additional or updated inputs.
+Workshop activities.
+
+# Stage 1
+
+## Introduction
+Stage 1 of the Ormeau Signalling works establishes the operational and physical interface between the Ormeau Maintenance Facility and the Ormeau Stabling Yard ahead of the commissioning of ETCS within the Stabling Yard. The purpose of Stage 1 is to enable the safe commissioning and operation of the Maintenance Facility as a conventional signalling system, while clearly defining and safeguarding the future ETCS interface boundary. No ETCS functionality, signalling slotting, or inter-system data exchange shall be commissioned or in service during Stage 1.
+Stage 1 is implemented through defined operational controls, physical demarcation, and signalling safeguards to manage train movements at the Southern interface boundary. These controls include stop boards, points clipped and locked in predetermined positions, restricted route availability, and agreed operating procedures. The Stage 1 signalling design shall not restrict or compromise the future implementation of Stage 2 ETCS interfaces.
+
+## Interface Scope Split
+The specification, design, procurement, installation, test and commission of the Stabling Yard Stage 1 safe system is the responsibility of Sequence Alliance. This document agrees the location of Sequence Alliance stop boards for the purposes of aligning interface control.
+
+## Baseline
+The following Stage 1 baseline document has been utilised for the purposes of this ICD. This baseline document and associated mark-ups depict the latest work‑in‑progress designs and are not yet approved. One purpose of this ICD is to serve as a controlled reference to support the approval process for these in‑progress drawings.
+
+## Demarcation Sketches & Operational Scenarios
+
+### Southern Connection
+The Southern Connection between the Ormeau Maintenance Facility and the Ormeau Stabling Yard is operational during Stage 1 under defined control and boundary arrangements. The functional interface with the Stabling Yard is managed through the following controls:
+Entry to the Depot: Queensland Rail shall route trains from dark territory up to Stop Board “B”. Control of the train shall transfer to Downer once the train is stopped at Stop Board “B” and verbally accepted by the Downer Yard Master.
+Exit from the Depot: Route 12 (1S) shall be utilised to route train movements from the depot up to Stop Board “A”. Queensland Rail shall assume control of the train once the train is stopped at Stop Board “A” and verbally accepted by the Rail Management Centre (RMC).
+Points Control: Points 4065 shall be clipped and locked in the normal position during normal operations and shall be unclipped only for approved Yard-to-Depot or Depot-to-Yard movements.
+Interface Constraints: No signalling slotting, interlocking data exchange, or functional interface shall be commissioned at the Southern Connection during Stage 1.
+Figure 2 - Stage 1 Southern Connection
+
+### Northern Connection
+The Northern Connection between the Ormeau Maintenance Facility and the Ormeau Stabling Yard is not operational during Stage 1. This removes the functional interface boundary with the Stabling Yard by undertaking the following,
+Points 4082 are clipped and locked in the normal position.
+Route 81 (2S) is allocated but reads up to the stopboard “A” on the Maintenance Facility side of the RIM boundary.
+Stopboard “A” defines the absolute limit of movement toward the Stabling Yard.
+A stop board “B” is provided on the Stabling Yard side of the RIM boundary and defines the absolute limit of movement toward the Maintenance Facility.
+No signalling slotting, interlocking data exchange, or functional interface is commissioned at the Northern Connection.
+Figure 3 - Stage 1 Northern Connection
+
+## Testing & Commissioning
+Test and Commissiong of both systems will be detailed within the respective parties Testing and Commissioning Plans.
+
+# Stage 2
+Stage 2 of the Ormeau Signalling works establishes the full operational and functional interface between the Ormeau Maintenance Facility and the Ormeau Stabling Yard following the commissioning of ETCS within the Stabling Yard.
+The purpose of Stage 2 is to enable integrated train operations across the interface boundary through the introduction of ETCS functionality, signalling slotting, and controlled interlocking data exchange between the respective signalling systems. Stage 2 builds upon the physical infrastructure and interface boundaries defined under Stage 1 and introduces the functional interfaces required to support coordinated entry and exit movements between the Maintenance Facility and the Stabling Yard.
+
+## Interface Scope Split
+The Ormeau Yard QTMP and Sequence Scope of Works matrix which was provided from State to Downer under QTMP-MNT-DTMR-LET-000077 - State Variation Notice - Ormeau Facility - ETCS L2. This was Attachment 4 - New Appendix 2 (Scope Split Matrix) to Schedule C1. This was provided to DTI under QTMP-MNT-DOW-LET-000310.
+
+## Baseline Documentation
+The following Stage 2 baseline documents have been utilised for the purposes of this ICD.
+
+## Integration Demarcation & Identification
+The diagrams in the following sections represent the latest work‑in‑progress designs and are not yet approved. One purpose of this ICD is to serve as a controlled reference to support the approval process for these in‑progress drawings.
+
+### Interface Demarcation
+Figure 4 and Figure 5 detail the Northern and Southern physical interface demarcation lines. Note, the current proposal is for MB’s 5709, 5698, 5567 and 5570 to also provide boundary information (i.e. Entrance to Downer Local Control or Entrance to Brisbane Suburban Control.
+Figure 4 – Northen Interface Demarcation
+Figure 5 – Southern Interface Demarcation
+
+## Design Interface Definition
+
+### Operational Scenarios
+The interface between Downer Depot and QR Stabling Yard will be managed by Downer through the InControl system or via Hitachi’s TMS system, the signalling system, and the slot request process. Typically, when these activities occur, the train movement will be completed by the QR Train Crew. The route set will also be established and managed by either the QR Network Control Officer (NCO) or the Downer Yard Master.
+For moves from the Depot to Stabling Yard via the Depot to Stabling Road in the North or the Southern Holding Road in the South, the Downer Yard Master is required to request the slot from QR NCO.
+For moves from Stabling Yard to the Depot via the Depot to Stabling Road in the North and via the Southern Holding Road in the South, QR NCO will request the slot from the Downer Yard Master
+For arrival from the Mainline to the Depot via Northern or Southern Holding Road, QR NCO will request the slot from the Downer Yard Master. This will use the same slot request as for train movements from the Stabling Yard to the Depot.
+For moves from the Depot to the Mainline via the Northern or Southern Holding Road, the slot will be requested by the Downer Yard Master for the QR NCO to accept. This will use the same slot request as for train movement from the Depot to the Stabling Yard.
+The operation of both the northern and southern shunt necks is under Downer Yard Master control. No slot request is required for movements within these areas.
+There will be a direct communication line between the Downer Yard Master and QR NCO. This line will be used to coordinate train movements between the Depot and the QR network. The Slot Request and Slot Release processes shall be performed by the signalling system. All rail traffic crew will use the train radio when departing either the Depot or Stabling Yard to communicate with QR NCO.
+
+### Operational Implementation
+The Ormeau Depot will be provided with fencing and train gates at the Northern and Southern connections. The QR NCO and Downer Yard Master shall be responsible for setting a signalling route across the RIM boundary via a signalling slot, this shall be up to the first signal beyond the boundary. The interface slots are proposed to be:
+The status of Exit Slot Signals, Entry Slot, points, and tracks in both the QR Stabling Yard and Downer Depot territories will be shared between the Depot and Stabling Yard interlocking systems. For the QR Stabling Yard, this includes movement authority up to/from ETCS Block Marker Boards 5698 and 5567, points 4100 and 4126, and tracks 5714FT, 5696AT, 5572AT and 5566AT. For the Downer Depot, this includes signals 12 and 81, points 4065 and 4082, and tracks 12AT, 11AT, 11BT, 11CT, 61BT, 81AT and 81BT. The status information will also be displayed on the graphical screens of both the Depot and Stabling Yard Train Control Systems for monitoring and controlling train movements.
+All slot requests shall be a one-shot request, meaning that a slot must be requested and released for each service entering or leaving the Depot.
+
+## Slot Requirements
+
+### Entry Slot Requirements
+Entry movements into Ormeau Depot are expected to be pre-planned, with the Downer Yard Master contacting the QR NCO when a train is scheduled to enter Ormeau Depot. The train shall be brought to Marker Board 5567 or 5709 under FS MA for the southern or northern interface respectively.
+The NCO generates a slot request. This is indicated on Downer Yard Master’s panel. The Downer Yard Master is required accept the slot to allow the NCO to activate the PSA. Accepting the slot will call, set and lock the 4100 or 4126 in the reverse position.
+With the slot accepted, NCO can set the route for 5565 to 5567 or 5696 to 5698 for the southern or northern connection respectively. RBC will issue FS MA to the last Marker Board (5567 or 5696). Subsequently the RBC will issue SH authority to proceed up to the Depot entrance signal (13 or 82).
+No further action is required from the NCO.
+The Slot Request and Slot Release functions shall restore once the train has occupied and cleared the replacement track of the last Marker Board, or when the route is cancelled.
+If the slot has been set and the Downer Yard Master removes the slot accept or the NCO cancels the slot request MA is maintained. The route is required to be cancelled in order to release the locking applied.
+Subsequent train movements from the QR Network onto the Ormeau Depot shall follow the same steps outlined above.
+
+#### Exit Slot Requirements
+Exit movements out of Ormeau Depot are expected to be pre-planned, with the Downer Yard Master contacting the QR NCO when a train is scheduled to depart Ormeau Depot. The train shall be brought to the handover locations before the Downer Yard Master calls a route from the handover locations to the Exit Slot Signal (Signal 81 on the north or Signal 12 on the south).
+The Downer Yard Master generates a slot request. This is indicated on QR NCO’s panel. The QR NCO is required accept the slot to set the route for 5570 or 5708 from the southern or northern connection respectively. Accepting the slot will call, set and lock the Depot protection points (points 4082 on the north or 4065 on the south) in the reverse position.
+With the slot accepted, Downer Yard Master can then set 12.1S or 81.2S route. Setting the route will call, set and lock 4065 or 4082 points reverse. With the train on the approach, the train gate will be called reverse and the signal will clear once the gate is detected reverse and all other CT conditions met.
+The train shall then proceed through the train gate and exit the Depot and approach Marker Board 5570 or 5709. No further action is required from the Downer Yard Master.
+The train gate shall automatically close once the train clears the gate island track.
+The Slot Request and Slot Release functions shall restore once the train has occupied and cleared the replacement track of the Exit Slot Signal, or when the signal route is cancelled.
+If the Exit Slot Signal has been set and the QR NCO removes the slot accept or the Downer Yard Master cancels the slot request the Exit Slot Signal shall maintain its aspect and route locking maintained. The Exit Signal route is required to be cancelled in order to put the signal back to Stop and normal approach locking release conditions apply.
+Subsequent train movements from the Ormeau Depot onto the QR Network shall follow the same steps outlined above.
+
+## Interface Agreement
+
+#### Schematic Interface
+Figure 6 provides a block diagram representing the physical interface which will exist between:
+SER (MF06) and OMS2 location case (ETCS within SY) for the Northern & Southern Connection functions (2* 50 core cables)
+Figure 6 – Physical Interface Demarcation Drawing for 1 Slot (Handshake)
+
+#### Equipment Location Interfaces
+Figure 7 – MF06 Interfacing SER and Figure 8 – ETCS within SY Northern Interfacing Location OSM2, Section 3 Baseline References 5 and 2, detail the Northen interface locations which will be connected by 2* 50 core cables. Section 3 Baseline Reference 6 details the MF06 cable connections.
+Figure 7 – MF06 Interfacing SER
+Figure 8 – ETCS within SY Northern Interfacing Location OSM2
+
+#### Relay to Relay Functions
+The interface functions are detailed in the following tables.
+Table 1: Southern Connection OMC Inputs (OS Outputs)
+Table 2: Southern Connection OMC Outputs (OS Inputs)
+Table 3: Northern Connection OMC Inputs (OS Outputs)
+Table 4: Northern Connection OMC Outputs (OS Inputs)
+
+### Installation, Testing & Commissioning
+Installation will be undertaken in line with the Ormeau Yard QTMP and Sequence Scope of Works matrix, detailed in Section 2.
+Test and Commissiong of both systems will be detailed within the respective parties Testing and Commissioning Plans.
+In summary QTMP will undertake the Testing and Commissioning of all MF06 assets and utilise a test panel to simulate Sequence relay inputs prior to RIM handover of the Stabling Yard. QTMP commissioning finalisation documentation will be provided to Sequence Alliance who will undertake the MF06 and ETCS within SY interface boundary testing post RIM handover.
+
+# Responsible Interface Representatives
+Table 5 defines the project interface representatives for Stages 1 and 2.
+Table 5: Representatives
+
+[TABLE 1]
+Interface Control Document 27 Rev C (Draft) Ormeau Signalling
+
+[TABLE 2]
+REV | ISSUE DATE | CHANGE DETAILS
+A - Draft | NA | Initial Interface Control Document Draft
+A - Draft |  | 
+B - Draft | NA | Updated to new reliance documentation.
+B - Draft |  | 
+C- Draft | NA | Updated to new reliance documentation.
+ |  | 
+0 |  | Official Issue
+
+[TABLE 3]
+Abbreviation | Description / Definition
+CSR | Combined Service Routes
+ETCS | European Train Control System
+ICD | Interface Control Document
+MF06 | Maintenance Facility Design Package 06
+ETCS within SY | ETCS within the Queensland Rail Stabling Yard
+QR | Queensland Rail
+QTMP | Queensland Train Manufacturing Program
+RCS | Remote Controlled System
+RIM | Rail Infrastructure Manager
+RMC | Rail Management Centre
+SER | Signalling Equipment Room
+SEQ | Sequence Alliance
+TMR | Department of Transport and Main Roads
+
+[TABLE 4]
+Ref | Project | Document Title | Document Title | Version
+1 | QTMP | QTMP-DOW-OMFRNS100-DRG-AS0001_H | ORMEAU MAINTENANCE FACILITY SIGNALLING ARRANGEMENT PLAN | 1A 020
+
+[TABLE 5]
+Ref | Project | Document Title | Document Title | Version
+1 | Sequence | 3215406-SEQ-1016SGET-MSD-AS0003 | B2V - SIGNALLING - SIGNAL ARRANGEMENT PLAN FOR ORMEAU YARD | A
+2 | Sequence | 3215406-SEQ-1016SGET-DRG-000002 | SCHEME PLAN FOR ORMEAU YARD | A
+3 | Sequence | 3215406-SEQ-1016SGET-MSD-000001 | ORMEAU YARD LOCATION AREA PLAN | A
+4 | QTMP | QTMP-DOW-OMFRNSI00-DRG-AS0001_E | ORMEAU MAINTENANCE FACILITY – SIGNALLING ARRANGEMENT PLAN | 1A 015
+5 | QTMP | QTMP-DOW-OMFRNSI00-DRG-AS0010_D | QTMP - MNT - ORMEAU DEPOT SIGNALLING SCHEME PLAN | 1A 008
+6 | QTMP | QTMP-DOW-OMFRNSI00-DRG-AS0006_D | QTMP - MNT - ORMEAU DEPOT MAIN CABLES | 1A 008
+
+[TABLE 6]
+ | Entry Slot (to Depot from QR) | Exit Slot (from Depot to QR)
+Northern Connection | OS 5698 | OMC 81.2S
+Southern Connection | OS 5567 | OMC 12.1S
+
+[TABLE 7]
+OSY Output (FDC) | OMC Input (MLK) | Description | Notes
+OS.5565.YR | OS.5565.YPR | ETCS Exit Slot Request | Initiated by NCO Used to set 12.1(S) route Prevents opposing slot request
+OS.5565.YNR | OS.5565.YNPR | ETCS Exit Slot Normal | Required to initiate route release at 12AT Required true in order to set opposing slot
+OMC.12.1S.YUCR | OMC.12.1S.YUCPR | Downer Exit Slot Accept | Accepted by NCO Used to set 12.1(S) route Prevents opposing slot request
+OS.5572A.T1PR | OS.5572A.TPR | 5572AT Track Repeat | Used to cross prove TCPR and allow for 12AT route stick to release
+OS.5572A.TC1PR | OS.5572A.TCPR | 5572AT Track Occupied | Positive proof of track occupancy Used to all for 12AT route stick to release
+OMC.12A(UP).ULSCR | OMC.12A(UP).ULSCPR | Positive proof of 12A(UP) route stick locked | Used in 12.1S.UCR
+OS.4100.NW1PR | OS.4100.NWPR | 4100 Points Normal Correspondence | 4100 set and locked normal. Used in 12.1S.UCR (in order to minimize possibility of train stopping at MB due to points out of correspondence)
+OS.5566A.T1KR | OS.5566A.TKR | 5566A Track Repeat Indication | Used for TCS indication only
+OS.4100.NL1KR | OS.4100.NLKR | 4100 Points Latched Normal Indication | Used for TCS indication only
+OS.4100.RL1KR | OS.4100.RLKR | 4100 Points Latched Reverse Indication | Used for TCS indication only
+OS.4100.WP1KR | OS.4100.WPKR | 4100 Points Correspondence Indication | Used for TCS indication only
+
+[TABLE 8]
+OMC Output (MLK) | OS Input (FDC) | Description | Notes
+OS.5565.YUCR | OS.5565.YUCPR | ETCS Exit Slot Accept | Accepted by YM Requires all opposing routes in OMC proved normal Requires 4065 free to go reverse Requires 13 signal route set and locked
+OMC.12.1S.YR | OMC.12.1S.YPR | Downer Exit Slot Request | Initiated by NCO Requires opposing slot normal
+OMC.12.1S.YNR | OMC.12.1S.YNPR | Downer Exit Slot Normal | Requires 12.1(S) route taken (11BGSR) or cancelled
+OMC.12A.T1PR | OMC.12A.TPR | 12AT Track Repeat | Vital output
+OMC.12A.TC1PR | OMC.12A.TCPR | 12AT Track Occupied | Vital output
+OMC.11A.T1PR | OMC.11A.TPR | 11AT Track Repeat | Vital output
+OMC.4065.NW1PR | OMC.4065.NWPR | 4065 Points Normal Correspondence | Vital Output
+OMC.11B.T1KR | OMC.11B.TKR | 11BT Track Repeat Indication | Used for Indication only
+OMC.11C.T1KR | OMC.11C.TKR | 11CT Track Repeat Indication | Used for Indication only
+OMC.4065.NL1KR | OMC.4065.NLKR | 4065 Points Latched Normal Indication | Used for Indication only
+OMC.4065.RL1KR | OMC.4065.RLKR | 4065 Points Latched Reverse Indication | Used for Indication only
+OMC.4065.WP1KR | OMC.4065.WPKR | 4065 Points Correspondence Indication | Used for Indication only
+OMC.4066.NL1KR | OMC.4065.NLKR | 4066 Points Latched Normal Indication | Used for Indication only
+OMC.4066.RL1KR | OMC.4065.RLKR | 4066 Points Latched Reverse Indication | Used for Indication only
+OMC.4066.WP1KR | OMC.4065.WPKR | 4066 Points Correspondence Indication | Used for Indication only
+OMC.12.NL1KR | OMC.12.NLKR | OMC 12 signal Normal Indication | Used for Indication only
+OMC.12.RG1KR | OMC.12.RGKR | OMC 12 signal ON aspect Indication | Used for Indication only
+OMC.12. G1KR | OMC.12.GKR | OMC 12 signal OFF aspect Indication | Used for Indication only
+OMC.13.NL1KR | OMC.13.NLKR | OMC 13 signal Normal Indication | Used for Indication only
+OMC.13.RG1KR | OMC.13.RGKR | OMC 13 signal ON aspect Indication | Used for Indication only
+OMC.13. G1KR | OMC.13.GKR | OMC 13 signal OFF aspect Indication | Used for Indication only
+GATE5.OPEN1KR | GATE4.OPENKR | Gate 5 Open Indication | Used for Indication only
+GATE5.CLOSED1KR | GATE4.CLOSEDKR | Gate 5 Closed Indication | Used for Indication only
+
+[TABLE 9]
+OS Output (FDC) | OMC Input (MLK) | Description | Notes
+OS.5698.YR | OS.5698.YPR | ETCS Exit Slot Request | Initiated by NCO Used to set 81.2(S) route Prevents opposing slot request
+OS.5698.YNR | OS.5698.YNPR | ETCS Exit Slot Normal | Required to initiate route release at 81BT Required true in order to set opposing slot
+OMC.81.2S.YUCR | OMC.82.2S.YUCPR | Downer Exit Slot Accept | Accepted by NCO Used to set 81.2(S) route Prevents opposing slot request
+OS.5696A.T1PR | OS.5696A.TPR | 5696AT Track Repeat | Used to cross prove TCPR and allow for 81BT route stick to release
+OS.5696A.TC1PR | OS.65696A.TCPR | 5572AT Track Occupied | Positive proof of track occupancy Used to all for 12AT route stick to release
+OMC.81B(DN).ULSCR | OMC.81B(DN).ULSCPR | Positive proof of 81B(DN) route stick locked | Used in 81.2S.UCR
+OS.4126.NW1PR | OS.4126.NWPR | 4126 Points Normal Correspondence | 4126 set and locked normal. Used in 81.2S.UCR (in order to minimize possibility of train stopping at MB due to points out of correspondence)
+OS.5714F.T1KR | OS.5714F.TKR | 5714F Track Repeat Indication | Used for TCS indication only
+OS.4126.NL1KR | OS.4126.NLKR | 4126 Points Latched Normal Indication | Used for TCS indication only
+OS.4126.RL1KR | OS.4126.RLKR | 4126 Points Latched Reverse Indication | Used for TCS indication only
+OS.4126.WP1KR | OS.4126.WPKR | 4126 Points Correspondence Indication | Used for TCS indication only
+
+[TABLE 10]
+OMC Output (MLK) | OS Input (FDC) | Description | Notes
+OS.5698.YUCR | OS.5698.YUCPR | ETCS Exit Slot Accept | Accepted by YM Requires all opposing routes in OMC proved normal Requires 4082 free to go reverse Requires 82 signal route set and locked
+OMC.81.2S.YR | OMC.81.2S.YPR | Downer Exit Slot Request | Initiated by NCO Requires opposing slot normal
+OMC.81.2S.YNR | OMC.81.2S.YNPR | Downer Exit Slot Normal | Requires 81.2(S) route taken (81BGSR) or cancelled
+OMC.81B.T1PR | OMC.81B.TPR | 12AT Track Repeat | Vital output
+OMC.81B.TC1PR | OMC.81B.TCPR | 12AT Track Occupied | Vital output
+OMC.4082.NW1PR | OMC.4082.NWPR | 4065 Points Normal Correspondence | Vital Output
+OMC.81A.T1KR | OMC.81A.TKR | 11BT Track Repeat Indication | Used for Indication only
+OMC.61B.T1KR | OMC.61B.TKR | 11CT Track Repeat Indication | Used for Indication only
+OMC.4082.NL1KR | OMC.4082.NLKR | 4082 Points Latched Normal Indication | Used for Indication only
+OMC.4082.RL1KR | OMC.4082.RLKR | 4082 Points Latched Reverse Indication | Used for Indication only
+OMC.4082.WP1KR | OMC.4082.WPKR | 4082 Points Correspondence Indication | Used for Indication only
+OMC.4081.NL1KR | OMC.4065.NLKR | 4081 Points Latched Normal Indication | Used for Indication only
+OMC.4081.RL1KR | OMC.4065.RLKR | 4081 Points Latched Reverse Indication | Used for Indication only
+OMC.4081.WP1KR | OMC.4065.WPKR | 4081 Points Correspondence Indication | Used for Indication only
+OMC.4077.NL1KR | OMC.4065.NLKR | 4077 Points Latched Normal Indication | Used for Indication only
+OMC.4077.RL1KR | OMC.4065.RLKR | 4077 Points Latched Reverse Indication | Used for Indication only
+OMC.4077.WP1KR | OMC.4065.WPKR | 4077 Points Correspondence Indication | Used for Indication only
+OMC.4080.NL1KR | OMC.4065.NLKR | 4080 Points Latched Normal Indication | Used for Indication only
+OMC.4080.RL1KR | OMC.4065.RLKR | 4080 Points Latched Reverse Indication | Used for Indication only
+OMC.4080.WP1KR | OMC.4065.WPKR | 4080 Points Correspondence Indication | Used for Indication only
+OMC.4078.NL1KR | OMC.4065.NLKR | 4078 Points Latched Normal Indication | Used for Indication only
+OMC.4078.RL1KR | OMC.4065.RLKR | 4078 Points Latched Reverse Indication | Used for Indication only
+OMC.4078.WP1KR | OMC.4065.WPKR | 4078 Points Correspondence Indication | Used for Indication only
+OMC.4079.NL1KR | OMC.4065.NLKR | 4079 Points Latched Normal Indication | Used for Indication only
+OMC.4079.RL1KR | OMC.4065.RLKR | 4079 Points Latched Reverse Indication | Used for Indication only
+OMC.4079.WP1KR | OMC.4065.WPKR | 4079 Points Correspondence Indication | Used for Indication only
+OMC.82.NL1KR | OMC.82.NLKR | OMC 82 signal Normal Indication | Used for Indication only
+OMC.82.RG1KR | OMC.82.RGKR | OMC 82 signal ON aspect Indication | Used for Indication only
+OMC.82. G1KR | OMC.82.GKR | OMC 82 signal OFF aspect Indication | Used for Indication only
+OMC.81.NL1KR | OMC.81.NLKR | OMC 81 signal Normal Indication | Used for Indication only
+OMC.81.RG1KR | OMC.81.RGKR | OMC 81 signal ON aspect Indication | Used for Indication only
+OMC.81. G1KR | OMC.81.GKR | OMC 81 signal OFF aspect Indication | Used for Indication only
+GATE4.OPEN1KR | GATE4.OPENKR | Gate 4 Open Indication | Used for Indication only
+GATE4.CLOSED1KR | GATE4.CLOSEDKR | Gate 4 Closed Indication | Used for Indication only
+
+[TABLE 11]
+Name | Company | Scope (If Applicable)
+Darryn DeReuck | Downer | Co-ordination
+Anthony Marquez | DTI | DTI design
+Kevyn Neale | TMR | Co-ordination
+Minhaj Ali | SEQ | SEQ Design

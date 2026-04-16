@@ -1,0 +1,1928 @@
+SOURCE FILE: QTMP - OF Subcontract - Schedule A11 - Design Process and Review Procedures (Execution version).PDF
+FULL PATH: C:\Users\markn\OneDrive - IXL Signalling\Sigtech\Downer QTMP\QTMP - OF Subcontract - Schedule A11 - Design Process and Review Procedures (Execution version).PDF
+EXTENSION: .pdf
+SIZE: 488771 bytes
+============================================================
+
+--- PAGE 1 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+SCHEDULE A11
+Design Process and Review Procedures
+Part 1 - Design Development Requirements
+1. GENERAL
+1.1 Design Development Requirements
+This Part 1 sets out the Design Development Requirements for the Design Development
+Process.
+1.2 Related provisions
+(a) These Design Development Requirements should be read in conjunction with the
+other parts of this deed that relate to the development of the Design Documentation,
+including in particular, the following:
+(i) clause 21 (Design) of the deed;
+(ii) Part 2 of this Schedule A11 (Design Process and Review Procedures); and
+(iii) the Design Management Plan.
+1.2A The Contractor’s role in the Design Development Process
+(a) This paragraph 1.2A applies notwithstanding any provision to the contrary in this
+Schedule A11 (Design Process and Review Procedures), and no provision in this
+Schedule A11 (Design Process and Review Procedures) in any way limits the
+application of this paragraph 1.2A.
+(b) The parties must work together collaboratively during the Design Development
+Process in respect of the Design Documentation including in particular, prior to the
+submission of ‘Submitted Documents’ (as defined in the Project Deed) to the
+Reviewing Parties under the Project Deed.
+(c) Without limiting paragraph 1.2A(b), the Builder must:
+(i) consult and liaise with the Contractor during the preparation of the Design
+Documentation;
+(ii) do all things reasonably necessary to assist the Contractor in observing the
+Design Development Process and the ‘Design Development Process’ under the
+Project Deed (including any ancillary and informal design processes); and
+(iii) actively involve the Contractor in the Design Development Process (including
+any ancillary and informal design processes); and
+(iv) allow the Contractor to review all Design Documentation,
+so that the Contractor is able to reasonably form the view (from such consultation,
+liaison and progressive review of the Design Documentation ahead of submission to
+the Reviewing Parties) that the Design Documentation complies (in terms of format
+and substance) with the requirements of this deed.
+1
+--- PAGE 2 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(d) Without limiting paragraph 1.2A(c), the Contractor is entitled to attend, inspect,
+review and do all things necessary to observe the Design Development Process being
+conducted by the Builder for the purposes of Contractor reasonably forming the view
+that the Builder is performing its obligations in accordance with this deed; and
+(e) the Builder must:
+(i) in preparing the Design Documentation for submission to the Contractor (and
+in turn the Reviewing Parties) take into account any reasonable requests given
+by the Contractor during the Design Development Process;
+(ii) amend the Design Documentation as necessary to address any non-
+compliance notified by the Contractor during the Design Development Process;
+(iii) if reasonably requested by the Contractor, demonstrate to the Contractor that
+it has amended the Design Documentation to take into account any
+reasonable requests given by the Contractor during the Design Development
+Process; and
+(iv) give the Contractor access to the Design Documentation as it is progressively
+prepared.
+1.3 Design Stages
+(a) Subject to paragraphs 1.3(aa) and 1.3(ab), the Builder must ensure that the Design
+Documentation is progressed through each of five stages (each a Design Stage) in
+the order set out below:
+(i) System Definition Review;
+(ii) Preliminary Design Review;
+(iii) Detailed Design Review;
+(iv) Test Readiness Review; and
+(v) System Verification Review,
+as described in sections 1.4, 1.5, 1.6, 1.7 and 1.8 of this Schedule A11 (Design
+Process and Review Procedures).
+(aa) Not used.
+(ab) With respect to the Ormeau Facility Works:
+(i) for related design package 1 set out in Table 1 of Annexure E (Related
+Design Package 1 (OF)):
+(A) there will be a combined PDR Design Stage and DDR Design Stage for
+Design Packages SW03, SW04, SW10, SW12 and SW13; and
+(B) the Builder is required to meet all requirements set out in
+paragraphs 1.5 and 1.6 for each Design Package in Related Design
+Package 1 (OF) but is not required to submit a Design Package for
+Review until the DDR Design Stage;
+2
+--- PAGE 3 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(ii) the TRR Design Stage will only apply to those Design Packages marked
+with an 'X' in the 'Test Readiness Review' column of Table 1 in Annexure E;
+and
+(iii) where the TRR Design Stage does not apply to a Design Package, the SVR
+submission for that Design Package (in addition to the requirements set
+out in paragraph 1.8) must also evidence the following:
+(i) paragraph 1.7(c)(vii);
+(ii) paragraph 1.7(c)(viii);
+(iii) paragraph 1.7(c)(ix); and
+(iv) paragraph 1.7(c)(x).
+(b) The Builder acknowledges and agrees that:
+(i) not used;
+(ii) not used;
+(iii) for the Ormeau Facility Works:
+(A) during the PDR Design Stage and DDR Design Stage, not all Design
+Packages need to be progressed through the Design Stage at the same
+time;
+(B) the Design Management Plan sets out all the Design Packages that
+must be progressed through the PDR Design Stage or DDR Design
+Stage, as applicable, at the same time (Related Design Packages);
+and
+(C) with respect to the PDR Design Stage and the DDR Design Stage, each
+Design Package has been allocated to a Related Design Package under
+the Design Management Plan; and
+(iv) for the Ormeau Facility Works during the SDR Design Stage:
+(A) Related Design Package 1 (OF) does not need to be progressed through
+the SDR Design Stage at the same time as the other Design Packages;
+(B) all other Design Packages must be progressed through the SDR Design
+Stage at the same time;
+(v) it will ensure that for each Related Design Package set out in the Design
+Management Plan, the Design Packages within the Related Design Package
+progress through the Design Stages at the same time.
+(c) The Builder acknowledges and agrees that the purpose of the Design Stages is to
+provide a staged framework for the development of the Design Documentation:
+(i) in a way that enables the Contractor’s Representative, each Reviewing Party
+and at the State's discretion the Operator, User Groups and other
+stakeholders, to review and comment on relevant aspects of the design as it
+develops; and
+3
+--- PAGE 4 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(ii) recognising the Builder's obligations to progress the Builder Activities in a
+timely manner,
+whilst ensuring sufficient time is also available for the Contractor’s Representative,
+each Reviewing Party and the other parties referred to in paragraph 1.3(c)(i) to
+Review the Design Documentation under the Review Procedures.
+1.3A SVR Design Stage
+The Builder acknowledges and agrees that:
+(a) with respect to Ormeau Facility Works:
+(ii) all Design Packages for the Ormeau Facility Works will be progressed through
+the SVR Stage prior to Ormeau Facility Completion; and
+(b) not used.
+1.4 System Definition Review (SDR)
+The Builder acknowledges and agrees that:
+(a) the purpose of the SDR is to ensure that system specification and interface
+requirements are complete and unambiguous;
+(b) during the SDR Design Stage, the Builder must submit for Review, sufficient
+information to communicate to the Contractor’s Representative how each
+requirement in the Builder Requirements (Ormeau Facility) will be achieved by
+allocating requirements as set out in paragraph 1.4(c);
+(c) the Builder must allocate:
+(i) each requirement in the Builder Requirements (Ormeau Facility) (including
+any SEMS set out in the Performance Specifications (Ormeau Facility) to all of
+the relevant Design Package(s) in the Requirement Verification Matrix
+described in paragraph 1.4(d)(ii). Each requirement in the Builder
+Requirements (Ormeau Facility) must be allocated to at least one Design
+Package; and
+(ii) each relevant requirement in the SEMS set out in Schedule A32 (SEMS)
+(SEMS Requirements) to all of the relevant Design Package(s) in the SEMS
+Requirement Verification Matrix described in paragraph 1.4(d)(iii). Each
+relevant SEMS Requirement must be allocated to at least one Design Package;
+(d) the SDR Design Documentation for the Ormeau Facility Works must include:
+(i) concept general arrangement drawings;
+(ii) a requirement verification matrix that:
+(A) has every requirement (including every requirement in the Builder
+Requirements (Ormeau Facility)) allocated to the appropriate Design
+Packages;
+(B) nominates the Design Stage for design verification for each
+requirement; and
+4
+--- PAGE 5 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(C) nominates the verification method for each requirement,
+(Requirement Verification Matrix);
+(iii) a SEMS requirement verification matrix that:
+(A) has every applicable SEMS Requirement allocated to the appropriate
+Design Packages;
+(B) nominates the Design Stage for design verification for each SEMS
+Requirement; and
+(C) nominates the verification method for each SEMS Requirement,
+(SEMS Requirement Verification Matrix); and
+(iv) all other Design Documentation requirements for SDR as specified in the
+Builder Requirements (Ormeau Facility);
+(v) evidence that the proposed solution meets and is traceable to approved
+requirements presented in the Contractor's Proposal;
+(e) for the Ormeau Facility Works, the Builder must submit the SDR Design
+Documentation (as Design Packages) in accordance with the Design Management
+Plan for Review, and the SDR Design Documentation must meet the SDR Objectives
+set out in paragraph 1.4(f) and 1.4(fa) (as applicable);
+(f) subject to paragraph 1.4(fa), for the Ormeau Facility Works the Builder must achieve
+the following objectives (SDR Objectives) for all the Design Packages:
+(i) the 'Stakeholder Requirements Definition Process' of AS/NZS ISO/IEC 15288
+has been completed;
+(ii) the 'Requirements Analysis Process' of AS/NZS ISO/IEC 15288 has been
+completed;
+(iii) 'Phase 1: Concept' of EN 50126-1 has been completed;
+(iv) 'Phase 2: System definition and application conditions' of EN 50126-1 has
+been completed;
+(v) 'Phase 3: Risk analysis' of EN 50126-1 has been completed;
+(vi) 'Phase 4: System requirements' of EN 50126-1 has been completed;
+(vii) 'Phase 5: Apportionment of system requirements' of EN 50126-1 has been
+completed;
+(viii) all Builder Activities defined as required for SDR in the Management Plans
+(Builder) have been completed;
+(ix) all requirements set out in this Schedule A11 (Design Process and Review
+Procedures) relating to SDR (including in this paragraph 1.4 and
+paragraph 2.3) have been achieved;
+(x) the requirements of this deed have been understood by the Builder and any
+ambiguities resolved;
+5
+--- PAGE 6 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(xi) all Initial Management Plans (Builder) and Confirmed Management Plans
+(Builder), as applicable, are being implemented;
+(xii) where the Contractor’s Representative has provided comments to the Builder
+on a Submitted Document or rejected a Submitted Document, the Builder has
+complied with paragraph 7.1(a)(ii) of the Review Procedures;
+(xiii) the System Definition Review is a consistent and logical development of the
+Concept Design; and
+(xiv) all Design Documentation and Management Plans (Builder) required for SDR,
+including those set out in Annexure A, have been submitted for Review under
+the Review Procedures and Confirmed (as applicable);
+(fa) for Related Design Package 1 (OF) set out in Table 1 of Annexure E for the Ormeau
+Facility Works, the Builder is only required to achieve the following SDR Objectives:
+(i) the 'Stakeholder Requirements Definition Process' of AS/NZS ISO/IEC 15288
+has been completed;
+(ii) the 'Requirements Analysis Process' of AS/NZS ISO/IEC 15288 has been
+completed;
+(iii) all Builder Activities defined as required for SDR in the Management Plans
+(Builder) have been completed;
+(iv) all requirements set out in this Schedule A11 (Design Process and Review
+Procedures) relating to SDR (including in this paragraph 1.4 and paragraph
+2.3) have been achieved;
+(v) the requirements of this deed have been understood by the Builder and any
+ambiguities resolved;
+(vi) all Initial Management Plans (Builder) and Confirmed Management Plans
+(Builder), as applicable, are being implemented;
+(vii) where the Contractor’s Representative has provided comments to the Builder
+on a Submitted Document or rejected a Submitted Document, the Contractor
+has complied with paragraph 7.1(a)(ii) of the Review Procedures;
+(viii) the System Definition Review is a consistent and logical development of the
+Concept Design; and
+(ix) all Design Documentation and Management Plans (Builder) required for P1
+SDR, including those set out in Annexure A, have been submitted for Review
+under the Review Procedures and Confirmed (as applicable);
+(g) subject to paragraph 1.4(fa) and 1.4(ga), with respect to the Ormeau Facility Works,
+when the Builder is of the reasonable opinion that all SDR Objectives for the Ormeau
+Facility Works have been achieved for all Design Packages, the Builder must provide
+notice in writing, signed by an authorised representative of the Builder, stating that
+each of the SDR Objectives have been achieved and how each of the SDR Objectives
+6
+--- PAGE 7 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+have been achieved together with supporting evidence (SDR Notice) for Review by
+the Contractor’s Representative in accordance with the Review Procedures; and
+(ga) with respect to the Ormeau Facility Works, when the Builder is of the reasonable
+opinion that all SDR Objectives for the Ormeau Facility Works have been achieved
+for Related Design Package 1 (OF) the Builder must provide notice in writing, signed
+by an authorised representative of the Builder, stating that each of the SDR
+Objectives have been achieved and how each of the SDR Objectives have been
+achieved together with supporting evidence (SDR Notice) for Review by the
+Contractor’s Representative in accordance with the Review Procedures;
+(h) as a condition precedent to the Builder proceeding to the PDR Design Stage, the
+corresponding SDR Notice must have achieved Confirmed Document status in
+accordance with the Review Procedures.
+1.5 Preliminary Design Review (PDR)
+Subject to paragraph 1.3(aa), the Builder acknowledges and agrees that:
+(a) the purpose of the PDR is to demonstrate that the integrated design will meet the
+systems, legal, stakeholder and Authority requirements;
+(b) during the PDR Design Stage, the Builder must submit for Review, Design
+Documentation that demonstrates that the preliminary design meets the systems,
+legal, stakeholder and Authority requirements;
+(c) during the PDR Design Stage, the Builder must submit for Review, Design
+Documentation sufficient to achieve the requirements of the relevant Authorities and
+third parties;
+(d) the Builder will establish the preliminary design baseline by the end of the PDR
+Design Stage;
+(e) for the Ormeau Facility Works, the PDR Design Documentation must include, as a
+minimum:
+(i) a set of drawings and schematics commensurate with the PDR Design Stage;
+(ii) a design report detailing the works undertaken and assumptions made in the
+PDR stage;
+(iii) the Requirement Verification Matrix, updated to provide traceability to the
+design evidence that verifies the requirements nominated for verification in
+the PDR Design Stage;
+(iv) the SEMS Requirement Verification Matrix updated to provide traceability to
+the design evidence that verifies the SEMS Requirements nominated for
+verification in the PDR Design Stage;
+(v) complete details and selections of all equipment, plant, materials and finishes;
+(vi) how comments issued by the Contractor’s Representative on the SDR Design
+Documentation have been addressed;
+(vii) a compliance check with the Environmental Applicable Requirements of the
+Builder Requirements (Ormeau Facility) and the Project Approval;
+7
+--- PAGE 8 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(viii) all other Design Documentation requirements for PDR as specified in the
+Builder Requirements (Ormeau Facility); and
+(ix) a safety assurance report;
+(f) the Builder must ensure that the PDR Design Documentation submission contains
+evidence of the following:
+(i) relevant stakeholder identification and adequate consultation;
+(ii) compliance with Environmental Applicable Requirements;
+(iii) whole-of-life sustainability outcomes appropriately addressed;
+(iv) whole-of-life risk identification and appropriate management;
+(v) reliability, availability, maintainability and safety considerations appropriately
+addressed;
+(vi) hazard log and appropriate management of identified hazards;
+(vii) compliance with approved assurance and governance arrangements which
+compliance will be achieved through the provision of a certificate of
+compliance in the form set out in Annexure B;
+(viii) report for significant configuration changes;
+(ix) demonstration that a safe so far and reasonably practicable outcome will be
+achieved;
+(x) all appropriate technical approvals identified and obtained;
+(xi) preliminary design, inclusive of design drawings and a design report;
+(xii) the overarching inspection and test plans (not including procedures);
+(xiii) proposed solution meets and is traceable to approved requirements presented
+at SDR Design Stage;
+(xiv) a list of long lead material items proposed to meet the delivery schedule;
+(g) with respect to the Ormeau Facility Works, the Builder must ensure that PDR Design
+Documentation for each Design Package is accompanied by a 3D model that has
+spatial allocation and coordination of each element of Works and conforms with:
+(i) the building information modelling exchange information requirements (BIM
+EIR – V9 2021) (Building Information Modelling Exchange Information
+Requirements); and
+(ii) TMR Drafting and Design Presentation Standards Manual Volume 1: Chapter
+5 – Project Electronic Models for the development of 3D models set out at
+https://www.tmr.qld.gov.au/business-industry/Technical-standards-
+publications/Drafting-and-design-presentation-standards (TMR Drafting
+and Design Presentation Standards Manual); and
+(h) for the Ormeau Facility Works, the Builder must submit the PDR Design
+Documentation in accordance with the Design Management Plan for Review, and the
+8
+--- PAGE 9 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+PDR Design Documentation must meet the PDR Objectives set out in
+paragraph 1.5(i);
+(i) for the Ormeau Facility Works, the Builder must achieve the following objectives
+(PDR Objectives) for each of the Related Design Packages:
+(i) the 'Architectural Design Process' of AS/NZS ISO/IEC 15288 has been
+completed;
+(ii) all required inputs to support completion of PDR Design Stage have been
+Submitted and Confirmed (as applicable);
+(iii) all Builder Activities defined as required for PDR in the Management Plans
+(Builder) have been completed;
+(iv) all requirements set out in this Schedule A11 (Design Process and Review
+Procedures) relating to PDR (including in this paragraph 1.5 and
+paragraph 2.3) have been achieved;
+(v) the operating environment of the Fleet Assets has been understood by the
+Contractor and any ambiguities resolved;
+(vi) all Confirmed Management Plans (Builder) are being maintained and
+implemented;
+(vii) subject to paragraph 7.2 of the Review Procedures, input from User Groups
+and other stakeholders (on grounds consistent with paragraph 5 of the Review
+Procedures) have been addressed to the satisfaction of the Contractor;
+(viii) the Preliminary Design is a consistent and logical development of the system
+definition and Concept Design;
+(ix) not used;
+(x) not used;
+(xi) with respect to the Ormeau Facility Works, the 'Ormeau Depot Model' and the
+'Ormeau Stabling Model' described in the Builder Requirements (Ormeau
+Facility):
+(A) locates the major elements within the building as set out in the Builder
+Requirements (Ormeau Facility) and demonstrates how the facilities
+will operate, and complies with the requirements set out in the Builder
+Requirements (Ormeau Facility);
+(B) has been submitted to the Contractor’s Representative for Review; and
+(C) subject to paragraph 7.2 of the Review Procedures, has obtained
+Confirmed status; and
+(xii) subject to paragraph 7.2 of the Review Procedures, all Design Documentation
+and Management Plans (Builder) required for PDR, including those set out in
+Annexure A, have been submitted for Review under the Review Procedures
+and Confirmed (as applicable);
+(j) with respect to the Ormeau Facility Works, when the Builder is of the reasonable
+opinion that all PDR Objectives for the Ormeau Facility Works have been achieved
+9
+--- PAGE 10 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+for a Related Design Package, the Builder must provide notice in writing, signed by
+an authorised representative of the Contractor, stating that each of the PDR
+Objectives have been achieved for that Related Design Package and how each of the
+PDR Objectives have been achieved together with supporting evidence (PDR Notice)
+for Review by the Contractor’s Representative in accordance with the Review
+Procedures; and
+(k) subject to paragraph 7.2 of the Review Procedures, the Builder must not progress a
+Related Design Package to the DDR Design Stage unless the PDR Notice for that
+Related Design Package has achieved Confirmed Document status in accordance with
+the Review Procedures.
+1.6 Detailed Design Review (DDR)
+The Builder acknowledges and agrees that:
+(a) the purpose of the DDR is to ensure that the design has been translated into
+constructible / deliverable design, and will meet all test and acceptance / completion
+criteria that the Builder will need to satisfy;
+(b) during the DDR Design Stage, the Builder must submit for Review Design
+Documentation of sufficient detail to ensure that the design complies with the
+requirements of the Builder Requirements (Ormeau Facility) and can be constructed
+/ manufactured / delivered;
+(c) during the DDR Design Stage, the Builder must submit for Review verification
+evidence that demonstrates that the detailed design achieves all the requirements
+as allocated to Design Package(s) (set out in paragraph 2.3) under review;
+(d) during the DDR Design Stage, the Builder must submit for Review Design
+Documentation sufficient to achieve the requirements of the relevant Authorities and
+third parties;
+(e) the DDR Design Documentation for the Ormeau Facility Works must include:
+(i) a full set of design drawings suitable for development of the construction /
+manufacturing drawings for the Works, as defined in the Design Management
+Plan;
+(ii) a design report detailing the works undertaken and assumptions made in the
+DDR stage, highlighting changes from the PDR stage;
+(iii) the Requirement Verification Matrix updated to provide traceability to the
+design evidence for every requirement;
+(iv) the SEMS Requirement Verification Matrix updated to provide traceability to
+the design evidence for every SEMS Requirement;
+(v) all documents required to demonstrate compliance with each of the specific
+and derived requirements under the Builder Requirements (Ormeau Facility)
+and SEMS;
+(vi) documentation for each Design Package, including technical specifications and
+testing, commissioning and acceptance / completion criteria for the Works;
+10
+--- PAGE 11 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(vii) a compliance check with the Environmental Applicable Requirements and the
+Project Approval;
+(viii) how comments made by the Contractor’s Representative on the PDR Design
+Documentation have been addressed in accordance with the Review
+Procedures;
+(ix) evidence of any Authority Approvals that the Builder is required to obtain for
+the design and construction of the relevant Works;
+(x) a safety assurance report; and
+(xi) all other Design Documentation requirements for DDR as specified in Builder
+Requirements (Ormeau Facility);
+(f) the DDR Design Documentation submission must contain evidence of the following:
+(i) relevant stakeholder identification and adequate consultation;
+(ii) compliance with the Environmental Applicable Requirements;
+(iii) whole-of-life sustainability outcomes appropriately;
+(iv) whole-of-life risk identification and appropriate management;
+(v) whole-of-life costs have been considered and conducted where appropriate;
+(vi) reliability, availability, maintainability and safety considerations appropriately
+addressed;
+(vii) hazard log and appropriate management of identified hazards;
+(viii) compliance with approved assurance and governance arrangements which
+compliance will be achieved through the provision of a certificate of
+compliance;
+(ix) identification of outstanding issues and assurances with resolution strategies
+in place;
+(x) design safety assurance argument including so far as is reasonably practicable
+demonstration from a whole of system perspective;
+(xi) assessment and documentation of safety risk from a whole of system
+perspective including identification of residual safety risk, appropriate
+management of and obtainment of agreement from relevant stakeholders
+such as risk owners and risk control owners;
+(xii) technical approvals have been identified and obtained, including any
+derogations to SEMS in accordance with clause 10A of the Cooperation
+Agreement Obligations, and final designs have been approved;
+(xiii) solution meets, and is traceable to, approved requirements presented at PDR
+Design Stage;
+(xiv) human factors considerations as appropriate;
+11
+--- PAGE 12 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(xv) maintenance requirements identified and understood, including appropriate
+addressing of any additional or new maintenance equipment or arrangements;
+(xvi) verification and validation (VAV) strategies during construction in place;
+(xvii) identification of asset information that shall be delivered;
+(xviii) detail design, inclusive of design drawings and a design report;
+(xix) inspection and test plan templates / frameworks as relevant to the applicable
+Design Packages;
+(g) for the Ormeau Facility Works, the DDR Design Documentation for each Design
+Package must be accompanied by a 3D model that conforms with:
+(i) Building Information Modelling Exchange Information Requirements;
+(ii) TMR Drafting and Design Presentation Standards Manual; and
+provides the construction baseline of each element of the Works that has been
+previously submitted as a PDR design submission, to the extent required in the BIM
+Execution Management Plan;
+(h) for the Ormeau Facility Works, the Builder must submit the DDR Design
+Documentation in accordance with the Design Management Plan for Review, and the
+DDR Design Documentation must meet the DDR Objectives set out in
+paragraph 1.6(i);
+(i) for the Ormeau Facility Works, the Builder must achieve the following objectives
+(DDR Objectives) for each of the Related Design Packages:
+(i) 'Phase 6: Design and implementation' of EN 50126-1 has been completed;
+(ii) all required inputs to support completion of the DDR Design Stage have been
+Submitted and Confirmed (as applicable);
+(iii) all Builder Activities defined as required for DDR in the Management Plans
+(Builder) have been completed;
+(iv) all requirements set out in this Schedule A11 (Design Process and Review
+Procedures) relating to DDR (including in this paragraph 1.6 and
+paragraph 2.3) have been achieved;
+(v) all Confirmed Management Plans (Builder) are being maintained and
+implemented;
+(vi) all Design Documentation and Management Plans (Builder) required for DDR,
+including those set out in Annexure A, have been submitted for Review under
+the Review Procedures and Confirmed (as applicable);
+(vii) where the Contractor’s Representative has provided comments to the Builder
+on a Submitted Document or rejected a Submitted Document, the Builder has
+complied with paragraph 7.1(a)(ii) of the Review Procedures;
+(viii) the Detailed Design is a consistent and logical development of the Preliminary
+Design, System Definition and Concept Design;
+12
+--- PAGE 13 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(ix) with respect to the Ormeau Facility Works:
+(A) for each Related Design Package, once all final DDR Design
+Documentation for that Related Design Package has achieved
+Confirmed status, such final DDR Design Documentation for that
+Related Design Package must be updated by the Builder to a final
+package formally marked "issued for construction" (IFC Design
+Package);
+(B) the IFC Design Package for that Related Design Package must:
+(aa) to the extent not already incorporated, incorporate all previous
+comments from the DDR Design Stage for that Related Design
+Package; and
+(bb) meet the requirements of an IFC submission set out in the
+relevant Industry Standards and State's Policies and Standards;
+(cc) be accompanied by a design certificate from the Builder set out
+in paragraph 2.3(d) which must accompanied by a RPEQ
+number and signature; and
+(C) the Builder must have submitted the IFC Design Package for that
+Related Design Package to the Contractor’s Representative for
+information.
+(x) not used;
+(xi) not used;
+(xii) with respect to the Ormeau Facility Works, the 'Ormeau Depot Model' and the
+'Ormeau Stabling Model' described in the Builder Requirements (Ormeau
+Facility):
+(A) locates all the elements within the buildings as set out in the Builder
+Requirements (Ormeau Facility), and complies with the requirements
+set out in the Builder Requirements (Ormeau Facility);
+(B) has been submitted to the Contractor’s Representative for Review; and
+(C) has obtained Confirmed status;
+(xiii) all hazards have been mitigated so far as is reasonably practicable by the
+design;
+(xiv) not used; and
+(xv) with respect to the Ormeau Facility Works, the Builder has provided to the
+Contractor, a certificate certifying that the Confirmed DDR Design
+Documentation is acceptable and will enable the Contractor to perform the
+O&M Services in accordance with this deed, and
+the DDR Objectives for each of the Related Design Packages for the Ormeau Facility
+Works will be achieved at different time frames;
+(j) with respect to the Ormeau Facility Works, when the Builder is of the reasonable
+opinion that all DDR Objectives for the Ormeau Facility Works, have been achieved
+13
+--- PAGE 14 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+for a Related Design Package, the Builder must provide notice in writing, signed by
+an authorised representative of the Contractor, stating that each of the DDR
+Objectives have been achieved for that Related Design Package and how each of the
+DDR Objectives have been achieved together with supporting evidence (DDR Notice)
+for Review by the Contractor’s Representative in accordance with the Review
+Procedures;
+(k) as a condition precedent to the Builder progressing a Related Design Package to the
+TRR Design Stage, the DDR Notice for that Related Design Package must have
+achieved Confirmed Document status in accordance with the Review Procedures; and
+(l) to the extent there is Escrow Material or Subcontractor Escrow Material, when it
+submits for Review the Design Documentation, it will also submit, and procure that
+its Subcontractors submit, for Review in accordance with the Review Procedures, an
+updated list of Escrow Material and Subcontractor Escrow Material which reflect any
+changes that need to be made to the respective Escrow Material as a result of
+changes made to the design during the DDR Design Stage. To the extent that the
+Review of the Escrow Material and Subcontractor Escrow Material confirms that there
+are changes to the Escrow Material and/or Subcontractor Escrow Material under an
+Escrow Agreement, the State and the Builder or Subcontractor as appropriate will
+progress a variation to the Escrow Agreement to reflect the relevant change.
+1.7 Test Readiness Review (TRR)
+Subject to paragraphs 1.3(aa) and 1.3(ab), the Builder acknowledges and agrees that:
+(a) during the TRR Design Stage, the Builder must demonstrate the construction has
+been completed as per the Design Documentation and the deed;
+(b) during the TRR Design Stage, the Builder must submit for Review Design
+Documentation sufficient to achieve the requirements of the relevant Authorities and
+third parties, and the TRR Design Documentation must include:
+(i) the Requirement Verification Matrix updated to provide traceability to the
+system for every requirement;
+(ii) the SEMS Requirement Verification Matrix updated to provide traceability to
+the system for every SEMS Requirement; and
+(iii) all documents required to demonstrate compliance with each of the specific
+and derived requirements under the Builder Requirements (Ormeau Facility)
+and SEMS;
+(c) the TRR submission must contain evidence of the following:
+(i) relevant stakeholder identification and adequate consultation;
+(ii) whole-of-life sustainability outcomes appropriately addressed;
+(iii) compliance with the Environmental Applicable Requirements;
+(iv) hazard log and appropriate management of identified hazards;
+(v) compliance with approved assurance and governance arrangements which
+compliance will be achieved through the provision of a certificate of
+compliance;
+14
+--- PAGE 15 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(vi) identification of outstanding issues and assurances with resolution strategies
+in place;
+(vii) assessment of safety risk for the given scope;
+(viii) safety assurance argument including so far as is reasonably practicable
+demonstration;
+(ix) identification and obtainment of technical approvals, including concessions to
+standards or equivalent if required; and
+(x) as-constructed survey information, including an updated BIM model for the
+Ormeau Facility Works;
+(d) for the Ormeau Facility Works, the Builder must submit the TRR Design
+Documentation in accordance with the Design Management Plan and the TRR Design
+Documentation must meet the TRR Objectives set out in paragraph 1.7(e);
+(e) for the Ormeau Facility Works, the Builder must achieve all the following objectives
+(TRR Objectives) for all the Design Packages:
+(i) the 'Implementation Process' of AS/NZS ISO/IEC 15288 has been completed;
+(ii) the 'Integration Process' of AS/NZS ISO/IEC 15288 has been completed;
+(iii) 'Phase 7: Manufacturing' of EN 50126-1 has been completed;
+(iv) 'Phase 8: Installation' of EN 50126-1 has been completed;
+(v) subject to paragraph 7.3 of the Review Procedures, all required inputs to
+support completion of the TRR Design Stage have been submitted and
+Confirmed (as applicable);
+(vi) all Builder Activities defined as required for TRR in the Management Systems
+(Builder) and Management Plans (Builder) have been completed;
+(vii) all requirements set out in this Schedule A11 (Design Process and Review
+Procedures) relating to TRR (including in this paragraph 1.7 and
+paragraph 2.3) have been achieved;
+(viii) all Confirmed Management Plans (Builder) are being maintained and
+implemented;
+(ix) subject to paragraph 7.3 of the Review Procedures, all Design Documentation
+and Management Plans (Builder) required for TRR, including those set out in
+Annexure A, have been submitted for Review under the Review Procedures
+and Confirmed (as applicable); and
+(x) all hazards have been mitigated so far as is reasonably practicable;
+(f) with respect to the Ormeau Facility Works, when the Builder is of the reasonable
+opinion that all TRR Objectives for the Ormeau Facility Works have been achieved
+for all of the Design Packages, the Builder must provide notice in writing, signed by
+an authorised representative of the Builder, stating that each of the TRR Objectives
+have been achieved and how each of the TRR Objectives have been achieved
+15
+--- PAGE 16 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+together with supporting evidence (TRR Notice) for Review by the Contractor’s
+Representative in accordance with the Review Procedures;
+(g) except in relation to the Depot Works, as a condition precedent to the Builder
+progressing to the SVR Design Stage, the corresponding TRR Notice must have
+achieved Confirmed Document status in accordance with the Review Procedures; and
+(h) with respect to the Depot Works, subject to paragraph 7.3 of the Review Procedures,
+the Builder must not progress to the SVR Design Stage unless the TRR Notice has
+achieved Confirmed Document status in accordance with the Review Procedures.
+1.8 System Verification Review (SVR)
+Subject to paragraphs 1.3(aa) and 1.3(ab), the Builder acknowledges and agrees that:
+(a) the purpose of the SVR is to verify that all the requirements of the system have been
+delivered prior to the operation and maintenance of the Fleet Assets;
+(b) during the SVR Stage, the Builder must submit for Review Design Documentation
+sufficient to achieve the requirements of the relevant Authorities and third parties,
+and the SVR Design Documentation must include:
+(i) the Requirement Verification Matrix updated to provide traceability to the
+system for every requirement;
+(ii) the SEMS Requirement Verification Matrix updated to provide traceability to
+the system for every SEMS Requirement; and
+(iii) all documents required to demonstrate compliance with each of the specific
+and derived requirements under the Performance Specification (Ormeau
+Facility), Builder Requirements (Ormeau Facility) and SEMS;
+(c) the SVR submission must contain evidence of the following:
+(i) relevant stakeholders have been identified and adequately consulted;
+(ii) compliance with the Environmental Applicable Requirements;
+(iii) whole-of-life sustainability outcomes appropriately addressed;
+(iv) whole-of-life cost assessments have been prepared for handover where
+appropriate;
+(v) reliability, availability, maintainability and safety considerations have been
+appropriately addressed;
+(vi) hazard log and appropriate management of identified hazards;
+(vii) compliance with approved assurance and governance arrangements which
+compliance will be achieved through by the provision of a certificate of
+compliance; and
+(viii) identification of outstanding issues and assurances with resolution strategies
+in place;
+16
+--- PAGE 17 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(d) for the Ormeau Facility Works, the Builder must achieve all the following objectives
+(SVR Objectives) for all the Design Packages:
+(i) the 'Verification Process' of AS/NZS ISO/IEC 15288 has been completed;
+(ii) the 'Transition Process' of AS/NZS ISO/IEC 15288 has been completed;
+(iii) 'Phase 9: System validation' of EN 50126-1 has been completed;
+(iv) 'Phase 10: System acceptance' of EN 50126-1 has been completed;
+(v) all required inputs to support completion of the SVR Design Stage have been
+submitted and Confirmed (as applicable);
+(vi) all Builder Activities defined as required for SVR in the Management Plans
+(Builder) have been completed;
+(vii) all requirements set out in this Schedule A11 (Design Process and Review
+Procedures) relating to SVR (including in this paragraph 1.8 and
+paragraph 2.3) have been achieved;
+(viii) all Confirmed Management Plans (Builder) are being maintained and
+implemented;
+(ix) all Design Documentation and Management Systems (Builder) and
+Management Plans (Builder) required for SVR, including those set out in
+Annexure A, have been submitted for Review under the Review Procedures
+and Confirmed (as applicable); and
+(x) all hazards have been mitigated so far as is reasonably practicable;
+(da) not used;
+(e) (i) with respect to the Ormeau Facility Works, when the Builder is of the reasonable
+opinion that all SVR Objectives for the Ormeau Facility Works have been achieved
+for all of the Design Packages, the Builder must provide notice in writing, signed by
+an authorised representative of the Builder, stating that each of the SVR Objectives
+have been achieved and how each of the SVR Objectives have been achieved
+together with supporting evidence (SVR Notice) for Review by the Contractor’s
+Representative in accordance with the Review Procedures;
+(ea) not used;
+(f) not used.
+(g) with respect to the Ormeau Facility Works, the Builder acknowledges that is a
+criterion for Ormeau Facility Completion that the SVR Notice has achieved Confirmed
+Document status in accordance with the Review Procedures;
+(h) to the extent there is Escrow Material or Subcontractor Escrow Material, when it
+submits for Review the SVR Design Documentation, it will also submit, and procure
+that its Subcontractors submit, for Review in accordance with the Review Procedures,
+an updated list of Escrow Material and Subcontractor Escrow Material which reflect
+any changes that need to be made to the respective Escrow Material as a result of
+changes made to the design during the SVR Stage. To the extent that the Review
+of the Escrow Material and Subcontractor Escrow Material confirms that there are
+17
+--- PAGE 18 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+changes to the Escrow Material and/or Subcontractor Escrow Material under an
+Escrow Agreement, the State and the Builder or Subcontractor as appropriate will
+progress a variation to the Escrow Agreement to reflect the relevant change; and
+(i) as a precondition to the Contractor's payment of any Milestone Payments under:
+(i) paragraph 2.6(d) of Schedule E1 (Payment Mechanism), the Builder must
+have achieved Ormeau Facility Completion; and
+(ii) not used.
+2. DESIGN DEVELOPMENT PROCESS
+2.1 Process Overview
+The Builder must:
+(a) develop, document and comply with the Design Management Plan for the conduct of
+the Design Development Process in accordance with clause 21 (Design) of the deed,
+this Schedule A11 (Design Process and Review Procedures), the Performance
+Specification (Ormeau Facility) and the Builder Requirements (Ormeau Facility);
+(b) subject to paragraphs 7.2 and 7.3 of the Review Procedures, develop each Design
+Document progressively through each of the Design Stages (as part of Design
+Packages) until it is a Confirmed document;
+(c) for each Design Stage, as relevant:
+(i) develop, consult on, submit for Review, respond to the Contractor’s
+Representative's comments on and refine each Design Document all in
+accordance with paragraph 2.3 and the Review Procedures; and
+(ii) to the extent the Builder is invited to attend, the Builder must facilitate and
+participate in the Design Presentations contemplated in paragraph 3 and the
+User Group interactions contemplated in paragraph 4; and
+(d) design, manufacture and provide the Mock-Ups as contemplated in clause 20 (Mock-
+Up and Scale Models) of the deed and these Design Development Requirements.
+2.2 Design Pre-Start Meeting and Design Management Plan
+(a) The Builder acknowledges that, to commence the ‘Design Development Process’
+under the Project Deed, within 10 Business Days of the Commencement Date, the
+Contractor, the Independent Safety Assessor, the Independent Certifier and the
+State will coordinate and participate in one or more collaborative pre-start meetings.
+(b) The Builder acknowledges that the purpose of the pre-start meetings is to assist the
+Contractor to finalise the Design Management Plan, and for the State, the
+Independent Safety Assessor, the Independent Certifier and the Contractor to
+discuss and develop:
+(i) appropriate protocols and processes for the Contractor to submit Design
+Packages for Review electronically (in accordance with the information and
+document management requirements in the Design Management Plan) and
+(if required by the State) also in hard copy format;
+(ii) a nominal schedule for Design Presentations and User Group meetings; and
+18
+--- PAGE 19 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(iii) appropriate protocols and processes for conducting the meetings and
+recording their outcomes.
+(c) The Builder must provide the Contractor with all reasonable assistance relating to
+the Builder Activities requested in preparation for, or otherwise in connection with, a
+pre-start meeting under paragraph 2.2 of Part 1 of Schedule A11 (Design Process
+and Review Procedures) of the Project Deed including, if requested by the Contractor,
+attending pre-start meetings.
+2.3 Design Packages
+(a) For each Design Stage, the Builder must:
+(i) as a minimum, develop for Review the Design Packages described in the
+Design Management Plan; and
+(ii) ensure that the Design Packages include all Design Documentation:
+(A) required to fully evidence that:
+(aa) all requirements under this deed (including Variations) and all
+Builder derived system requirements:
+(a) are satisfied by the design of the Deliverables;
+(b) will be and have been implemented by the manufacture
+and/or construction of the Deliverables; and
+(c) in each case, have been verified;
+(bb) all Defects have been investigated and rectified;
+(cc) all hazards and risks in relation to, or in connection with, the
+Builder Activities have been mitigated so far as is reasonably
+practicable;
+(dd) all configuration changes have been fully implemented;
+(ee) the objectives for Reviews of Design Documentation identified
+in the Performance Specification (Ormeau Facility) and the
+Builder Requirements (Ormeau Facility) have been achieved;
+and
+(ff) Management Plan (Builder) commitments have been
+undertaken;
+(B) required to operate the Fleet Assets;
+(C) updated or amended, having previously achieved a Confirmed
+Document status;
+(D) reasonably necessary from time to time to explain the Performance
+Specification (Ormeau Facility), the Builder Requirements (Ormeau
+Facility) and any Variations including where necessary to show
+interfaces between systems;
+19
+--- PAGE 20 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(E) reasonably necessary to enable the Builder to execute and complete
+the design and construction of the Works and any Variations to the
+Works Directed in accordance with clause 35 (Variations) of the deed;
+(F) stated in the Performance Specification (Ormeau Facility) or the Builder
+Requirements (Ormeau Facility) to be prepared by the Builder; and
+(G) to provide details of selections in relation to materials, finishes, fittings
+(including colour) or any other matter where the the Performance
+Specification (Ormeau Facility) or Builder Requirements (Ormeau
+Facility) entitle the Contractor to make a selection or require the
+Contractor's approval in relation to such materials, finishes, fittings or
+other matter,
+and in each case in accordance with the Design Management Plan and Part 1
+and Part 2 of this Schedule A11 (Design Process and Review Procedures).
+(b) Except to the extent the Contractor's Representative agrees otherwise (in writing),
+the Builder must submit each Design Package for Review in the sequence and at the
+time described in Design Management Plan and, on submission, must:
+(i) adequately address all relevant assets;
+(ii) be completed in sufficient detail such that the Contractor’s Representative can
+understand what is being represented on the drawing and how it relates to
+other elements of the design;
+(iii) address all Design Documentation requirements;
+(iv) address relevant requirements identified in the deed, any relevant leases,
+licences, electrical wire agreements and other third party agreements, and
+Project Approvals;
+(v) not used; and
+(vi) with respect to the Ormeau Facility Works (other than as specified below),
+comply with the following requirements:
+(A) Not used;
+(B) the drawing standards set out in Annexure C;
+(C) the TMR Drafting and Design Presentation Standards Manual;
+(D) TMR’s Building Information Modelling Exchange Information
+Requirements and Drafting and Design Presentation Standards Manual
+Volume 1: Chapter 5 – Project Electronic Models for the development
+of 3D models; and
+(E) TMR's Building Information Modelling standards
+(https://www.tmr.qld.gov.au/business-industry/Technical-standards-
+publications/Building-Information-Modelling).
+(c) In developing and refining Design Documentation:
+(i) the Builder must comply with clause 21 (Design) (including clause 21.2
+(Design)) of the deed;
+20
+--- PAGE 21 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(ii) the Builder must document how all previous comments made by the
+Contractor’s Representative on the relevant Design Documentation have been
+incorporated or otherwise closed out; and
+(iii) for each Review and Design Stage, the Builder must highlight all amendments
+to the Design Documentation, clearly demonstrating the changes made to the
+Design Documentation from the:
+(A) Concept Design; or
+(B) version of the Design Documentation that was submitted for the
+previous Review or Design Stage.
+(d) The Builder must submit with each Design Package (including the IFC Design Package)
+a statement from the Builder, in the form set out in the form set out in Annexure B,
+warranting that the Design Package:
+(i) has been prepared, checked and verified so that when complete and
+constructed or manufactured in accordance with the Design Package, the
+relevant aspect of the Fleet Asset or other Deliverable will be Fit for Purpose;
+and
+(ii) complies with the requirements of this deed, including the Performance
+Specification (Ormeau Facility), the Builder Requirements (Ormeau Facility),
+the SEMS, clause 21 (Design) of the deed and the Design Development
+Requirements.
+(e) The Builder must not:
+(i) change (including the sequence and time which the Builder must submit each
+Design Package in accordance with paragraph 2.3(b)), split or combine any
+of the Design Packages; and
+(ii) not used;
+(iii) not used; and
+(iv) with respect to the Ormeau Facility Works, submit more than eight Design
+Packages (including any Design Packages that requires re-submission under
+the Review Procedures) for Review over a one month period, unless otherwise
+agreed by the Contractor,
+without the prior written consent of the Contractor's Representative, and where the
+Contractor's Representative provides written consent, the Builder must provide
+sufficient information to ensure that the Contractor’s Representative can adequately
+Review any changed, split or combined Design Packages.
+2.4 Form in which documents to be submitted
+The Builder must ensure that Submitted Documents submitted in accordance with the
+Design Review Procedures and clause 21 (Design):
+(a) are in English and use metric units;
+(b) include any necessary translations of supporting documentation at the time of
+submission of the Design Documentation;
+21
+--- PAGE 22 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(c) provide copies of referenced standards (to the Contractor’s Representative) when
+requested by the Contractor’s Representative;
+(d) have a drawing index for each Design Package and the drawing index must form the
+first drawing in the series;
+(e) be complete and of good readable quality;
+(f) be submitted in soft copy in an industry standard editable format such as AutoCad
+or equivalent, or in a form otherwise approved by the Contractor;
+(g) be in A4 format where the Submitted Document is a written design submissions
+document (with A3 permissible for enclosures and attachments);
+(h) be uploaded to InEight Document (formerly Teambinder);
+(i) in the case of drawings, be titled, numbered and dated in a manner approved by the
+Contractor and where applicable must incorporate a graphic scale;
+(j) in the case of general arrangement and layout drawings, contain details of Parts and
+Materials including space requirements for installation maintenance and replacement,
+details of the service connections required, environmental requirements and weight
+and fixing detail;
+(k) in the case of schematics or diagrams be accompanied by all necessary
+supplementary information to describe the function and operation of the Parts;
+(l) include calculations necessary to support the design when requested by the
+Contractor’s Representative;
+(m) include computer analyses and data necessary to support the design proposals in an
+electronic native format that allows interrogation, manipulation and re-calculation in
+the Builder's native format when requested by the Contractor’s Representative;
+(n) include Design Documentation for utilities;
+(o) in the case of revised or re-submitted drawings, clearly show the revisions and the
+drawing number must contain a revised letter or number;
+(p) be issued in a consistent manner including in respect of the rate of delivery of such
+Design Documentation; and
+(q) in the case of the Requirement Verification Matrix and the SEMS Requirement
+Verification Matrix, must be submitted in DOORS NG format.
+2.5 The Contractor’s Representative may require Design Documentation to be
+resubmitted
+(a) If the Builder does not properly co-ordinate the submission of Design Documentation
+(whether due to the level of development, content, or timing of submission or
+otherwise not in accordance with this Schedule A11 (Design Process and Review
+Procedures), the Design Management Plan or any Builder Document):
+(i) the Contractor’s Representative may require the Builder to re-submit
+nominated Design Documentation or Design Packages in a compliant and co-
+ordinated way within a time period determined by the Contractor’s
+Representative by written Notice to the Builder; and
+22
+--- PAGE 23 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(ii) the Builder will not be entitled to make any Claim against the Contractor or
+the State in respect of any resulting delay.
+(b) Not used.
+3. DESIGN PRESENTATIONS
+3.1 State to organise
+(aa) The Builder acknowledges that each Design Package prepared by it under this deed
+may be submitted for ‘Review’ under Schedule A11 (Design Process and Review
+Procedures) of the Project Deed.
+(a) The Builder acknowledges that the State will organise and manage appropriate
+meetings having the purpose set out in paragraph 3.2 of Part 1 of Schedule A11
+(Design Process and Review Procedures) of the Project Deed (Design
+Presentations):
+(i) within five Business Days after the submission by the Contractor of each
+Design Package for a Design Stage; and
+(ii) at any other times a Reviewing Party reasonably requires,
+and in all cases, at convenient times to facilitate attendance by all relevant
+stakeholders identified or determined by the State.
+(b) The Builder acknowledges that the Builder may be invited to attend any Design
+Presentation as reasonably necessary to facilitate the review of the Design Package
+submitted by the Contractor, and if the Builder is invited, the Builder must, and must
+ensure that any invited Associates of the Builder, attend the relevant Design
+Presentation to facilitate the review of the relevant Design Package.
+(c) Not used.
+3.2 Purpose of Presentation
+The Builder acknowledges that the purpose of the Design Presentations is:
+(a) for the Contractor to present the content and intent of a relevant Design Package to
+the Reviewing Parties, after the Reviewing Parties have first had reasonable
+opportunity to familiarise itself with the Design Package;
+(b) to give the Reviewing Parties the opportunity to discuss the development of the
+Design Package by participating in a consultative process between the Contractor,
+the Reviewing Parties, the relevant stakeholders or persons identified or determined
+by the State and the State's Associates; and
+(c) to enable the Reviewing Parties to obtain a better understanding of, and to query,
+the Contractor's proposed approach to each Design Package before completion of the
+Reviewing Parties' Review,
+and to the extent the Builder is invited to attend a Design Presentation, the Builder must
+assist the Contractor to discharge the purpose of the Design Presentation to the extent it
+relates to the Builder Activities.
+23
+--- PAGE 24 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+4. INPUT FROM USER GROUPS
+4.1 User Groups
+The parties will engage in design consultation processes with User Groups and other
+stakeholders, as required by the State from time to time, to provide input into the Design
+Documentation and assist any relevant Reviewing Party in Reviewing the Design
+Documentation submitted for Review.
+4.2 User Group Meetings
+(aa) The Builder acknowledges that the Design Documentation prepared by it under this
+deed may be submitted for Review (as defined in the Project Deed) under Schedule
+A11 (Design Process and Review Procedures) of the Project Deed.
+(a) The Builder acknowledges that the State may organise, schedule and manage
+appropriate meetings with User Groups and other stakeholders during each Design
+Stage (and may, at its discretion, consult with the Independent Safety Assessor, the
+Independent Certifier, the Operator and/or the Contractor when organising such
+meetings) (each term as defined in the Project Deed).
+(b) The Builder acknowledges that the State may invite any person (including the
+Operator) to attend any User Group or stakeholder meeting as reasonably necessary
+to facilitate the Review of the Design Documentation submitted by the Contractor
+(each term as defined in the Project Deed).
+(ba) If invited by the State under paragraph 4.2(b) of Part 1 of Schedule A11 (Design
+Process and Review Procedures) of the Project Deed with reasonable notice, the
+Builder must, and must ensure that any invited Associates of the Builder, attend the
+relevant User Group or stakeholder meeting to facilitate the review of the relevant
+Design Documentation (as defined in the Project Deed).
+(c) The Builder acknowledges that the purpose of the meetings referred to in this
+paragraph 4.2 is to:
+(i) ensure the User Groups and stakeholders have appropriate opportunity to
+provide input into the Design Documentation; and
+(ii) provide the State with the opportunity to understand the views of User Groups
+and stakeholders about relevant aspects of the Design Documentation in a
+timely manner to ensure the logical and orderly progression of the Design
+Development Process and efficient Review of Design Documentation,
+(each term as defined in the Project Deed).
+(d) The Builder must not directly contact User Group or stakeholder members outside of
+scheduled meetings to discuss design issues, except to the extent otherwise agreed
+in writing by the Contractor's Representative.
+4.3 Outcomes from meetings
+The Builder acknowledges that the Contractor’s Representative may take into account
+comments from the User Groups and stakeholders when providing comments to the Builder.
+24
+--- PAGE 25 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+5. REFERRAL OF UPSTREAM DOCUMENT DISPUTE TO CO-OPERATION COMMITTEE
+AND DISPUTE RESOLUTION UNDER COOPERATION AGREEMENT
+The Builder acknowledges that if the State, Queensland Rail Limited or the Contractor
+disagrees with the Independent Certifier's determination that:
+(a) a SDR Notice;
+(b) a PDR Notice for a Related Design Package;
+(c) a DDR Notice for a Related Design Package;
+(d) a TRR Notice; or
+(e) a SVR Notice; or
+(f) not used,
+has achieved Confirmed Document status in accordance with the Review Procedures (each
+term as defined in the Project Deed), the State, Queensland Rail Limited or the Contractor,
+as applicable, may initiate the dispute resolution process contained in clause 32 of the
+Cooperation Agreement (which includes at first instance referring the dispute to the Co-
+operation Committee for resolution, followed by executive negotiation, expert determination
+or arbitration, if the dispute could not be resolved).
+Any corresponding dispute relating to a determination of the Contractor’s Representative
+under this deed will be resolved in accordance with clause 62.10 of this deed.
+6. AMENDMENTS TO THIS SCHEDULE
+(a) Subject to paragraph 6(b), the parties acknowledge and agree that where either
+party wishes to propose an amendment to this Schedule A11 (Design Process and
+Review Procedures), the provisions of clause 35 (Variations) and Schedule A10
+(Variation Procedure) will apply, except the parties will use best endeavours to
+perform their obligations within a shorter time frame than those set out in Schedule
+A10 (Variation Procedure).
+(b) The parties may agree in writing to use the Review Procedures in place of the
+provisions of clause 35 (Variations) and Schedule A10 (Variation Procedure) taking
+into consideration the nature of the amendment proposed.
+25
+--- PAGE 26 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+SCHEDULE A11
+Part 2 - Review Procedures
+1. GENERAL
+1.1 Application
+This Schedule (Design Process and Review Procedures) applies:
+(a) where any documents (including Design Documentation), plans, processes,
+programs, manuals, samples, Mock-Ups, models, approvals or conditions in any
+format, or any other document or thing must be submitted to the Contractor’s
+Representative for review under the Review Procedures (Review) under this deed
+(Submitted Document); and
+(b) to define the Review Procedures, and
+the Builder acknowledges that the Contractor may submit the Submitted Documents to the
+Independent Certifier, the Independent Safety Assessor (where the document requires
+review by the Independent Safety Assessor (an ISA Review Document)) and the State
+(the Reviewing Parties and each a Reviewing Party) for review under the Project Deed.
+2. SUBMISSION AND REVIEW
+2.1 Submission
+(a) With respect to each Submitted Document, the Builder must provide the Submitted
+Document to the Contractor’s Representative:
+(i) within the time required by the relevant Builder Document for submission of
+that Submitted Document;
+(ii) with due allowance of time, and at such rate, so as to enable:
+(A) the Contractor’s Representative a reasonable opportunity to Review,
+comment and perform any other obligations in respect of the
+Submitted Document effectively and otherwise in accordance with the
+relevant Builder Documents and any other relevant requirements; and
+(B) any amendment and resubmission of the Submitted Document by the
+Builder in accordance with the time requirements of the Builder
+Documents; and
+(iii) where the parties have agreed under clause 69.2(b) that a Document
+Management System will be used, the Builder must submit each Submitted
+Document to each Contractor’s Representative through the Document
+Management System.
+(b) The Builder acknowledges and agrees that when documents and other information
+are submitted for Review, the submission must include:
+(i) details of the Submitted Document, its nature and the relevant clause,
+schedule or annexure of this deed under which it is submitted for Review;
+(ii) the Submitted Document;
+26
+--- PAGE 27 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(iii) the submission number (which must be independent of any drawing or
+document number referred to in paragraph 2.4 (Form in which documents to
+be submitted) of the Design Development Process);
+(iv) the Submitted Document number, including where relevant the revision letter
+or number;
+(v) the Submitted Document title;
+(vi) the date of submission; and
+(vii) any other information required under this deed or otherwise necessary for the
+Contractor’s Representative to Review the Submitted Document and respond
+in accordance with these Review Procedures.
+2.2 Review
+(a) Not used.
+(b) If the Contractor’s Representative:
+(i) forms the view that the Submitted Document is incomplete, inaccurate, of
+poor quality, ambiguous, unclear or otherwise is not in a condition to allow a
+Reviewing Party (in its reasonable opinion) to adequately review it, the
+Contractor’s Representative may:
+(A) reject the Submitted Document and notify the Contractor of the reason
+for rejection (which may include that the Independent Certifier has
+rejected the Submitted Document pursuant to the Project Documents
+within the five Business Days of receiving the Submitted Document;
+and
+(B) provide the time within which the Contractor must address the reason
+for rejection and resubmit the Submitted Document to the Contractor’s
+Representative for Review,
+and paragraph 2.2(b) will reapply.
+(c) Not used.
+(d) If Contractor receives notice that the Independent Safety Assessor considers any ISA
+Review Document does not eliminate or reduce safety risks so far as is reasonably
+practicable the Contractor will provide that notice to the Builder:
+(i) not used; and
+(ii) the Builder must promptly amend the ISA Review Document and re-submit
+the ISA Review Document,
+and the provisions of paragraph 2 will re-apply until such time the Independent
+Safety Assessor is satisfied that the ISA Review Document eliminates or reduces
+safety risk so far as is reasonably practicable (each term as defined in the Project
+Deed).
+(e) The Contractor’s Representative must:
+(i) review the Submitted Document from the time it is submitted; and
+27
+--- PAGE 28 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(ii) if paragraph 2.2(d) does not apply or the Contractor does not provide the
+Builder with a copy of a notice from the Independent Safety Assessor under
+paragraph 2.2(d), provide its response to the Builder within the Review Period
+(which the Builder acknowledges may incorporate the response of the
+Independent Certifier provided in accordance with the Project Deed), in
+accordance with paragraph 4 and 7 .
+(f) Not used.
+(g) The Builder acknowledges and agrees that:
+(i) the Contractor may engage other persons to participate in the Review of any
+Submitted Document, including to provide input or to assist the Contractor’s
+Representative;
+(ii) where any other person (including stakeholders and User Groups) have
+provided comments to the Contractor’s Representative, the Contractor’s
+Representative may at its discretion, not provide any such comments to the
+Builder.
+2.3 Review Period
+(a) Subject to paragraph 2.3(b), the Review Period for a Submitted Document is:
+(i) where the Submitted Document is a Design Document, 25 Business Days from
+the date the Contractor’s Representative receives the relevant information
+reasonably required to support the request for Review or comment;
+(ii) where the Submitted Document is not a Design Document and no period is
+expressly specified, 30 Business Days from the date the Contractor’s
+Representative receives the relevant information reasonably required to
+support the request for Review or comment; or
+(iii) where the Submitted Document is not a Design Document and the period is
+expressly specified in the Builder Documents, that period.
+(b) With respect to a Submitted Document, if at any time during the Review Period the
+Contractor’s Representative reasonably requires additional information concerning
+the request for Review or comment or in order to make the election or determination
+and such information is available or able to be obtained if the Builder uses reasonable
+endeavours to obtain it, then the Review Period will not include the time that the
+Builder takes to provide that information after the request for that additional
+information is made, and the Review Period will be extended by that time.
+2.4 Meetings on Submitted Documents and collaboration during the Review Period
+(a) On request by the Contractor, the Builder must attend meetings to facilitate the
+review of a Submitted Document, and acknowledges that the Independent Certifier,
+the State, Queensland Rail Limited and the Contractor (and the Independent Safety
+Assessor, but only in respect of ISA Review Documents) may also attend those
+meetings (Review Meeting).
+(b) The purpose of the Review Meeting is to facilitate the review of a Submitted
+Document including providing attendees with the opportunity to clarify and to obtain
+additional information on the Submitted Document.
+28
+--- PAGE 29 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(c) Where the Contractor notifies the Builder that a Review Meeting is required, the
+Builder must attend within two Business Days of receipt of the notice.
+(ca) The Builder must provide the Contractor with all reasonable assistance requested by
+the Contractor relating to a Submitted Document and the Builder Activities in
+preparation for, or otherwise in connection with, a Review Meeting.
+(d) The Builder must, to the extent relevant to a Submitted Document or the Builder
+Activities, provide the Contractor with all relevant information requested by the
+Contractor to facilitate the Review of a Submitted Document.
+(e) The Builder and the Contractor acknowledge that the purpose of this paragraph 2.4
+is to foster a collaborative working arrangement to enable effective communication
+and the efficient sharing of information among the Builder, The Contractor and under
+the Project Deed, among the State, the Independent Safety Assessor and
+Queensland Rail Limited.
+2.5 Meetings in response to a Submitted Document and collaboration after the Review
+Period
+(a) Subject to paragraph 2.2(e), if the Contractor’s Representative requests, the Builder
+must attend meetings with the Reviewing Parties within 5 Business Days after such
+request to discuss the Contractor’s or the Reviewing Parties’ response to a Submitted
+Document.
+(b) The purpose of this meeting is to enable collaboration and to allow the Builder to
+better understand the response and what is necessary to address the response.
+3. FURTHER INFORMATION
+The Builder must as soon as reasonably practicable upon request by the Contractor’s
+Representative submit any further or other information, data or documents, and make
+available appropriately qualified Builder's Personnel, that the Contractor’s Representative
+reasonably requires to be able to Review the Submitted Document and respond in
+accordance with these Review Procedures.
+4. COMMENT ON SUBMITTED DOCUMENT
+4.1 No comment on Submitted Document
+The Contractor’s Representative may return a Submitted Document to the Builder with or
+without comment in accordance with paragraphs 2.2 or 2.3. If the Contractor’s
+Representative has no comments on a Submitted Document, the Contractor’s
+Representative may mark that document with a statement 'No comment' (or notify the
+Builder in writing that it has 'No comment').
+4.2 No intention to comment or Failure to comment
+If the Contractor’s Representative:
+(a) decides that it does not intend to Review, comment on or respond; or
+(b) fails to comment on or respond,
+29
+--- PAGE 30 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+to any Submitted Document in accordance with paragraphs 2.2 or 2.3 within the Review
+Period, then the Contractor’s Representative will be deemed to have returned the Submitted
+Document to the Builder marked with the statement 'No comment'.
+4.3 Response to Submitted Document
+Subject to paragraph 2.2(d), the Contractor’s Representative may, in accordance with
+paragraph 5, provide comments in respect of a Submitted Document or reject the
+Submitted Document.
+4.4 Substantiate comments
+If the Contractor’s Representative:
+(a) rejects the Submitted Document in accordance with paragraph 4.3, the Contractor’s
+Representative must provide reasons for the rejection; or
+(b) provides the Builder with comments in respect of the Submitted Document in
+accordance paragraph 5, the Contractor’s Representative must provide sufficient
+detail to the Builder to substantiate those comments.
+5. GROUNDS ON WHICH CONTRACTOR’S REPRESENTATIVE MAY MAKE COMMENTS
+5.1 General
+The Contractor’s Representative may provide comments in respect of a Submitted
+Document or reject the Submitted Document where:
+(a) the Submitted Document:
+(i) does not comply with relevant Performance Specifications (Ormeau Facility),
+Builder Requirements (Ormeau Facility), Applicable Requirements, Industry
+Standards or State's Policies and Standards;
+(ii) is not in accordance with the Design Management Plan; or
+(iii) is otherwise not in accordance with:
+(A) the requirements of this deed;
+(B) the Operator Accreditation;
+(BA) the Contractor Accreditation; or
+(C) is not submitted in accordance with, the requirements of this deed in
+respect of the Submitted Document;
+(b) the ability of the State or the Operator to undertake the normal functioning of an
+operating railway and the State's business would be adversely affected by the
+implementation of the Submitted Document;
+(ba) the ability of the Contractor to comply with the Project Documents would be
+adversely affected by the implementation of the Submitted Document; or
+(c) the implementation of the Submitted Document would adversely affect the safety of
+Users.
+30
+--- PAGE 31 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+5.2 Programs
+Where the Submitted Document is a Program required under this deed, in addition to its
+rights under paragraph 5.1, the Contractor’s Representative may provide comments in
+respect of the Submitted Document on the grounds that compliance with the Program would
+(on the balance of probabilities):
+(a) not allow for any Time Based Delivery Objective to be achieved by its relevant Date
+for Performance;
+(b) result in there being a risk that the safety of any person would be adversely affected;
+(c) mean that the period for carrying out programmed work exceeds or falls short of the
+period reasonably required for that work;
+(d) increase the likelihood of disruption to the conduct of the normal functioning of an
+operating railway and the State's business by the State or the Operator; or
+(e) disrupt the Contractor’s ability to comply with the Project Documents.
+5.3 Management Systems (Builder) and Management Plans (Builder)
+Where the Submitted Document is a Management System (Builder) or Management Plan,
+(Builder) or any revision to any such plan, in addition to its rights under paragraph 5.1, the
+Contractor’s Representative may provide comments in respect of the Submitted Document
+where:
+(a) carrying out the relevant Builder Activities in the periods, at the times or in the
+manner suggested in the Submitted Document is reasonably likely to interfere with
+the carrying out of the normal functioning of an operating railway and the State's or
+the Operator's business;
+(ba) carrying out the relevant Builder Activities in the periods, at the times or in the
+manner suggested in the Submitted Document would put the Contractor in breach
+of a Management System or Management Plan (each as defined in the Project Deed);
+(b) there is a risk that the safety of any person would be adversely affected;
+(c) the period for carrying out work under the plan would exceed or fall short of the
+period reasonably required for the relevant work;
+(d) the plan is otherwise not in accordance with Good Industry Practice;
+(e) with respect to the Commissioning and Testing Plan, that plan does not make
+reasonable allowances for impacts on the Operator's resourcing and operational
+readiness; or
+(f) the Life Cycle Cost of the Fleet Assets to the State or the Operator will be increased.
+5.4 Design Documentation
+Where the Submitted Document is Design Documentation, in addition to its rights under
+paragraph 5.1, the Contractor’s Representative may provide comments in respect of the
+Submitted Document where it considers that the relevant Design Documentation:
+(a) fails to mitigate safety risk so far as is reasonably practicable;
+31
+--- PAGE 32 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(b) is not a consistent or logical extension of the Concept Design or previously Confirmed
+Design Documentation;
+(c) is not consistent with the physical configuration of the Fleet Assets; and
+(d) is not in accordance with Good Industry Practice.
+5.5 Operation and Maintenance Manuals
+Where the Submitted Document is an Operation and Maintenance Manual, in addition to the
+rights under paragraph 5.1, the Contractor’s Representative may provide comments in
+respect of the Submitted Document where it considers that the relevant Operation and
+Maintenance Manual:
+(a) does not use appropriate railway technical and trade terminology;
+(b) fails to address all relevant Fleet Assets, whether manufactured by the Builder or not;
+(c) not used; or
+(d) is not in accordance with Good Industry Practice.
+6. DOCUMENT MANAGEMENT
+6.1 Copies of Submitted Documents
+(a) Unless otherwise expressly provided in the relevant Builder Documents, the Builder
+must provide:
+(i) one electronic version in .pdf format; and
+(ii) one electronic version in accessible and editable original format (in accordance
+with paragraph 6.1(b)),
+of each Submitted Document to the Contractor’s Representative for Review in
+accordance with these Review Procedures.
+(b) An electronic version of a Submitted Document must be an electronic copy of that
+document in the format of software which allows the Contractor’s Representative to
+access for that purpose of review.
+6.2 Register of Submitted Documents
+(a) The Builder must compile and maintain a register of the date of receipt and content
+of each Submitted Document submitted, and must regularly update that register to
+record:
+(i) each Submitted Document which is rejected by the Contractor’s
+Representative, including that response;
+(ii) each Submitted Document to which it receives a response or comment from
+the Contractor’s Representative, including that response or comment; and
+(iii) each Submitted Document to which it receives no response or comment or is
+deemed not to receive any response or comment from the Contractor’s
+Representative in accordance with paragraphs 4.1 to 4.2.
+32
+--- PAGE 33 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(b) The register must be capable of access by the Contractor, the Contractor’s
+Representative and any person authorised by the Contractor.
+7. COMPLIANCE WITH CONFIRMED DOCUMENTS
+7.1 Compliance with Submitted Document
+(a) Where the Contractor’s Representative comments on or rejects a Submitted
+Document under paragraph 4 then:
+(i) the Contractor’s Representative must:
+(A) to the extent the Contractor’s Representative comments on a
+Submitted Document, provide sufficient detail or reasons to the Builder
+within the Review Period to substantiate those comments; and
+(B) to the extent the Contractor’s Representative rejects a Submitted
+Document, notify the Builder of the reason for rejection, and
+provide a reasonable time within which the Builder must resubmit the
+Submitted Document to the Contractor’s Representative; and
+(ii) subject to paragraphs 7.1(b), 7.2 and 7.3, the Builder must:
+(A) within the reasonable time period specified in paragraph 7.1(a)(i),
+amend the Submitted Document in accordance with the comments
+provided by the Contractor’s Representative and re-submit the
+Submitted Document (as amended) to the Contractor’s Representative;
+and
+(B) to the extent the Contractor’s Representative rejected the Submitted
+Document, re-submit the Submitted Document within the reasonable
+time period specified in paragraph 7.1(a)(i) (having regard to the
+reasons for the rejection) to the Contractor’s Representative,
+and the provisions of paragraphs 2 to 7 (inclusive) will re-apply until such
+time as the Submitted Document is returned to the Builder without any
+comment or with the statement 'No comment'.
+(b) At any time where a Submitted Document is returned to the Builder without any
+comment or with the statement 'No comment', the Builder must comply with that
+Submitted Document when performing the relevant part of the Builder Activities (or
+anything else the subject of the Submitted Document).
+(c) Subject to paragraph 7.2 and 7.3, the Builder must not proceed with, or proceed to
+implement, a Submitted Document unless the Contractor’s Representative has been
+afforded the Review Period to review the Submitted Document and:
+(i) the Contractor’s Representative has not rejected or commented on that
+Submitted Document; or
+(ii) where the Contractor’s Representative has rejected or commented on that
+Submitted Document, those comments or reasons for rejection have been
+addressed in accordance with paragraph 7.1(a)(ii) and that Submitted
+Document is returned to the Builder without any comment or with the
+statement 'No-comment'.
+33
+--- PAGE 34 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+7.2 PDR Design Documentation
+(a) Except where comments relate to accessibility and the Contractor Emergency
+Response Plan (which must be returned by the Contractor’s Representative to the
+Builder without any comment or with the statement 'No-comment'), where the
+Contractor’s Representative comments on any PDR Design Documentation under
+paragraph 4 (PDR Comment):
+(i) the Builder may, where it is of the reasonable opinion that a PDR Comment
+does not need to be addressed during the PDR Design Stage and the PDR
+Design Package re-submitted, within two Business Days, give the Contractor’s
+Representative a written response (PDR Response); and
+(ii) the PDR Response must:
+(A) set out in detail the PDR Comments that the Builder (in its reasonable
+opinion) believes does not need to be addressed during the PDR Design
+Stage and will be addressed in the subsequent DDR Design Package
+submission;
+(B) provide a justification for why the PDR Comment does not need to be
+addressed during the PDR Design Stage;
+(C) explain the risks associated with not addressing the PDR Comment
+during the PDR Design Stage and how those risks will be mitigated;
+(D) explain how the Builder will address the PDR Comments, and ensure
+that all PDR Comments will be addressed prior to submitting the DDR
+Design Documentation.
+(b) Not used.
+(c) The Contractor’s Representative must review the PDR Response and provide
+comments (including reasons) to the Builder, including where it requires a PDR
+Comment set out in the PDR Response to be addressed during the PDR Design Stage,
+within 13 Business Days of receipt of the PDR Response.
+(d) Where the Contractor’s Representative provides comments to the Builder under
+paragraph 7.2(c):
+(i) the Contractor’s Representative must amend the PDR Response to address
+the comments and resubmit the PDR Response to the Contractor’s
+Representative; and
+(ii) the provisions of paragraph 7.2(c) will re-apply until the PDR Response is
+returned by the Contractor’s Representative to the Builder without any
+comment (Approved PDR Response).
+(e) The Builder must address all PDR Comments in accordance with paragraph 7.1(a)(ii),
+except any PDR Comments set out in the Approved PDR Response (Approved
+Outstanding PDR Comment).
+(f) The Builder must, prior to or when it submits DDR Design Documentation that relates
+to an Approved Outstanding PDR Comment, give the Contractor’s Representative a
+written statement which explains how the Approved Outstanding PDR Comment has
+been addressed.
+34
+--- PAGE 35 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(g) Without limiting paragraph 1.6 of the Design Development Process and paragraph
+7.1, as a condition precedent to the Builder proceeding to the TRR Design Stage, all
+Approved Outstanding PDR Comments must have been addressed in accordance with
+paragraph 7.1(a)(ii) and the DDR Design Documentation that relates to an Approved
+Outstanding PDR Comment must be returned to the Builder without any comment or
+with the statement 'No comment'.
+7.3 TRR Design Documentation
+(a) Where the Contractor’s Representative comments on any TRR Design Documentation
+in relation to the Depot the Contractor’s Representative must, in addition to providing
+comments in accordance with paragraph 7.1(a)(i)(A) provide the Builder with:
+(i) a list of any non-compliances which the Contractor’s Representative considers
+to be Minor Non-Compliances; and
+(ii) a list of suggested actions that the Builder may take to address those Minor
+Non-Compliances; and
+(iii) the reasonable times within which the Builder must correct the Minor Non-
+Compliances.
+(b) Where the Builder does not agree with the suggested actions provided by the
+Contractor’s Representative pursuant to paragraph 7.3(a)(ii) or is of the view that
+additional actions are required to address the Minor Non-Compliance, the Builder
+must, within three Business Days, provide a written response (TRR Response) to
+the Contractor’s Representative setting out (as applicable):
+(i) the reasons why it disagrees with the suggested actions provided by the
+Contractor’s Representative pursuant to paragraph 7.3(a)(ii) and the
+alternative actions that it proposes to take; and
+(ii) any additional actions that it proposes to take.
+(c) Not used.
+(d) The Contractor’s Representative must review the TRR Response and provide
+comments (including reasons) to the Builder within 13 Business Days of receipt of
+the TRR Response.
+(e) Where the Contractor’s Representative provides comments to the Builder under
+paragraph 7.3(d):
+(i) the Builder must amend the TRR Response to address the comments and
+resubmit the TRR Response to the Contractor’s Representative ; and
+(ii) the provisions of paragraph 7.3(d) will re-apply until the TRR Response is
+returned by the Contractor’s Representative to the Builder without any
+comment (Approved TRR Response).
+(f) Despite paragraph 7.1(a)(ii), the Builder is not required to address the Minor Non-
+Compliances identified by the Contractor’s Representative under paragraph 7.3(a)
+prior to the Builder proceeding to the SVR Design Stage, or proceeding to implement
+that TRR Design Documentation, in relation to the Depot, but the Builder must:
+35
+--- PAGE 36 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(i) complete the suggested action, set out in paragraph 7.3(a)(ii) to correct the
+Minor Non-Compliance; or
+(ii) where the Builder provided a TRR Response under paragraph 7.3(b), complete
+the action set out in the Approved TRR Response to correct the Minor Non-
+Compliance,
+to the extent required for the TRR Design Documentation to comply with this deed,
+within the timeframe specified by the Contractor’s Representative under paragraph
+7.3(a)(iii) and, in any event, as a condition precedent to the Builder completing the
+SVR Design Stage.
+8. NOT USED
+9. SIGNIFICANCE OF REVIEWS
+(a) The parties acknowledge and agree that these Review Procedures are solely for the
+purpose of enabling the Contractor’s Representative to monitor the progress of, and
+provide feedback on, the Builder 's compliance with the requirements of the Builder
+Documents in its conduct of the Builder Activities.
+(b) Despite anything contained in this deed (including clause 21 (Design)), nothing in
+the Design Process or Review Procedures, including as a result of any comment or
+failure to comment, examination or lack of examination, or approval by the
+Contractor’s Representative on any Submitted Document, will:
+(i) lessen or otherwise affect the warranties given by the Builder under this deed
+or otherwise relieve the Builder from, or alter or affect, the Builder 's liabilities,
+obligations or responsibilities under or in connection with this deed or other
+Builder Documents, whether in relation to accuracy, safety, suitability,
+adequacy or performance, Date for Performance, practicality of its design or
+otherwise;
+(ii) prejudice the Contractor's rights against the Builder whether under any
+Builder Document or otherwise under any Applicable Requirement, Industry
+Standard or State's Policies and Standards; or
+(iii) be construed as a Direction by the Contractor or the Contractor's
+Representative to do or not do anything.
+(c) Without limiting paragraph 9(b), the Builder must not be relieved from compliance
+with any of its obligations under this deed or from any of its liabilities, whether under
+this deed or otherwise according to law, as a result of:
+(i) compliance by the Builder with its obligations under this Schedule A11 (Design
+Process and Review Procedures) including the implementation of, and
+compliance with any Program, Management System (Builder), Management
+Plan (Builder) or Design Documentation; or
+(ii) any failure by the Contractor’s Representative or anyone else acting on behalf
+a the Contractor’s Representative, to detect any non-compliance including
+where any failure arises from any negligence on the part of the Contractor’s
+Representative or any other person.
+36
+--- PAGE 37 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+(d) Compliance by the Builder with its obligations under this Schedule A11 (Design
+Process and Review Procedures) is not evidence of compliance by the Builder with
+its other obligations under this deed.
+(e) Each of the Contractor and the Contractor's Representative, does not assume or owe
+any duty of care to the Builder to Review or, if it does Review, in reviewing the
+Submitted Document submitted by the Builder for errors, omissions or compliance
+with the Builder Documents or any Applicable Requirement, Industry Standard or
+State's Policies and Standards.
+37
+--- PAGE 38 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+Annexure A
+Schedules of Deliverables
+S to be delivered as a Submitted Document
+C to be submitted for Review under the Review Procedures and
+achieve Confirmed Document status
+1. Not used
+38
+
+[TABLE 1 on page 38]
+ | S |  | to be delivered as a Submitted Document
+C | C |  | to be submitted for Review under the Review Procedures and achieve Confirmed Document status
+--- PAGE 39 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+2. Schedule of Deliverables – Ormeau Facility
+Design Stage
+P1 for
+OF
+Deliverable
+SDR SDR PDR DDR TRR SVR
+Design and Project Management
+Project Management Plan S C
+Delivery program GANTT etc S C
+Delivery program description S C
+Design Management Plan C C
+Building Information Modelling (BIM) Execution
+Management Plan S C
+List of supporting plans S C
+Risk Management
+Risk Management Plan C C
+Safety Management
+Workplace Health and Safety Management Plan S C
+Rail Safety Management Plan S C
+Quality Management
+Quality Assurance System and Management
+Plan C C
+Environmental Management
+Sustainability Management Plan S C
+Communications
+Communications and Stakeholder Engagement
+Plan S C
+Operational Readiness
+Not used
+Commissioning and Testing Plan C C
+Training (as set out in Schedule A6 (Training
+Requirements)) S C
+Operation and Maintenance Manuals S C
+Relevant Approvals (including Accreditations) S C
+Not used
+Training Plan C
+Systems Engineering / Reliability, Availability, Maintainability (RAM), Human Factors and
+Accessibility.
+System Engineering Management Plan C C
+Human Factors Integration Plan S C
+Human Factors integration report C
+Accessibility compliance report C C C C C
+The Requirements Verification Matrix and
+SEMS Verification Matrix C C C C C C
+Asset Management (EN55000)
+Asset Management Plan S C
+39
+
+[TABLE 1 on page 39]
+ |  |  | Design Stage |  |  |  |  |  |  |  |  | 
+Deliverable |  |  |  | P1 for |  | SDR | PDR | DDR | TRR | SVR |  | 
+ |  |  |  | OF |  |  |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  |  |  |  | 
+ |  |  |  | SDR |  |  |  |  |  |  | SVR | 
+ |  | Design and Project Management |  |  |  |  |  |  |  |  |  | 
+Project Management Plan |  |  | S |  |  | C |  |  |  |  |  | 
+Delivery program GANTT etc |  |  | S |  |  | C |  |  |  |  |  | 
+Delivery program description |  |  | S |  |  | C |  |  |  |  |  | 
+Design Management Plan |  |  | C |  |  | C |  |  |  |  |  | 
+Building Information Modelling (BIM) Execution Management Plan |  |  | S |  |  | C |  |  |  |  |  | 
+List of supporting plans |  |  | S |  |  | C |  |  |  |  |  | 
+ | Risk Management |  |  |  |  |  |  |  |  |  |  | 
+Risk Management Plan |  |  | C |  |  | C |  |  |  |  |  | 
+ | Safety Management |  |  |  |  |  |  |  |  |  |  | 
+Workplace Health and Safety Management Plan |  |  | S |  |  | C |  |  |  |  |  | 
+Rail Safety Management Plan |  |  | S |  |  | C |  |  |  |  |  | 
+ | Quality Management |  |  |  |  |  |  |  |  |  |  | 
+Quality Assurance System and Management Plan |  |  | C |  |  | C |  |  |  |  |  | 
+ | Environmental Management |  |  |  |  |  |  |  |  |  |  | 
+Sustainability Management Plan |  |  | S |  |  | C |  |  |  |  |  | 
+ | Communications |  |  |  |  |  |  |  |  |  |  | 
+Communications and Stakeholder Engagement Plan |  |  | S |  |  | C |  |  |  |  |  | 
+ | Operational Readiness |  |  |  |  |  |  |  |  |  |  | 
+Not used |  |  |  |  |  |  |  |  |  |  |  | 
+Commissioning and Testing Plan |  |  |  |  |  | C |  | C |  |  |  | 
+Training (as set out in Schedule A6 (Training Requirements)) |  |  |  |  |  |  |  | S | C |  |  | 
+Operation and Maintenance Manuals |  |  |  |  |  |  |  |  | S | C |  | 
+Relevant Approvals (including Accreditations) |  |  |  |  |  |  |  | S | C |  |  | 
+Not used |  |  |  |  |  |  |  |  |  |  |  | 
+Training Plan |  |  |  |  |  | C |  |  |  |  |  | 
+ |  | Systems Engineering / Reliability, Availability, Maintainability (RAM), Human Factors and |  |  |  |  |  |  |  |  |  | 
+ |  | Accessibility. |  |  |  |  |  |  |  |  |  | 
+System Engineering Management Plan |  |  | C |  |  | C |  |  |  |  |  | 
+Human Factors Integration Plan |  |  | S |  |  | C |  |  |  |  |  | 
+Human Factors integration report |  |  |  |  |  |  |  | C |  |  |  | 
+Accessibility compliance report |  |  |  |  |  | C | C | C | C | C |  | 
+The Requirements Verification Matrix and SEMS Verification Matrix |  |  | C |  |  | C | C | C | C | C |  | 
+ | Asset Management (EN55000) |  |  |  |  |  |  |  |  |  |  | 
+Asset Management Plan |  |  | S |  |  | C |  |  |  |  |  | 
+--- PAGE 40 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+Design Stage
+P1 for
+OF
+Deliverable
+SDR SDR PDR DDR TRR SVR
+Technical Submissions
+Design Packages (as set out in Design
+Management Plan and described in Appendix 1
+of Schedule A5) C C C C
+Rail Operational model and report (Ormeau
+Facility Works only) C C C
+Federated 3D model (BIM) S S S
+40
+
+[TABLE 1 on page 40]
+ |  | Design Stage |  |  |  |  |  |  | 
+Deliverable |  |  | P1 for |  | SDR | PDR | DDR | TRR | SVR
+ |  |  | OF |  |  |  |  |  | 
+ |  |  |  |  |  |  |  |  | 
+ |  |  | SDR |  |  |  |  |  | 
+ | Technical Submissions |  |  |  |  |  |  |  | 
+Design Packages (as set out in Design Management Plan and described in Appendix 1 of Schedule A5) |  | C |  |  | C | C | C |  | 
+Rail Operational model and report (Ormeau Facility Works only) |  |  |  |  | C | C | C |  | 
+Federated 3D model (BIM) |  |  |  |  | S | S | S |  | 
+--- PAGE 41 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+Annexure B
+Form of Builder's Certificate for Design Package
+[Date]
+[Name of Addressee]
+[Address ]
+[Address line 2]
+Dear [insert]
+Re Builder's Certificate for Design Package
+Contract D&C Contract relating to the Queensland Train Manufacturing
+Program dated [ ] between the Contractor and the Builder (the
+D&C Contract).
+Interpretation Words and expressions defined in the D&C Contract and used in
+this Builder's Certificate for Design Package shall have the same
+meaning in this certificate.
+I warrant that [insert Design Package] (Design Package):
+a) has been prepared, checked and verified so that when complete and constructed or
+manufactured in accordance with the Design Package, the relevant aspect of the Fleet
+Asset or other Deliverable will be Fit for Purpose; and
+b) complies with the requirements of the D&C Contract, including the Performance
+Specification (Ormeau Facility), the Builder Requirements (Ormeau Facility) (including any
+SEMS set out in the Performance Specification (Ormeau Facility)), the SEMS
+Requirements, clause 21 of the D&C Contract, and the Design Development
+Requirements.
+Design Package the
+subject of this Certificate
+Date of Certificate
+Signature of [Builder]
+Name and position of
+person signing on behalf
+of the [Builder]
+41
+
+[TABLE 1 on page 41]
+ | Re |  | Builder's Certificate for Design Package | 
+Contract | Contract |  | D&C Contract relating to the Queensland Train Manufacturing Program dated [ ] between the Contractor and the Builder (the D&C Contract). | 
+Interpretation |  |  | Words and expressions defined in the D&C Contract and used in this Builder's Certificate for Design Package shall have the same meaning in this certificate. | 
+ | I warrant that [insert Design Package] (Design Package): |  |  | 
+ | a) has been prepared, checked and verified so that when complete and constructed or |  |  | 
+ | manufactured in accordance with the Design Package, the relevant aspect of the Fleet |  |  | 
+ | Asset or other Deliverable will be Fit for Purpose; and |  |  | 
+ | b) complies with the requirements of the D&C Contract, including the Performance |  |  | 
+ | Specification (Ormeau Facility), the Builder Requirements (Ormeau Facility) (including any |  |  | 
+ | SEMS set out in the Performance Specification (Ormeau Facility)), the SEMS |  |  | 
+ | Requirements, clause 21 of the D&C Contract, and the Design Development |  |  | 
+ | Requirements. |  |  | 
+ |  |  |  | 
+ | Design Package the |  |  | 
+ | subject of this Certificate |  |  | 
+ | Date of Certificate |  |  | 
+ | Signature of [Builder] |  |  | 
+ | Name and position of |  |  | 
+ | person signing on behalf |  |  | 
+ | of the [Builder] |  |  | 
+--- PAGE 42 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+42
+--- PAGE 43 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+Annexure C
+Drawing Standards
+1. DATA FORMATS
+1.1 Drawings
+Drawings provided for the Ormeau Facility only must include or comply with the following
+requirements, where applicable:
+(a) AS (Signalling Arrangement) and TN (Train Notice) Diagrams including track circuits
+(Id and chainage), signals (Id and chainage), gantries (chainage) toe of switch
+(points) on turnout (Id and chainage) automatic warning system (AWS) (chainage)
+speed Board (chainage and direction), general details – signal huts;
+(b) general arrangement layouts/location plans should include the location of housings
+(location boxes and huts), detail layout plans, pavement plans, signs and line
+markings, typical details & sections, carpark lighting details;
+(c) all facilities should be accompanied with detail drawings clearly identifying
+dimensions and content locations such as emergency equipment, facades, HVAC
+(Heating, Ventilating and Air Conditioning);
+(d) transponder allocation diagrams should include locations for Automatic Train
+Protection transponder (ATP) groups;
+(e) working plan & section (WP&S) drawings – should include civil and track aspects,
+track geometry (Vertical and horizontal), culverts, bridges, tunnels, stations, roads,
+access tracks, fencing and pedestrian crossings. These drawings are used for
+interpreting track geometry (curves, straights, diamonds, turnouts, loops) and to
+derive turnout information, track cant and design speed. WP&S drawings consist of:
+(i) control line set-out tables: these are tables containing alignment de-tails for
+the various control lines (tracks), rail cross sections, platform clearances,
+general arrangement layouts, formation cross sections, culvert details and
+sections, earthworks and drainage details, general details gantry and
+crossovers/turnouts. The assets include turn-outs, toe of switch (TOS)
+height/level, type, angle, rail size, track curves/spiral/tangents, radius (also
+provided in the 12D extract), design speed, cant and grade;
+(ii) line diagrams (staging),working plan & section (drawings) based on chainage.
+Each drawing represents a section of the project, and depicts that section as
+a plan view with a corresponding longitudinal section of the track centreline
+(control line). Details shown include track grades (vertical geometry -
+gradients), track curves, spirals, tangents (horizontal geometry), rail levels,
+formation levels, bridge clearances and kilometre (chainage). The AutoCAD
+DWG format should be exported to a spreadsheet to combine the curves and
+straights feature classes curve segments, spiral segments and tangent
+segments.
+(iii) electrical/isolation diagram - also known as the isolation diagram includes
+details of power supply cubicles (PSC), transformers (auto-transformers,
+auxiliary supply transformers, booster, power transfer, TSC, TCU, etc.),
+43
+--- PAGE 44 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+isolators and isolator motor units, battery chargers, electrical sections, section
+isolators, neutral sections and circuit breaker;
+(iv) train notice, civil engineering drawings, track layout drawings;
+(v) supplier shop drawings ;
+(vi) all station and facilities asset or equipment drawings (e.g.: ticketing machine,
+associated cabling);
+(vii) red line drawings;
+(f) signalling drawing requirements shall be provided as per Queensland Rail General
+Signalling Specification (Design & Drawings Part 14);
+(g) ArcGIS – datasets:
+The MXD documents shall be provided with references to all asset data (feature
+classes) in a file geo-database:
+(i) symbology – each asset classification must have a specific symbol to enhance
+readability and interpretation while viewing and editing the data. The
+Contractor should obtain all the relevant CAD asset symbology standard
+documents from the State and Operator;
+(ii) map projection – must be clearly stated and ideally be GDA94 or MGA 94,
+where a local datum is used the datum conversion from local to GDA94 or
+MGA 94 must be provided;
+(iii) non-asset layers – In addition to layers that represent assets, a number of
+other layers should be included for visual reference and to help complete the
+picture. These include but are not limited to:
+(A) imagery (aerial photography or satellite imagery);
+(B) DCDB (Digital Cadastral Database) – showing land parcels;
+(C) road network – showing road centreline data;
+(D) water – showing rivers, creeks and drainage areas etc;
+(E) design data – any DWG design drawings overlaid as relevant;
+(F) survey data – such as set out plans, terrain, LIDAR etc;
+(G) route data – track alignment for linear referencing;
+(H) Site access map – showing construction access gates and tracks;
+(h) building certified drawings includes: architectural, building/structural, electrical,
+electrical services (platform level plans), hydraulics, mechanical, ventilation, urban
+design, landscaping, signage, lifts and escalators, public utility plant – services layout
+plans, water & sewer relocations;
+(i) operations and telecommunication all asset types drawings shall be provided. Some
+of these asset types includes CCTV/security, tele-phones including emergency
+phones, display units (train times/info), next train indicator (NTI), radio comms, data
+44
+--- PAGE 45 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+comms and transmission systems (e.g. copper based systems, optical fibre
+backbone), CER, data network, train control systems, station systems, switching and
+cable route details.
+(i) Terrain Model.
+Power System & Traction Power Drawings
+(j) A soft copy of all the following documentation and following additional requirements
+shall be submitted for the Ormeau Facility only. These include but are not limited to:
+Outputs Format
+• Index Sheet • 3 copies of prints collated and bound in
+individual tension length folder books.
+• Layout Plan Index sheet (if applicable) The books shall have stiff plastic covers
+and be of a standard two-hole loose-leaf
+• OHW Layout Plan type
+• OHW Bonding Plan • A3 PDF File (signatories as typed
+names)
+• OHW Cross Sections
+• Micro-station File Version 8 XM Edition
+• OHW Datasheets
+NOTE:
+• OHW Switching Cross Sections
+• All document and drawings sheets are to
+• Height Gauges Datasheets
+be in accordance with Queensland Rail
+Limited standards
+• Tube Length Information
+• Dropper Schedules
+• Height and Stagger record sheets
+• Foundation records (depth, height,
+diameters)
+• Secondary Survey of foundations (offset
+from track, along track position, height)
+• New Systems Drawings
+• Section Insulator Insertion Table
+• Neutral Section Insertion table
+• APC Magnet Set-out Plan (where
+applicable)
+• Supplementary Bonding Arrangement
+(where applicable)
+• Substation Layout Plan
+• Substation Bonding Plan
+45
+
+[TABLE 1 on page 45]
+Outputs | Format
+• Index Sheet • Layout Plan Index sheet (if applicable) • OHW Layout Plan • OHW Bonding Plan • OHW Cross Sections • OHW Datasheets • OHW Switching Cross Sections • Height Gauges Datasheets • Tube Length Information • Dropper Schedules • Height and Stagger record sheets • Foundation records (depth, height, diameters) • Secondary Survey of foundations (offset from track, along track position, height) • New Systems Drawings • Section Insulator Insertion Table • Neutral Section Insertion table • APC Magnet Set-out Plan (where applicable) • Supplementary Bonding Arrangement (where applicable) • Substation Layout Plan • Substation Bonding Plan | • 3 copies of prints collated and bound in individual tension length folder books. The books shall have stiff plastic covers and be of a standard two-hole loose-leaf type • A3 PDF File (signatories as typed names) • Micro-station File Version 8 XM Edition NOTE: • All document and drawings sheets are to be in accordance with Queensland Rail Limited standards
+--- PAGE 46 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+Tension Length folder requirements
+• 3x tension length folders
+• Tension Length index. • A3 PDF File (signatories as typed
+names) 1 x complete set of electronic
+• Foundation schedule for overhead wiring native files in Micro-station (version to
+structures. be confirmed)
+• Height and stagger sheets.
+• Dropper length report.
+• Cantilever and tube length report.
+• Balance weight record sheets for each
+tension length.
+• Data sheets for each structure.
+• Photograph of each structure.
+• Wiring lay out plan for each tension
+length.
+• Earthing and bonding lay out plan for
+each tension length.
+These are required to be placed in
+individual tension length folder.
+• Drawings and Documentation Index
+• Sectioning Diagram
+• Protection Scheme Single Line Diagrams
+• Site Layouts
+• Relevant cross sections verifying
+electrical clearances
+• Building Layouts
+• Cable Schedules
+• Relevant hook-up lists for all interfaces
+• Configuration files for all protection
+relays modified/installed
+• Schematic diagrams for all protection
+schemes modified/installed
+• "As Built" Electrical Drawings • 3 x Hard Copies
+• A3 PDF File (signatories as typed
+names)
+46
+
+[TABLE 1 on page 46]
+Tension Length folder requirements • Tension Length index. • Foundation schedule for overhead wiring structures. • Height and stagger sheets. • Dropper length report. • Cantilever and tube length report. • Balance weight record sheets for each tension length. • Data sheets for each structure. • Photograph of each structure. • Wiring lay out plan for each tension length. • Earthing and bonding lay out plan for each tension length. These are required to be placed in individual tension length folder. • Drawings and Documentation Index • Sectioning Diagram • Protection Scheme Single Line Diagrams • Site Layouts • Relevant cross sections verifying electrical clearances • Building Layouts • Cable Schedules • Relevant hook-up lists for all interfaces • Configuration files for all protection relays modified/installed • Schematic diagrams for all protection schemes modified/installed | • 3x tension length folders • A3 PDF File (signatories as typed names) 1 x complete set of electronic native files in Micro-station (version to be confirmed)
+• "As Built" Electrical Drawings | • 3 x Hard Copies • A3 PDF File (signatories as typed names)
+--- PAGE 47 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+• 1 x complete set of electronic native files
+in Micro-station (version to be
+confirmed)
+• "As Built" LV Electrical Engineering • AutoCAD 2008 electronic native files Pdf
+drawings Files
+Automatic Train Protection data
+(k) The “As-Design”, “As-Constructed” and “As-Built” Data for following assets shall be
+provided to carryout Network Modelling and Analysis. These Asset types include:
+(i) Signals
+(ii) K posts
+(iii) Toe of Switches
+(iv) Speed boards
+(v) Gradients
+The detail asset Classification and Attributes are shown in Section 6.
+1.2 Survey/GIS Locations
+Asset locations are derived in either of the following ways:
+(a) direct from 12D – for track geometry;
+(b) via linear referencing (such as ATP, track circuits);
+(c) from Survey – co-ordinates in the local project projection are provided by the
+Program or Project survey team for the assets in question. In the majority of cases,
+the survey team will do this as part of the construction verification process;
+(d) from DGPS – co-ordinates in the Geographical Coordinate System, GDA94 (or
+GDA2020) are provided by the Program GIS Team using a Differential GPS (DGPS)
+Unit for the assets in question, enabling field co-ordinates to be captured at sub-
+metre accuracy. This is typically done in the absence of data from the survey team;
+(e) through manually creation by overlaying imagery or as-built set out plans from the
+survey team, such as concrete foundations for masts or transformers.
+For all assets, the GIS coordinates must be collected, incorporating the 3 axis measurements, and
+these data sets should have the Metadata information saved with them. The Metadata is used to
+determine the accuracy and validity of the da-ta collection method used. For example the location
+accuracy required to specify the position of equipment hut is not critical, however the centreline
+data of a track position is critical and therefore the metadata file should specify the accuracy of the
+data collection method to within centimetres.
+47
+
+[TABLE 1 on page 47]
+ | • 1 x complete set of electronic native files in Micro-station (version to be confirmed)
+• "As Built" LV Electrical Engineering drawings | • AutoCAD 2008 electronic native files Pdf Files
+--- PAGE 48 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+Annexure D
+Not used
+48
+--- PAGE 49 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+Annexure E
+Design Packages
+49
+--- PAGE 50 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+1. ORMEAU FACILITY WORKS (TABLE 1)
+50
+--- PAGE 51 ---
+Schedule A11 – Design Process and Review Procedures (Execution version)
+2. NOT USED
+51

@@ -1,0 +1,716 @@
+SOURCE FILE: 260213 RIM boundaries and fencing.pdf
+FULL PATH: C:\Users\markn\OneDrive - IXL Signalling\Sigtech\Downer QTMP\260213 RIM boundaries and fencing.pdf
+EXTENSION: .pdf
+SIZE: 14685042 bytes
+============================================================
+
+--- PAGE 1 ---
+BD
+DB
+BD
+BD
+DB
+BD
+DB DB
+DB
+DB
+BD DB
+BD DB
+DB
+BD
+PPPPPPPPPPP
+DDDDDDDDDDDFFFFFFFFFFF-----------XXXXXXXXXXXCCCCCCCCCCChhhhhhhhhhhaaaaaaaaaaannnnnnnnnnngggggggggggeeeeeeeeeee
+WWWWWWWWWWW
+EEEEEEEEEEEddddddddddd
+!!!!!!!!!!!
+iiiiiiiiiiitttttttttttooooooooooorrrrrrrrrrr
+wwwgggPPPPPPPPPPP
+DDDDDDDDDDDFFFFFFFFFFF-----------XXXXXXXXXXX
+jjj
+CCCCCCCCCCC
+vvv
+hhhhhhhhhhhaaaaaaaaaaannnnnnnnnnngggggggggggeeeeeeeeeee
+WWWWWWWWWWW
+EEEEEEEEEEEddddddddddd
+!!!!!!!!!!!
+iiiiiiiiiiitttttttttttooooooooooorrrrrrrrrrr
+wwwwwwwwwww wwwwwwwwwww wwwwwwwwwww CCCCCCCCCCC ...........ppppppppppp
+llllllllllliiiiiiiiiiiccccccccccc
+ddddddddddd
+kkkkkkkkkkk
+fffffffffff
+ttttttttttt
+-----------
+ooooooooooo
+xxxxxxxxxxx
+BBBBBBBBBBB
+ccccccccccc
+UUUUUUUUUUU
+hhhhhhhhhhh
+YYYYYYYYYYY
+aaaaaaaaaaa
+NNNNNNNNNNN
+nnnnnnnnnnn
+OOOOOOOOOOO
+gggggggggggeeeeeeeeeee...........cccccccccccooooooooooo mmmmmmmmmmm
+ERUT CUARDTUSMAARGFN IAynapmoC
+wwwwwwwwwww wwwwwwwwwww wwwwwwwwwww CCCCCCCCCCC ...........ppppppppppp
+llllllllllliiiiiiiiiiiccccccccccc
+ddddddddddd
+kkkkkkkkkkk
+fffffffffff
+ttttttttttt
+-----------
+ooooooooooo
+xxxxxxxxxxx
+BBBBBBBBBBB
+ccccccccccc
+UUUUUUUUUUU
+hhhhhhhhhhh
+YYYYYYYYYYY
+aaaaaaaaaaa
+NNNNNNNNNNN
+nnnnnnnnnnn
+OOOOOOOOOOO
+gggggggggggeeeeeeeeeee...........cccccccccccooooooooooo mmmmmmmmmmm
+INFO:
+RIM delineation signage on fence around North Shunt
+Refer signage schedule on drawing QTMP-DJV-OSWCIMS00-DRG-SH101
+Refer sign S-1 (QR) on drawing
+QTMP-DJV-OSWCIMS00-DRG-SH102
+Refer S-7 (Downer) on drawing
+QTMP-DJV-OSWCIMS00-DRG-SH103
+BD
+RIM asset boundary at 47km253
+(RAMR55) nominally half way
+between OHLE section insulators
+INFO:
+RIM boundary sleeper plate - Refer plate S-11 on drawing
+QTMP-DJV-OSWCIMS00-DRG-SH103
+RIM Boundary - North
+Fencing and delineation
+QTMP - ORMEAU FACILITY - SW03
+BOUNDARY FENCING AND GATES
+GENERAL ARRANGEMENT - SHEET 9
+PRELIMINARY
+11111 FF2ee Fbbe 22b00 22206626
+SSHHEESEEHTTE 11E OOT FF1 77of 7
+--- PAGE 2 ---
+BD
+DB
+BD
+BD
+DB
+BD
+DB DB
+DB
+DB
+BD DB
+BD DB
+DB
+BD
+PPPPPPPPPPP
+DDDDDDDDDDDFFFFFFFFFFF-----------XXXXXXXXXXXCCCCCCCCCCChhhhhhhhhhhaaaaaaaaaaannnnnnnnnnngggggggggggeeeeeeeeeee
+WWWWWWWWWWW
+EEEEEEEEEEEddddddddddd
+!!!!!!!!!!!
+iiiiiiiiiiitttttttttttooooooooooorrrrrrrrrrr
+wwwgggPPPPPPPPPPP
+DDDDDDDDDDDFFFFFFFFFFF-----------XXXXXXXXXXX
+jjj
+CCCCCCCCCCC
+vvv
+hhhhhhhhhhhaaaaaaaaaaannnnnnnnnnngggggggggggeeeeeeeeeee
+WWWWWWWWWWW
+EEEEEEEEEEEddddddddddd
+!!!!!!!!!!!
+iiiiiiiiiiitttttttttttooooooooooorrrrrrrrrrr
+wwwwwwwwwww wwwwwwwwwww wwwwwwwwwww CCCCCCCCCCC ...........ppppppppppp
+llllllllllliiiiiiiiiiiccccccccccc
+ddddddddddd
+kkkkkkkkkkk
+fffffffffff
+ttttttttttt
+-----------
+ooooooooooo
+xxxxxxxxxxx
+BBBBBBBBBBB
+ccccccccccc
+UUUUUUUUUUU
+hhhhhhhhhhh
+YYYYYYYYYYY
+aaaaaaaaaaa
+NNNNNNNNNNN
+nnnnnnnnnnn
+OOOOOOOOOOO
+gggggggggggeeeeeeeeeee...........cccccccccccooooooooooo mmmmmmmmmmm
+ERUT CUARDTUSMAARGFN IAynapmoC
+wwwwwwwwwww wwwwwwwwwww wwwwwwwwwww CCCCCCCCCCC ...........ppppppppppp
+llllllllllliiiiiiiiiiiccccccccccc
+ddddddddddd
+kkkkkkkkkkk
+fffffffffff
+ttttttttttt
+-----------
+ooooooooooo
+xxxxxxxxxxx
+BBBBBBBBBBB
+ccccccccccc
+UUUUUUUUUUU
+hhhhhhhhhhh
+YYYYYYYYYYY
+aaaaaaaaaaa
+NNNNNNNNNNN
+nnnnnnnnnnn
+OOOOOOOOOOO
+gggggggggggeeeeeeeeeee...........cccccccccccooooooooooo mmmmmmmmmmm
+INFO:
+Stabling OHLE section
+insulator at approx
+47km248 (RAMR55)
+INFO:
+BD Depot OHLE section
+insulator at approx
+47km258 (RAMR55)
+RIM asset boundary at 47km253
+(RAMR55) nominally half way
+between OHLE section insulators
+RIM Boundary - North
+OHLE
+QTMP - ORMEAU FACILITY - SW03
+BOUNDARY FENCING AND GATES
+GENERAL ARRANGEMENT - SHEET 9
+PRELIMINARY
+11111 FF2ee Fbbe 22b00 22206626
+SSHHEESEEHTTE 22E OOT FF2 77of 7
+--- PAGE 3 ---
+BD
+DB
+BD
+BD
+DB
+BD
+DB DB
+DB
+DB
+BD DB
+BD DB
+DB
+BD
+PPPPPPPPPPP
+DDDDDDDDDDDFFFFFFFFFFF-----------XXXXXXXXXXXCCCCCCCCCCChhhhhhhhhhhaaaaaaaaaaannnnnnnnnnngggggggggggeeeeeeeeeee
+WWWWWWWWWWW
+EEEEEEEEEEEddddddddddd
+!!!!!!!!!!!
+iiiiiiiiiiitttttttttttooooooooooorrrrrrrrrrr
+wwwgggPPPPPPPPPPP
+DDDDDDDDDDDFFFFFFFFFFF-----------XXXXXXXXXXX
+jjj
+CCCCCCCCCCC
+vvv
+hhhhhhhhhhhaaaaaaaaaaannnnnnnnnnngggggggggggeeeeeeeeeee
+WWWWWWWWWWW
+EEEEEEEEEEEddddddddddd
+!!!!!!!!!!!
+iiiiiiiiiiitttttttttttooooooooooorrrrrrrrrrr
+wwwwwwwwwww wwwwwwwwwww wwwwwwwwwww CCCCCCCCCCC ...........ppppppppppp
+llllllllllliiiiiiiiiiiccccccccccc
+ddddddddddd
+kkkkkkkkkkk
+fffffffffff
+ttttttttttt
+-----------
+ooooooooooo
+xxxxxxxxxxx
+BBBBBBBBBBB
+ccccccccccc
+UUUUUUUUUUU
+hhhhhhhhhhh
+YYYYYYYYYYY
+aaaaaaaaaaa
+NNNNNNNNNNN
+nnnnnnnnnnn
+OOOOOOOOOOO
+gggggggggggeeeeeeeeeee...........cccccccccccooooooooooo mmmmmmmmmmm
+ERUT CUARDTUSMAARGFN IAynapmoC
+wwwwwwwwwww wwwwwwwwwww wwwwwwwwwww CCCCCCCCCCC ...........ppppppppppp
+llllllllllliiiiiiiiiiiccccccccccc
+ddddddddddd
+kkkkkkkkkkk
+fffffffffff
+ttttttttttt
+-----------
+ooooooooooo
+xxxxxxxxxxx
+BBBBBBBBBBB
+ccccccccccc
+UUUUUUUUUUU
+hhhhhhhhhhh
+YYYYYYYYYYY
+aaaaaaaaaaa
+NNNNNNNNNNN
+nnnnnnnnnnn
+OOOOOOOOOOO
+gggggggggggeeeeeeeeeee...........cccccccccccooooooooooo mmmmmmmmmmm
+INFO:
+Train Control Interface Boundary
+[at 47km237.5 TBC (RAMR55)] nominally
+half way between axle counters
+INFO:
+RCS axle counter and marker board
+[5698 TBC] for Stabling/ Depot
+signalling transition [at 47km236
+(RAMR55) TBC] - refer ICD-027
+5698
+9075
+*1*2
+*3
+BD
+RIM asset boundary at 47km253
+(RAMR55) nominally half way
+between OHLE section insulators
+INFO:
+ETCS axle counter and marker board
+[5709 TBC] for Stabling/ Depot signalling Note:
+transition at [47km239 (RAMR55) TBC] -
+refer ICD-027 Signalling layout as per ICD-027 Rev C as transmitted for
+review via QTMP-AAA-DOW-TRN-000432
+The following signalling assets are beyond the track/ OHLE
+asset boundary of the respective RIM
+QR asset in Downer RIM zone:
+- Balise pair for CLT0 [at 47km259 and 47km262 TBC]
+Refer *1 and *2
+RIM Boundary - North
+Downer asset in QR RIM zone:
+Axle counter for RCS
+Signalling
+Refer item *3 [at 47km236 TBC]
+QTMP - ORMEAU FACILITY - SW03
+BOUNDARY FENCING AND GATES
+GENERAL ARRANGEMENT - SHEET 9
+PRELIMINARY
+11111 FF2ee Fbbe 22b00 22206626
+SSHHEESEEHTTE 33E OOT FF3 77of 7
+--- PAGE 4 ---
+PPPPPPPPPPP
+DDDDDDDDDDDFFFFFFFFFFF-----------XXXXXXXXXXXCCCCCCCCCCChhhhhhhhhhhaaaaaaaaaaannnnnnnnnnngggggggggggeeeeeeeeeee
+WWWWWWWWWWW
+EEEEEEEEEEEddddddddddd
+!!!!!!!!!!!
+iiiiiiiiiiitttttttttttooooooooooorrrrrrrrrrr
+wwwwwwggggggPPPPPPPPPPP
+DDDDDDDDDDDFFFFFFFFFFF-----------XXXXXXXXXXX
+jjjjjj
+CCCCCCCCCCC
+vvvvvv
+hhhhhhhhhhhaaaaaaaaaaannnnnnnnnnngggggggggggeeeeeeeeeee
+WWWWWWWWWWW
+EEEEEEEEEEEddddddddddd
+!!!!!!!!!!!
+iiiiiiiiiiitttttttttttooooooooooorrrrrrrrrrr
+wwwwwwwwwww wwwwwwwwwww wwwwwwwwwww CCCCCCCCCCC ...........ppppppppppp
+llllllllllliiiiiiiiiiiccccccccccc
+ddddddddddd
+kkkkkkkkkkk
+fffffffffff
+ttttttttttt
+-----------
+ooooooooooo
+xxxxxxxxxxx
+BBBBBBBBBBB
+ccccccccccc
+UUUUUUUUUUU
+hhhhhhhhhhh
+YYYYYYYYYYY
+aaaaaaaaaaa
+NNNNNNNNNNN
+nnnnnnnnnnn
+OOOOOOOOOOO
+gggggggggggeeeeeeeeeee...........cccccccccccooooooooooo mmmmmmmmmmm
+EERRUUTT CCUUAARRDDTTUUSSMMAAAARRGGFFNN IIAAyynnaappmmooCC
+wwwwwwwwwww wwwwwwwwwww wwwwwwwwwww CCCCCCCCCCC ...........ppppppppppp
+llllllllllliiiiiiiiiiiccccccccccc
+ddddddddddd
+kkkkkkkkkkk
+fffffffffff
+ttttttttttt
+-----------
+ooooooooooo
+xxxxxxxxxxx
+BBBBBBBBBBB
+ccccccccccc
+UUUUUUUUUUU
+hhhhhhhhhhh
+YYYYYYYYYYY
+aaaaaaaaaaa
+NNNNNNNNNNN
+nnnnnnnnnnn
+OOOOOOOOOOO
+gggggggggggeeeeeeeeeee...........cccccccccccooooooooooo mmmmmmmmmmm
+SUGGESTED REVISION:
+Extent of frangible bollards to
+continue to RIM boundary SUGGESTED REVISION:
+x LIAR Locate RIM asset boundary at 48km525
+(RAMR55) nominally half way between
+OHLE section insulators
+DB DB
+BD BD
+BD
+BD
+SUGGESTED REVISION:
+Show arrow to sleeper plate
+pointing to RIM asset boundary
+RIM Boundary to be moved to be co-located with:
+- OHLE Electrical Limit
+- Signalling control interface boundary (TBC)
+RIM Boundary - South
+Suggested revision
+QTMP - ORMEAU FACILITY - SW03
+BOUNDARY FENCING AND GATES
+GENERAL ARRANGEMENT - SHEET 12
+PPRREELLIIMMIINNAARRYY
+11111 FF2ee Fbbe 22b00 22206626
+SSHHEESEEHTTE 44E OOT FF4 77of 7
+--- PAGE 5 ---
+PPPPPPPPPPP
+DDDDDDDDDDDFFFFFFFFFFF-----------XXXXXXXXXXXCCCCCCCCCCChhhhhhhhhhhaaaaaaaaaaannnnnnnnnnngggggggggggeeeeeeeeeee
+WWWWWWWWWWW
+EEEEEEEEEEEddddddddddd
+!!!!!!!!!!!
+iiiiiiiiiiitttttttttttooooooooooorrrrrrrrrrr
+wwwwwwggggggPPPPPPPPPPP
+DDDDDDDDDDDFFFFFFFFFFF-----------XXXXXXXXXXX
+jjjjjj
+CCCCCCCCCCC
+vvvvvv
+hhhhhhhhhhhaaaaaaaaaaannnnnnnnnnngggggggggggeeeeeeeeeee
+WWWWWWWWWWW
+EEEEEEEEEEEddddddddddd
+!!!!!!!!!!!
+iiiiiiiiiiitttttttttttooooooooooorrrrrrrrrrr
+wwwwwwwwwww wwwwwwwwwww wwwwwwwwwww CCCCCCCCCCC ...........ppppppppppp
+llllllllllliiiiiiiiiiiccccccccccc
+ddddddddddd
+kkkkkkkkkkk
+fffffffffff
+ttttttttttt
+-----------
+ooooooooooo
+xxxxxxxxxxx
+BBBBBBBBBBB
+ccccccccccc
+UUUUUUUUUUU
+hhhhhhhhhhh
+YYYYYYYYYYY
+aaaaaaaaaaa
+NNNNNNNNNNN
+nnnnnnnnnnn
+OOOOOOOOOOO
+gggggggggggeeeeeeeeeee...........cccccccccccooooooooooo mmmmmmmmmmm
+EERRUUTT CCUUAARRDDTTUUSSMMAAAARRGGFFNN IIAAyynnaappmmooCC
+wwwwwwwwwww wwwwwwwwwww wwwwwwwwwww CCCCCCCCCCC ...........ppppppppppp
+llllllllllliiiiiiiiiiiccccccccccc
+ddddddddddd
+kkkkkkkkkkk
+fffffffffff
+ttttttttttt
+-----------
+ooooooooooo
+xxxxxxxxxxx
+BBBBBBBBBBB
+ccccccccccc
+UUUUUUUUUUU
+hhhhhhhhhhh
+YYYYYYYYYYY
+aaaaaaaaaaa
+NNNNNNNNNNN
+nnnnnnnnnnn
+OOOOOOOOOOO
+gggggggggggeeeeeeeeeee...........cccccccccccooooooooooo mmmmmmmmmmm
+x LIAR R
+(R
+IM
+AM
+a
+R
+ss
+5
+e
+5
+t
+)
+b
+n
+o
+o
+u
+m
+n
+i
+d
+n
+a
+a
+r
+l
+y
+ly
+a
+h
+t
+a
+4
+lf
+8
+w
+km
+ay
+5 25
+between OHLE section insulators
+INFO:
+Extent of RIM delineation fence
+stopped to avoid impractical narrow
+"wedge" between fences
+DB DB
+BD BD
+BD
+BD
+INFO:
+RIM delineation signage on fence around South Shunt
+Refer signage schedule on drawing
+QTMP-DJV-OSWCIMS00-DRG-SH101
+Refer sign S-1 (QR) on drawing
+QTMP-DJV-OSWCIMS00-DRG-SH102
+INFO:
+Refer S-7 (Downer) on drawing
+RIM boundary sleeper plate
+QTMP-DJV-OSWCIMS00-DRG-SH103
+Refer plate S-11 on drawing
+QTMP-DJV-OSWCIMS00-DRG-SH103
+RIM Boundary - South
+Fencing and delineation
+QTMP - ORMEAU FACILITY - SW03
+BOUNDARY FENCING AND GATES
+GENERAL ARRANGEMENT - SHEET 12
+PPRREELLIIMMIINNAARRYY
+11111 FF2ee Fbbe 22b00 22206626
+SSHHEESEEHTTE 55E OOT FF5 77of 7
+--- PAGE 6 ---
+PPPPPPPPPPP
+DDDDDDDDDDDFFFFFFFFFFF-----------XXXXXXXXXXXCCCCCCCCCCChhhhhhhhhhhaaaaaaaaaaannnnnnnnnnngggggggggggeeeeeeeeeee
+WWWWWWWWWWW
+EEEEEEEEEEEddddddddddd
+!!!!!!!!!!!
+iiiiiiiiiiitttttttttttooooooooooorrrrrrrrrrr
+wwwwwwggggggPPPPPPPPPPP
+DDDDDDDDDDDFFFFFFFFFFF-----------XXXXXXXXXXX
+jjjjjj
+CCCCCCCCCCC
+vvvvvv
+hhhhhhhhhhhaaaaaaaaaaannnnnnnnnnngggggggggggeeeeeeeeeee
+WWWWWWWWWWW
+EEEEEEEEEEEddddddddddd
+!!!!!!!!!!!
+iiiiiiiiiiitttttttttttooooooooooorrrrrrrrrrr
+wwwwwwwwwww wwwwwwwwwww wwwwwwwwwww CCCCCCCCCCC ...........ppppppppppp
+llllllllllliiiiiiiiiiiccccccccccc
+ddddddddddd
+kkkkkkkkkkk
+fffffffffff
+ttttttttttt
+-----------
+ooooooooooo
+xxxxxxxxxxx
+BBBBBBBBBBB
+ccccccccccc
+UUUUUUUUUUU
+hhhhhhhhhhh
+YYYYYYYYYYY
+aaaaaaaaaaa
+NNNNNNNNNNN
+nnnnnnnnnnn
+OOOOOOOOOOO
+gggggggggggeeeeeeeeeee...........cccccccccccooooooooooo mmmmmmmmmmm
+EERRUUTT CCUUAARRDDTTUUSSMMAAAARRGGFFNN IIAAyynnaappmmooCC
+wwwwwwwwwww wwwwwwwwwww wwwwwwwwwww CCCCCCCCCCC ...........ppppppppppp
+llllllllllliiiiiiiiiiiccccccccccc
+ddddddddddd
+kkkkkkkkkkk
+fffffffffff
+ttttttttttt
+-----------
+ooooooooooo
+xxxxxxxxxxx
+BBBBBBBBBBB
+ccccccccccc
+UUUUUUUUUUU
+hhhhhhhhhhh
+YYYYYYYYYYY
+aaaaaaaaaaa
+NNNNNNNNNNN
+nnnnnnnnnnn
+OOOOOOOOOOO
+gggggggggggeeeeeeeeeee...........cccccccccccooooooooooo mmmmmmmmmmm
+x LIAR R
+(R
+IM
+AM
+a
+R
+ss
+5
+e
+5
+t
+)
+b
+n
+o
+o
+u
+m
+n
+i
+d
+n
+a
+a
+r
+l
+y
+ly
+a
+h
+t
+a
+4
+lf
+8
+w
+km
+ay
+5 25
+between OHLE section insulators
+INFO:
+Stabling OHLE section
+insulator at approx
+48km530 (RAMR55)
+DB DB
+BD BD
+BD
+BD
+INFO:
+Depot OHLE section
+insulator at approx
+48km519 (RAMR55)
+RIM Boundary - South
+OHLE
+QTMP - ORMEAU FACILITY - SW03
+BOUNDARY FENCING AND GATES
+GENERAL ARRANGEMENT - SHEET 12
+PPRREELLIIMMIINNAARRYY
+11111 FF2ee Fbbe 22b00 22206626
+SSHHEESEEHTTE 66E OOT FF6 77of 7
+--- PAGE 7 ---
+PPPPPPPPPPP
+DDDDDDDDDDDFFFFFFFFFFF-----------XXXXXXXXXXXCCCCCCCCCCChhhhhhhhhhhaaaaaaaaaaannnnnnnnnnngggggggggggeeeeeeeeeee
+WWWWWWWWWWW
+EEEEEEEEEEEddddddddddd
+!!!!!!!!!!!
+iiiiiiiiiiitttttttttttooooooooooorrrrrrrrrrr
+wwwwwwggggggPPPPPPPPPPP
+DDDDDDDDDDDFFFFFFFFFFF-----------XXXXXXXXXXX
+jjjjjj
+CCCCCCCCCCC
+vvvvvv
+hhhhhhhhhhhaaaaaaaaaaannnnnnnnnnngggggggggggeeeeeeeeeee
+WWWWWWWWWWW
+EEEEEEEEEEEddddddddddd
+!!!!!!!!!!!
+iiiiiiiiiiitttttttttttooooooooooorrrrrrrrrrr
+wwwwwwwwwww wwwwwwwwwww wwwwwwwwwww CCCCCCCCCCC ...........ppppppppppp
+llllllllllliiiiiiiiiiiccccccccccc
+ddddddddddd
+kkkkkkkkkkk
+fffffffffff
+ttttttttttt
+-----------
+ooooooooooo
+xxxxxxxxxxx
+BBBBBBBBBBB
+ccccccccccc
+UUUUUUUUUUU
+hhhhhhhhhhh
+YYYYYYYYYYY
+aaaaaaaaaaa
+NNNNNNNNNNN
+nnnnnnnnnnn
+OOOOOOOOOOO
+gggggggggggeeeeeeeeeee...........cccccccccccooooooooooo mmmmmmmmmmm
+EERRUUTT CCUUAARRDDTTUUSSMMAAAARRGGFFNN IIAAyynnaappmmooCC
+wwwwwwwwwww wwwwwwwwwww wwwwwwwwwww CCCCCCCCCCC ...........ppppppppppp
+llllllllllliiiiiiiiiiiccccccccccc
+ddddddddddd
+kkkkkkkkkkk
+fffffffffff
+ttttttttttt
+-----------
+ooooooooooo
+xxxxxxxxxxx
+BBBBBBBBBBB
+ccccccccccc
+UUUUUUUUUUU
+hhhhhhhhhhh
+YYYYYYYYYYY
+aaaaaaaaaaa
+NNNNNNNNNNN
+nnnnnnnnnnn
+OOOOOOOOOOO
+gggggggggggeeeeeeeeeee...........cccccccccccooooooooooo mmmmmmmmmmm
+x LIAR
+INFO:
+Train Control Interface Boundary
+[at 48km522.5 TBC (RAMR55)] nominally
+*5
+*3*4
+5570 half way between axle counters
+*1*2
+DB DB
+7655
+I
+R
+N
+C
+F
+S
+O :
+axle counter and marker
+board [5567 TBC] for Stabling/
+Depot signalling transition [at
+48km524 (RAMR55) TBC] - refer
+BD BD ICD-027
+BD
+BD INFO:
+ETCS axle counter and marker
+board [5570 TBC] for Stabling/
+Depot signalling transition [at
+48km521 (RAMR55) TBC] - refer
+ICD-027
+Note:
+Signalling layout as per ICD-027 Rev C as transmitted for
+review via QTMP-AAA-DOW-TRN-000432
+The following signalling assets are beyond the track/ OHLE
+asset boundary of the respective RIM
+QR asset in Downer RIM zone:
+- Balise pair for CLT0 [at 48km496 and 48km499 TBC]
+Refer *1 and *2
+- Balise pair for PSA [at 48km516 and 48km519 TBC] RIM Boundary - South
+Refer *3 and *4
+- Axle counter for ETCS Signalling
+Refer item *5 [at 48km521 TBC]
+QTMP - ORMEAU FACILITY - SW03
+BOUNDARY FENCING AND GATES
+GENERAL ARRANGEMENT - SHEET 12
+PPRREELLIIMMIINNAARRYY
+11111 FF2ee Fbbe 22b00 22206626
+SSHHEESEEHTTE 77E OOT FF7 77of 7

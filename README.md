@@ -16,17 +16,23 @@ Minimal desktop viewer/editor for **Madness-engine** `EDF/EDFBIN` engine files. 
   - **Engine layout** hint (best‑effort from 9 known code sequences)
   - **Hex view** with highlighting for selected items
 - **Plotting** (optional, via `matplotlib`)
-  - Torque & Power **vs RPM** (dual-axis)
-  - Compression **vs RPM**
+  - **Interactive drag-editable** Torque & Power vs RPM (dual-axis)
+  - **Interactive drag-editable** Compression vs RPM
+  - Real-time precision quantisation (float32) and Power recalculation during drag
+  - Topmost-curve selection aware, per-table isolation
 - **Editing**
-  - Double‑click parameters to edit — dialogs show **field labels and types** (e.g., `Inertia (kg·m²) [float]:`)
-  - Double-click torque rows to edit RPM, compression, torque
+  - **Visual editing**: Drag points vertically to alter torque or compression values
+  - **Modifer Keys**: Hold `Shift` for fine drag (÷10), hold `Ctrl` to snap to nearest 10Nm
+  - **Proportional compression scaling**: Compression automatically scales proportionately when torque is dragged
+  - **Actionable Undo**: `Ctrl+Z` undoes drag operations (50-deep stack)
+  - Numeric fallback: Double‑click items in the tree view to edit manually
   - **Scale torque** globally by a percentage
 - **Export/Save**
   - Export torque tables to **CSV**
+  - Unsaved dirtystate indicator (`*`) in the window title
   - **Save** (overwrite) or **Save As** to a new file (Ctrl+S)
   - **Close** file to reset UI
-- **Verified lossless** — round-trip tested: mutate → save → reopen → reinstate → byte-identical ✅
+- **Verified lossless** — round-trip tested: drag → quantise → save → reopen → reinstate → byte-identical ✅
 
 ![EDF Main Window](https://raw.githubusercontent.com/RangeyRover/AMS2-EDF-File-Editor/refs/heads/main/EDF-Main%20Window.png)
 ![EDF PlotWindow](https://raw.githubusercontent.com/RangeyRover/AMS2-EDF-File-Editor/refs/heads/main/EDF-Plots.png)

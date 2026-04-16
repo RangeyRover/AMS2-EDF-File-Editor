@@ -1,0 +1,71 @@
+SOURCE FILE: DMD-15-49 - Downer GSS Version and Ammendments Control Document.xlsx
+FULL PATH: C:\Users\markn\OneDrive - IXL Signalling\Sigtech\Downer QTMP\Downer - GSS\Downer - GSS\Part 3 - Version and Ammendment Control\DMD-15-49 - Downer GSS Version and Ammendments Control Document.xlsx
+EXTENSION: .xlsx
+SIZE: 19231 bytes
+============================================================
+
+
+=== SHEET: 1. Notes ===
+Control Type | Control Content
+Document Title: | Downer Ormeau Depot General Signalling Standards
+Version No: | 1
+Version Date: | 10.02.2026
+Rail Infrastructure Manager Author: | Scott Moir
+Rail Infrastructure Manager Reviewer: | David Pfeffer
+Rail Infrastructure Manager Approver: | Ian Evans
+Note No | Note
+1 | This document is uncontrolled when copied or printed.
+2 | This document is live and stored on Downer's Ormeau Depot Rail Infrastructure Manager Website (**insert link**)
+3 | This document can only be modified by the Downer Rail Infrastructure Manager Approver.
+4 | This document must be read in conjunction with DMD-15-48 - Downer General Signalling Specifications Guide
+5 | Tab 1 details Notes.
+6 | Tab 2 details all documents within the Downer Ormeau General Signalling Standard Library.
+7 | Tabs A0 onwards documents approved amendments to the Downer General Signalling Standard Library documents.
+8 | Downer will inform all stakeholders when a critical safety change is implemented within the Downer GSS.
+
+=== SHEET: 2. Ormeau Depot GSS Library ===
+ | GSS Part | Title | MD Number | Version
+ | GSS Part 01A | Downer General Signalling Specifications Guide | DMD-15-48 | A
+ | GSS Part 01B | Version and Ammendments Control Document | DMD-15-49 | A
+ | GSS Part 02 | Traction Bonding and Immunisation | MD-15-50 | 4
+ | GSS Part 03 | Signals and Level Crossings | MD-15-51 | 7
+ | GSS Part 03A | LED Signals | MD-15-52 | 3
+ | GSS Part 04 | Points | MD-15-53 | 4
+ | GSS Part 05 | Track Circuits, Axle Counters and DEDs | MD-15-55 | 5
+ | GSS Part 05A | Bonding and Track Clearance | MD-15-56 | 6
+ | GSS Part 06 | Cables and Cable Routes | MD-15-58 | 5
+ | GSS Part 07 | Equipment Housing | MD-15-59 | 5.1
+ | GSS Part 08 | Power Supply Equipment | MD-15-60 | 6
+ | GSS Part 08A | Surge Reduction Filters | MD-15-61 | 3
+ | GSS Part 08B | Uninterruptable Power Supplies | MD-15-62 | 3
+ | GSS Part 08D | Power Conditioners | MD-15-64 | 1
+ | GSS Part 08E | Alternators | MD-15-65 | 3
+ | GSS Part 08F | Single-Phase Transformers | MD-15-66 | 1.1
+ | GSS Part 08G | DC Power Supplies | MD-15-67 | 2
+ | GSS Part 08H | Points Power Supply | MD-15-68 | 3
+ | GSS Part 08J | Three-Phase Transformers | MD-18-154 | 2
+
+=== SHEET: A0. General Ammendments  ===
+ | GSS Part | Title | MD Number | Version | General Ammendment 1
+ | GSS Part 02 | Traction Bonding and Immunisation | MD-15-50 | 4 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+ | GSS Part 03 | Signals and Level Crossings | MD-15-51 | 7 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+ | GSS Part 03A | LED Signals | MD-15-52 | 3 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+ | GSS Part 04 | Points | MD-15-53 | 4 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+ | GSS Part 05 | Track Circuits, Axle Counters and DEDs | MD-15-55 | 5 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+ | GSS Part 05A | Bonding and Track Clearance | MD-15-56 | 6 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+ | GSS Part 06 | Cables and Cable Routes | MD-15-58 | 5 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+ | GSS Part 07 | Equipment Housing | MD-15-59 | 5.1 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+ | GSS Part 08 | Power Supply Equipment | MD-15-60 | 6 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+ | GSS Part 08A | Surge Reduction Filters | MD-15-61 | 3 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+ | GSS Part 08B | Uninterruptable Power Supplies | MD-15-62 | 3 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+ | GSS Part 08D | Power Conditioners | MD-15-64 | 1 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+ | GSS Part 08E | Alternators | MD-15-65 | 3 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+ | GSS Part 08F | Single-Phase Transformers | MD-15-66 | 1.1 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+ | GSS Part 08G | DC Power Supplies | MD-15-67 | 2 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+ | GSS Part 08H | Points Power Supply | MD-15-68 | 3 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+ | GSS Part 08J | Three-Phase Transformers | MD-18-154 | 2 | Replace 'Queensland Rail' with 'Downer Rail' in all instances.
+
+=== SHEET: A7. GSS Part 7 (Example) ===
+ | GSS Part 07 |  | Equipment Housing | MD-15-59 | Version 5.1 |  | 
+ | Section | Section Title | Current Text | Ammended Text | Rational | Assessment Process | Engineering Risk Assessment Number and Link
+ | 2.2 | Secure Housing & Equipment | The preferred model is a Lockwood 334B. | Remove text | There is no recongnised benefit from specifying preferred model. | Non Engineering Change. The RIM is satisfied that the lock defintion is suffcient wihtout specifying a preferred model. | NA

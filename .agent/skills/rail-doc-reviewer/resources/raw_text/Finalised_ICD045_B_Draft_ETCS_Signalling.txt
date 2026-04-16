@@ -1,0 +1,577 @@
+SOURCE FILE: Finalised - ICD045_B Draft ETCS Signalling.pdf
+FULL PATH: C:\Users\markn\OneDrive - IXL Signalling\Sigtech\Downer QTMP\Finalised - ICD045_B Draft ETCS Signalling.pdf
+EXTENSION: .pdf
+SIZE: 677481 bytes
+============================================================
+
+--- PAGE 1 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+Page 1 of 18
+540000-DCI-ME-WOD-AAA-PMTQ
+Interface Control Document 45 Rev B
+Ormeau ETCS Telecom and Signalling
+--- PAGE 2 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+Stakeholder Endorsements
+Endorsement of this document by the document owners is confirmation that they have reviewed the document and all encompassed detail around interfaces. In signing this ICD,
+the parties acknowledge and agree that:
+- This ICD has been developed collaboratively between the parties to manage the relevant interfaces;
+- Each party has provided the others with the relevant services and information and have jointly reviewed this document to ensure that it presents a consistent approach to
+design, delivery and implementation of the interface(s) described herein;
+- Parties will continue to collaborate with each other and other relevant parties as required to successfully implement (and, as required, update) the interface(s) described
+within this document;
+- The services and information provided is correct to the best knowledge of both parties at the time of signature;
+- The obligations in the Project Documents are unaffected by the interface elements described in this document.
+Table 1 Contractor and Subcontractor Endorsement
+Interface Role Name Position Company Endorsement Date Signed
+Engineering Manager Mike Rogers Engineering Manager DTI (The Builder)
+Rail Systems Project
+Rail Systems Project Manager Darryn DeReuck Downer (The Contractor)
+Manager
+Interface Controls
+Interface Manager Colin Harkness Downer (The Contractor)
+Manager
+Table 2 State and Operator Endorsement
+Interface Role Name Position Company Endorsement Date Signed
+Interface Manager Tim Woodman Interface Manager State
+State Representative Kevyn Z Neale State Representative State
+Page 2 of 18
+
+[TABLE 1 on page 2]
+Interface Role | Name | Position | Company | Endorsement | Date Signed
+Engineering Manager | Mike Rogers | Engineering Manager | DTI (The Builder) |  | 
+Rail Systems Project Manager | Darryn DeReuck | Rail Systems Project Manager | Downer (The Contractor) |  | 
+Interface Manager | Colin Harkness | Interface Controls Manager | Downer (The Contractor) |  | 
+
+[TABLE 2 on page 2]
+Interface Role | Name | Position | Company | Endorsement | Date Signed
+Interface Manager | Tim Woodman | Interface Manager | State |  | 
+State Representative | Kevyn Z Neale | State Representative | State |  | 
+--- PAGE 3 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+Revision History
+REV ISSUE DATE CHANGE DETAILS
+A - Draft 08/05/2025 Initial Interface Control Document Draft
+Name Company Date
+Ken Tran
+Prepared Downer Prime 08/05/2025
+Wendy Hahlani
+B - Draft 14/11/2025 Updated to QTMP Design Progression – Draft
+Name Position Date
+Prepared Scott Moir Downer Prime 21/11/2025
+0 Official Issue
+Page 3 of 18
+
+[TABLE 1 on page 3]
+REV | ISSUE DATE |  | CHANGE DETAILS |  | 
+A - Draft | 08/05/2025 |  | Initial Interface Control Document Draft |  | 
+ | Name Company Date Ken Tran Prepared Downer Prime 08/05/2025 Wendy Hahlani |  | Name | Company | Date
+B - Draft | 14/11/2025 |  | Updated to QTMP Design Progression – Draft |  | 
+ | Name Position Date Prepared Scott Moir Downer Prime 21/11/2025 |  | Name | Position | Date
+ |  |  |  |  | 
+0 |  |  | Official Issue |  | 
+ |  |  |  |  | 
+ |  |  |  |  | 
+ |  |  |  |  | 
+--- PAGE 4 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+Contents
+Stakeholder Endorsements 2
+Revision History 3
+Contents 4
+Table of Figures 5
+Table of Tables 5
+Table of References 6
+Table of Abbreviations and Definitions 7
+1. Introduction 8
+1.1 Purpose 8
+1.2 Scope 8
+1.3 Interfaces Out of Scope 9
+1.4 Key Personnel 9
+2. Design Process, Management and Control 10
+2.1 ICD045 Current Status 10
+2.2 ICD045 Forward Plan 10
+2.3 Developed and Change Management 12
+3. Design Particulars 13
+3.1 Requirements & Derogations 13
+3.2 Physical Scope Interface Mapping 14
+3.2.1 ETCS Signalling: Wayside Equipment 14
+3.2.2 ETCS Signalling: Level Crossing 15
+3.2.3 ETCS Signalling: Axle Counters 15
+4. Procurement & Construction 16
+5. Construction Verification 17
+6. ETCS Infrastructure Handover 17
+7. Testing & Commissioning 17
+8. Attachment 1 – Scope Split Matrix 18
+Page 4 of 18
+--- PAGE 5 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+Table of Figures
+Figure 1 Ormeau Facility Rail Layout 8
+Figure 2 QTMP/ ETCS Design Completion Pathway 11
+Figure 3 QTMP/ ETCS Design Alignment Process 12
+Table of Tables
+Table 1 Contractor and Subcontractor Endorsement 2
+Table 2 State and Operator Endorsement 2
+Table 3 Key Personnel 9
+Table 4 QTMP DDR Packages 10
+Table 5 Requirements Documentation 13
+Table 6 - Boundary Interface Requirements 13
+Table 7 ETCS Signalling Wayside Equipment: Physical Scope Interface Schedule 14
+Table 8 ETCS Signalling LX: Physical Scope Interface Schedule 15
+Table 9 ETCS Signalling Axle Counter: Physical Scope Interface Schedule 15
+Table 10 Procurement & Construction Base Inputs 16
+Table 11 Procurement & Construction Categories 16
+Table 12 Integration Documents 16
+Table 13 Construction Verification Documentation 17
+Table 14 Infrastructure Handover Documentation 17
+Table 15 Testing & Commissioning Documentation 17
+Page 5 of 18
+--- PAGE 6 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+Table of References
+The following project documents have been referenced within this ICD:
+Source Document ID Document Title
+Downer QTMP-AAA-DOW-EM-ICD-000027 ICD027 – Ormeau Signalling (Conventional – ETCS)
+Downer QTMP-AAA-DOW-EM-ICD-000032 ICD032 - Ormeau to QR Telecommunications &
+Operational Systems
+Downer QTMP-AAA-DOW-EM-ICD-000046 ICD046 – Ormeau Mainline Connection
+Page 6 of 18
+
+[TABLE 1 on page 6]
+Source | Document ID | Document Title
+Downer | QTMP-AAA-DOW-EM-ICD-000027 | ICD027 – Ormeau Signalling (Conventional – ETCS)
+Downer | QTMP-AAA-DOW-EM-ICD-000032 | ICD032 - Ormeau to QR Telecommunications & Operational Systems
+Downer | QTMP-AAA-DOW-EM-ICD-000046 | ICD046 – Ormeau Mainline Connection
+--- PAGE 7 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+Table of Abbreviations and Definitions
+The following abbreviations are used through this ICD and have been defined in the following table:
+Abbreviation Description / Definition
+CER Communication Equipment Room
+CSR Combined Service Routes
+DTI DT Infrastructure
+ETCS European Train Control System
+ICD Interface Control Document
+QR Queensland Rail
+QTMP Queensland Train Manufacturing Program
+RIM Rail Infrastructure Manager
+RMAR Railway Maintenance Access Road
+Sequence Sequence Alliance
+Page 7 of 18
+
+[TABLE 1 on page 7]
+Abbreviation | Description / Definition
+CER | Communication Equipment Room
+CSR | Combined Service Routes
+DTI | DT Infrastructure
+ETCS | European Train Control System
+ICD | Interface Control Document
+QR | Queensland Rail
+QTMP | Queensland Train Manufacturing Program
+RIM | Rail Infrastructure Manager
+RMAR | Railway Maintenance Access Road
+Sequence | Sequence Alliance
+--- PAGE 8 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+1. Introduction
+1.1 Purpose
+The purpose of this Interface Control Document (ICD) is to,
+1. Document the QTMP and Sequence approach to manage, monitor and control scope with respect to
+ICD45.
+2. Document the QTMP DDR design packages to enable Sequence to review, develop and align ETCS
+design.
+3. Provide a framework that QTMP and Sequence will work within to review, align and potentially
+modify QTMP and Sequence Design.
+4. Document the current approach related to procurement, construction, test and commission of future
+works.
+5. Provide a framework that QTMP and Sequence Alliance will work within to review, align and
+potentially modify planned activities related to procurement, construction, test and commission of
+future works.
+6. Document content that will satisfy QTMP ICD requirements noting Sequence may require additional
+but separate supplementary documents.
+1.2 Scope
+ICD045 focuses on the ETCS signalling interfaces within the stabling yard between Downer/DTI and
+Sequence Alliance, where Downer/DTI will be performing most of the civil works (designing and installing the
+facility infrastructure) and Sequence complete the ETCS design, procure, test and commission.
+Figure 1 Ormeau Facility Rail Layout
+Page 8 of 18
+--- PAGE 9 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+As depicted in Figure 1 Ormeau Facility Rail Layout, this Interface Control Document will manage the scope
+of the gold lines and will cover:
+ ETCS asset dimensions and locations (Axle Counters, marker boards and equipment hut
+foundations)
+ Power
+ Earthing and Bonding
+ Communications networks
+ CSR and Pits
+ Fences and Gates
+1.3 Interfaces Out of Scope
+This ICD will not define interfaces outside the gold lines highlighted in blue as shown in Figure 1,Error!
+Reference source not found. and within those boundaries, will only cover ETCS signalling interfaces. The
+Interface to the mainline will be covered in in ICD046 (highlighted in orange) and the interface to the
+Maintenance Depot will be covered in ICD027 (highlighted in green).
+1.4 Key Personnel
+Table 3 details key personnel involved within ICD045 coordination and management.
+Table 3 Key Personnel
+Name Discipline Company Interface Role
+Kevyn Neale All State QTMP Senior Project Manager
+Paul Morris All State ETCS Project Manager
+Darryn DeReuck All Downer Prime RS System Manager
+Lachlan Gordon All SEQUENCE Program Manager
+Anthony Marquez All DTI Technical Lead
+Scott Nicholls Civil DTI Civil Construction Lead
+James McGregor Signalling, Telecoms & Power DTI Signalling Construction Lead
+Minhaj Ali Signalling, Telecoms & Power SEQUENCE Technical Lead
+Igor Chernishov Telecoms SEQUENCE Technical Lead
+Dhinesh Chinnappan Civil SEQUENCE Technical Lead
+Page 9 of 18
+
+[TABLE 1 on page 9]
+Name | Discipline | Company | Interface Role
+ | All | State | 
+ | All | State | 
+ | All | Downer Prime | 
+ | All | SEQUENCE | 
+ | All | DTI | 
+ | Civil | DTI | 
+ | Signalling, Telecoms & Power | DTI | 
+ | Signalling, Telecoms & Power | SEQUENCE | 
+ | Telecoms | SEQUENCE | 
+ | Civil | SEQUENCE | 
+--- PAGE 10 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+2. Design Process, Management and Control
+2.1 ICD045 Current Status
+The following key integration activities have been undertaken to date between State, QTMP and Sequence
+with respect to ICD045 development.
+1. QTMP Approved Scope Split Matrix (Attachment 1)
+2. Design Integration Sessions
+3. QTMP DDR Input Design Freeze
+4. QTMP DDR Design Submission (Table 4 QTMP DDR Packages)
+Sequence are in the process of reviewing Table 4 QTMP DDR Packages, as applicable to Sequence scope.
+Once complete, Sequence will return comments for QTMP review, see next section, ICD045 Forward Plan.
+Table 4 QTMP DDR Packages
+Package Package Name Revision Status Date Issued to State
+Code
+QR01 Rail Alignment C IFR 06/11/2025
+QR02 Overhead Line Equipment C IFR 16/10/2025
+QR05 Civil Structures B IFR 03/07/2025
+QR07 Stabling Roads & Carparking C IFR 23/05/2025
+QR09 QR Stabling Buildings - Avis B IFR 19/03/2025
+QR10 QR Stabling Buildings – Train B IFR 28/03/2025
+Wash
+QR12 Stabling CSR C IFR 21/10/2025
+QR13 Stabling Security C IFR 04/03/2025
+QR17 Signalling Ancillaries A IFR 07/11/2025
+MF01 Rail Alignment 0 IFC
+MF03 Depot CSR D IFR 21/08/2025
+MF05 Depot Roads & Parking B IFR 01/09/2025
+MF06 Signalling System Interface managed via ICD027
+SW03 Boundary Fencing & Gates B IFR 14/11/2025
+2.2 ICD045 Forward Plan
+Figure 2 QTMP/ ETCS Design Completion Pathway details the forward plan to finalise the interface design
+between QTMP and ETCS and includes the following key items,
+1. The creation of Stream 1 and Stream 2 to stabilise the QTMP critical path whilst maintaining the
+ability to separately evaluate the evolving Sequence design.
+2. RFI 720, which details the frozen RCS/ETCS interface utilised in applicable QTMP DDR design
+submissions.
+3. Stagework 1 (Depot Activation) and Stagework 2 (Stabling Yard ETCS Activation) documented in the
+design update process.
+4. Change control, central to future integration and enables the opportunity to update QTMP design
+until Sequence design completion.
+Page 10 of 18
+
+[TABLE 1 on page 10]
+ | Package |  | Package Name | Revision | Status | Date Issued to State
+ | Code |  |  |  |  | 
+ |  |  | Rail Alignment | C | IFR | 
+ |  |  | Overhead Line Equipment | C | IFR | 
+ |  |  | Civil Structures | B | IFR | 
+ |  |  | Stabling Roads & Carparking | C | IFR | 
+ |  |  | QR Stabling Buildings - Avis | B | IFR | 
+ |  |  | QR Stabling Buildings – Train Wash | B | IFR | 
+ |  |  | Stabling CSR | C | IFR | 
+ |  |  | Stabling Security | C | IFR | 
+ |  |  | Signalling Ancillaries | A | IFR | 
+ |  |  | Rail Alignment | 0 | IFC | 
+ |  |  | Depot CSR | D | IFR | 
+ |  |  | Depot Roads & Parking | B | IFR | 
+ |  |  | Signalling System |  |  | 
+ |  |  | Boundary Fencing & Gates | B | IFR | 
+--- PAGE 11 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+Figure 2 QTMP/ ETCS Design Completion Pathway
+Page 11 of 18
+--- PAGE 12 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+2.3 Developed and Change Management
+QTMP and Sequence will continue to utilise the design alignment process for post DDR investigations and integration, Figure 3.
+Figure 3 QTMP/ ETCS Design Alignment Process
+Page 12 of 18
+--- PAGE 13 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+3. Design Particulars
+3.1 Requirements & Derogations
+QTMP requirements and derogations are identified, controlled and evidenced within QTMP Design Packages. QTMP has no need to identify and capture Sequence requirements
+and derogations. Sequence requirements and derogations, related to works being undertaken by QTMP, will be captured within standalone documents outlined in Table 5. QTMP
+will assist Sequence address all relevant requirements as per Figure 3 QTMP/ ETCS Design Alignment Process by evidencing the relevant QTMP documentation. This process
+will also manage design change from requirements should this occur.
+Table 5 Requirements Documentation
+No Document Responsible Persons Draft Document Date
+1 Sequence QTMP Requirements Document TBC TBC
+2 Sequence QTMP Derogation Register TBC TBC
+To enable adequate future provision for Stage 2 works, Table 6, details physical boundary requirements for QTMP and Sequence Design.
+Table 6 - Boundary Interface Requirements
+Physical Interface Item ref Location of Interface Purpose of Interface Requirement
+Signalling Interface OMF Depot SER Provide and receive the interface Signals The Depot Signalling system will interface with the Stabling Yard
+mechanism to/from the Stabling Yard Signalling system Signalling system via a Relay Interface.
+[AM1] Interface Location OMF Stabling Yard The physical Location where the two Depot and Stabling Yard signalling system shall interface via a Shared
+systems interface relays will connect. Double width Location Case located in the shared Access Road fenced
+area to enable access by Downer and QR Signalling personnel. The
+Location Case will be provided by Sequence Alliance.
+Interface Location Power OMF Stabling Yard Provide 110V power to the Interface The Interface Location case will be powered from the Stabling Yard
+Location Case Signalling System.
+Page 13 of 18
+
+[TABLE 1 on page 13]
+No | Document | Responsible Persons | Draft Document Date
+ | Sequence QTMP Requirements Document | TBC | 
+ | Sequence QTMP Derogation Register | TBC | 
+
+[TABLE 2 on page 13]
+Physical Interface Item ref | Location of Interface | Purpose of Interface | Requirement
+ | OMF Depot SER | Provide and receive the interface Signals to/from the Stabling Yard Signalling system | 
+ | OMF Stabling Yard | The physical Location where the two systems interface relays will connect. | 
+ | OMF Stabling Yard | Provide 110V power to the Interface Location Case | 
+--- PAGE 14 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+CSR and Pits OMF Stabling Ensure adequate provision of cable 3x100mm Signalling Conduits will be supplied from OMS1 Hut and
+Yard/Depot containment to/from the Interface Location 2x100mm Signalling Conduits from the Depot SER will be supplied to the
+for the future interface Interface Location.
+Depot SER Rack Allowance OMF Depot SER Ensure adequate space provision in the The Depot SER will allow space for 1 additional rack to be added to
+SER for the future interface enable the boundary works
+Depot Interface Power OMF Depot SER Ensure adequate power provision in the The Depot SER will allow for 100VA to enable boundary works
+Allowance SER for the future interface
+3.2 Physical Scope Interface Mapping
+This section maps key physical interfaces against the relevant QTMP DDR documentation.
+3.2.1 ETCS Signalling: Wayside Equipment
+The ETCS signalling wayside equipment includes Object Controller (OC) shelters/hut, location cases (LOC), lineside electronic unit (LEU), and balise groups.
+Table 7 ETCS Signalling Wayside Equipment: Physical Scope Interface Schedule
+Physical Interface Item Location of Interface Purpose of Interface QTMP Design Package
+ref
+Space OMF Stabling Yard - Trackside Ensure adequate space for ETCS signalling trackside QR02
+equipment
+Object Controller (OC) OMF Stabling Yard Provision of adequately sized concrete foundation for OC QR17
+Compound Ground Slab hut/shelter and its services
+Location Case (LOC) OMF Stabling Yard - Trackside Provision of concrete foundation for LOC hut/shelter and its QR12
+Ground Slab services
+Earth Grid and Bonding OMF Stabling Yard - Trackside Ensure sufficient earthing and bonding provision for the OC QR17
+Huts and location cases to protect from electric shock and
+damage equipment
+CSR and Pits OMF Stabling Yard Provision of cable containment for communication and QR12
+power cables.
+Page 14 of 18
+
+[TABLE 1 on page 14]
+OMF Depot SER | Ensure adequate space provision in the SER for the future interface
+OMF Depot SER | Ensure adequate power provision in the SER for the future interface
+
+[TABLE 2 on page 14]
+ | Physical Interface Item |  | Location of Interface | Purpose of Interface | QTMP Design Package
+ | ref |  |  |  | 
+ |  |  | OMF Stabling Yard - Trackside | Ensure adequate space for ETCS signalling trackside equipment | 
+ |  |  | OMF Stabling Yard | Provision of adequately sized concrete foundation for OC hut/shelter and its services | 
+ |  |  | OMF Stabling Yard - Trackside | Provision of concrete foundation for LOC hut/shelter and its services | 
+ |  |  | OMF Stabling Yard - Trackside | Ensure sufficient earthing and bonding provision for the OC Huts and location cases to protect from electric shock and damage equipment | 
+ |  |  | OMF Stabling Yard | Provision of cable containment for communication and power cables. | 
+--- PAGE 15 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+3.2.2 ETCS Signalling: Level Crossing
+Table 8 ETCS Signalling LX: Physical Scope Interface Schedule
+Physical Interface Location of Interface Purpose of Interface QTMP Design Package
+Item ref
+Space OMF Stabling Yard Adequate space provisions for the level crossing (LX) QR02
+Level Crossing hut OMF Stabling Yard Provision of adequately sized concrete foundation for level QR17
+Ground Slab crossing (LX) and its services
+Earth Grid and OMF Stabling Yard Ensure sufficient earthing and bonding provision for level QR17
+Bonding crossing (LX) and its services to protect from damage of
+equipment
+Level Crossing OMF Stabling Yard Defines the inclusions of various systems required to have a MF05
+Systems functioning level crossing
+3.2.3 ETCS Signalling: Axle Counters
+Table 9 ETCS Signalling Axle Counter: Physical Scope Interface Schedule
+Physical Interface ItemL orecfation of Interface Purpose of Interface QTMP Design Package
+Space OMF Stabling Yard Adequate space provisions for the axle counters on the QR12
+track
+Trackside OMF Stabling Yard Provision of adequately sized foundation for connection QR17
+Connection Box box
+Foundation
+CSR and Pits OMF Stabling Yard Provision of cable containment for axle counters. QR12
+Page 15 of 18
+
+[TABLE 1 on page 15]
+ | Physical Interface |  | Location of Interface | Purpose of Interface | QTMP Design Package
+ | Item ref |  |  |  | 
+ |  |  | OMF Stabling Yard | Adequate space provisions for the level crossing (LX) | 
+ |  |  | OMF Stabling Yard | Provision of adequately sized concrete foundation for level crossing (LX) and its services | 
+ |  |  | OMF Stabling Yard | Ensure sufficient earthing and bonding provision for level crossing (LX) and its services to protect from damage of equipment | 
+ |  |  | OMF Stabling Yard | Defines the inclusions of various systems required to have a functioning level crossing | 
+
+[TABLE 2 on page 15]
+Physical Interface Ite | mL orecfation of Interface | Purpose of Interface | QTMP Design Package
+ | OMF Stabling Yard | Adequate space provisions for the axle counters on the track | 
+ | OMF Stabling Yard | Provision of adequately sized foundation for connection box | 
+ | OMF Stabling Yard | Provision of cable containment for axle counters. | 
+--- PAGE 16 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+4. Procurement & Construction
+As per Attachment 1, Scope Split Matrix, there are a number of integrated procurement and construction
+tasks that require interface planning and management. It is important to note that DTI are installing works on
+behalf of Sequence Alliance and therefore require Sequence Alliance to undertake a range of construction
+management and coordination tasks. All tasks have base inputs as defined in Table 10.
+Table 10 Procurement & Construction Base Inputs
+No Input Commentary
+1 Installation Works Package Register To be determined collaboratively between Downer/
+DTI
+2 IFU Bill of Materials Required whether QTMP are procuring or limited to
+installation to enable material handover
+confirmation.
+3 Installation Works Package Downer/ DTI require this information as the
+contractual and compliance requirements for
+ Work Instructions
+Sequence differ to QTMP.
+ ITP’s
+ TC
+ Relevant standards
+4 IFU Design Installation to only proceed based on IFU design.
+The scope split matrix is not uniform and inputs will differ based on each organisations role within each task.
+Table 11 provides examples of different categories and highlights that handover information between both
+organisations will differ significantly depending on what stage of completion the task is transferred.
+Table 11 Procurement & Construction Categories
+CAT Example Spatial Design Asset Design Supply Install
+1 4.3.4.1 Axle counter SEQ SEQ SEQ QTMP
+wheel sensor
+2 4.3.3.1 Point machine SEQ SEQ QTMP QTMP
+3 4.3.4.2 Axle counter GAK SEQ QTMP QTMP QTMP
+Foundation
+Due to the volume of interdependencies within Attachment 1, Scope Split Matrix, the following documents
+highlighted in Table 12 are required to be produced in order to create integrated plans and schedules and
+form the next steps of Procurement & Construction.
+Table 12 Integration Documents
+No Document Responsible Persons Draft Document Date
+1 Scope split matrix categories TBC TBC
+2 Installation Works Package Category TBC TBC
+Templates
+3 Responsibilities & Organisational Structure TBC TBC
+4 Integrated Program TBC TBC
+5 Procurement Plan TBC TBC
+Please note that there will be a range of design field tasks required to be completed by Sequence including axle counter wheels sensor
+positioning and marker board sighting which will also be populated within the above documentation.
+Page 16 of 18
+
+[TABLE 1 on page 16]
+No | Input | Commentary
+ | Installation Works Package Register | 
+ | IFU Bill of Materials | 
+ | Installation Works Package  Work Instructions  ITP’s  TC  Relevant standards | 
+ | IFU Design | 
+
+[TABLE 2 on page 16]
+CAT | Example | Spatial Design | Asset Design | Supply | Install
+ | 4.3.4.1 Axle counter wheel sensor | SEQ | SEQ | SEQ | 
+ | 4.3.3.1 Point machine | SEQ | SEQ | QTMP | 
+ | 4.3.4.2 Axle counter GAK Foundation | SEQ | QTMP | QTMP | 
+
+[TABLE 3 on page 16]
+No | Document | Responsible Persons | Draft Document Date
+ | Scope split matrix categories | TBC | 
+ | Installation Works Package Category Templates | TBC | 
+ | Responsibilities & Organisational Structure | TBC | 
+ | Integrated Program | TBC | 
+ | Procurement Plan | TBC | 
+--- PAGE 17 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+5. Construction Verification
+Irrespective of when assets are transferred to Downer/ DTI in the delivery lifecycle, all assets will be returned
+to Sequence post construction. In addition to validating Downer/ DTI Construction Verification documentation
+Sequence will require site presence during specific construction activities. The Construction Verification Plan
+and Site Witness Inspection & Test Schedule will be determined during integration sessions, Table 13
+Construction Verification Documentation.
+Table 13 Construction Verification Documentation
+No Document Responsible Persons Draft Document Date
+1 Construction Verification Plan TBC TBC
+2 Site Witness Inspection & Test Schedule TBC TBC
+6. ETCS Infrastructure Handover
+ETCS Infrastructure Handover is currently understood to be one event with documentation progressively
+accepted by Sequence Alliance prior to the handover date. As noted in Procurement & Construction, QTMP
+are undertaking construction on behalf of ETCS under ETCS Work Instructions and processes to ensure the
+works are aligned to ETCS requirements and can be accepted by the ETCS contractual terms. QTMP and
+ETCS are required to collaborate in interface sessions in order to complete an ETCS Handover Plan, Table
+14.
+Table 14 Infrastructure Handover Documentation
+No Document Responsible Persons Draft Document Date
+1 ETCS Handover Plan TBC TBC
+7. Testing & Commissioning
+Stage 1 Commissioning will be delivered by QTMP and not impact ETCS infrastructure. Stage 2
+Commissioning will be delivered by Sequence and require QTMP assistance to form the Test and
+Commissioning Plan and undertake Stage 2 activities, Table 15.
+Table 15 Testing & Commissioning Documentation
+No Document Responsible Persons Draft Document Date
+1 Testing & Commissioning Plan Sequence - TBC TBC
+Page 17 of 18
+
+[TABLE 1 on page 17]
+No | Document | Responsible Persons | Draft Document Date
+ | Construction Verification Plan | TBC | 
+ | Site Witness Inspection & Test Schedule | TBC | 
+
+[TABLE 2 on page 17]
+No | Document | Responsible Persons | Draft Document Date
+ | ETCS Handover Plan | TBC | 
+
+[TABLE 3 on page 17]
+No | Document | Responsible Persons | Draft Document Date
+ | Testing & Commissioning Plan | Sequence - TBC | 
+--- PAGE 18 ---
+Interface Control Document 45 Rev B
+ETCS Signalling
+QTMP
+8. Attachment 1 – Scope Split Matrix
+To be inserted from Schedule C1 - Appendix 3 of QTMP ETCS Variation proposal 21.11.2025.
+Page 18 of 18

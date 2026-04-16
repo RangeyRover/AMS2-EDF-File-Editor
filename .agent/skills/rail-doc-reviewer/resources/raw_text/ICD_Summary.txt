@@ -1,0 +1,41 @@
+SOURCE FILE: ICD Summary .xlsx
+FULL PATH: C:\Users\markn\OneDrive - IXL Signalling\Sigtech\Downer QTMP\ICD Summary .xlsx
+EXTENSION: .xlsx
+SIZE: 13346 bytes
+============================================================
+
+
+=== SHEET: Sheet1 ===
+Doc number | Rev | Status | Title | Date released |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+External |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000001 | B | IFU | ICD001-ORMEAU FACILITY & SPECIALIST EQUIPMENT TO QR STAFF & OPERATIONS | 2025-01-21 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000027 | A | IFI | ICD027-ORMEAU SIGNALLING (CONVENTIONAL - ETCS) | 2025-05-08 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000032 | 0 | IFS | ICD032-ORMEAU TO QR TELECOMMUNICATIONS & OPERATIONAL SYSTEMS | 2025-04-30 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000045 | A | IFI | ICD045-ETCS SIGNALLING | 2025-05-08 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000046 | 0 | IFS | ICD046-ORMEAU MAINLINE CONNECTION | 2025-05-13 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000101 | 0 | IFS | ICD101-OMF TRACTION POWER | 2025-04-28 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000102 | 0 | IFS | ICD102-OSY TRACTION POWER | 2025-04-28 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000104 | 1 | IFU | ICD104-ORMEAU TO TMR | 2025-05-19 00:00:00 |  |  |  |  |  | ICD 60 = Conventional Interface & DPPS |  |  |  |  |  |  |  | 
+Internal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000005 | 0 | IFU | ICD005-O&M TO ORMEAU FACILITY | 2025-01-21 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000052 | 0 | IFU | ICD052-TRAIN SHUNTER | 2025-03-25 00:00:00 |  |  | ICD's to be signed at DDR |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000053 | 0 | IFU | ICD053-TRAIN TO ORMEAU STABLING YARD | 2025-02-14 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000054 | 0 | IFU | ICD054-TRAIN-PLATFORM INTERFACE TO MAINTAINER & ORMEAU MAINTENANCE FACILITY | 2025-01-31 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000057 | 0 | IFU | ICD057-BOGIE EXCHANGE SYSTEM | 2025-02-27 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000059 | 1 | IFU | ICD059-BOGIE SHUNTER | 2025-04-28 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000060 | C | IFU | ICD060-DPPS | 2025-04-07 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000061 | 0 | IFU | ICD061-FIXED FULL TRAIN LIFTING SYSTEM (ABOVE FLOOR) | 2025-03-18 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000062 | 0 | IFU | ICD062-SANDING SYSTEM | 2025-02-27 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000063 | 0 | IFU | ICD063-PRESENTATION PLATFORM DRAWBRIDGE | 2025-03-17 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000064 | 0 | IFU | ICD064-TRAIN TO ORMEAU MAINTENANCE FACILITY | 2025-04-11 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000066 | J | IFU | ICD066-TRAIN WASH | 2025-01-21 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000067 | 0 | IFU | ICD067-BIO CLEANING AND GRAFFITI FACILITY | 2025-03-25 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000068 | G | IFU | ICD068-AUTOMATED VEHICLE INSPECTION SYSTEM (AVIS) | 2025-05-09 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000069 | F | IFU | ICD069-STABLING YARD | 2025-04-30 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000070 | 0 | IFU | ICD070-MOBILE PROVISIONING UNIT | 2025-03-07 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000071 | 0 | IFU | ICD071-GOOD LIFT | 2025-02-27 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000080 | 0 | IFR | ICD080-DOWNER IT-TELSTRA AND DOWNER ORMEAU FACILITY ICT NETWORK | 2025-01-15 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000084 | 0 | IFU | ICD084-BOGIE TURNTABLE | 2025-03-06 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000085 | 0 | IFU | ICD085-MOBILE PLATFORMS | 2025-02-27 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000086 | 0 | IFU | ICD086-TRAIN TURNTABLE | 2025-02-27 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 
+QTMP-AAA-DOW-EM-ICD-000093 | 0 | IFS | ICD093-OPERATIONS AND MAINTENANCE TO QR | 2025-05-07 00:00:00 |  |  |  |  |  |  |  |  |  |  |  |  |  | 

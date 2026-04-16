@@ -90,3 +90,58 @@ def synthetic_param_data():
     data.extend(struct.pack('B', 1))
     
     return bytes(data)
+
+@pytest.fixture
+def synthetic_multi_table_data():
+    """
+    Creates a synthetic binary blob containing TWO torque tables.
+    Used for cross-table isolation testing.
+    """
+    data = bytearray()
+    
+    # Padding before table 0
+    data.extend(b'\x00' * 10)
+    
+    # Table 0: 0RPM + Row I + EndVar
+    data.extend(SIG_0RPM)
+    data.extend(ROW0_STRUCT.pack(0, 5.0, 50.0))
+    
+    data.extend(SIG_ROW_I)
+    data.extend(ROWI_STRUCT.pack(1000, 8.0, 120.0))
+    
+    data.extend(SIG_ENDVAR)
+    data.extend(ENDVAR_STRUCT.pack(2000, 6.0, 0))
+    
+    # Separator
+    data.extend(b'\xAA' * 10)
+    
+    # Table 1: 0RPM + Row I + EndVar
+    data.extend(SIG_0RPM)
+    data.extend(ROW0_STRUCT.pack(0, 3.0, 30.0))
+    
+    data.extend(SIG_ROW_I)
+    data.extend(ROWI_STRUCT.pack(1500, 7.0, 180.0))
+    
+    data.extend(SIG_ENDVAR)
+    data.extend(ENDVAR_STRUCT.pack(3000, 4.0, 0))
+    
+    # Trailing bytes
+    data.extend(b'\xFF' * 5)
+    
+    return bytes(data)
+
+@pytest.fixture
+def drag_transaction_fixture():
+    """
+    Creates a sample DragTransaction for undo testing.
+    """
+    from src.core.models import DragTransaction
+    return DragTransaction(
+        table_index=0,
+        row_index=1,
+        field="torque",
+        start_torque=150.0,
+        end_torque=200.0,
+        start_compression=10.0,
+        end_compression=13.333333015441895,  # Proportional: 10 * (200/150)
+    )

@@ -1,0 +1,24506 @@
+SOURCE FILE: 18.01.62.03 Schedule C1 - Performance Specification (Ormeau Facility) (Execution Version).pdf
+FULL PATH: C:\Users\markn\OneDrive - IXL Signalling\Sigtech\Downer QTMP\18.01.62.03 Schedule C1 - Performance Specification (Ormeau Facility) (Execution Version).pdf
+EXTENSION: .pdf
+SIZE: 1306836 bytes
+============================================================
+
+--- PAGE 1 ---
+Schedule C1 – Performance Specification (Ormeau Facility) (Execution Version)
+)
+y
+SCHEDULE C1 cilit
+a
+F
+Performance Specification (Ormeau Facility)
+u
+a
+e
+m
+r
+O
+(
+n
+o
+ati
+c
+cifi
+e
+p
+S
+e
+c
+n
+a
+m
+r
+o
+rf
+e
+P
+-
+1
+1C
+1
+2
+e
+2. ul
+3 d
+2 e
+5.
+c
+h
+2S
+5.
+2
+6
+3
+1
+6 8.
+o
+m df,
+1
+m
+c p a
+o h
+n. r
+o
+F
+b
+a
+e
+C
+c
+r
+o
+t
+i
+s
+l
+n
+it y
+@
+fi
+)
+d e
+(
+2
+d
+E
+n
+0
+o
+x
+t
+2
+R
+w i
+e
+a
+3
+o
+n
+c
+l
+-
+l
+u
+0
+e
+li
+t
+6
+r
+n
+i g o
+-
+g
+2
+r n
+s
+o
+0
+t
+u V
+o
+0 p
+c
+e 1 .
+k
+r : s 3
+E
+i o 2
+x
+n p G ) a . M n s T i o n P r o g r
+rt
+s
+J
+e
+a
+u
+P
+-
+em F
+o b O r R
+R
+(
+n n
+h o
+J
+o ati
+c
+cifi
+e
+p
+S
+e
+c
+n
+a
+m
+r
+o
+rf
+e
+P
+-
+1
+C
+e
+ul
+d
+e
+h
+c
+S
+2
+1.
+3.
+3
+0
+3.
+6
+8.
+1
+AUS\LZY\689747239.01
+--- PAGE 2 ---
+)
+y
+cilit
+a
+F
+u
+a
+e
+m
+r
+O
+(
+n
+o
+ati
+c
+cifi
+e
+p
+S
+e
+c
+n
+m
+a
+r
+o
+rf
+e
+P
+-
+1
+1C
+1
+2
+e
+2. ul
+3 d
+2 e
+5.
+c
+h
+2S
+5.
+2
+6
+3
+1
+6 8.
+o
+m df,
+1
+m
+c p a
+o h
+n. r
+o
+F
+b
+a
+e
+C
+c
+r
+o
+t
+i
+s
+l
+n
+it y
+@
+fi
+)
+d e
+(
+2
+d
+E
+n
+0
+o
+x
+t
+2
+R
+w i
+e
+a
+3
+o
+n
+c
+l
+-
+l
+u
+0
+e
+li
+t
+6
+r
+n
+i g o
+-
+g
+2
+r n
+s
+o
+0
+t
+u V
+o
+0 p
+c
+e 1 .
+k
+r : s 3
+E
+i o 2
+x
+n p G ) a . M n s T i o n P r o g r
+rt
+s
+J
+e
+a
+u
+P
+-
+em F
+o b O r R
+R
+(
+n n
+h o
+J
+o ati
+c
+cifi
+e
+p
+S
+e
+c
+n
+a
+m
+r
+o
+rf
+e
+P
+-
+1
+C
+e
+ul
+d
+e
+h
+c
+S
+2
+1.
+3.
+3
+0
+3.
+6
+8.
+1
+--- PAGE 3 ---
+)
+y
+cilit
+a
+F
+Table of Contents
+u
+a
+e
+m
+r
+1. Definitions O 4
+(
+n
+o
+2. Standards and specifications ati 8
+c
+2.1 Applicable Requirements, Industry Standards and State's Policies and Standards
+cifi
+8
+e
+2.2 Queensland Rail Limited standards, policies and specifications p 8
+S
+2.3 Australian and international standards e 9
+c
+n
+2.4 Legislation and guidelines a 10
+m
+r
+o
+3. Scope rf 11
+e
+P
+3.1 General - 11
+1
+3.2 Operational Requirements
+1
+2 1
+e
+C 11
+3.3 Depot 2. ul 12
+3 d
+3.4 Ormeau Stabling 5. 2
+c
+h e 13
+3.5 Out of Scope
+5.
+2
+2
+6
+3
+S
+13
+4
+4
+.
+.1
+G
+Sa
+e
+f
+n
+e
+e
+ty
+r al requirements
+c o
+m
+1
+p
+6
+df,
+1
+8.
+a m
+1
+1
+4
+4
+4 4 4 4
+4
+4
+4
+4
+. . . .
+.
+.
+.
+.
+2 3 4 5
+6
+7
+8
+9
+H E I A
+L
+P
+O
+U
+n
+a
+n c
+r
+u
+t
+v
+f
+e
+i
+r
+n
+c
+l
+v m
+e
+i
+a
+c
+t
+d
+e i
+r
+y
+r s
+o
+a
+h
+s
+s o t
+n
+n
+S
+c
+s
+e
+r n u
+s
+a
+i
+a
+e
+m b f
+t
+c a
+p
+d
+r
+r
+i t e l
+v
+u
+c
+i
+u i
+n
+T
+t n
+i
+t
+c
+y
+c
+r o
+g
+r
+t e
+t
+e
+i
+a
+r
+o
+s
+s
+c
+S
+n
+t
+u
+io
+s
+s
+u
+n
+ta
+r
+L
+v
+in
+e
+in
+a
+y
+e
+b i
+E
+lit
+q
+y
+u
+(
+i
+I
+p
+S
+m
+)
+e
+R
+n
+a
+t
+t
+o
+in
+h n
+g
+. r
+o
+F
+b
+a
+e
+C
+c
+r
+o
+t
+i
+s
+l
+n
+it y
+@
+fi
+)
+d e
+(
+2
+d
+E
+n
+0
+o
+x
+t
+2
+R
+w i
+e
+a
+3
+o
+n
+c
+l
+-
+l
+u
+0
+e
+li
+t
+6
+r
+n
+i g o
+-
+g
+2
+r n
+s
+o
+0
+t
+u V
+o
+0 p
+c
+e 1 .
+k
+r : s 3
+E
+i o 2
+x
+n p G ) a . M n s T i o n P r o g r 1 1 1 1
+1
+1
+1
+1
+4 5 6 6
+7
+7
+7
+8
+4
+4
+.
+.
+1
+1
+0
+1
+S
+S
+i
+i
+t
+t
+e
+e
+a
+e
+c
+s
+c
+ta
+e
+b
+s
+l
+s
+is
+r
+h
+o
+m
+a
+e
+d
+n
+a
+t
+n
+&
+d
+a
+b
+p
+ik
+p
+e
+ro
+w
+v
+a
+a
+y
+ls rt
+s
+J
+e
+a
+u
+P
+-
+1
+1
+9
+9
+em F
+4.12 Temporary Facilities for State o b O r R 20
+R
+(
+4.13 Removal of graffiti n n 20
+h o
+4.14 Gatehouse J
+o ati
+20
+c
+4.15 Train gates
+cifi
+21
+e
+p
+S
+5. Depot Works
+e
+23
+c
+5.1 Scope a
+n
+23
+m
+5.2 Car parking, roadwrays and pedestrian walkways 23
+o
+5.3 Fencing, lighting
+earf
+nd security 24
+P
+5.4 Depot Trackwo- rk 25
+1
+5.5 Signalling an
+C
+d yard control 26
+e
+5.6 ETCS/PSDul interface test facility 27
+d
+e
+5.7 Automahted vehicle inspection system 27
+c
+5.8 Mainte
+S
+nance Building 27
+2
+5.9
+Und1.
+erfloor wheel lathe facility 30
+3.
+5.10 M3 ultiple Unit cleaning facility 31
+0
+5.11
+3.
+Fixed and unfixed equipment 31
+6
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - ii -
+--- PAGE 4 ---
+)
+6. Ormeau Stabling Works cilit3y4
+6.1 Scope a34
+F
+6.2 General u 34
+a
+e
+6.3 Rail Traffic Crew Building and facilities m 35
+r
+6.4 Track Maintenance Vehicle Road
+O
+36
+(
+n
+6.5 Decant facilities o 37
+ati
+6.6 Sand storage silo c 37
+6.7 Potable water filling
+cifi
+37
+e
+p
+6.8 Train Wash S 37
+e
+6.9 Fixed and unfixed equipment c 39
+n
+a
+m
+r
+o
+Table of Tables e
+rf
+P
+-
+1
+1C
+Table 1 Definitions 1 2 e 4
+2. ul
+3 d
+2 e
+5.
+c
+h
+2S
+5.
+2
+6
+3
+1
+6 8.
+o
+m df,
+1
+m
+c p a
+o h
+n. r
+o
+F
+b
+a
+e
+C
+c
+r
+o
+t
+i
+s
+l
+n
+it y
+@
+fi
+)
+d e
+(
+2
+d
+E
+n
+0
+o
+x
+t
+2
+R
+w i
+e
+a
+3
+o
+n
+c
+l
+-
+l
+u
+0
+e
+li
+t
+6
+r
+n
+i g o
+-
+g
+2
+r n
+s
+o
+0
+t
+u V
+o
+0 p
+c
+e 1 .
+k
+r : s 3
+E
+i o 2
+x
+n p G ) a . M n s T i o n P r o g r
+rt
+s
+J
+e
+a
+u
+P
+-
+em F
+o b O r R
+R
+(
+n n
+h o
+J
+o ati
+c
+cifi
+e
+p
+S
+e
+c
+n
+a
+m
+r
+o
+rf
+e
+P
+-
+1
+C
+e
+ul
+d
+e
+h
+c
+S
+2
+1.
+3.
+3
+0
+3.
+6
+8.
+1
+--- PAGE 5 ---
+)
+y
+1. Definitions a
+cilit
+F
+u
+a
+e
+In this specification, unless the context otherwise requires, any capitalised terms which are defined in the mProject Deed
+r
+O
+have the meaning given in the Project Deed. Capitalised terms referred to in relation to Standards, Specifications and
+(
+n
+SEMS have the meaning given in those respective documents and the following expressions have theo meaning given
+below.
+ati
+c
+cifi
+In accordance with the Project Deed, the definitions in the Project Deed will prevail to the extent eof any inconsistency with
+p
+the definitions below. S
+e
+c
+n
+Table 1 Definitions a
+m
+r
+o
+Term Definition rf
+e
+P
+Additional O&M Services Has the meaning given in paragraph 1 of Schedule D3
+-
+( Additional O&M Services).
+1
+Applicable Requirements Includes:
+1
+2 1
+e
+C
+a) any statute, law, regulation, order, rule, co2.de, uolrdinance, guideline, subordinate legislation or
+other document enforceable under any 2s3tatuet d e, regulation, order, rule or subordinate
+legislation; 5. c h
+2S
+b)
+i
+a
+n
+n
+te
+y
+r
+d
+p
+e
+re
+c
+t
+i
+a
+si
+t
+o
+io
+n
+n
+o
+o
+r
+r
+r
+a
+e
+d
+q
+m
+ui
+i
+r
+n
+e
+i
+m
+st
+e
+ra
+n
+t
+t
+i
+,
+o
+o
+n
+r
+o
+a
+f
+1
+n
+a6
+y
+5 n .
+s2
+y
+i
+8
+m
+o
+.
+6f
+i3 l
+t
+a
+h
+r
+e
+f o
+fo
+rm
+re g
+o
+o
+f
+i
+d
+n
+e
+g
+c
+)
+is
+b
+i
+y
+o n
+a n
+o
+y
+r
+A
+de
+u
+t
+t
+e
+h
+r
+o
+m
+ri
+i
+t
+n
+y
+a
+;
+t
+a
+io
+n
+n
+d
+(or any official
+c) any Approval, including any re
+o
+q
+m
+u ire
+df
+m
+,
+1ent or
+m
+condition of an Approval.
+Check Vehicle Has the meaning given in Sectionc 5.7p.2 of the aDepartment of Main Roads, Road Planning and
+C C
+C
+D D
+D
+r r
+R
+a e
+e
+o o
+n p
+p
+R
+s s
+g o
+o
+s s
+e t
+t
+P
+R R
+T
+r
+r o
+r
+Z
+i i v v
+a
+j
+o
+e
+e e
+c
+n
+c
+r r
+k
+t
+e
+w
+R R
+o
+a a
+r
+i i l l
+k
+( S o e r c C tio R n R ) D A R T
+T
+C
+h T F
+A
+a
+h
+h
+h u
+l
+e i
+r
+l
+n v
+o
+s
+e
+e
+e l
+s
+t
+l
+e e
+s
+r
+i
+t F
+a
+g r r
+"
+m
+w
+s
+h
+a
+c
+l
+n
+c
+a
+e e a
+r
+i
+R
+n
+k
+l n
+o
+e
+e
+M
+i m
+w
+o
+n
+l
+i
+r
+d
+s
+t
+v
+i
+t
+n
+s
+t
+r a
+s
+o
+e
+e c e
+t n k
+J
+n h
+r
+o
+r
+a
+m
+n o
+r
+e
+k
+u -
+i
+t
+h n n
+R
+a
+e
+v
+s w h
+n
+a
+w
+a
+s i
+e
+n
+o
+a
+e
+. n u
+l
+r t
+r
+c
+i
+u
+o
+u
+i
+r g
+t
+(
+F
+l
+s
+b u
+h
+e
+n
+r
+2 t
+a
+e D
+u h
+a
+C
+g c
+i
+d 0
+c
+r
+n
+d
+b o
+i
+t
+t i
+e
+i
+e
+l
+s
+l
+0 r
+v e
+n
+i e
+j
+t
+a
+t
+l
+p
+r e
+y
+@
+f
+e
+4
+i
+d
+F h
+p
+i
+v
+g
+)
+i d
+r
+c
+P
+n
+l )
+e
+o
+e
+( e
+2
+o
+r .
+b
+d t
+E
+l n o
+0
+-
+t
+i o
+r
+j
+i y
+n
+x
+D
+o
+e
+t
+2n
+y
+R
+u w i
+a
+e
+a
+3
+e f
+c
+o
+e
+t
+n
+c
+n l
+n - M
+A
+h l
+t
+u
+0
+t e
+p
+l
+d t
+"
+i
+h
+d
+t
+e
+6
+r
+u
+n
+h i
+D
+g
+o
+o
+-
+e
+g
+a
+t
+i
+2
+r r
+o
+n
+C
+n
+t
+s
+h
+o
+-
+o
+n 0
+t 1
+C
+t
+u Vn
+i
+o o
+o h
+u
+d
+n
+0 p
+2
+c
+e e R
+r
+1
+n e
+g .
+c
+k
+r
+i
+-
+a
+: r s
+t
+r t
+h
+l
+3 R
+1
+E
+y
+i
+u
+r
+n
+o 2 c
+x
+8 a f
+d
+n B
+y
+a
+i
+A
+p G P
+c 9
+t )
+i
+a .
+c
+y r
+n
+M
+c
+"
+t
+r n i
+o i Q
+t
+o s
+g
+t
+l
+s T t
+r
+i r
+r i b j
+a
+t
+2
+o
+u
+e a
+i
+t
+i
+n a
+e
+n
+0
+h
+e n
+c i n n
+s
+P
+s
+1
+e
+t
+e
+.
+a
+r e
+p
+6
+n a
+s o
+a
+c
+’
+o
+g t
+s
+s
+n
+(
+p
+c
+a r
+r
+Q
+l d
+t
+a o
+p
+i t
+-
+n i
+n
+l
+r
+r
+r
+o
+e
+d
+n
+d
+o
+e
+d
+n
+q
+)
+e
+a
+a
+l a
+s
+u N
+a
+r
+c
+n
+.
+t
+i
+n
+h
+e
+c p
+c
+e
+d
+e
+i
+d
+m t
+t
+a
+w
+y
+n
+a
+w
+p
+e
+,
+o
+n
+d
+r
+n i
+i
+r
+o
+t
+n
+y
+t k h
+d
+j
+c
+e
+s
+a
+e
+R
+l
+t u
+u
+c
+h
+s
+p
+u
+t
+i
+d
+e
+s
+t
+"
+a
+l a
+i
+o
+e
+n
+r
+a
+P b
+t
+c
+s
+g
+s
+u
+r l
+i
+e o
+a
+r
+a
+a
+t
+e
+h
+t
+j n f e
+e
+o
+t
+o
+r
+d c
+u
+d
+o
+r
+s
+t
+n
+P
+a
+e
+t
+a
+D h
+n
+d
+r
+c
+t
+e
+e o e
+s
+e
+ti
+l
+c e
+,
+v
+r
+m
+u
+e
+m
+d
+i
+H
+t
+n
+d a
+i
+s
+e
+o
+a
+d
+i u n
+s
+l
+t
+e
+a
+d
+r t
+.
+e t
+r
+e
+r
+i
+h
+n
+e
+s n
+t
+e
+g
+h
+a
+d
+e
+D
+R
+n
+e
+c e
+B
+f
+o
+i
+e
+n
+p
+r
+a
+i
+e
+o
+s
+d
+o
+d
+t
+b
+s
+f S
+a
+,
+t
+i
+h
+n
+n
+it e e
+e
+t h
+.
+e
+Hando
+o
+bver
+O
+Rroads anRd Maintenance Roads.
+R
+(
+Depot Works All nth ingns and works (including all systems and software incorporated in, or necessary to enable
+h o
+o
+J
+opera attiion) that the Contractor must design, develop, engineer, construct, manufacture, test,
+instacll, fitout, commission and supply, in accordance with the Project Deed and the other Project
+Docicfi
+uments, in relation to the Depot, including:
+e
+ap) the design and construction of the Depot;
+S
+e b) all work related to the Depot described in this Performance Specifications (Ormeau Facility)
+c
+n and the Contractor Proposal (Ormeau Facility), and
+a
+m
+c) any work that is incidental to, or reasonably necessary to perform, this work,
+r
+o
+rf but excluding:
+e
+P d) Manufacturing Facility Works;
+-
+1 e) the Rollingstock Works;
+C
+e f) the Ormeau Stabling Works; and
+ul
+d g) the O&M Services.
+e
+h
+Depot Site c The site described as such on the plan in Part A and Part C of Schedule C5 (Ormeau Facility
+S
+2
+Site) and where the context requires, includes any other lands and places made available to the
+1. Contractor by the State for the purpose of the Project Deed but does not include the Ormeau
+3.
+Stabling Site, the Stabling Sites, and the Manufacturing Facility Site.
+3
+0
+Design3 .Vehicle Has the meaning given in Section 5.7 of the Department of Main Roads, Road Planning and
+6 Design Manual (2004).
+8.
+1
+Down Mainline The left-hand Mainline track travelling north from Varsity Lakes to Beenleigh.
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 4 -
+
+[TABLE 1 on page 5]
+ | Term |  |  | r o Definition rf e | 
+--- PAGE 6 ---
+)
+y
+Term Definition cilit
+a
+Facility Road Vehicular roadways within the Ormeau Stabling that cater for the Design Vehicle. F
+u
+Full Fleet Means: a
+e
+m
+a) the Fleet; and
+r
+O
+b) if the Option is exercised, the Option Units. (
+n
+o
+Handover Roads The Depot Trackwork used for the Handover of Multiple Units by the Op
+a
+e tirator/Contractor.
+c
+Holding Roads The Depot Trackwork used for holding Multiple Units by the Contract
+c
+o ifri.
+e
+Industry Standards Industry Standards means p
+S
+a) all rules, standards, policies, codes of practice, guidelines aned recommendations relating to
+c
+design of any Deliverable or the performance of the Projectn Activities that are referred to in
+a
+the Technical Requirements or which are relevant to the mProject Activities; and
+r
+b) any amendment or replacement of any of them, from timoe to time.
+rf
+e
+but excludes the State's Policies and Standards P
+-
+IP Connectivity An access network that provides Internet Protocol (IP1) connectivity.
+1C
+Mainline For the purpose of this specification is the Gold1
+2
+Coae st Lines.
+2. ul
+3 d
+Maintenance Building The primary building forming part of the De2pot aes described in this specification.
+5.
+c
+h
+Maintenance Roads The Depot Trackwork used for the mai
+5
+n
+.
+2te 2 n
+6
+a
+3
+n Sce of Multiple Units by the Contractor.
+Multiple Unit The multiple rail car consists compris
+1
+i6ng F 8.leet (and, if the Option is exercised, the Full Fleet),
+s
+a
+e
+s
+m
+m
+i-
+o
+p
+r
+e
+e
+r
+p
+m
+a
+a
+r
+n
+ti
+e
+cu
+n
+l
+t
+a
+ly
+r l
+c
+y
+o
+id
+u
+e
+p
+n
+le
+t
+d
+ifi e
+to
+d
+g
+i
+e
+n
+t h
+tho
+e
+m e
+r a
+P
+n
+ed
+d
+fr , f
+1
+o
+w
+r
+h
+m
+ic
+a
+h
+n mc
+c
+e
+a n
+S
+o
+p
+p
+e
+e
+c
+r
+if
+a
+ic
+te
+a t
+i
+i
+n
+o n
+s e
+(R
+rv
+o
+ic
+ll
+e
+in g
+a
+s
+s
+t o
+a
+c
+s
+k
+e
+)
+l
+,
+f -
+w
+c
+h
+o
+i
+n
+c
+t
+h
+a i
+a
+n
+r
+e
+e
+d
+t o
+e n
+b
+t
+e
+it y,
+c p a
+N N C et C w ork s N T M P
+e
+t D
+(
+t o
+o
+h
+o
+u
+x
+n
+h r a
+o
+a
+e
+r
+o p
+t
+t
+c
+e t
+o
+e
+n
+h
+a
+i j p
+e P
+e o
+m
+n
+a
+e
+R
+s
+l c
+r
+n i
+c
+d
+g e
+b
+o
+a
+s
+t
+o
+a
+o
+s
+e d
+j
+e
+i
+o
+D
+t
+e
+l l
+n
+r
+h
+t
+n u
+C
+c
+b I
+o
+s
+e w
+e
+n
+, t
+t
+y
+t
+e
+h
+o
+r
+f
+r
+M
+I
+i
+o D
+r
+w
+p
+u
+t d n t
+h
+h a
+a
+h
+e
+s
+c
+,
+o
+s
+i
+n
+i s
+n
+s
+e
+w
+t
+n
+.
+a
+t i
+c r e
+t t r
+e
+d
+o
+r
+u
+d
+u
+i
+F
+C
+d
+S
+b
+i u
+c
+n
+m
+o
+e
+c
+a
+C e
+C
+.
+h
+c o o
+c
+c
+r
+w
+x
+t o
+t l
+t
+ie
+,
+i n u
+s
+l
+l
+e
+t
+o u n
+i
+u
+te
+n
+C
+t t
+y
+@
+f
+V
+v
+n r h r i d
+) n
+d
+t
+e a
+e l
+s
+a
+e
+(
+e
+e
+2
+d
+C d E
+E
+c
+l
+n
+, 0
+l
+f
+a
+o s
+v
+e
+e
+o
+x
+t t
+2
+o a
+R i
+w i
+e
+o
+n
+e
+a
+t
+d 3
+r t d
+o
+s n
+c(
+l h
+l d
+r
+-
+a
+,
+n
+a
+l
+u
+0
+we t e
+l i
+e u t
+l
+6
+r
+m
+n
+o
+n t
+i
+s
+Q . g h o
+- o
+g
+n
+2
+d
+r
+r
+s
+o
+n
+so
+i o u
+t 0
+d c o
+,
+t
+h
+t
+u V
+o
+d
+i
+e
+h
+h e 0 p u
+n
+R c
+e
+i
+1 e
+o
+e
+. r
+k
+f
+r t
+c
+Q :
+e
+s
+i
+h n
+f
+3
+e
+E
+t
+l
+i
+e
+o
+u
+d
+h 2 u s
+T x
+d
+n e
+a
+d
+c
+e p G l e
+o
+) a a a
+s
+.
+l
+o
+e
+M
+i
+e
+r
+n P n s
+f t
+r
+b
+s
+f ,
+s T n d t
+e
+r i
+a
+s
+o
+i
+s o
+t
+Q
+n
+h
+n
+u
+n
+(
+P
+l j a
+c
+o e
+e
+p
+l
+u P
+e
+e o
+n t c r
+p
+e h o
+a
+B
+n r
+d t
+l
+e g
+p
+e
+e
+)
+i
+A
+Dr
+n
+n R
+o
+r
+m
+t
+R
+s
+e s
+o
+r
+t a
+a u
+h
+e
+l e
+L
+a i
+t
+l t
+a l
+n
+d
+h
+,
+a i
+n
+n
+L n
+t
+,
+e
+a
+,
+d
+e
+g
+i b
+n
+m
+S
+a
+d
+n
+n u
+d
+t
+t
+p
+o
+i
+h
+a
+f
+t t i
+r
+r
+r
+e
+i
+e
+t r
+i
+o
+e
+n
+t
+s
+n
+r d
+h
+x
+m
+c
+o
+C g
+n
+,
+c
+l
+i w
+u
+f a
+s o
+R
+l
+i
+t
+u
+e
+d
+i
+b
+r g
+m
+t
+o
+d t
+l
+h
+e
+o d
+h a
+s
+e e
+s
+e
+o ,
+e u
+e
+s
+l B
+r
+t
+A g
+w
+t
+t
+h
+n
+o
+u
+T
+e
+e c
+o
+e
+r
+T m
+e
+t
+c
+e
+o
+e
+im
+C
+P r
+n ,
+d
+o l e e
+l
+s
+F
+r
+e
+e
+s d
+o
+t
+c .
+e
+o
+t
+i
+)
+i
+g
+s
+t t
+.
+r
+r p e
+s
+h
+t
+n
+i f
+h
+o d
+F
+i
+y
+R
+e
+a
+e
+i
+o
+n R d
+G n
+i
+r
+v
+t
+w
+a
+d
+)
+r
+e
+r
+t
+.
+e
+h
+o
+i a l
+r
+G
+A
+s
+e
+v
+i I l
+R
+t
+n t
+e o
+,
+n
+p
+t f
+a
+, l
+V
+d
+h r e
+u
+i
+S
+a
+l
+t e
+a
+r
+C
+w s
+p
+h
+S
+r
+d t
+s
+o
+o o
+o r
+e
+a
+i
+u
+s
+r a
+r
+c
+t
+n
+k
+y
+t c
+e
+s
+t
+e
+c
+i
+t
+s
+t
+o
+w
+L
+u
+l
+o
+i L
+n
+a
+r
+o
+f
+h f
+f
+e
+i
+,
+k
+e
+f
+n
+i t c
+e
+h
+, e
+h
+s
+e
+s
+Network Connection Works The work rt ss
+J
+to e ab
+u
+e carriePd - out by Queensland Rail Limited or the State (including, without
+(Ormeau Facility) limitatioen, trmack, signFalling and overhead traction electricity system (if applicable)) connecting the
+Netwoor b k tOo r the Orm R eau Facility Works, as set out in Schedule 4 of the Cooperation Agreement
+R
+(
+but
+n
+o nlyn to the extent that those works are contained on the Mainline side of the dashed blue
+l
+SJ
+in o
+c
+he
+h
+s
+ec ad
+s ti
+u
+ho
+l
+o
+e
+w
+4
+n ,
+o
+a
+f
+n
+th
+d
+e
+d
+C
+e
+o
+sc
+o
+r
+p
+ib
+e
+e
+ra
+d
+t i
+a
+o
+s
+n
+"
+A
+Q
+g
+R
+re
+C
+em
+on
+e
+s
+n
+t
+t
+r
+,
+u
+a
+c
+s
+ti o
+m
+n
+o
+",
+d
+o
+if
+n
+ie
+t
+d
+h e
+o r
+d
+u
+o
+p
+c
+g
+u
+r
+m
+ad
+e
+e
+n
+d
+ta
+f
+t
+r
+io
+o
+n
+m
+l i
+t
+s
+im
+te
+e
+d
+t
+i
+o
+n
+t
+s
+im
+ec
+e
+ti o
+in
+n 2 of
+ac
+c
+cifo i rdance with clause 20.5 (Modifications, upgrades and replacement of Network Connections
+Weorks) of the Cooperation Agreement, which will be managed, controlled or owned by
+p
+SQueensland Rail Limited or the State.
+e
+c
+NGR Fleet n All passenger trains delivered under the New Generation Rollingstock Project
+a
+m
+NGR Fleet Unit r The multiple rail car consists comprising the NGR Fleet semi-permanently coupled together and
+o
+rf which can operate in service as a self-contained entity.
+e
+P
+O&M Services
+-
+O&M Services means collectively the Standard O&M Services and the Additional O&M Services.
+1
+ONVIF-Compliant C Compliant to the ONVIF (Open Network Video Interface Forum) core specification
+e (www.onvif.org).
+ul
+d
+Operational Headeway The planned time period between trains in operation on the Mainline.
+h
+c
+Ormeau FacilitSy The Ormeau Stabling and the Depot.
+2
+Ormeau
+Fac1.
+ility Site Means:
+3.
+3 a) the Depot Site; and
+0
+3. b) the Ormeau Stabling Site up until the Date of Ormeau Facility Completion.
+6
+Orm1 8e . au Facility Works The Depot Works, the Ormeau Stabling Works and the Preliminary Works (Ormeau Facility).
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 5 -
+
+[TABLE 1 on page 6]
+ | Term |  |  | ) y Definition ilit | 
+--- PAGE 7 ---
+)
+y
+Term Definition cilit
+a
+Ormeau Stabling The stabling, Train Wash and other facilities and equipment (including equipment sFupporting the
+stabling yard functionality) constructed by the Contractor in accordance with the Pur oject Deed at
+a
+the Ormeau Stabling Site. e
+m
+r
+Ormeau Stabling Site The site described as such on the plan in Part B and Part C of Schedule C5 O(Ormeau Facility
+Site) and where the context requires, includes any other lands and places
+n
+m (ade available to the
+Contractor by the State for the purpose of Ormeau Stabling Works but dooes not include the
+Depot Site, the other stabling sites, and the Manufacturing Facility Site.
+ati
+c
+Ormeau Stabling Works All things and works (including all systems and software incorporateedc i i
+fi
+n, or necessary to enable
+operation) that the Contractor must design, develop, engineer, consptruct, manufacture, test,
+S
+install, fitout, commission and supply, in accordance with the Proej ect Deed and the other Project
+c
+Documents, in relation to the Ormeau Stabling, including: n
+a
+a) the design and construction of the Ormeau Stabling; m
+r
+o
+b) all work related to the Ormeau Stabling described in th
+r
+ef Performance Specification (Ormeau
+Facility) and Contractor Proposal (Ormeau Facility), Paend
+c) any work that is incidental to, or reasonably neces
+1
+s -a ry to perform, this work,
+1C
+but excluding:
+1
+2
+e
+d) Manufacturing Facility Works; 2. ul
+3 d
+e) the Rollingstock Works; 5. 2
+c
+h e
+f) the Depot Works; and 2S
+g) the O&M Services.
+5.
+2
+6
+3
+1
+6 8.
+O
+Eq
+v
+u
+e
+i
+r
+p
+h
+m
+ea
+e
+d
+n t
+T
+o
+r
+r
+a c
+O
+ti
+H
+o
+L
+n
+E
+L ine T
+ea
+h
+r
+e
+t h
+c
+i
+o
+n
+m
+g
+b
+a
+i
+n
+n
+d
+a t
+b
+io
+o
+n
+n d
+o
+i
+f
+n
+c
+g
+a
+e
+te
+q
+n
+u
+a
+ip
+ry
+m
+w
+en
+ir
+t
+e
+fo
+s
+o
+m,
+r
+c
+t
+o
+hd
+n
+ef,
+t a1
+d
+c
+is
+t
+t
+w
+rib
+ir
+u
+e
+mt
+s
+io
+,
+n
+s u
+o
+p
+f
+p
+2
+o
+5
+r t
+k
+in
+V
+g
+t r
+s
+a
+tr
+c
+u
+ti
+c
+o
+t
+n
+u r
+p
+e
+o
+s
+w
+, i
+e
+n
+r
+s
+.
+ulation, isolation,
+c p a
+Q Q Q R
+(
+R
+S
+o
+t
+a
+a
+R u T
+r
+a
+d
+i
+e M
+b
+l
+R
+T i e
+T
+l
+o P
+F
+i
+r n
+n
+r
+a
+I
+F
+a
+s
+g
+D
+c l
+f
+r a k
+f
+e
+)
+R
+i c
+n q M
+o
+d u
+C
+a
+a e R
+d
+r
+i n
+e
+n
+s
+a c
+w
+t i e y l n L
+B
+I a d i
+u
+m n e
+il
+c n i
+d
+t e e t
+in
+i d f V i
+g
+c ( e a o h t r i i o c Q n le R s ) A Q Q U
+R
+F
+T r T
+a
+o
+c
+a
+h r
+s
+F
+u u
+o
+r
+a
+c
+c
+e
+e a e e
+I
+m c
+e
+D
+i
+i e e
+l
+b k
+o l
+i
+s
+t
+n n c
+e u
+s
+y
+s
+f
+w
+s s a
+y
+i t
+a
+l
+a
+p
+c
+l l
+i d
+s
+r
+r
+a a n
+t
+t
+.
+l
+l
+h
+s
+t
+i
+a
+l
+u n n
+n
+e
+o
+D
+e
+J
+t
+s
+c
+d d
+g
+m
+w
+f
+o
+l
+e
+o
+e e
+l h e
+e
+R T
+i
+t t
+d
+n
+r
+c
+n
+a
+y a
+c
+a
+m
+.
+r
+u
+t a
+g
+r p
+o
+i
+a r
+r
+f
+o l
+i o
+F
+o
+a
+s
+s i b
+n
+l i
+c
+w
+n
+a
+e
+,
+r m
+n
+C L
+s
+a a c
+r o
+f
+m
+c
+o
+t
+i
+i
+i M
+u
+l r
+s
+l
+s
+a m n
+i
+r
+l e e t y
+k
+l
+t
+y
+@
+f g a a
+l
+i
+s
+)
+i d
+e
+l
+i
+s
+P
+t n
+c
+l
+n
+e
+e
+(
+n
+2
+e
+e
+d
+r
+o
+E
+p o
+e n
+0
+u
+-
+n
+o
+s
+t d
+n
+x
+f
+t
+2
+a
+e n
+t
+R
+w i f
+g
+e
+a i
+g
+3
+a
+a
+t
+c
+c
+i
+o
+A
+t
+n
+c
+l
+o
+n
+t - a
+t
+c
+l
+u
+0
+i h
+e
+l
+h
+B
+fi
+t
+f i t
+i
+6
+r
+n
+t
+i
+n
+i
+s
+i i
+n
+g u
+e
+o
+n
+e
+-
+t g
+N
+a
+2
+i
+g r
+o
+n
+ss
+r
+g
+d
+o
+y
+l
+0
+d
+d i
+t
+u V
+o n
+n 7 t
+o h
+0
+r
+j
+i
+p h
+c
+e
+a
+n
+t g 1
+a
+1
+f o
+.
+k
+r o
+i
+e
+f
+:
+c
+n
+s
+d
+i l
+3
+E
+Q
+P i 1
+c d
+e
+o
+,
+2 a
+i
+r
+x
+e
+o
+n 3 a r
+n
+R
+c
+pu G
+6
+o )
+s
+2 a i .
+t
+o
+t
+t M l
+-
+g n
+,
+r
+o
+M c
+p
+l
+n 1
+a
+s T
+l
+r
+t
+m
+e
+a
+i
+a
+a
+r
+e o 8
+n
+D a
+c
+r
+n
+t
+m a t 1
+s
+h
+-
+t
+i
+w
+o n
+P
+p
+t
+1
+w
+. i
+i
+0
+r
+r o
+i
+n
+c
+2
+o
+o
+n
+a
+9 a r
+9
+f
+g
+n
+- g
+o
+k
+y
+0
+7
+r l
+-
+d
+l .
+c
+r
+s
+. y
+0 r
+m
+e
+a o 8
+a
+i
+r
+r
+d
+o
+a
+,
+n
+a m T
+e
+t
+a
+d
+i
+n
+n
+o
+r s a
+r
+d
+s
+t
+n
+a
+,
+i
+i
+e
+f
+n S
+d
+y
+s
+/
+r
+t
+i
+e
+v
+e
+C
+o
+o
+a
+i
+c
+q
+c
+n
+r o
+r
+t a
+u
+e
+d
+e
+i n o g
+i
+s
+c
+s
+p
+n
+t
+e
+e
+r
+i
+m
+t
+s
+a
+,
+o
+i
+6 t
+v
+t
+c
+e
+s . o
+e
+f
+3
+k
+n
+.
+a
+i
+r
+. l
+t
+T
+c
+t
+e
+a
+a
+a
+i
+h t
+l
+n
+g
+i
+n
+e
+t
+a
+d
+a
+s
+d
+n t
+t
+r
+a
+t
+e
+d
+a
+r
+a
+t
+a
+c
+t
+i
+s c
+a
+n
+n
+c
+k h
+s
+c
+e
+s
+o s
+h
+p
+m
+s
+w e
+e
+e
+s
+i
+e c
+c
+d
+t
+s
+t
+t r
+t
+e
+i
+t
+i
+t
+o
+o
+a
+o
+f
+r
+a
+.
+n
+n
+b
+c
+o
+,
+l
+i
+e
+i
+b
+n
+m
+li
+d
+j
+c t
+e
+i
+i
+l e
+n
+t
+c
+u
+r
+s
+o
+t
+d
+a
+s
+,
+r
+e
+i
+.
+n
+l u s
+A
+s
+n
+.
+n
+c h
+mainteneancme, cleaninFg and decanting of the stabled vehicles.
+o b O r R
+Standard O&M Services has Rthe m(eaning given under the Project Deed.
+n n
+h o
+State's Policies and Standards a
+J
+o) t
+a
+htie applicable codes of conduct, policies and standards (excluding Queensland Rail
+cLimited's safety and environmental management system) as developed, issued or published
+cifi
+by the State or the Operator:
+e
+p i) current at the date of the Project Deed, including, at the date of the Project Deed, all
+S
+e such codes, policies and standards comprised in the Disclosed Information and any
+n c amendment, without limiting clause 36 (Change in Law) of the Project Deed, to these
+a
+m codes of conduct, policies and standards from time to time;
+r
+o ii) new codes of conduct, policies and standards with which the Contractor is Directed to
+e
+rf
+comply pursuant to clause 36.1 (Changes to Mandatory Requirements) of the Project
+P
+-
+Deed; and
+C 1 iii) the Rail Safety National Guidelines, and, without limiting clause 36 (Change in Law),
+e any amendments from time to time; and
+ul
+d b) the SEMS.
+e
+h
+Technical Headcway Minimum design headway.
+S
+Track Mainte2n ance Vehicles A dedicated stabling road for storage of QR Track Maintenance Vehicles.
+1.
+Road 3.
+3
+Train Co0nsist A 6-car train configuration comprising either a Multiple Unit or a NGR Fleet Unit.
+3.
+6
+Train 8. Wash A fully automated system consisting of a train wash building and train wash plant, capable of
+1 servicing both Multiple Units and NGR Fleet Units.
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 6 -
+
+[TABLE 1 on page 7]
+ | Term |  |  | ) y Definition ilit | 
+--- PAGE 8 ---
+)
+y
+Term Definition cilit
+a
+Train Wash Building The train wash building of the Train Wash. F
+u
+Train Wash Plant The train wash plant of the Train Wash. a
+e
+m
+Up Mainline The left-hand Mainline track travelling south from Beenleigh to Varsity Lakes. r
+O
+(
+Utility Services All services and connections provided by 3rd party services including: n
+o
+a) power ati
+c
+b) water; cifi
+c) sewerage; p e
+S
+d) drainage;
+e
+c
+e) telecommunications, and n
+a
+f) gas. m
+r
+o
+rf
+e
+P
+-
+1
+1C
+1
+2
+e
+2. ul
+3 d
+2 e
+5.
+c
+h
+2S
+5.
+2
+6
+3
+1
+6 8.
+o
+m df,
+1
+m
+c p a
+o h
+n. r
+o
+F
+b
+a
+e
+C
+c
+r
+o
+t
+i
+s
+l
+n
+it y
+@
+fi
+)
+d e
+(
+2
+d
+E
+n
+0
+o
+x
+t
+2
+R
+w i
+e
+a
+3
+o
+n
+c
+l
+-
+l
+u
+0
+e
+li
+t
+6
+r
+n
+i g o
+-
+g
+2
+r n
+s
+o
+0
+t
+u V
+o
+0 p
+c
+e 1 .
+k
+r : s 3
+E
+i o 2
+x
+n p G ) a . M n s T i o n P r o g r
+rt
+s
+J
+e
+a
+u
+P
+-
+em F
+o b O r R
+R
+(
+n n
+h o
+J
+o ati
+c
+cifi
+e
+p
+S
+e
+c
+n
+a
+m
+r
+o
+rf
+e
+P
+-
+1
+C
+e
+ul
+d
+e
+h
+c
+S
+2
+1.
+3.
+3
+0
+3.
+6
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 7 -
+
+[TABLE 1 on page 8]
+ | Term |  |  | ) y Definition ilit | 
+--- PAGE 9 ---
+)
+y
+cilit
+a
+2. Standards and specifications F
+u
+a
+e
+m
+r
+O
+2.1 Applicable Requirements, Industry Standards a(nd
+n
+o
+State's Policies and Standards ati
+c
+cifi
+e
+p
+2.1.1 The Contractor must undertake the Ormeau Facility Works in accordance with all SApplicable Requirements,
+Industry Standards and State's Policy and Standards, including those set out in teh is specification.
+c
+n
+a
+m
+2.1.2 Where no Australian standards exist for the design of an element of the Ormreau Facility Works, the
+o
+Contractor may use recognised internationally accepted standards. rf
+e
+P
+-
+1
+2.2 Queensland Rail Limited standard1s,C policies and
+1
+2
+e
+2. ul
+specifications 3 d
+2 e
+5.
+c
+h
+2S
+2.2.1 The Contractor must ensure its workplace health, safety a5.n
+2
+d6 e 3 nvironment processes and procedures for
+delivery of the Depot Works take into account the follow1i 6 ng 8S . EMS:
+(i) MD-13-320: Environmental Planning and Man
+c
+oa
+m
+g
+epmdf,
+e
+1
+nt (E
+a
+P m M) (Version 4.0); and
+2.2.2
+(a) C
+( T
+( (
+i
+i i
+i
+i v
+h
+i
+)
+i
+v
+) )
+e
+il
+D
+E
+e
+n
+M
+M M
+(V p
+g
+D
+D D
+o e
+in
+t -
+- -
+r
+e
+s 1
+1 1
+W i
+e
+5
+0 9
+o
+r
+-
+- -
+o n 3
+1 1
+in
+r 1
+1 0
+k 3
+g
+s 5
+5 3
+. 0 : m ) N ,
+C L
+u o a
+e
+s
+i
+i n
+v v
+s t
+i
+d
+e
+e
+l
+b
+l -
+e P M
+C L
+r u a
+e
+o
+r
+n
+o v
+c n d
+s e
+e a
+s
+e
+l
+d g
+i
+r
+C
+u
+n
+e
+o
+t
+h
+a
+g
+r m
+r n
+e
+o
+k
+. r P
+e e
+s o
+M
+F b
+n
+s r
+n
+a
+e
+C
+o
+t
+i
+D
+c
+r
+n
+o
+t
+i
+t i
+s
+l
+( n n
+e i
+-
+g t
+V
+y
+@
+f 1 i
+c )
+d a e
+S
+5
+t
+e
+(
+2
+d
+E
+c
+i
+n r
+0
+-
+o
+o
+a
+x
+s t
+2
+c 3
+R
+w i
+e
+n
+a
+f3
+i o
+o
+1 n
+c
+e
+lo
+- l
+u
+0
+e r
+l
+7
+A t i
+n t
+6
+r
+n
+d
+y
+i g o
+-
+:
+g s
+2
+r a n 3
+s
+o
+(
+N
+0
+s t
+u n V
+V
+o
+.
+e
+0 p 0 o
+c
+e c1 .
+e
+k
+r
+s
+) i :e s 3 s
+r
+E
+s
+i o( 2
+s
+e
+x
+m
+w n i p
+i
+n G )
+o
+a . M i M c
+e
+n t
+n
+h s lT
+n
+a u i o
+4 t
+t d nn h
+. a
+a i P
+1
+n e
+n
+r g
+)
+og
+; d
+g f e o r S m
+S
+ll p o
+e
+e e w
+l
+n
+e
+c t i
+c
+n if (
+t
+i g V
+i
+c
+o
+a e S
+n
+t r E i s o
+G
+i M n o
+u
+n S
+i
+M
+d
+: 3
+e
+D .
+l
+0
+i
+-
+n
+1 )
+e
+) 5 .
+s
+-3
+(
+1
+V
+6
+e
+:
+r s
+N
+io
+o
+n
+is e
+1 .
+A
+0)
+s
+;
+s essment
+(v) M
+5.0
+D
+)
+-
+;
+1 0-161 Civil - Fen
+e r
+c
+t
+s i n J
+m
+g
+e
+a au nd S
+F
+ig
+P
+n - age of the Right of Way and Electrification Infrastructure (Version
+o b O r R
+(vi) MD-19-342 RailwaRy In(frastructure – Structure Clearances (Version 1.0);
+n n
+h o
+(vii) MD-18-303 Civ
+J
+iol - T atriack Construction (Version 2.0);
+c
+(viii) MD-18-305 Civilc i-
+fi
+Track Design (Version 3.0);
+e
+p
+(ix) MD-20-44 CSivil - Insulated joint assembly supply (Version 1.0); and
+e
+c
+(x) MD-21-6 nCivil - Design of Buffer Stops and Over-run Protection (Version 1.0).
+a
+m
+(b) Electrical o r
+rf
+e
+(i) MD-10P-191 Electrical Traction Systems Standards Manual (Version 4.1);
+-
+1
+(ii) MDC-18-160 Overhead Line Equipment Specifications (OLES) - Part 1 - Overview and General
+e
+R ulequirements (Version 1.1);
+d
+e
+(iii) hMD-10-192 Electrical - Interfacing of Earthing Systems: Electricity Distribution MEN & the HV Electric
+c
+S Traction System (Version 3.1);
+2
+1.
+3.(iv) MD-17-57 TPSS - Part 8 - HV Electrical Services (Version 2.0);
+3
+0(v) MD-17-58 TPSS - Part 9 - HV Traction Indoor GIS Switchgear (Version 1.0); and
+3.
+6
+8. (vi) MD-17-63 TPSS - Part 14 - HV Cable and Accessories (Version 1.0).
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 8 -
+--- PAGE 10 ---
+)
+y
+(c) Signalling and telecommunications cilit
+a
+(i) MD-10-86 Mobile Voice Radio Communications Systems (Version 5.0); F
+u
+a
+(ii) MD-10-148 Managing the Effects of Radio Frequency Electromagnetic Energy (Versioen 6.0);
+m
+r
+(iii) MD-16-529 Telecommunications – Enhanced Train Radio System – Terminals (VerOsion 2.0);
+(
+n
+(iv) MD-13-421 Telecommunications ELV DC Power Systems Design (Version 6.0); o
+ati
+c
+(v) MD-10-109 Observance of Signals Manual (Version 5.2); cifi
+e
+(vi) MD-10-161 Civil - Fencing and Signage of the Right of Way and Electrificatpion Infrastructure (Version
+S
+5.0); e
+c
+n
+a
+(vii) MD-10-95 Signalling Positioning Principles (Version 4.0); m
+r
+o
+(viii) MD-19-272 HVI Track Circuits - Installation and Maintenance (Versrfion 1.0); and
+e
+P
+(ix) MD-20-354 Telecommunications - Enhanced Radio System (V
+1
+e -r sion 1.0).
+1C
+1
+2
+e
+2. ul
+3 d
+2 e
+2.2.3 The Ormeau Stabling Works must be undertaken in accorda
+5
+n.ce
+c
+hwith the SEMS set out in Appendix 1 to this
+specification.
+5.
+2 2
+6
+3
+S
+1
+6 8.
+2.3 Australian and internationa
+o
+lm s
+df
+t,
+1
+and
+m
+ards
+c p a
+2.3.1
+(
+(
+(
+d
+e
+f)
+)
+)
+A
+A
+A
+T f s
+f
+o
+a
+p h
+S
+S
+S
+l
+c
+l e e o
+/ il N
+1
+1
+c
+i
+w O
+t
+i
+4
+4
+i Z
+f
+e
+i i
+2
+2
+r n c
+S s
+m
+8
+8
+a g
+;
+.
+.
+t
+1
+e
+1
+2
+i A o
+4
+a
+:
+:
+u n
+2
+1
+2
+u s :
+0
+9
+8
+F t
+2
+9
+.
+r
+4
+a a
+1
+2
+.
+c l
+1
+i
+D
+D
+a il
+:
+i n
+2
+e
+e
+ty
+0
+s
+s
+a
+0
+i
+i
+m
+g
+g
+n
+9
+n
+n
+d u
+D
+s
+f
+f
+in
+o
+o
+t
+e
+t
+r
+r
+b
+s
+e e
+a
+a
+i
+r
+g
+n
+c
+c
+d
+n
+a
+c
+c
+e
+e
+e
+t
+f
+i s
+o o
+o
+s
+s
+h
+i
+r
+s
+s
+g n
+n a .
+n a
+r
+a
+a
+o c
+e l
+F b
+n
+n
+ca
+e
+s d C
+d
+d
+c
+r
+e
+t o
+t
+i
+s
+l
+a i n
+i s t
+m
+m
+n
+y
+@
+f n i
+s )
+d d
+o
+o
+a e
+(
+2
+d
+E
+a
+n
+0
+a
+b
+b
+o c
+x
+t
+2 n R
+w i
+e
+r c
+i
+i
+a
+3
+l
+l
+o
+n
+c
+d
+d
+l
+-
+i
+i
+o
+l
+u
+0
+t
+t
+e
+l
+s
+i
+y
+y
+t
+6
+r r
+n m
+i g o d
+-
+,
+g
+2
+r n
+–
+–
+s
+o a w
+0
+o t
+u V
+o
+n 0
+G
+b
+E
+p h
+c
+e 1 .
+k
+c r
+i
+n
+i : s
+e
+l
+3 c
+E
+e
+i
+i o
+h
+t
+2
+n
+h
+x
+y
+n p
+a
+G w
+e
+) a . a
+–
+M
+n
+r
+n it r
+a
+s T
+c
+h e
+P
+i o
+l
+e
+n
+a
+r
+a
+d
+r
+e
+P e
+r
+p r
+t
+q
+a
+f o p e
+4
+g
+u
+n
+l r r i
+.
+i
+d
+c e
+r
+1
+e
+a n
+:
+a
+m
+b c
+M
+d
+l e
+e
+d
+e
+e
+d
+n
+i
+a
+t
+I
+t
+i
+n i
+o
+n
+s
+n d
+n
+s
+f
+u t
+o
+a
+h
+t
+s
+o
+r
+l
+e t
+r
+r
+a
+a
+e
+y r
+c
+e
+s
+q
+c
+S l
+s
+u
+e
+e
+i
+t
+i
+s
+v a
+s
+re
+t
+a n
+s
+m
+t
+n d
+h
+–
+t a
+e
+e
+c
+N
+r
+n
+d l
+o
+a
+t
+e
+s
+s
+r
+u
+w
+i e
+i
+–
+s n
+n
+e
+b
+c
+B
+t
+s
+u
+a
+lu
+u
+i
+t
+o
+l
+d
+i
+i
+d
+o
+l
+f
+d
+i
+i
+n
+n
+n
+t
+i
+h
+n
+g
+g
+o
+i
+g
+s t
+f
+w
+s
+h
+p
+o
+e
+a
+e
+r
+n
+k
+o
+d
+;
+p le
+with vision impairment: Tactile
+rt
+s
+g Jro
+e
+u
+a
+un d sur
+P
+fa
+-
+ce indicators;
+(g) AS 1428.5:2021 Communicaetionm for peopFle who are deaf or hearing impaired;
+o b O r R
+R
+(h) AS/NZS 2890.1:2004 Pa
+n
+rk ing
+n
+(facilities, Part 1: Off-street car parking;
+h o
+(i) AS 2890.6:2022 Off-stJr
+o
+eet
+apti
+arking for individuals with a disability;
+c
+(j) AS 4024 Safety of Machci i n
+fi
+ery;
+e
+p
+S
+(k) AS 45001:2018 Occ
+e
+u pational Health and Safety Management Systems;
+c
+n
+(l) AS 7470 Human Faactors Integration in Engineering design;
+m
+r
+(m) AS/NZS ISO 14o001 Environmental Management Systems: Requirements with guidance for use;
+rf
+e
+P
+(n) ISO 6385 E
+-
+r gonomic principles in the design of work systems;
+1
+C
+(o) ISO 9241-210 Ergonomics of human system interaction – Part 210 Human-centred design processes for
+e
+interacutilve system; and
+d
+e
+(p) ISO h9241-220:2019 Ergonomics – Ergonomics of human-system interaction – Human-centred lifecycle
+c
+S
+p
+2
+ro cess descriptions.
+1.
+3.
+3
+0
+3.
+6
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 9 -
+--- PAGE 11 ---
+)
+y
+2.4 Legislation and guidelines cilit
+a
+F
+u
+2.4.1 The Ormeau Facility must be designed and constructed in accordance with all Applicable Requairements and
+e
+Industry Standards, including planning regulations and industrial zoning requirements as reqmuired under law
+r
+in the State of Queensland. This will include: O
+(
+n
+(a) International Fire Engineering Guidelines 2005, ABCB (DtS or performance solutions); o
+ati
+c
+(b) National Code of Practice for CCTV systems for the Mass Passenger Sector for Cou
+c
+n ifiter Terrorism;
+e
+(c) National Construction Code (NCC) 2019, Amendment 1 ABCB; (DtS or performanScpe solutions);
+e
+(d) Disability (Access to Premises - Buildings) Standards 2010; n c
+a
+m
+(e) Queensland Development Code; r
+o
+rf
+(f) Building Act 1975 (Qld); e
+P
+-
+(g) Building Regulation 2021 (Qld); 1
+1C
+1
+2
+e
+(h) Work Health and Safety Act 2011 (Qld); 2. ul
+3 d
+2 e
+(i) Work Health and Safety Regulation 2011 (Qld); and 5.
+c
+h
+2S
+(j) Queensland Development Code MP 4.1 – Sustainable Bu5.i
+2
+ldi
+6
+n3g s (State of Queensland, 2020).
+1
+6 8.
+o
+m df,
+1
+m
+c p a
+o h
+n. r
+o
+F
+b
+a
+e
+C
+c
+r
+o
+t
+i
+s
+l
+n
+it y
+@
+fi
+)
+d e
+(
+2
+d
+E
+n
+0
+o
+x
+t
+2
+R
+w i
+e
+a
+3
+o
+n
+c
+l
+-
+l
+u
+0
+e
+li
+t
+6
+r
+n
+i g o
+-
+g
+2
+r n
+s
+o
+0
+t
+u V
+o
+0 p
+c
+e 1 .
+k
+r : s 3
+E
+i o 2
+x
+n p G ) a . M n s T i o n P r o g r
+rt
+s
+J
+e
+a
+u
+P
+-
+em F
+o b O r R
+R
+(
+n n
+h o
+J
+o ati
+c
+cifi
+e
+p
+S
+e
+c
+n
+a
+m
+r
+o
+rf
+e
+P
+-
+1
+C
+e
+ul
+d
+e
+h
+c
+S
+2
+1.
+3.
+3
+0
+3.
+6
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 10 -
+--- PAGE 12 ---
+)
+y
+cilit
+a
+3. Scope F
+u
+a
+e
+m
+r
+O
+3.1 General (
+n
+o
+ati
+c
+3.1.1 This specification sets out the State's minimum functional requirements for the desig
+c
+n ifi, construction and
+commissioning by the Contractor of the Ormeau Facility Works. e
+p
+S
+e
+3.1.2 The Ormeau Facility must include the following elements: c
+n
+a
+m
+(a) the Depot (refer to section 3.3); and
+r
+o
+rf
+(b) the Ormeau Stabling (refer to section 3.4). e
+P
+-
+1
+3.1.3 The Ormeau Facility must be designed so that each of the Ormea1u FaCcility components have a Design Life
+of the period of years specified for such component in Schedul
+2
+e
+.
+1 A
+2
+3
+u
+6l e (Design Life) from the Date of Ormeau
+Facility Completion. 3 d
+2 e
+5.
+c
+h
+2S
+3.1.4 The Contractor must, during the Preliminary Design Revi
+5
+e
+.
+2w D
+6
+3e sign Stage of the Ormeau Facility, supply to
+the Reviewing Parties for Review under the Review Pro
+1
+c6ed
+8
+u.res a 3D federated model of the Ormeau Facility
+s
+F
+p
+a
+a
+c
+t
+il
+i
+i
+a
+ty
+lly
+W
+o
+o
+ri
+r
+e
+k
+n
+s
+t a
+a
+t
+s
+e d
+d e
+o
+s
+n
+c r
+th
+ib
+e
+e d
+O
+i
+r
+n
+m
+t
+e
+h
+a
+is
+u
+s
+F
+p
+a
+e
+c
+c
+i
+i
+l
+f
+it
+ic
+y
+a
+S
+ti
+i
+o
+te
+n
+.
+a
+T
+n
+h
+d
+e
+ob
+m
+m e
+o
+o
+d
+df
+e
+f , s
+l1
+u
+is
+ff i
+t
+c
+o
+i em
+in
+n
+c
+t
+l
+d
+u
+e
+d
+t
+e
+a i
+a
+l
+l
+(
+l
+a
+m
+s
+a
+p
+jo
+er
+r e
+S
+l
+c
+e
+h
+m
+e
+e
+d
+n
+u
+t
+l
+s
+e
+o
+A
+f
+1
+t
+1
+h e
+( D
+O
+e
+r
+s
+m
+ig
+e
+n
+a u
+c p a
+3.1.5
+P c t S
+T
+R O
+t f S
+h
+h o
+o
+h
+r e
+e
+e r
+e
+i r
+o
+s
+l
+m
+e
+r
+r
+l
+v
+c
+a v
+v
+c p
+i
+s o
+e
+C
+e
+e b i
+i
+r c
+c p l
+a
+o
+w
+o s
+o
+l
+e
+e e a
+u
+p s r
+n
+i
+s
+s c b
+a
+n
+o .
+t
+F
+a
+i
+t
+g
+o c
+r
+f
+s i n
+i
+a
+a
+o
+r l c
+e
+a
+P
+a
+d
+c
+c
+n
+a
+d
+s t
+t
+i a
+t i
+l
+o
+R
+h
+a
+o
+i
+i
+d
+r t
+o
+r
+e
+t y
+n e
+n
+e
+i
+n
+m
+e
+s
+d v s
+W
+a
+s
+i
+a
+i
+a
+u
+e c
+n
+g
+n
+o f
+n
+s
+w o
+d
+n
+o
+d
+r
+t
+d
+m
+k
+,
+r
+c
+a P
+b
+s
+d
+t
+R
+m
+o
+n
+h
+r
+.
+e
+u
+m
+o d
+e
+a
+u
+T
+r
+o
+c
+v
+t
+i
+n
+m
+h
+h
+n
+e
+f
+i
+t
+i
+e e
+o
+g
+h
+c d
+u s
+w
+w a
+e u
+u
+n
+m
+th
+t
+f
+r
+i
+u
+i
+O c
+t
+f
+e
+o
+o
+e
+h
+i
+n
+a c
+s
+d
+n
+r
+e
+o i
+D
+d
+t m
+)
+e
+e
+h i
+p
+o
+e
+n
+O
+e
+t
+l
+n e
+o
+.
+u
+r
+n r
+t
+i
+to a
+r
+s
+a
+r
+F
+t
+b
+m a
+d p
+p
+h
+u a
+i
+e
+C
+t
+l
+l
+e cu
+o
+ro
+e
+e
+e l o
+t
+i F
+o
+s
+l t r
+s n
+i
+d
+a
+t a
+i R
+p
+w
+y
+@
+f
+a
+e
+n
+i u
+)
+d
+i o
+D
+c l
+s
+e
+e
+(
+2
+c
+d
+E
+v
+s i
+n
+0
+F
+t
+. o
+e
+l v
+l
+x
+o
+t
+2
+u
+i
+iR e
+w i s
+e
+t
+a I
+i
+a
+s
+3
+e d
+o y
+t n
+c
+s
+l
+-
+u
+a
+c
+i
+l
+u
+0
+e
+w
+g
+l
+e
+i
+.i
+a t
+6
+r
+W
+i
+l
+s
+n
+i g
+l
+l
+n
+o
+-
+g I
+i
+o
+l
+2
+r
+a
+n
+t
+t
+P
+i
+s
+eo
+0
+y
+o
+s
+w t
+R
+u
+l
+V
+i
+o
+x
+l r
+s
+a 0
+r
+p
+c
+e
+o
+W
+k
+p
+e
+1
+e
+.
+k
+v
+r t :
+e
+s
+c
+i
+s
+3 e
+v
+l
+E
+i
+o i o
+e
+o
+s
+2
+x
+e
+ix
+c n n
+w
+e
+r
+u
+m
+p
+p
+G
+d
+) t k a .
+w
+e
+a
+M
+e i
+u
+a n
+l
+e
+s
+l
+d
+l
+s T
+c
+r
+n
+i
+n
+i
+D
+f s
+e
+o w
+t
+d
+u
+t
+t
+e
+n
+a
+s
+e
+h
+s
+i
+n d
+P l
+t
+e
+s
+a l
+i
+a
+r
+c
+o
+o
+o n
+i
+f t
+t
+n
+t
+g
+g u
+f
+h n i
+h t r
+o
+n
+n
+t
+h
+a
+u
+a
+h
+n a
+c e
+t
+p
+n
+S
+e
+n
+t
+t a
+c
+d
+i
+t
+m
+h d
+o
+a
+O
+n
+e
+a
+e
+n o
+g
+d e
+d
+t r e
+d
+m
+e
+m n
+a
+p
+r
+d
+e
+h
+n e
+e
+o
+o e
+l
+a
+d
+f
+a
+a
+f
+d r
+i
+w
+n
+n
+f
+l
+u
+t
+e
+i
+o
+p
+h
+t
+c
+a
+i y
+l
+l
+r
+e
+F
+l
+e
+e
+l
+m w
+r d o
+a 3
+d
+f
+O
+i
+o e f
+c D
+l t l r
+r
+h
+m
+r
+i
+t
+e
+l
+s
+m h
+m
+i f
+e
+t
+a h
+o
+e
+e
+y
+e
+l r o
+n
+d
+t
+i
+h
+a
+e t
+p
+W
+w
+s
+e
+y
+e
+u
+q
+r t
+r
+o
+o
+r
+o u
+a
+t
+a r
+F
+p
+h
+r
+f
+t
+i
+e
+k
+r
+t
+e
+a
+o
+a t
+e
+e
+q
+s
+h
+d
+c
+s
+t d
+u t
+e
+i
+e
+t
+a
+h
+l
+m
+i
+h
+i
+O
+r d
+t
+s
+e
+p
+e
+y
+e
+o
+r &
+d d
+,
+d
+r
+a
+o
+d
+e
+e
+s
+e
+M
+d
+p
+e
+O
+u
+s
+s
+a
+v
+o
+l
+i
+c
+&
+p
+S
+a
+r
+g
+o
+s
+r
+e
+p
+M
+e
+n n
+e
+f ib
+l
+r
+t
+y
+n
+t
+d
+a f
+e
+v
+h
+o
+o
+t
+g
+i
+d
+d
+e
+c
+r
+o
+e
+e U e
+i
+t
+n
+s
+s s t
+h
+i i . l
+o
+g
+e
+it
+f
+n y
+rt
+s
+J
+e
+a
+u
+P
+-
+em F
+3.2 Operational Reo b qOurirem R ents
+R
+(
+n n
+h o
+3.2.1 The Ormeau Facility shJ
+o
+all cn
+at
+o
+i
+t interfere with adjacent Queensland Rail Limited infrastructure or facilities
+during design,
+constructcioifi
+n or operation without permission from Queensland Rail Limited.
+e
+p
+S
+3.2.2 The Ormeau Facilitye must integrate with the TMR signalling design for the Logan to Gold Coast Faster Rail
+c
+Project proven usinng operational simulation modelling in RailSys to:
+a
+m
+(a) enable Train Coo rnsists to enter and exit the Mainline to and from the Ormeau Facility via a northern entry,
+rf
+such that theye do not impart movement or speed restrictions on following or preceding trains on the Mainline,
+P
+assuming: -
+1
+C
+(i) Tr
+e
+a in Consists are travelling at a Technical Headway on the Mainline of 120 seconds from Beenleigh
+dSul
+tation to Ormeau Facility in the up direction, and from Ormeau Facility to Beenleigh Station in the
+e
+hdown direction; and
+c
+S
+(i2i) the main direction of travel and access for Train Consists to/from the Ormeau Facility is:
+1.
+3.
+(A) arrival from the north (up direction), comprising services that have terminated at Beenleigh
+3
+0 Station; and
+3.
+6
+8. (B) departure to the north (down direction), comprising services to commence at Beenleigh Station.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 11 -
+--- PAGE 13 ---
+)
+y
+(b) support the following routes to and from Ormeau Stabling: cilit
+a
+(i) receiving a Train Consist exiting the Up Mainline in the up direction, without impeding a folFlowing train
+u
+travelling at Technical Headway of 120 seconds. a
+e
+m
+(ii) receiving two consecutive Train Consists travelling at the Technical Headway of 120 sreconds exiting
+O
+the Up Mainline in the up direction, without impeding a following train travelling on t
+n
+h (e Up Mainline at
+Technical Headway of 120 seconds; ati o
+c
+(iii) despatching a Train Consist crossing the Up Mainline in the down direction be
+c
+t ifwieen two trains
+travelling at Technical Headway of 240 seconds, without impeding the appropaeching train on the Up
+S
+Mainline, to stop between the Up and Down Mainlines;
+e
+c
+n
+(iv) despatching a Train Consist from stop between the Up Mainline and Doawn Mainlines to the Down
+m
+Mainline in the down direction, between two trains travelling at 240 sercond headway, without impeding
+o
+the following train on the Down Mainline; and e
+rf
+P
+(v) despatching a Train Consist from stop between the Up Mainline
+1
+a - nd Down Mainline, in the down
+1C
+direction to the Down Mainline and being within a 120 sec
+1
+o2nd
+e
+T echnical Headway from the preceding
+Mainline Train Consist. Despatching trains from stabling 2r.equulires a crossing of the Up Mainline, and a
+3 d
+merge to the Down Mainline. This movement is to be
+5
+a
+.
+2ss
+c
+uhmeed to be undertaken in 2 separate
+movements on the basis that timetabled train paths o2n thSe Up Mainline and Down Mainline are not
+synchronised.
+5.
+2
+6
+3
+1
+6 8.
+(c) Immediately cater for six-car Multiple Units and desig
+o
+mn e d
+d
+f,
+t o
+1
+not p
+m
+reclude 9-car Multiple Units in the future.
+c p a
+3
+3
+.2
+.
+.
+3
+3 (d)
+D
+P a S T
+b
+n
+e
+h t r a o d
+t
+e
+e
+w
+b v t p l i
+e
+o d i
+p
+n e
+e
+e e g r
+n
+o
+f n a o R
+t
+a r
+h
+s
+t
+m o b
+e
+o a l a e u
+O
+d n t s r h
+r
+c e .
+m
+e e p r
+e
+o n re
+a
+s c q
+u
+it o u io
+F
+n ir n
+a
+n e i
+c
+e n m
+i
+c g
+li
+e t
+t
+i
+y
+o n o f t n
+a
+s T
+n
+f i r r
+d
+d
+o
+a o
+h
+e i
+t
+m
+n
+n
+h
+n
+. r
+e
+o
+t C t
+F
+b
+i h f
+a
+e
+M
+C o i
+c
+e e
+r
+o
+t
+i
+n
+s
+l
+d
+a
+n
+it
+O s
+y
+@
+f
+i
+i
+)
+d
+n
+i i n r s e
+(
+2
+d
+E
+l
+m n
+0
+i
+t o
+x
+n
+t
+2
+s 3
+R
+w i
+e
+a
+3
+e
+e
+o
+n
+c
+. l
+-
+t 2
+l
+u
+0
+a e
+,
+l
+o
+i
+t
+6
+r
+n
+.i u g
+w
+o
+-
+g
+2
+2
+a r n
+s
+o
+0
+(
+i
+F
+t
+n u V
+t
+o
+a 0
+h
+p a
+c
+e d )1 .
+k
+r c : s
+t
+3 a
+E
+f i
+h
+i o 2 r l
+x
+n n i o
+e
+p G t ) da y. m
+s
+M n
+e
+s T 3 t i o S o .
+m
+n 2 / t f P a . r
+o
+2 o rb o
+v
+( m g l b
+e
+i r n )
+m
+t g h s
+e
+h e S
+n
+a i
+t
+M t
+s
+l e l a s n
+o
+i o
+c
+n s
+c
+t l o in
+u
+a u
+r
+e p t
+r
+h p
+i
+t
+n
+o l o y
+g
+f s t
+o
+O o u
+u
+p r t
+t
+m h p
+s
+e o
+i
+e
+d
+r a
+e
+s t u o o
+o
+u p f
+f
+t o e h
+p
+r r e
+e
+a a r
+a
+t l n i l
+k
+o s c n
+p
+o o a
+e
+u n l
+r
+t n
+i
+f h
+o
+l e e
+d
+f c x a
+s
+t i c b
+.
+io i i n l n it g y
+3.3.1 The Depot must include the fo
+rt
+lslo
+J
+w
+e
+ian
+u
+g :
+P
+-
+em F
+(a) all utilities and services assoobcia
+O
+tred with Rthe operation of the Depot;
+R
+(
+(b) carparking, roadways andn pend estrian facilities;
+h o
+J
+o ati
+(c) fencing, lighting and securcity;
+cifi
+(d) landscaping; p e
+S
+(e) temporary constructieo n site office;
+c
+n
+a
+(f) site trackwork to msuit six-car Multiple Units and not preclude 9-car Multiple Units in the future including but
+r
+not limited to: o
+rf
+e
+P
+(i) Hand
+-
+o ver Roads;
+1
+C
+(ii) Holding Roads; and
+e
+ul
+(iii) dMaintenance Roads;
+e
+h
+c
+(g) sigSnalling system;
+2
+(h) 1E.TCS / PSD interface test facility;
+3.
+3
+(i) 0automated vehicle inspection system;
+3.
+6
+8
+(.j) OHLE;
+1
+(k) Maintenance Building;
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 12 -
+--- PAGE 14 ---
+)
+y
+(l) underfloor wheel lathe; cilit
+a
+(m) Multiple Unit cleaning facility including underfloor wash road; F
+u
+a
+(n) administration offices; e
+m
+r
+(o) training and meeting rooms; O
+(
+n
+(p) storage and spares warehouse / areas; o
+ati
+c
+(q) amenities areas; and cifi
+e
+(r) other fixed and non-fixed equipment. S p
+e
+c
+n
+a
+3.4 Ormeau Stabling m
+r
+o
+rf
+e
+P
+3.4.1 The Ormeau Stabling must include:
+-
+1
+1C
+(a) stabling trackwork to stable 20 x 6 car Train Consists;
+1
+2
+e
+2. ul
+(b) stabling layout to not preclude 9-car Multiple Units in the future3; d
+2 e
+5.
+c
+h
+(c) 1 x Track Maintenance Vehicle Road; 2S
+5.
+2
+6
+3
+(d) Train Wash facility;
+1
+6 8.
+(e) hirail access point; o m df,
+1
+m
+c p a
+( ( (
+(
+(
+(
+(
+(
+f g h
+i
+j
+k
+l
+m
+)
+)
+)
+)
+)
+) )
+)
+s O f
+p
+r
+R
+F
+la
+e
+a
+i
+e
+a
+a
+g
+n
+H n
+i
+d
+l
+c
+n
+i
+d
+c L
+l
+m
+e
+i
+a i
+l
+s
+T
+E n
+i
+s
+t
+l
+c
+a
+y
+l
+r
+g
+t
+; i
+a
+a
+r
+i
+n ,
+n
+i
+R
+p
+f
+a
+g
+t
+f
+li
+i
+e
+i
+n
+o
+n
+g
+c
+s
+n
+a
+g
+h y
+a
+C
+a
+d
+;
+t s
+c
+i
+n
+s
+r
+n t
+c
+e
+e
+c
+g
+e
+a
+w
+e
+m
+s
+n
+a
+s
+;
+a
+d
+B
+n
+c
+d
+u
+a
+c
+c
+i
+n
+a
+l
+e
+s
+d
+d
+r
+e
+s
+p
+i n
+s
+c
+t
+a
+r
+g
+u
+a
+r
+r
+;
+r
+k
+o
+i
+i
+n
+t
+i
+a
+n
+y
+d
+i
+g
+e
+n
+s
+;
+r
+;
+s
+t
+y
+s
+p
+s
+J
+m
+o
+e
+t
+h
+e
+e
+c
+n
+a
+m
+t
+.
+u
+r
+i
+o
+o
+;
+F
+b
+n
+a
+e
+C
+c
+r
+o
+t
+i
+p
+s
+l
+n
+it y
+@
+f
+a
+F
+i
+)
+d
+P
+t
+e
+(
+2
+d
+h
+E
+n
+0
+-
+o
+x
+w
+t
+2
+R
+w i
+e
+a
+3
+o
+n
+ca
+l
+-
+l
+u
+0
+e
+li
+y
+t
+6
+r
+n
+i g o
+-
+g
+s 2
+r n
+s
+o
+;0
+t
+u V
+o
+0 p
+c
+e 1 .
+k
+r : s 3
+E
+i o 2
+x
+n p G ) a . M n s T i o n P r o g r
+o b O r R
+(n) sand storage silo; R (
+n n
+h o
+(o) for each stabling locati
+J
+oon: ati
+c
+(i) train access
+platfocirfi
+ms;
+e
+p
+(ii) drinking water fSilling facility;
+e
+c
+(iii) decanting fancilities; and
+a
+m
+(iv) any faciliotires necessary for provisioning sand into Multiple Units and managing sand deposited at rail
+rf
+level duering sand system pre-start testing. The system may comprise intermediate equipment and
+P
+manu- al processes.
+1
+C
+e
+ul
+3.5 Outd of Scope
+e
+h
+c
+S
+3.5.1 T2h e Network Connection Works (Ormeau Facility) are not included in the Ormeau Facility Works.
+1.
+3.
+3.5.2 0 3 To the extent that any modifications to the Mainline are required to facilitate entry and exit into the Ormeau
+3.
+Facility in accordance with the Operational Requirements set out in section 3.2, it is anticipated that detailed
+6
+8. design, construction and commissioning of these works will be undertaken by Queensland Rail.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 13 -
+--- PAGE 15 ---
+)
+y
+cilit
+a
+4. General requirements F
+u
+a
+e
+m
+r
+O
+4.1 Safety (
+n
+o
+ati
+c
+4.1.1 The Contractor is required to undertake the Ormeau Facility Works with the highest r
+c
+e ifigard for the safety and
+wellbeing of its own people, its Subcontractors, the Operator's personnel and State’es Personnel and other
+p
+visitors while at the Ormeau Facility. S
+e
+c
+n
+4.1.2 The Contractor must adopt safety standards, practices and processes that woauld be expected of a qualified
+m
+and competent contractor and demonstrate compliance with the Workplace Hrealth and Safety Management
+o
+Plan, including the standards and specifications listed in Section 2. rf
+e
+P
+-
+4.1.3 The Ormeau Facility design must incorporate: 1
+1C
+1
+2
+e
+(a) safety practices and processes that would be expected of a qu2a.lifieudl and competent contractor;
+3 d
+2 e
+(b) Crime Prevention Through Environmental Design (CPTED) 5p.rin
+c
+chiples in accordance with Crime Prevention
+2S
+Through Environmental Design (CPTED) Guidelines for Q
+5.
+2ue
+6
+e
+3
+n sland available at:
+https://www.police.qld.gov.au/sites/default/files/2018-08
+1
+/6CP
+8
+T.EDPartA.pdf; and
+(c) the National Code of Practice for CCTV systems for
+o
+t m h e M df, a
+1
+ss Pamssenger Sector for Counter Terrorism.
+c p a
+4 4
+4
+.
+.
+2
+2
+. .
+.
+2 1
+2 (a)
+H
+a
+T
+w
+H ite n
+h
+i
+u
+t
+m y
+e
+h
+m
+u
+d ,
+C
+r
+a
+e
+m
+i e n n
+o
+l
+s
+e
+t
+n
+i e F
+v
+g
+t a
+r a
+r
+a
+n f
+a
+a c
+n
+n c
+a t c
+t
+o
+t
+n e
+o
+A
+r d , s
+r
+u
+f
+/ w
+m
+o s
+s
+a
+o r
+t
+c
+u
+r
+r o
+c
+d
+a
+s
+k p e
+l
+t
+i
+t
+e s
+a
+v
+e
+y
+n
+o
+e
+n
+i s n l
+s
+o
+a
+t c
+r u
+e
+n
+p l
+r
+u m
+s
+d
+m
+e
+d /
+i
+e p e
+t
+n
+h
+r
+n r s
+t
+t
+s
+a
+o
+e
+t : J c
+t
+r
+a o
+n
+e
+t
+hc
+e
+h
+n
+a
+d
+a
+t .
+e
+u i r
+t
+u v o
+i
+F
+o
+b r i
+O
+at
+e
+e
+C
+n
+yc
+r
+or
+t
+s i
+a
+s
+l
+m n
+i h t
+l
+y
+@
+f
+o
+i
+a )
+d e
+s
+P
+r
+e
+(
+2
+d
+v
+E
+t
+a n
+0
+-
+o
+a
+f i
+x
+t
+2 Ra
+u w
+n
+i
+e
+a
+n
+3 o
+n
+c
+c
+l
+g -
+d
+l
+u F
+0
+e
+l i i
+t
+6
+r
+n l
+a
+i
+a
+g a
+i
+o
+-
+g t
+2
+r n
+r
+n s
+c
+y
+o
+0d
+t
+u V
+o
+i
+;
+0 l p
+s
+i
+c
+e i
+m
+1 . t
+k
+r
+,
+: y s 3
+E
+i
+a
+p
+o 2
+x
+i n
+s
+a
+n p G ) a .
+c
+c M
+l
+n
+i
+t
+o s T
+s
+i
+o
+o r
+te
+p n
+n
+d
+P o r
+t
+r o
+h
+i
+a g
+n
+e
+r t e
+S
+u
+s
+e
+s
+H
+c
+e
+t
+r
+u
+i
+,
+o
+m
+i
+n
+n
+a
+c
+2
+n
+l
+.
+u
+2
+F
+d
+.
+a
+in
+c
+g
+to
+t
+r
+h
+s
+e
+p
+d
+ra
+e
+c
+s
+t
+ig
+ic
+n
+e s
+o
+,
+f
+i
+a
+n
+n
+a
+e
+c
+q
+co
+u
+r
+ip
+d
+m
+an
+e
+c
+n
+e
+t
+(b) any update to an existing equeipmment itemF, interface, work system/procedures or facility having an impact on
+the user; R o b O r R
+(
+n n
+(c) organisation, including chulturoe, job process (team organisation, rosters and shift patterns), job task (manuals
+J
+o ati
+and aids) and personnel (mcanpower, selection, training and continuous professional development);
+cifi
+(d) environment, including etemperature, lighting, noise, humidity, vibration;
+p
+S
+(e) user capability and ceh aracteristics, including visibility, audibility, mental workload, forces and
+c
+n
+anthropometrics; a
+m
+r
+(f) design of worksopace, workstation and interface;
+rf
+e
+P
+(g) interaction d
+-
+esign (human-human and human-system);
+1
+(h) system saCfety; and
+e
+ul
+(i) healthd hazard assessment.
+e
+h
+c
+S
+2
+1.
+3.
+3
+0
+3.
+6
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 14 -
+--- PAGE 16 ---
+)
+4.2.3 T
+co
+h
+n
+e
+s
+D
+tr
+e
+uc
+p
+t
+o
+e
+t
+d
+, t
+s
+h
+o
+e
+t
+O
+ha
+rm
+t w
+ea
+o
+u
+rk
+S
+in
+t
+g
+a b
+c
+l
+o
+in
+n
+g
+d i
+a
+ti
+n
+o
+d
+n s
+a l
+a
+l
+n
+fa
+d
+c
+e
+ili
+n
+ti
+v
+e
+i
+s
+ro
+s
+n
+u
+m
+p
+e
+p
+n
+o
+t
+r t
+a
+in
+r
+g
+e c
+th
+o
+e
+m
+O
+fo
+r
+r
+m
+ta
+e
+b
+a
+le
+u
+t
+F
+h
+a
+ro
+c
+u
+ili
+g
+ty
+h o
+m
+u
+u
+t
+s
+th
+t b
+e
+e
+y e
+d
+a
+e
+r
+s i
+f
+g
+o
+n
+r
+e
+w
+d
+oc i
+a
+l r
+it
+k
+yn
+e
+d
+r s and
+a
+are compliant with the Work Health and Safety Act 2011 (Qld) (the WHS Act) and the Work HealtFh and
+u
+Safety Regulations 2011 ((Qld) (the WHS Regulations). a
+e
+m
+r
+O
+4.3 Environment
+n
+(
+o
+ati
+c
+4.3.1 Environmental management must take into account the requirements of Queenslandc ifR i ail Framework MD-
+e
+13-320: Environmental Planning and Management (EPM) and local council requirepments.
+S
+e
+c
+4.3.2 The Ormeau Facility and facility noise must have regards to the requirements onf Queensland Rail Standard
+a
+MD-15-315: Noise Management, Specification MD-15-316: Noise Assessmemnt and Procedure MD-15-317:
+r
+Noise Management and be compliant with the SEMS listed in Appendix 1 foor Ormeau Stabling.
+rf
+e
+P
+4.3.3 The Contractor must ensure that the Ormeau Facility incorporates the
+1
+b -e st environmental practices that
+would be expected of a qualified and competent contractor, in acc1ordCance with Australian and international
+standards and other Applicable Requirements listed in Section
+2
+2. 1
+2
+or
+u
+lA e ppendix 1 as applicable including the
+requirements of any Approvals (including development or plan3ningd approvals).
+2 e
+5.
+c
+h
+2S
+4.3.4 The Ormeau Facility must incorporate sustainability and e 5.n2vi
+6
+r3o nmental benefits including and as applicable,
+energy efficiency, prevention of pollution, water efficien
+1
+c6y (e 8..g. rainwater harvesting, wastewater recycling
+and re use), resource efficiency and materials select
+o
+io
+m
+n (
+d
+i
+f
+n
+,
+1cludin
+m
+g use of recyclable or recycled materials).
+c p a
+4 4
+4
+. .
+.
+3 3
+3
+. .
+.
+5 6
+7 (a) p
+W s F a
+a
+T
+h
+r
+n
+b
+u
+h o
+h o d
+l
+r
+e
+e
+v
+e t u h t
+i C
+r l
+t
+d
+h e e d
+o
+o e
+e r , a b
+s
+m
+n
+O s e p
+t f r
+e
+u
+o
+p r
+a
+i
+e
+m i n
+r
+l
+c
+t i
+t
+a c t
+t t
+e e
+h
+w
+o
+a b a g
+e r
+b l
+a
+e u r
+m
+l
+t
+a
+s
+e
+e
+p S
+u
+t ,
+u
+r
+e o t
+i
+i
+s t
+a
+q
+n d l
+a
+l
+t
+b
+u
+u
+b
+i p
+e
+n l
+a
+t i
+l
+i a
+n
+n
+e
+o t
+li
+o r
+s
+g
+t
+n t
+y
+p u
+i t c (
+r
+p h
+r
+o
+i
+o
+u
+e
+. r e
+b
+e
+t
+l e a
+e t
+j
+. O v
+h
+e
+r
+c
+t e
+e
+c
+h r
+t
+f
+i
+n m o
+t
+o
+e
+o
+i
+O
+t
+v
+r
+hn
+i e D
+n
+o
+e
+r
+e a
+. m a r
+n
+s
+e n
+o
+u
+F n
+/
+b
+p e
+e
+i
+t
+a
+e
+n
+C
+d
+r F o r
+c a
+r
+e o
+t
+d
+g
+i /
+s
+l
+a t
+u
+n
+i o t
+a
+e
+y
+y
+@
+f c a i
+r )
+d t
+p
+F
+m i n c e
+(
+2
+d l
+m
+E
+e
+n i
+a 0
+o o d t
+x
+t
+2
+e
+R
+y
+n
+w i
+c a
+e
+n a
+3 o
+n n
+c
+. O
+d
+i
+l
+- n
+s
+l l
+u
+0
+e
+l
+t
+i i
+e
+t
+6
+r
+t a
+u
+n
+ri g
+y
+o p
+-
+g
+m
+n
+g
+m
+2
+r n
+s
+o l
+0t
+Wt
+a
+e
+u V e
+o
+p 0 p
+o
+c
+e n
+m
+a1 . t
+k
+o
+r
+f
+: t i s u 3 o
+E
+e r
+i
+t
+o 2 a
+k
+x h
+n
+n
+n S p G n
+s
+)
+e
+, a
+t
+. M t d
+:
+n a t
+o
+s
+o
+T e i b e
+f
+o
+t
+c
+h
+n l
+t
+q i h
+h
+n P
+e
+u n
+e
+r g
+r
+o i o p
+)
+g
+O
+.
+a rl m o r
+r
+g e e
+m
+y n t
+e
+o t t
+a
+o m h
+u
+f a u a
+F
+v s c
+a
+e t i l
+c
+b i s t
+i
+a e
+l
+e
+it
+t p
+y
+e in a
+S
+s m r t a
+i
+a
+t
+o
+e
+t l e n l
+’
+e
+s
+it f d o a
+e
+r c a
+n
+i i n t
+v
+l i g t e
+ir
+i e a
+o
+o s c
+n
+f h
+m
+c a o n o
+e
+n d f
+n
+s t
+t
+m h
+a
+u e
+l
+m u
+v
+s D p
+a
+t t e
+l
+i b
+u
+o p e
+e
+n o
+s
+t
+including, native flora and faun
+rt
+s
+a J, w
+e
+a
+au terwa
+P
+y s
+-
+and soils;
+(b) minimise impacts to the adjaceentm commuFnity; and
+o b O r R
+R
+(c) sewage, water and draina
+n
+ge
+n
+c (onnections to the existing network are approved by the relevant Council or
+Water and Sewage en
+J
+ti o thy. ati o
+c
+4.3.8 The Ormeau Facility
+mucsif
+t
+i
+be designed and constructed to be a minimum of 300mm above the 1% Annual
+e
+Exceedance Probabilitpy (AEP) flood event, inclusive of climate change:
+S
+e
+(a) as defined in Austrnaclian Rainfall and Runoff 2019 – A Guide to Flood Estimation, Commonwealth of
+a
+Australia; m
+r
+o
+(b) in accordance rfwith the Department of Environment & Climate Change (DECC) Floodplain Risk Management
+e
+P
+Guideline –
+-
+Practical Consideration of Climate Change, version 1 October 2007; and
+1
+(c) in accordCance with DECC’s Draft Seas Level Rise Policy Statement, February 2009.
+e
+ul
+d
+4.3.9 For thee flood immunity of the track, overtopping is measured at formation level.
+h
+c
+S
+4.3.10 T2h e design and construction of the Ormeau Facility must:
+1.
+3.
+(a) 3 not increase afflux by more than 10mm at any neighbouring habitable property for a 1% AEP event;
+0
+3.
+6 (Note: The area depicted in Figure 28-1: Non-habitable property in Civil and Drainage section 3 (d) in 5.2.2 –
+1
+8.
+Ormeau Facility Site Layout Proposal of Schedule C3 ((Contractor Proposal (Ormeau Facility)) of the Project
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 15 -
+--- PAGE 17 ---
+)
+y
+Deed was not considered to be habitable property in the development of the design of the Ormeau
+c i
+F litacility.
+The State will work with the Contractor and the City of Gold Coast City Council as required on thisa matter)
+F
+u
+(b) not reduce the flood immunity or increase the flood hazard associated with any public road, raila or pedestrian
+e
+asset; m
+r
+O
+(c) consider risks posed to neighbouring properties and emergency access/egress for events
+n
+(larger than the 1%
+AEP event to minimise unexpected or unacceptable impacts; ati o
+c
+(d) consider all floodplain impacts outside of the Ormeau Facility including changing in p
+c
+e ifiak velocity, time of
+inundation, flood flow distribution, and flood hazard to minimise unexpected or unapceceptable impacts; and
+S
+(e) not worsen the existing flooding characteristics of the Woongoolba Flood Mitigateio n Scheme.
+c
+n
+a
+(Note: The flood data provided by City of Gold Coast Council including, but nmot limited to:
+r
+o
+(i) Woongoolba_URBS_v2016_2100_MFlood; rf
+e
+P
+(ii) Woongoolba MIKE Flood v2016c;
+1
+-
+1C
+(iii) Draft PimpSandy_URBS_v2.1.5; 1
+2
+e
+2. ul
+3 d
+(iv) Draft LoganAlbert_URBS_v2.1.5; 2 e
+5.
+c
+h
+2S
+(v) Draft Logan_AlbertTUFLOW_v2.3.5a_2020; and
+5.
+2
+6
+3
+(vi) Draft Logan_AlbertTUFLOW_v2.3.6a_2100.) 1
+6 8.
+o
+m df,
+1
+m
+c p a
+4 4
+4 4
+.
+. .
+4
+4 4
+. .
+. .
+4 1
+2 3
+I T m
+R D R
+n h
+e e e
+a e
+g f g
+n
+i
+f
+n i a
+u O
+s
+r
+i r
+a
+t t d
+r
+r i
+a l
+o
+m
+a in
+v
+n t
+s e
+i
+e
+g o R
+a r
+n t
+t s u
+e h
+i r
+f
+o
+v e
+F
+o
+u n
+i r e
+a
+I S w
+c
+I
+1 c
+n
+i . l
+D
+2
+f
+i
+D r
+t t y
+a e
+–
+e
+u
+s s
+m
+s
+2
+t i i g r g
+r u 0
+u n n
+s 1 e
+c
+t
+r
+6
+t S a u
+a r
+t r t
+S c
+a i
+a
+e n
+h
+g
+t
+g
+i
+S
+i u n
+e
+e
+, u
+g
+.
+v
+a o s
+s e
+hl
+o
+t l n a
+f
+.
+a
+d
+t
+r i o
+‘ n
+n e F
+a E
+b a e a s
+C I x
+c r
+o i n
+b i t i s l
+c
+g
+n
+i
+n
+t
+f
+i y
+@
+f e
+l n
+ri
+i )
+da
+t
+l e
+( 2 y
+l d a
+w E
+s e n
+0
+o
+x
+t
+2
+t
+R C
+n w i
+o
+e
+a r
+3
+b
+o
+n
+c
+u t l
+r - o l
+u
+0
+’ e
+kl
+,
+i
+c t
+6
+r
+n u
+i i g
+s
+o
+-
+t
+g
+w
+2
+r
+n
+n u l
+s
+o
+0
+m t
+h u
+c
+V i r
+o
+0 p e
+c
+e
+i
+i t 1
+u l
+c .
+k
+r : s y 3 S
+o
+h
+s
+E
+i o 2
+t
+x
+f
+u n r p G )
+a A
+ea s . ( M n
+c
+t q
+u
+s T a I
+h
+i u
+s
+o S i
+i
+n n
+t
+i
+e
+r
+r
+a P e
+v a
+) r b
+e
+s o
+li
+g
+a
+i l r a
+a
+R i t
+(
+y m
+I m S
+a C i
+i C
+n
+n
+o t i
+i A
+m u
+m
+i
+)
+n n u
+u
+c
+m
+m
+m
+il g
+u
+o o
+s ‘E
+f
+t
+f
+x
+A
+b
+6
+c
+u
+e
+5
+e
+s
+l u
+p t
+le
+r
+n
+o a
+n d
+in l
+t
+i
+e
+a
+’
+t s
+r d t
+(
+a e
+t I o S
+k s e
+C
+i
+b
+g n
+e A
+n a
+) a
+r t a
+t c e
+t t
+h
+h i
+c
+n
+i
+e
+h e
+g
+n v
+S a
+e ic
+y
+d
+n
+a
+s
+.
+d
+l
+t e m m u st
+be submitted for verification w
+r
+i
+t
+t
+s
+h J t
+e
+h
+a
+eu ISCA
+P
+.
+-
+em F
+4.4.4 The design rating must be foobrm
+O
+arlly submRitted to ISCA for round 1 review prior to the completion of the
+R
+Detailed Design Review D
+n
+esi
+n
+g (n Stage.
+h o
+J
+o ati
+4.4.5 Regarding the As Built v1.c2 rating, an ‘As Built’ rating must be achieved within 6 months of the Test
+Readiness Review
+Desigcif
+n
+i
+Stage and prior to completion of the System Verification Review Design Stage. All
+e
+documentation that wilpl assist the Contractor to achieve an IS Rating must also be submitted to the State.
+S
+e
+c
+n
+a
+4.5 Accessibmility
+r
+o
+rf
+e
+P
+4.5.1 The Ormea
+-
+u Facility must be designed and constructed to comply with the Disability Discrimination Act 1992
+(Cth) (DDA1 ) to eliminate, as far as possible, discrimination against persons on the ground of disability.
+C
+e
+ul
+4.5.2 The dedsign of the Ormeau Facility must comply with the requirements for people with disabilities and
+e
+confhorm with:
+c
+S
+(a) A2u stralian Standards AS 1428.2-1992 Enhanced and Additional Requirements – Building and Facilities, and
+1.
+(b)
+3
+3.
+the obligations of the Disability Discrimination Act 1992 (Cth) (DDA) and the Disability (Access to Premises –
+3. 0Buildings) Standards 2010 (Cth) (Premises Standards). The Premises Standards specifies how the objects
+6 of the DDA shall be achieved in relation to access for people with disability.
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 16 -
+--- PAGE 18 ---
+)
+4.5.3 T
+S
+h
+ta
+e
+g
+C
+e
+o
+th
+n
+a
+tr
+t
+a
+t
+c
+h
+t
+e
+o r
+d
+m
+es
+u
+ig
+st
+n
+o
+is
+b t
+i
+a
+n
+i n
+a c
+in
+c
+d
+o
+e
+rd
+p
+a
+e
+n
+n
+c
+d
+e
+e n
+w
+t
+it
+b
+h
+u
+t
+il
+h
+d
+e
+in
+N
+g
+C
+c
+C
+er t
+a
+if
+n
+ic
+d
+a
+c
+ti
+e
+o
+r
+n
+t if
+a
+ic
+s
+a
+p
+ti
+a
+o
+r
+n
+t o
+fr
+f
+o
+t
+m
+he
+a
+T
+n
+e
+A
+s
+c
+t
+c
+R
+r
+e
+e
+a
+d
+d
+ite
+in
+d
+e s
+A
+s
+c c
+R
+e
+e
+s
+v
+s
+i e
+C
+w
+coil
+it
+n
+Dy
+s
+e
+u
+s
+l
+i
+t
+g
+a
+n
+n t
+a
+that the design is in accordance with the requirements of the Premises Standards. F
+u
+a
+e
+4.5.4 The Contractor must prepare and submit an Ormeau Facility accessibility compliance report mat each Design
+r
+Stage that: O
+(
+n
+o
+(a) provides a summary of the accessibility compliance strategy and reassurance that func
+a
+t
+t
+iional and compliant
+accessibility have been achieved; and c
+cifi
+e
+(b) outline the process required for a request for exemption under NCC Section D3.4, pwhere access to an area
+S
+would be inappropriate because of the particular purpose of that area or the areae poses a health and safety
+c
+risk for people with a disability. n
+a
+m
+r
+o
+rf
+4.6 Landscaping e
+P
+-
+1
+1C
+4.6.1 The landscaping of the Ormeau Facility and revegetation must c1o
+2
+mpel y with the following:
+2. ul
+3 d
+(a) the Department of Transport and Main Roads Road Landscap2e Meanual and Specification MRTS16:
+Landscape and Revegetation Works, with due consideratio2n 5 . foSrc h the operational space requirements for
+railways; 5.
+2
+6
+3
+1
+6 8.
+(b) new trees must be planted at least the maximum hei
+o
+g
+m
+h t o
+df
+f
+,
+1the m
+m
+ature tree plus 3m away from the OHLE;
+(c) existing vegetation must be managed to provide a 3c-meptre clearaance space between the vegetation and the
+4.7
+( (
+(
+d e
+f)
+) )
+r
+P
+a l O
+a
+a
+e
+r
+n
+n H
+v
+e
+d
+r
+d
+e
+a L s
+e
+t
+g
+s E
+o
+c
+e
+; i
+c
+a n
+t
+p
+a
+p s
+r
+t
+o
+o
+i i
+i
+n d
+o
+v
+g e
+n
+n
+id
+m t
+m
+e
+h
+s
+u e
+u
+e
+s
+t
+s
+f
+O
+f
+t
+t
+r
+e
+n r
+b
+c
+u
+m o
+e
+ti
+t
+v
+e
+c
+p
+c
+e
+a
+r
+o u
+t
+o
+v
+m
+v
+i
+i
+F
+s
+i
+o
+p
+d
+u
+a r
+e
+a
+c o
+n
+d
+i
+l
+m l i
+s
+t
+t
+y i
+c
+o
+s
+o s
+r
+e m
+h
+e
+a
+n u
+e
+d
+.
+C u
+r o
+n
+d
+s
+F b
+C
+r
+i
+a
+r
+t
+e
+C
+n
+e
+c
+T
+r
+b o
+v
+t
+i
+g s
+l
+s
+n
+i
+V
+t
+e
+.
+y
+@
+f
+s
+i
+e )
+d s g e
+(
+2
+d
+t
+E
+n
+0
+h
+u r o
+y
+x
+t
+2
+a
+R
+w i
+e
+r
+e
+a
+3 o
+v n
+c
+s l
+- l
+u
+0
+e
+i
+l
+e s
+i
+m
+t
+6
+r
+n
+i g o e i
+-
+g
+l
+2
+r n l
+s
+m
+o d
+0
+a
+t
+u V
+o
+0 n p
+e
+c
+ew 1 .
+k
+r c
+d
+: s 3 h
+E
+i e o
+i
+2
+x a
+e n p G r )
+t
+r a . e
+e
+M e n q
+l
+s T
+y
+i ao u np
+a
+i r P p
+f
+e r
+f
+r o
+e
+m o g
+c
+r p e
+te
+r n i
+d
+a ts t
+v
+e ;
+i
+a
+e
+a n
+w
+n d d
+s f
+lo
+ro
+w
+m
+m
+th
+a
+e
+in
+s
+te
+u
+n
+rr
+a
+o
+n
+u
+c
+n
+e
+d
+;
+ing community
+rt
+s
+J
+e
+a
+u
+P
+-
+em F
+4.7.1 At the commencement of th
+o
+eb c
+O
+orntract, thRe Contractor must complete a preconstruction survey of any existing
+structures, roadways or raRil line(s or any other third party infrastructure item that is likely to be impacted by
+n n
+the Ormeau Facility Worhks oor the Ormeau Facility.
+J
+o ati
+c
+4.7.2 The goal of the survey is ci ft i o visually identify all existing signs of building or carriageway damage and any
+e
+signs of structural settlpement before construction begins.
+S
+e
+c
+4.7.3 Where it is not posnsible to gain access to adjacent buildings for a pre-construction survey, the Contractor
+a
+must provide stamtements of the efforts made to gain access.
+r
+o
+rf
+e
+4.7.4 For each craPck or anomaly noted, the survey will provide a photograph, the general location of the anomaly,
+specific loc
+1
+a- tion of the anomaly and the anomaly type. If the anomaly is a crack, the size of crack, type of
+crack andC direction of crack will be noted.
+e
+ul
+d
+4.7.5 Followe-up surveys should also be undertaken during construction and post construction. The purpose of the
+h
+follocw-up survey(s) is to document any changes to the previously identified anomalies and identify any new
+S
+cr
+2
+a cks or anomalies in the building structure or carriageway.
+1.
+3.
+3
+4.8 0Overhead Traction Line Equipment
+3.
+6
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 17 -
+
+[TABLE 1 on page 18]
+The goal of the survey is ci ft i o visually identify all existing signs of building or carriageway damage and any
+e signs of structural settlpement before construction begins.
+
+[TABLE 2 on page 18]
+c Where it is not posnsible to gain access to adjacent buildings for a pre-construction survey, the Contractor
+a must provide stamtements of the efforts made to gain access.
+
+[TABLE 3 on page 18]
+r e For each craPck or anomaly noted, the survey will provide a photograph, the general location of the anomaly,
+specific loc a- tion of the anomaly and the anomaly type. If the anomaly is a crack, the size of crack, type o
+1 crack andC direction of crack will be noted.
+
+[TABLE 4 on page 18]
+Followe-
+h follocw-up survey(s) is to document any changes to the previously identified anomalies and identify any new
+S cr a cks or anomalies in the building structure or carriageway 2
+--- PAGE 19 ---
+)
+4.8.1 T w h it e h i C n o th n e tr a O c r t m or e m au u s F t a d c e il s ity ig i n n , a c c o c n o s r t d ru a c n t c a e n w d i c th o m th m e i r s e s q io u n ir e a m ll e a n s t p s e o c f t s t h o e f t S h E e M O s v e se rh t e o a u d t i T n r a 2 c .2 ti . o 2 n ( D Li e n p e o E cti) l q i t y a u n ip d m th e e n t
+a
+relevant SEMS set out in Appendix 1 (Ormeau Stabling). F
+u
+a
+e
+4.8.2 The scope of this work must include: m
+r
+O
+(
+(a) design, supply and installation of all supporting structures, including any mast foundationsn required;
+o
+(b) design, supply and installation of the overhead wires, suspension system and insulatoras
+ti
+; and
+c
+cifi
+(c) design, supply and installation of the controls and switchgear, including safety isolaetion and earthing
+p
+arrangements, procedures and documentation to the relevant standards. S
+e
+c
+n
+4.8.3 The Contractor must calculate the maximum power demand required from thea Traction Power system to
+m
+cater for the possible maximum number of Multiple Units to be accommodaterd at the Ormeau Facility Site
+o
+(both in the Depot and the Ormeau Stabling). e
+rf
+P
+-
+4.8.4 The Contractor must ensure sufficient capacity of the power suppl1y feCe1d from Queensland Rail Limited is
+provided. 1
+2
+e
+2. ul
+3 d
+2 e
+4.8.5 The State must provide the Traction Power supply feeds fro5m. th
+c
+eh Network to the agreed locations
+immediately within the Ormeau Facility with termination a
+5
+t
+.
+2a 2 n
+6 3
+i sSolation switch.
+1
+6 8.
+4.8.6 T
+fo
+h
+r
+e
+t h
+d
+e
+e
+:
+s ign of the OHLE must provide capability for t
+o
+h
+m
+e r
+d
+e
+f,
+m 1ote is
+m
+olation and earthing of the Traction Power
+c p a
+4.8.7
+( ( ( a b c) ) ) D D A c
+c
+T
+o
+o
+o
+p
+r
+l e e o
+a
+n
+u
+e
+p p n
+i
+s
+l
+r
+n
+d
+o o
+a
+g i d t t
+o
+t
+b
+w
+i
+e a f
+o
+p
+e
+r r n i o
+n
+e
+e t
+e
+h d m
+a
+r
+d
+a
+a
+l
+a t
+t
+i
+r
+h
+m
+t s
+i
+t
+h
+o
+t e
+h
+y
+o
+e u
+n
+e
+p O
+d
+t
+a
+O
+d
+i i
+e
+l c
+l
+r i s r m
+w
+l
+a
+i
+l
+m
+m
+i
+i
+l n
+n
+h
+e N
+p
+e g
+g
+e
+a
+a
+a e
+n
+u t
+a
+c
+u w u
+n
+r
+t
+S t
+s
+e
+o S
+d
+r t a
+q
+a t
+(
+s a
+d
+l
+u
+e
+b e b
+e
+S
+i
+g
+l
+r
+c i l
+m
+e
+n e i t
+h
+n i
+d
+g c o
+o
+a
+g
+.
+t n
+n o
+f i
+v
+o r (
+h s
+i
+o a
+n
+i
+n
+n n
+t .
+m n
+r r
+g o
+s
+a
+s
+F
+d
+b
+u o
+t
+t
+a
+e
+t C
+e
+o
+c
+l h
+r
+v l o a
+t
+i
+u
+s
+l
+e i n
+ic
+t
+t
+t c t
+y
+@ f
+h
+o i
+o
+i
+)
+d e M o
+e
+r e
+(
+2
+a
+d
+E
+s n n
+0
+v o a
+s
+x
+o
+t
+2
+R
+w i e e a (
+3
+i t
+t
+v o
+n c n h l d
+-
+r
+l
+u
+0
+t
+e
+el
+s l
+i
+o
+h
+a t
+6
+r
+n
+i i g
+r
+a n o
+-
+g
+u
+r
+t 2
+a
+r n
+s o
+o ) e 0 w b
+t
+l
+u . V
+o
+l
+u
+; 0 p l
+c
+e o e
+s
+1 .
+g
+a
+k
+r : s u -
+o
+3
+h
+E n i S o 2 l
+l
+x d d n
+u
+p
+n
+G I ) a ’ .
+t
+M
+e
+s p
+i
+n
+o
+s ) T
+u
+r i
+n
+o o
+t
+w n
+r
+v
+a
+i
+i P
+s
+i t d
+l
+r h o
+c
+s
+e g a
+o
+r
+e
+t
+m
+c
+h “
+t
+b i
+i
+p
+s
+o
+u
+l
+n
+i
+f f
+a
+f u
+s
+e
+n
+n
+)
+r
+t
+c
+.
+m
+s ti e o
+u
+c n
+s
+t
+t
+a i o
+b
+li n t
+e
+y ” ,
+c
+s a
+o
+e n
+n
+p
+s
+a a
+i
+r
+d
+l a te
+e
+ti r
+r
+n n
+e
+g a
+d
+t t i
+i
+h v
+n
+e e
+t h
+t t w h
+e
+a o t t m ha a t y be
+4.8.8 The Contractor must cater for rtp
+s
+l
+J
+ane
+a
+n
+u
+e d andP
+-
+u nplanned interruptions to the Traction Power supply.
+em F
+o b O r R
+R
+(
+4.9 Utility Servicen sn
+h o
+J
+o ati
+c
+4.9.1 The Contractor must loce ca
+ifi
+te, secure, terminate or relocate as necessary all existing Utility Services on the
+p
+Ormeau Facility Site. S
+e
+c
+n
+4.9.2 The Contractor maust provide all Utility Services connections to the capacity required for the Ormeau Facility
+m
+Works, the operration and maintenance of the Ormeau Stabling and O&M Services related to the Depot.
+o
+rf
+e
+P
+4.9.3 All Utility Se
+-
+rvices must be designed so that they do not adversely impact Adjoining Land to the Ormeau
+Facility Sit1e , associated stakeholders, the Network or any other State or Operator assets or infrastructure
+C
+and mus
+e
+t be clearly marked as to their nature. All buried and/or concealed Utility Services must be provided
+with cleularly visible above-ground and, where appropriate, below-ground markers that clearly identify the
+d
+Utilitye Services and their location and contain an appropriate description of the Utility Services.
+h
+c
+S
+4.9.4
+1
+U. 2t ility Services to the Ormeau Facility Site must enable metering of the Utility Services provided to the Depot
+3.to be separated from those provided to the Ormeau Stabling.
+3
+0
+4.9.5
+3.
+The Ormeau Facility Site must include fire hydrant coverage in accordance with all Applicable Requirements.
+6
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 18 -
+--- PAGE 20 ---
+)
+4.9.6 T
+re
+h
+ti
+e
+c u
+C
+la
+o
+t
+n
+e
+t r
+e
+a
+l
+c
+e
+t
+c
+o
+t
+r
+r i
+m
+cit
+u
+y
+s
+a
+t
+r
+b
+o
+e
+u n
+re
+d
+s
+t
+p
+h
+o
+e
+n
+O
+sib
+rm
+le
+e
+f
+a
+o
+u
+r t
+F
+h
+a
+e
+c
+p
+il
+r
+it
+o
+y
+v
+S
+is
+i
+i
+t
+o
+e
+n
+, a
+o
+n
+f
+d
+s u
+e
+b
+n
+s
+s
+t
+u
+a
+r
+t
+i
+i
+n
+o
+g
+n s
+th
+a
+e
+n
+d
+d
+e
+h
+s
+ig
+ig
+h
+n s
+v o
+c
+l
+o
+ta
+m
+g
+p
+e
+l y
+fe
+w
+e
+i
+d
+th
+e r
+a
+s
+l l
+n
+r
+e
+e
+c
+le
+e
+vc
+s
+ia l
+s it y
+n
+a
+t
+r y to
+a
+standards and guidelines including the requirements of: F
+u
+a
+(a) MD-10-192 Electrical - Interfacing of Earthing Systems: Electricity Distribution MEN and the HeV Electric
+m
+Traction System; and O r
+(
+n
+(b) Multiple Earthed Neutral (MEN) supplies as per AS 3000 is the preferred standard for theo Ormeau Facility
+Site facilities and direct earthing is only required if MEN supplies as per AS 3000 is nota p
+ti
+rovided.
+c
+cifi
+e
+4.9.7 The Ormeau Facility stormwater drainage system will include provision of attenuatipon facilities and water
+S
+quality improvement devices that: e
+c
+n
+(a) comply with all Applicable Requirements; a
+m
+r
+o
+(b) is easy to maintain; rf
+e
+P
+(c) is self draining; and -
+1
+1C
+(d) does not adversely impact the stormwater network or floodplain.
+1
+2
+e
+2. ul
+3 d
+2 e
+4.10 Site access road and bikeway
+5.
+c
+h
+2S
+5.
+2
+6
+3
+1
+6 8.
+4.10.1 T
+an
+h
+y
+e
+w
+C
+o
+o
+r
+n
+k
+t
+s
+ra
+e
+c
+x
+to
+te
+r
+r
+m
+na
+u
+l
+s
+t
+t
+o
+d
+t
+e
+h
+s
+e
+i g
+O
+n
+r
+,
+m
+c
+e
+o
+a
+n
+u
+s t
+F
+ru
+a
+c
+c
+t
+il
+a
+it
+n
+y
+d
+S
+c
+it
+o
+e
+m
+th
+m
+a
+i
+t
+s
+a
+s
+o
+i
+r
+o
+m e
+n
+r e
+a
+dfq
+l
+,
+l 1
+u
+r
+i
+o
+re
+a
+d
+d s
+tm o
+w
+b
+it
+e
+h i
+u
+n
+n
+t
+d
+h
+e
+e
+r
+O
+ta
+r
+k
+m
+en
+e a
+f
+u
+o r
+F
+f
+a
+a
+c
+c
+i
+il
+li
+i
+t
+t
+y
+y a
+S
+c
+it
+c
+e
+e
+,
+s
+a
+s
+s well as
+c p a
+4
+4
+.
+.
+1
+1
+0
+0
+.
+.
+2
+3
+(
+(
+a
+b
+)
+)
+a
+t
+c T
+r
+T
+f
+h
+r
+o
+o l h
+h
+o
+l
+e
+a
+n e
+e
+m
+i
+d
+n n
+i n
+C
+C
+t e
+t
+n
+e
+t
+h
+o
+o
+e
+c
+e
+r
+e
+s t
+r
+n
+n
+t
+i
+n
+w
+e o t
+t
+l
+r
+r
+a
+o
+c n
+o
+a
+a
+l
+c
+t
+r
+c
+c
+i t
+a
+a
+o
+k
+o t
+t
+c
+l
+o
+o
+n
+i
+t
+r
+c
+n
+r
+r
+h
+o
+w
+e
+m
+m
+e
+a
+a
+s
+o
+c
+d
+u
+u
+s
+l r o
+c
+k s
+s
+n
+r
+o
+c s t
+t
+o
+e
+a
+r
+, d
+p
+a
+d
+t
+l i
+w
+e
+r
+d
+n
+a
+g
+o
+s c
+o
+n
+o
+v
+f
+i l
+r
+r
+g
+c
+v u
+i
+o
+k
+d
+e
+n e d
+m
+e
+t
+r i
+w
+o
+a n n
+a
+t
+n g
+i
+m
+h
+s
+t
+n
+d
+h
+e
+e
+r e
+o
+o
+o
+p
+b
+l
+h
+n
+l
+o
+f
+a
+n
+o
+a
+u
+f
+t
+c
+.
+d
+r
+c
+r
+i
+r
+r
+o
+l
+a
+a
+o
+F
+a
+o d
+b
+w
+l
+a t
+e
+C
+a
+a
+l
+:
+e
+c
+r
+a
+i
+o
+tr
+di
+d d
+s
+l
+n
+i
+o
+u
+t
+u
+, y
+@
+fe i
+t
+n
+a
+)
+d
+n
+3
+h
+n e
+(
+2
+d
+e
+d
+d
+E
+.
+n
+o
+0
+io
+5
+n t
+x
+t
+2
+e R
+w i
+n
+r
+w
+e
+a
+3
+g
+i
+or
+n
+c
+l
+m
+t
+-
+e
+o
+cl
+u
+0
+e
+y
+li
+t
+a
+t
+6
+r
+n
+o
+r
+i
+g
+w
+o
+-
+g
+s
+k
+w
+s
+2
+r
+v
+n
+s
+o
+0
+o
+t
+. s
+t
+e
+u
+i
+V
+a
+o
+d
+0
+r
+o p
+c
+e
+r
+n
+k
+1
+.
+e
+k
+r c: s
+b
+d
+3
+E
+i i
+t
+o 2 a
+s
+i
+o
+ax
+c
+n
+p
+e
+G t )
+r
+y
+a
+e .
+t
+d
+M
+a
+n
+h
+c
+d s
+s
+T
+l
+e
+l
+e
+i
+e
+o
+;
+w
+d
+n
+D
+a
+s
+P it
+n
+(
+t
+e
+r h
+c
+o
+o
+d
+p
+g
+o
+r
+a r
+o
+a
+n
+c
+t
+g
+c
+c
+a
+e
+r
+e
+e
+n
+s
+f
+t
+d
+a
+e
+s
+c
+)
+t
+t
+i
+h
+o
+l
+b
+i
+e
+t
+i
+i
+k
+t
+e
+h
+O
+e
+s
+e
+w
+r
+a
+m
+O
+a
+t
+e
+y
+r
+b
+m
+a
+a
+o
+u
+e
+d
+th
+a
+j
+S
+a
+u
+t
+t
+c
+h
+a
+e
+F
+e
+b
+n
+a
+l
+D
+i
+t
+c
+n
+t
+e
+i
+g
+o
+li
+p
+.
+t y
+t
+o
+h
+t
+w
+e
+a
+i t
+a
+n
+h
+c
+d
+in
+c
+a
+e
+t
+t
+h
+s
+t
+s
+e
+h e
+r
+lo
+o
+c
+a
+a
+d
+l
+Ormeau Stabling.
+rt
+s J
+e
+a u
+P
+-
+em F
+4.10.4 The Contractor must demono b strOarte how a R ll road and rail vehicle crossings will be managed safely (SFAIRP)
+R
+(
+without interruption to yarnd orn Mainline movements or dominant train crew movements.
+h o
+J
+o ati
+c
+cifi
+e
+p
+4.11 Site establiSshment & approvals
+e
+c
+n
+a
+m
+4.11.1 The Contractor mrust obtain all Contractor Approvals required to facilitate the Ormeau Facility Works.
+o
+rf
+e
+P
+4.11.2 The Contrac
+-
+tor must:
+1
+C
+(a) provide, maintain and service, decommission and rehabilitate all temporary site facilities including offices,
+e
+amenituiels and crib facilities at the Ormeau Facility Site required to deliver the Ormeau Facility Works;
+d
+e
+(b) undcehrtake and provide any mobilisation activities, temporary works and site establishment works to allow for
+S
+th
+2
+e safe and efficient operation of the Ormeau Facility Works;
+1.
+(c) 3.secure the Ormeau Facility Site through necessary means to prevent unintended public access;
+3
+0
+(d
+3
+). install and maintain the temporary fencing and hoardings on the Ormeau Facility Site boundaries, road
+6
+8. boundaries and at other locations as necessary to provide for safety and security in the performance of the
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 19 -
+--- PAGE 21 ---
+)
+y
+Ormeau Facility Works and to prevent motorist distraction. The fences and hoardings must be erec
+c
+t
+il
+e itd prior
+to work commencing in the affected areas; a
+F
+u
+(e) construct any necessary temporary laydown, vehicle parking and equipment storage areas to saupport the
+e
+Ormeau Facility Works; m
+r
+O
+(f) provide secure storage for safety equipment, construction, maintenance and repair plant
+n
+a (nd material as
+required to fulfil the obligations of the Project Deed, this specification, and the Technica
+a
+l ti oRequirements;
+c
+(g) establish any on-site maintenance facilities and workshops as required to service an
+c
+d ifi support the
+construction plant and equipment, including any fuel or oil storage compounds; p e
+S
+(h) maintain the Ormeau Facility Site and any other construction site in a clean and eti dy manner throughout the
+c
+n
+Ormeau Facility Works. The extended storage of rubbish or loose items on thea Ormeau Facility Works or
+m
+elsewhere is not permitted; and r
+o
+rf
+e
+(i) locate site sheds at locations and positions that minimise the impact on APdjoining Land to the Ormeau
+Facility Site.
+1
+-
+1C
+1
+2
+e
+2. ul
+4.12 Temporary Facilities for State 3 d
+2 e
+5.
+c
+h
+2S
+4.12.1 During the Ormeau Facility Works the Contractor must pr5o .
+2
+vid6 3 e temporary facilities on the Ormeau Facility
+S
+P
+i
+r
+t
+o
+e
+j e
+fo
+c
+r
+t D
+th
+e
+e
+e
+u
+d
+s
+i
+e
+n c
+a
+l
+n
+u
+d
+d in
+e
+g
+n jo
+S
+y
+c
+m
+he
+e
+d
+n
+u
+t
+l
+o
+e
+f
+A
+th
+1
+e
+6
+S
+(S
+ta
+ta
+te
+te
+a
+'s
+n d
+F a
+a
+c
+r
+il
+e
+it
+a
+o ie m
+s
+s
+o 1
+)
+n
+.
+6
+d
+a
+f,
+b1 8 le . nu
+m
+mber of its nominees in accordance with the
+c p a
+4 4
+4
+.
+.
+1
+1
+. 3
+3
+1 .
+.
+1
+2
+3
+(a )
+R
+o
+A
+t
+T
+h
+f h
+l
+f
+e
+l
+e e
+e te
+O
+n C s
+m m
+r
+o i
+m
+v
+p
+n e
+o
+e
+t
+o
+r
+r
+a
+g a
+a
+u
+r
+v
+c
+r
+a
+y
+t
+F
+f o f
+a
+a
+a
+i r t
+c
+n
+i m
+l
+i
+m
+d
+l i
+u
+t
+o
+u
+p
+y
+s s
+e
+t
+W
+f
+t
+r
+c
+m
+b
+o
+a
+g
+e
+a
+r
+r
+k
+r
+n
+r y
+s
+r
+e
+e
+o
+a
+m
+n
+m
+u
+t
+o
+u
+f
+t
+w
+v
+s
+r
+f o
+e e
+t
+i
+o
+r
+g d
+b
+h
+t k
+u n
+e
+s
+o
+i
+. l r a o r
+c
+a
+F b r
+o
+ca
+e
+n C
+c
+r
+n
+i o
+o
+t
+d
+n i
+s
+l
+n
+i
+s
+v t s y
+@
+f i
+t
+i
+e )
+d t
+p
+a
+e e
+(
+2r
+d
+E
+e
+n
+n
+e 0
+o m
+x
+t
+2 c R
+t
+w i
+d
+e
+a
+3
+l
+o t
+n
+cy
+s l
+- i l
+u
+0
+e
+wl o i
+t
+6
+r
+n
+e
+m
+i g
+n
+o
+-
+g i
+2
+r r
+t
+n
+s
+o
+s h
+a0
+e
+t
+u V
+o
+,
+i
+i
+0 c p
+c
+e
+n
+n
+1
+a
+.
+k
+t r :
+t
+s e 3
+n
+Ea
+2
+i o 2 d
+x
+d 4
+i
+n p
+n
+G ) a . a M
+e
+r h
+n
+e
+s s T
+d
+o
+i
+m
+o a
+u
+n
+fr
+r o
+P p
+e
+s v
+r o a
+;
+e
+e
+g r
+a
+r
+o
+t
+o n
+f
+o
+r d
+g
+f
+c
+r
+t
+o
+h
+a
+v
+e
+ff
+e
+it
+C
+r
+i.
+o
+a
+n
+n
+t
+y
+r a
+g
+c
+r
+t
+a
+o
+f
+r
+fi
+’
+t
+s
+i a
+c
+s
+o n
+fo
+st
+ll
+r
+o
+u
+w
+ct
+s
+io
+:
+n activities for
+(b) highly visible yet non-offensive
+rt
+s g J ra
+e
+afufi ti mus
+P
+t - be cleaned or covered within 1 week.
+em F
+o b O r R
+R
+4.14 Gatehouse
+n n
+(
+h o
+J
+o ati
+c
+4.14.1 The layout must include
+c
+pifirovision for a gatehouse.
+e
+p
+S
+4.14.2 The gatehouse is to
+e
+b e located at a point that cannot be bypassed by the public, visitors or other
+c
+unauthorised vehicnles when travelling to the Ormeau Facility.
+a
+m
+r
+4.14.3 The gatehouseo shall provide secure entry to the Ormeau Facility. This may be provided through the use of
+rf
+boom gates Paend/or bollards.
+-
+1
+4.14.4 CCTV witCh licence plate recognition technology is to be provided at the gatehouse.
+e
+ul
+d
+4.14.5 The geatehouse shall be fitted with elevated mirrors or video cameras which allows the gatehouse attendant
+h
+to vcisually assess the incoming and outgoing traffic.
+S
+2
+1.
+4.14.6 3.The gatehouse will manage vehicle and pedestrian traffic into and out of the Ormeau Facility by monitoring
+3 and controlling accesses to both the Ormeau Stabling and the Depot.
+0
+3.
+6
+4.14.78 . Electronic Access Control (EAC) including swipe card security, integrated video and intercom must be
+1
+provided for access to Queensland Rail Limited in accordance with MD-12-708.
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 20 -
+--- PAGE 22 ---
+)
+4.14.8 T
+S
+h
+ta
+e
+b
+g
+lin
+a
+g
+te
+,
+h
+th
+o
+e
+u s
+D
+e
+e
+s
+p
+h
+o
+a
+t
+l
+a
+l b
+n
+e
+d
+f
+a
+it
+n
+te
+y
+d
+o
+w
+th
+i
+e
+th
+r c
+a
+o
+c
+n
+o
+tr
+m
+o
+m
+lle
+u
+d
+n
+e
+ic
+n
+a
+t
+t
+r
+i
+y
+o n
+a c
+s
+c
+y
+e
+s
+s
+te
+s
+m
+a t
+l i
+t
+n
+h
+k
+e
+in
+O
+g
+r
+s
+m
+ta
+e
+f
+a
+f
+u
+a t
+F
+t
+a
+h
+c
+e
+i li
+g
+ty
+a
+.
+t e house with the O
+cili
+rt ymeau
+a
+F
+u
+4.14.9 The road layout at the gatehouse will be such that refused vehicles are able to turn around withain the non-
+e
+secure environment without reversing. m
+r
+O
+(
+n
+4.14.10 The gatehouse building shall architecturally compliment the Ormeau Facility. o
+ati
+c
+4.14.11 The gatehouse shall include the following internal features and attributes:
+cifi
+e
+p
+(a) secure lockable entry door; S
+e
+c
+(b) working area / office suitable for 1 person; n
+a
+m
+(c) separate WC room; o r
+rf
+e
+(d) cleaners cupboards; P
+-
+1
+(e) computer / telephone sockets; 1C
+1
+2
+e
+(f) control panel and CCTV monitor walls; 2. ul
+3 d
+2 e
+(g) smoke detectors;
+5.
+c
+h
+2S
+(h) dimmable ceiling lights; and
+5.
+2
+6
+3
+1
+6 8.
+(i) category 2 lighting.
+o
+m df,
+1
+m
+c p a
+4
+4
+4
+.
+.
+1
+1
+.
+5
+5
+1
+.
+.
+1
+2
+5 T
+T
+M
+T R
+r
+h a
+D
+a
+r
+e i
+i
+l
+-
+n
+a
+1
+t S r
+2
+g
+a t
+i
+a
+-
+a
+i
+n
+7
+n n
+t
+0
+e
+d g
+8
+s
+a a
+g
+.
+r
+m
+t d e
+a
+u
+s D
+s
+s
+t
+r
+t
+a h
+e
+b
+w a
+e
+l
+s
+i l n
+p
+o g
+r
+p
+o
+s e
+v
+S n
+id
+4 i
+e
+n 3
+d
+t 6 o 9
+a
+t 0
+t
+h o
+t
+e t
+r
+ho
+a
+n s .
+i
+r S
+n
+o
+e F
+b
+4 c a
+e
+e
+C
+3 c u
+r
+o
+n
+t
+i
+s
+l 6 r
+n
+it
+t
+e
+y
+@
+f
+r
+9
+i
+)
+d
+a
+5
+e
+(
+2 t
+d
+E
+n
+n
+r0
+o
+,
+x
+a
+t
+2
+R
+c
+w i
+e
+a
+S
+3
+i o
+n
+c e
+l
+-
+n l
+u
+0
+e
+4 l
+s
+i
+t
+6
+r
+n
+i g
+s 7
+o
+-
+/
+g
+2
+r
+e
+n
+t
+s
+2
+o
+0
+o
+t
+u
+x
+V
+o
+1
+0 p
+r
+c
+e
+i
+1 .
+a
+t
+2
+k
+r
+s
+: s 3
+g
+E
+i o
+t
+2
+x t
+e o
+n p
+o
+G ) a . M
+a S
+n
+t
+s
+h
+T
+r 4
+i
+e
+o
+e
+7
+n
+a 2
+P
+D
+a
+r
+1
+o
+e
+n 4
+g
+p
+r
+d ,
+o
+S s
+t
+4 h
+a
+7 a
+n
+3 l
+d
+l 5 b
+O
+4 e
+r
+a
+m
+in n
+e
+d a
+a
+c S
+u
+c 4 o
+S
+7 r
+t
+d 3
+a
+a 5
+b
+n 5
+li
+c .
+n
+e
+g
+w
+in
+i t
+a
+h
+c
+Q
+co
+u
+r
+e
+d
+e
+a
+n
+n
+s
+c
+l
+e
+a n
+w
+d
+i th
+4.15.3 The equipment for the
+automeart
+t
+s
+e
+J
+dm
+e
+a
+a
+u
+n d maF
+P
+n u
+-
+al operation of the train gates shall be located on the Depot side
+of the fence outside of the Do b anOgrer Zone R and shall be powered by the signalling system guaranteed supply in
+R
+(
+accordance with Queens
+n
+la ndn Rail Specification MD-15-60: GSS Part 8 - Power Supply Requirements.
+h o
+J
+o ati
+4.15.4 T
+tr
+h
+a
+e
+in
+O
+a
+r
+p
+m
+pr
+e
+o
+a
+a
+u
+c h
+S
+e
+ta
+s
+b
+a
+li
+n
+n
+d
+g
+c
+a
+l
+n
+oc
+d
+i s
+fi c
+e
+th
+w
+e
+h
+D
+e
+e
+n
+p
+t
+o
+h
+t
+e
+t r
+tr
+a
+a
+in
+in
+g
+is
+a t
+c
+e
+l
+s
+e a
+s
+r
+h
+o
+a
+f
+ll
+t
+b
+h
+e
+e
+i
+g
+n
+a
+te
+te
+rl
+s
+o
+.
+c
+T
+k
+h
+e
+e
+d
+Q
+to
+u
+t
+e
+h
+e
+e
+n
+s
+s
+i
+l
+g
+a
+n
+n
+a
+d
+l l
+R
+in
+a
+g
+i l
+s
+U
+ys
+n
+t
+i
+e
+v
+m
+er s
+to
+a l
+o
+T
+p
+r
+e
+a
+n
+ff i
+w
+c
+hen a
+e
+p
+Control (UTC) shall inSclude an indication of the status of the train gate.
+e
+c
+n
+4.15.5 The train gate conatrols shall minimise the opening and closing time of the train gates and the duration that
+m
+the gates are open, i.e. signals and track circuits in the vicinity of train gates shall be located to ensure that
+r
+o
+the train gatesr fcan be opened as late as possible and closed as soon as possible following the entrance and
+e
+exit of a trainP.
+-
+1
+C
+4.15.6 Train ga
+e
+t e equipment and electrical isolation switches shall be accessible by train drivers and authorised
+workerusl to enable the isolation and manual operation of the gates by a single person in the event of a power
+d
+or meechanical failure without the need for an electrician.
+h
+c
+S
+4.15.7 T2h e location of the Ormeau Stabling and the Depot train gates and adjacent security fencing shall allow train
+1.
+3.drivers and authorised workers to operate and maintain all parts of the gate in the closed and open position
+3 without risk of entrapment.
+0
+3.
+6
+4.15.88 . Handles shall be located on the secure side of the train gates to enable the manual operation of the gates by
+1
+a single person.
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 21 -
+--- PAGE 23 ---
+)
+4.15.9 T
+in
+h
+f
+e
+ro
+t
+n
+ra
+t
+i
+o
+n
+f
+g
+th
+a
+e
+te
+c
+s
+lo
+h
+s
+a
+e
+ll
+d
+i n
+g
+c
+a
+lu
+te
+d
+.
+e
+T
+a
+h
+n
+e
+a
+a
+s
+s
+p
+p
+h
+h
+a
+a
+l
+l
+t
+t
+p
+p
+a
+a
+d
+d
+e
+s
+x
+h
+t
+a
+e
+l
+n
+l
+d
+in
+in
+c
+g
+lu d
+1
+e
+5 0
+th
+0
+e
+m
+a
+m
+re
+b
+a
+e
+a
+y
+r
+o
+o
+n
+u
+d
+n d
+th
+t
+e
+h e
+o p
+g
+e
+a
+n
+te
+g
+m
+at
+o
+e
+t o
+le
+r,
+a
+c
+v
+o
+e
+n
+s
+t r
+a
+o
+n
+l
+d
+p a
+1
+cin
+0 lit y
+e
+0
+l
+0
+a
+m
+nd
+m
+a
+electrical isolation switch. The asphalt pad shall connect to the maintenance access (pathways oFr to the
+u
+RMAR) . a
+e
+m
+r
+4.15.10 The train gate shall include an audible alarm to alert of the movement of the gates and crosOs hatching on the
+(
+asphalt pad to indicate the extent of the no standing area. n
+o
+ati
+c
+4.15.11 The train gates shall be identified by a unique identifier and shall be detailed on the O cifirmeau Facility
+emergency access drawing. e
+p
+S
+e
+c
+n
+a
+m
+r
+o
+rf
+e
+P
+-
+1
+1C
+1
+2
+e
+2. ul
+3 d
+2 e
+5.
+c
+h
+2S
+5.
+2
+6
+3
+1
+6 8.
+o
+m df,
+1
+m
+c p a
+o h
+n. r
+o
+F
+b
+a
+e
+C
+c
+r
+o
+t
+i
+s
+l
+n
+it y
+@
+fi
+)
+d e
+(
+2
+d
+E
+n
+0
+o
+x
+t
+2
+R
+w i
+e
+a
+3
+o
+n
+c
+l
+-
+l
+u
+0
+e
+li
+t
+6
+r
+n
+i g o
+-
+g
+2
+r n
+s
+o
+0
+t
+u V
+o
+0 p
+c
+e 1 .
+k
+r : s 3
+E
+i o 2
+x
+n p G ) a . M n s T i o n P r o g r
+rt
+s
+J
+e
+a
+u
+P
+-
+em F
+o b O r R
+R
+(
+n n
+h o
+J
+o ati
+c
+cifi
+e
+p
+S
+e
+c
+n
+a
+m
+r
+o
+rf
+e
+P
+-
+1
+C
+e
+ul
+d
+e
+h
+c
+S
+2
+1.
+3.
+3
+0
+3.
+6
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 22 -
+--- PAGE 24 ---
+)
+y
+cilit
+a
+5. Depot Works F
+u
+a
+e
+m
+r
+O
+5.1 Scope (
+n
+o
+ati
+c
+5.1.1 The requirements set out in this Section 5 apply to the Depot Works component of th
+ci
+efi Ormeau Facility
+Works only. e
+p
+S
+e
+c
+5.2 Car parking, roadways and pedestrian wanlkways
+a
+m
+r
+o
+rf
+5.2.1 The Contractor must design, construct and commission the car parking, rPoeadways, drainage and pedestrian
+walkways for accessing and for general movement(s) within the Depot. -
+1
+1C
+1
+2
+e
+5.2.2 The Contractor must consider and accommodate in its design a 2.ll lo
+u
+glistic matters associated with the likely
+pedestrian movements of the Contractor's Personnel that will
+2
+c3ome d mute daily to and from the Depot.
+5.
+c
+h
+2S
+5.2.3 The car park servicing the Depot must: 5.
+2
+6
+3
+1
+6 8.
+(a) be capable of accommodating car numbers sufficien
+o
+t
+m
+f o r
+d
+p
+f,
+l1anned
+m
+staff and visitor levels at the Depot;
+(b) have a trafficable surface, landscaping, wayfinding scignpage, kerabing, gutters, line-marked parking spaces,
+(
+(
+c
+d
+)
+)
+b
+c
+i
+E
+i
+(
+(
+l
+n
+i
+i
+l
+o
+e
+)
+i
+u
+n
+c
+)
+m
+m
+h
+l
+d
+u
+a p
+e i
+d
+n
+n l
+s
+i
+y
+n
+a
+2
+a
+c
+i g
+e
+g
+t
+5
+w
+i
+m
+n o
+d
+:
+%
+i
+e
+t
+n
+i
+h
+n
+a
+d
+o
+a
+i
+n t
+m
+f
+t
+h
+n
+d
+o
+t
+e
+u
+d
+h
+A
+c
+m
+e
+r
+a o
+d e
+p m
+t
+d
+c
+q
+o
+p
+a
+i u
+t
+p
+t
+r
+i
+a
+r
+i
+o
+o
+l
+r
+y
+l
+p
+e
+p
+n
+n
+a
+w
+m a
+r
+u
+i
+r
+a
+l
+i
+k
+e
+m
+t
+R
+t h
+n
+e
+w
+b
+e t
+t
+s
+e
+d h
+i
+q
+d
+r
+r e
+u o
+t
+a
+h
+o
+i f
+r
+r
+i n
+f o
+e
+e A
+o
+h
+a
+c
+q
+m
+n
+u
+f
+g
+a .
+u
+r
+s
+2
+e
+o
+e
+r
+i
+F
+t
+b5
+r
+n r
+;
+ap
+e
+e
+C
+0
+o t
+c
+r
+a
+o
+m
+s
+t
+i
+a
+0
+s
+l
+n
+it
+r
+y
+@ f d –
+e
+k
+i
+m)
+d s
+s
+ne
+(
+2
+d B
+E
+n
+0
+m
+o
+t
+G
+x
+s
+t
+2
+s
+R
+uw
+i
+e
+a
+3
+h o
+n cu
+l
+i
+- a
+o
+l
+l
+u
+0
+e
+al
+d
+i
+i t
+6
+r
+s
+n
+f
+d i
+g
+l
+o i
+-
+g
+l
+n 2
+r p
+n e
+sp
+o
+0
+b
+t
+g
+u e
+V
+o
+e
+0 t
+e
+p
+c
+e o
+o 1
+.
+r
+a
+k
+r
+:
+s p
+2
+3 E
+t
+n
+i
+T
+o
+2
+h
+l
+6
+x
+e
+d
+n
+r p
+G
+e
+)
+0
+a a
+. M w
+F n
+0
+f
+U
+s
+T
+f a
+i
+i i o
+t
+m
+c
+s
+c
+hn
+e
+i M
+m
+P
+l
+d
+r
+i
+r
+t
+o i
+i a
+C
+s
+e
+g
+w
+n
+r a
+s
+l
+i
+a
+a
+d
+b
+;
+s
+g
+e
+il
+s
+e
+i t
+a
+i
+m
+2
+e
+s
+s
+e
+r
+p
+e
+n
+a
+e
+q
+t
+n
+r
+u
+P
+d
+t
+ir
+h
+a
+e
+c
+r
+e
+o
+m
+t
+n
+U
+I
+e
+I
+f
+s
+o
+n
+a
+e
+r
+t
+n
+s
+m
+r
+d
+;
+C
+a
+A
+w
+l
+n
+a
+S
+it
+d
+s
+h
+/
+s
+N
+A
+Z
+3
+S
+S
+r e
+1
+2
+q
+4
+8
+u
+2
+9
+i
+8
+r
+0
+e
+.
+.
+2
+m
+1
+-
+,
+1
+e
+9
+n
+9
+ts
+2
+;
+(e) provide wheel stops at all car
+r
+p
+t
+sa
+J
+rk
+e
+ian
+u
+g bay
+P
+s -a nd shall restrict parked vehicles from fouling the adjacent
+pathways; em F
+o b O r R
+R
+(f) provide for a concrete ha
+n
+r dsta
+n
+n(d for a waste disposal bin that is sized to suit the waste removal requirements
+of the Depot. The hard
+J
+sothan
+a
+d ti o shall include walls or bollards to separate the waste disposal bin from its
+surroundings; and c
+cifi
+e
+(g) have a minimum Desigpn Life for the carpark pavement of the period of years specified in Schedule A36
+S
+(Design Life), with th
+e
+e design traffic determined by the specific requirements of the Depot and the nominated
+c
+Design Vehicle for nthe carpark area.
+a
+m
+r
+o
+5.2.4 All Depot road
+r
+wfays must:
+e
+P
+(a) have sealed- heavy-duty pavements where appropriate;
+1
+C
+(b) be desig
+e
+n ed for the nominated Design Vehicle;
+ul
+(c) be chedcked for the Check Vehicle;
+e
+h
+c
+(d) incSlude all signage necessary for road vehicle movements (including maximum speed signs, stop and give
+2
+1
+w.ay signs);
+3.
+(e) 3 be designed to limit the number of track crossings to the minimum practical; and
+0
+3.
+(f6) not hinder the typical operations of the Depot or the Ormeau Stabling.
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 23 -
+--- PAGE 25 ---
+)
+5.2.5 T
+fo
+h
+r
+e
+u
+D
+nd
+e
+e
+s
+r
+i
+t
+g
+a
+n
+k i
+V
+n
+e
+g
+h
+t
+i
+h
+c
+e
+le
+O
+a
+&
+nd
+M
+p
+S
+a
+e
+v
+r
+e
+v
+m
+ic
+e
+e
+n
+s
+t
+.
+load parameters for the roadways are to be based on the requir
+c
+e ilitmyents
+a
+F
+u
+5.2.6 The Contractor must design, construct and commission sealed, illuminated pedestrian walkwayas linking all
+e
+areas in the Depot where the Contractor's Personnel, Operator's personnel or State's Personmnel or visitors
+r
+are likely to require access. O
+(
+n
+o
+5.2.7 Pedestrian walkways for the Depot shall be designed to comply with the requirements oatf i people with
+c
+disabilities and conform with AS 1428.2-1992 Enhanced and Additional Requiremen
+c
+t
+i
+sfi – Building and
+Facilities. e
+p
+S
+e
+5.2.8 The Contractor must provide automated vehicle and pedestrian gates to managce vehicles and / or
+n
+pedestrians crossing where a roadway or pedestrian walkway crosses trackwmoark based on a safety and risk
+assessment in accordance with MD-10-115 Civil - Level Crossing Safety. Tohrese gates are to ensure that
+crossings are prevented while trains are crossing the road / pathways. e
+rf
+P
+-
+5.2.9 The access to and layout of Depot buildings, footpaths, bike paths1, waC 1lk ways and storage facilities must
+comply with Crime Prevention through Environmental Design (C1P
+2
+TEeD ) principles.
+2. ul
+3 d
+2 e
+5.2.10 The Contractor must provide sheltered bicycle and motorcyc5.le s
+c
+thorage sufficient for planned Depot staff and
+2S
+visitor levels.
+5.
+2
+6
+3
+1
+6 8.
+5.3 Fencing, lighting and secur
+o
+mit y df,
+1
+m
+c p a
+5 5
+5
+. .
+.
+3 3
+3
+. .
+.
+1 2
+3
+T c T
+a
+T S O
+o
+s
+h h
+h 4 r
+s
+n
+m
+e e
+e 3
+o
+s
+6 e
+D D
+D
+i
+c
+s
+9 a
+i
+e e
+e
+t
+a
+5 u
+e p p
+p
+t
+,
+n
+e
+o o
+o S S
+t
+d
+t t
+t t 4
+w
+a
+s
+s
+m
+r
+7 b
+a
+e
+e
+it
+2
+u
+l
+i
+c
+c
+h
+i
+l
+s
+1 n
+u
+u
+i
+t t
+2
+n
+g
+r
+r
+h h i
+i
+f
+t
+t
+e
+t
+r
+f
+y
+y
+a
+o e
+a
+v r
+n
+s
+f
+f
+e
+S
+e
+e
+e
+t
+c
+s
+r
+n
+n 4 i
+u
+a t
+n
+c
+c 7
+c
+p o
+g
+i
+i 2
+n
+n
+t
+p f
+u
+1 a
+g
+g
+r t
+r
+4
+o h
+n
+e
+s
+s ,
+p e
+d
+,
+h
+h S
+r
+r
+O
+t
+a
+a
+i
+a
+a
+h 4
+l
+l
+i
+l
+l
+r t
+e 7
+l
+o
+e m b
+b 3
+m
+h r n
+e
+e
+s e
+5 a .
+a
+r
+e a
+4 i o
+p
+i l
+i
+F nb
+c u
+n
+r
+a c
+e
+a
+C u o
+t
+c
+r
+a o
+o F
+e
+t
+ni
+r
+s
+l
+v n
+i c r t
+i
+n
+d
+a
+y
+@
+f t i
+r c
+i d y
+)
+d
+i
+a
+c
+d o S
+e
+(
+2
+ed
+E
+i
+n
+f n
+0
+l
+o
+o
+r
+d e
+4
+x
+i t
+2
+c
+R d
+w i t
+e
+r
+a
+3
+n y
+7 o
+e
+n
+c
+a
+l t
+- sl
+u
+0
+.e c o
+3 l i n
+t
+6
+r
+n e
+a
+i i g
+5
+o
+-
+g
+n
+c
+t
+2
+r
+c
+c
+n
+s
+h
+5
+o
+0
+e
+g
+t u
+c
+u V
+o
+e
+,
+0 p
+e
+c
+e
+r w
+a 1 .
+a
+k
+i
+r p
+s
+:
+t
+s n 3
+n
+E
+i y
+i
+s
+o
+t
+e 2 d
+x
+h d
+n pr
+f
+G )
+r
+e
+a i . a
+o
+M m
+Q s
+n
+n
+c s
+a
+h
+T
+u
+e i
+c
+c o
+d
+a i e
+n t e
+n
+s
+l
+e
+l
+P
+e
+s
+g
+r r
+c
+a
+n
+s o o
+o
+g
+n
+w s
+r c f
+n
+d
+l h a
+o t
+n
+h
+e n
+p
+n
+e
+e
+r d
+t
+a
+c e
+r
+t
+o
+t
+D
+R
+h
+a
+l
+t
+w
+e
+a o p
+a p
+i
+a
+p
+n
+l t
+o
+h
+y
+l
+d
+S i
+t
+c
+s
+e t
+t i
+a a
+n h
+a
+f b n a
+c e
+r
+l d
+e
+c
+l
+e
+u f
+i a
+e
+l
+l
+d
+i t
+o
+r t
+n
+o
+i
+d y
+c
+n c
+a
+p
+g
+s D
+in
+t
+r e
+e
+o r
+t g
+c
+h
+a
+d
+v u
+e
+w
+a
+.
+id r
+t
+i i
+a
+e n t
+t
+y
+r h
+g
+e
+a
+e
+s f
+a
+e c
+D
+S n o
+in
+c 4
+e
+n i 3
+p w
+n ti 6
+o
+n g
+h
+9
+t
+u ,
+i c
+0
+m
+o th
+h
+u t
+u
+e o s
+t s h t e b e
+fencing solution for the Ormea
+rt
+u s J F
+e
+a a cui lity.
+P
+-
+em F
+5.3.4 An alarm system must be ino b cluOdred that R monitors motion detection, all external doors, entry points and other
+R
+(
+openings to each buildingn witnh in the Depot.
+h o
+J
+o ati
+5.3.5 L
+lin
+ig
+e
+h
+w
+tin
+it
+g
+h
+m
+th
+u
+e
+s
+N
+t b
+a
+e
+tio
+o
+n
+f
+a
+s
+l
+u
+C
+ff
+eo
+ic
+cd
+if
+iie
+e
+cn
+o
+t
+f
+q
+P
+u
+r
+a
+a
+l
+c
+ity
+ti c
+w
+e
+i t
+f
+h
+o
+i
+r
+n
+C
+th
+C
+e
+T
+s
+V
+e
+S
+cu
+y
+r
+s
+e
+te
+f
+m
+en
+s
+c
+f
+e
+o
+l
+r
+in
+t
+e
+h e
+to
+M
+s
+a
+u
+s
+p
+s
+p o
+P
+r
+a
+t
+s
+h
+s
+ig
+e
+h
+n g
+q
+e
+u
+r
+a
+T
+li
+r
+ty
+a n
+C
+s
+C
+po
+T
+r
+V
+t S
+re
+e
+c
+c
+o
+to
+rd
+r
+i
+f
+n
+o
+g
+r
+in
+p
+Counter-Terrorism to Sact as a deterrent to trespass and criminal activity. Lighting will also be subject to any
+Applicable Requireme ents.
+c
+n
+a
+m
+5.3.6 Lighting must ber sufficient to cater for all routine activities undertaken at night, or in low light conditions.
+o
+Lighting may brfe supplemented with temporary task specific lighting for non-routine activities.
+e
+P
+-
+5.3.7 General gr1o und lighting must also be installed for assistance with counter terrorism related facility sweeps
+C
+and rout
+e
+i ne activities.
+ul
+d
+e
+5.3.8 CCThV within all areas of the Depot must comply with the National Code of Practice for CCTV Systems for
+c
+theS Mass Passenger Transport Sector for Counter Terrorism.
+2
+1.
+5.3.9 3.The CCTV system must consist of:
+3
+0
+(a3). high quality, vandal-resistant, multiple cameras located on the perimeter and within the depot/facilities;
+6
+8.
+1(b) recording system with minimum of 30 days recording;
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 24 -
+--- PAGE 26 ---
+)
+y
+(c) highest quality recording with IP Connectivity; cilit
+a
+(d) all products to be ONVIF-Compliant; and F
+u
+a
+(e) fixed cameras must also be set up to record the sides of the trains leaving the Depot as proof eof no graffiti or
+m
+damage. r
+O
+(
+n
+5.3.10 The CCTV remote viewing software must consist of: o
+ati
+c
+(a) search capability (time, event, GPS, station, time sync, etc); cifi
+e
+p
+(b) metadata functions and modifications; S
+e
+c
+(c) advanced exporting functions; and n
+a
+m
+(d) separate auto executable player software. r
+o
+rf
+e
+P
+5.4 Depot Trackwork
+1
+-
+1C
+1
+2
+e
+2. ul
+5.4.1 The Contractor must design, construct and commission all De
+2
+3pot eTdrackwork, including the Handover Roads,
+Holding Roads and Maintenance Roads. 5. c h
+2S
+5.
+2
+6
+3
+5.4.2 The design of the Depot Trackwork, including relevant c
+1
+6lear
+8
+a.nces to adjacent trackwork and structures, must
+b
+a
+e
+n y
+c o
+re
+n
+q
+s
+u
+is
+ir
+t
+e
+e
+d
+n t
+c
+w
+a
+i
+t
+t
+c
+h
+h
+Q
+po
+u
+i
+e
+n
+e
+ts
+n
+.
+sland Rail Limited Civil Eng
+o
+i
+m
+n ee
+df
+r
+,
+i1ng sta
+m
+ndards set out in Section 2.2.1 and include
+c p a
+5 5
+5
+. .
+.
+4 4
+4
+. .
+.
+3 4
+5
+T t E
+w
+M S
+h h m
+t
+h
+e
+u a
+e
+e
+l
+b
+b t
+O
+r
+i
+C e
+l p
+e
+i
+&
+n
+d
+l
+o
+e
+o
+g
+M d n
+t
+U
+e
+h
+t
+o
+r S d
+e
+n
+a
+r
+e
+r
+i
+c
+t
+t
+t h
+r r t
+s
+t
+a v o
+r
+e
+a
+e
+i c r c
+c
+M
+k
+n
+m e
+k
+t
+s
+a
+i
+e
+s u
+f
+.
+i r
+o
+n
+s
+i
+r
+n
+r
+t
+l
+e
+i
+m
+g n
+e q
+e
+n
+s
+u
+o .
+s i
+r
+a
+r u e
+e
+r
+r
+e
+d
+x
+e
+i
+i
+r
+t
+n t
+e
+i
+h
+n
+s
+q
+a
+g
+i
+u
+d t
+o
+t
+i
+e i
+h
+r
+h
+t
+n
+e
+s
+e
+t
+. r
+d
+h
+o
+d
+F
+D
+.
+b
+e
+a
+e
+e
+C
+c e
+r
+s Do
+t
+i
+s
+l p
+n
+i
+i
+t
+g e
+y
+@
+f
+o
+i
+)
+d n p e
+(
+2 t
+d
+E
+n o
+0
+o
+m
+f
+x
+t
+2
+R
+w i o t
+e
+a
+3
+o
+n
+c
+u
+l r
+-
+b
+l
+u
+0
+e
+li s
+ut
+6
+r t
+n
+i g h o
+-
+g t
+i
+2
+r n l
+s
+oe
+0
+n
+d
+t
+u V
+o
+0
+o
+i p
+c
+e D n1 .
+k
+r
+t
+: s g 3 e
+E
+i
+i
+o 2
+m
+x
+p n a p G ) o a .
+p
+n M n t
+a
+d s T T i
+c
+o a n r
+t
+a r P
+t
+e c
+h
+r o a k
+e
+g s r w
+o
+o im
+p
+r
+e
+k m
+r a
+e e
+t
+n d
+io
+a ia
+n
+b t
+a
+l e e
+l
+l s y
+r e
+t o h
+q
+u e
+u
+t
+i
+s s
+re
+i a d
+m
+f e e
+e
+t a h
+n
+n
+t
+e
+s
+d b
+o
+e u
+f
+f i f
+t
+l i d
+h
+c i
+e
+i n e g
+O
+n . t
+r
+E
+m
+d x e
+e
+c li
+a
+e v
+u
+e p r t y of
+5.4.6 M
+vic
+o
+e
+v e
+v
+m
+er
+e
+s
+n
+a
+t
+)
+s
+m
+o
+u
+n
+s
+D
+t
+e
+n
+p
+o
+o
+t
+t
+im
+ro
+p
+a
+a
+d
+c
+s
+t
+,
+t eh
+in
+re t
+s c J l
+om
+u
+pe
+d a
+e
+iun
+r a
+g
+t i
+t
+o
+ra
+nF
+n
+a P
+s
+l
+- f
+r
+e
+e
+r
+q
+o
+u
+f
+i r
+M
+em
+ul
+e
+ti
+n
+p
+t
+l
+s
+e
+o
+U
+f
+n
+t
+i
+h
+ts
+e
+f
+O
+ro
+r
+m
+m e
+th
+a
+e
+u
+D
+S
+e
+ta
+p
+b
+o
+li
+t
+n
+t
+g
+o
+o
+th
+r
+e
+th
+O
+e
+r
+M
+m
+a
+e
+i
+a
+n
+u
+li n
+S
+e
+t
+.
+a bling (and
+o b O r R
+R
+(
+n n
+h o
+J
+o ati
+c
+cifi
+e
+p
+S
+e
+c
+n
+a
+m
+r
+o
+rf
+e
+P
+-
+1
+C
+e
+ul
+d
+e
+h
+c
+S
+2
+1.
+3.
+3
+0
+3.
+6
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 25 -
+--- PAGE 27 ---
+)
+y
+Handover Roads cilit
+a
+F
+5.4.7 The Contractor must design, construct and commission the Handover Roads. u
+a
+e
+m
+5.4.8 Handover Roads must be provided for each Maintenance Road to the north and south of thOer Depot. It shall
+enable rail traffic crew to handover and receive trains outside of the Maintenance Building
+n
+. (
+o
+ati
+5.4.9 The Handover Roads for the Depot must have the capacity to store a 6-Car Multiple Ucnit and not preclude
+expansion to enable the handover of 9-Car Multiple Units in the future.
+cifi
+e
+p
+S
+5.4.10 Handover Roads for the Depot must be of sufficient length so that the Multiple Uen it being handed over is
+c
+n
+clear of the running line signals or signal and stop boards, and other operationaal requirements where
+m
+required.
+r
+o
+rf
+e
+5.4.11 Handover Roads for the Depot must incorporate suitable and clearly signPposted handover points and pick-up
+-
+points denoting where the crews are expected to pick-up or leave Mult1ip le Units in accordance with MD-12-
+1C
+708 Stabling Yards and Facilities in Network SEQ.
+1
+2
+e
+2. ul
+3 d
+5.4.12 Train access platforms must be provided at both ends of eac
+5.
+h2 H
+c
+haendover Road within the Depot so that the
+centre of the driver door of a stabled train aligns with the ce2ntreS of the train access platform in accordance
+with MD-12-708 Stabling Yards and Facilities in Network 5S.
+2
+EQ
+6
+3.
+1
+6 8.
+Holding Roads o m df,
+1
+m
+c p a
+5
+5
+5
+5
+.
+.
+.
+4
+4
+5
+.
+.
+.
+.
+5
+1
+1
+1
+3
+4
+S
+T
+T a
+T
+n
+h
+h
+h
+d
+e
+e
+e
+i g
+o
+C
+H
+si
+t
+o
+o
+g
+h
+n
+n
+n
+l e d
+a
+t
+r
+a
+i
+r
+n
+l
+a
+s
+l
+g
+i
+l
+t
+c
+n
+r
+l
+t
+u
+g
+R
+o
+i
+c
+r
+o
+n
+/
+t u
+m
+a
+tr
+r d
+g
+a
+u
+e s
+i
+s
+n
+s
+t
+m
+a
+a
+c
+d
+u
+o
+n
+e
+n
+s
+n
+d
+s
+t
+t
+i
+r
+n
+d
+g
+b
+o
+o
+n
+e
+l
+t
+,
+s
+o p
+y
+c
+y
+f r
+o
+s
+e s
+a
+n
+t
+c u
+eo
+s
+h
+l
+r
+f
+m
+u
+t
+n
+f
+r
+i
+.
+d
+d
+r
+u
+c
+o
+f
+e
+F
+i
+c
+b
+o
+e
+a
+e
+C
+t
+r
+c
+f n
+r
+o
+c t
+u
+i
+a
+s
+l
+t
+t n
+it
+h
+t
+n
+y
+@
+f u il
+o
+)
+d
+e
+e
+d
+e
+(
+2
+rd
+E
+n e n
+0
+o
+D
+c
+x n
+t
+2
+g
+R
+w i
+e
+a
+3
+o
+e
+e o
+n
+c
+t
+l
+-
+h
+l
+u
+0
+m
+e x
+t
+p
+li
+t
+6
+r
+n
+ip g
+o
+o
+r -
+g
+t
+m
+2
+r no a
+s
+o
+t
+0
+o
+t
+u
+V
+o
+n
+i
+m
+0 s
+s p
+c
+e s1
+.
+k
+t
+s
+r
+l
+:
+u
+s a i 3
+E
+ii
+o
+oo
+2
+s
+n
+x
+n
+n p
+t
+n
+G d
+)
+a
+.
+M
+i
+f n
+n
+t
+o 6s
+Th
+c
+i r - o
+e
+l
+C n
+u
+9 P
+H
+a
+d
+-
+r
+C
+o
+r
+e
+o g
+a M
+l r
+t
+d
+r
+h
+i
+u
+n
+e
+M lt
+g
+i
+s
+u p
+i
+R
+l
+g
+l t e i
+o
+n
+p
+a
+U
+a
+le
+d
+l
+n
+l i
+s
+U
+n
+it
+,
+s
+g
+n
+w
+i c
+/
+t
+h
+s l
+t
+e .
+e
+r a
+a
+re
+i
+r
+n
+o
+r
+c
+e
+f
+o
+q
+th
+n
+u
+e
+t
+i
+r
+r
+o
+e
+M
+l
+d
+a
+s
+.
+i
+y
+n
+s
+t
+t
+e
+e
+n
+m
+a
+s
+n c
+to
+e
+e
+R
+n
+o
+a
+a
+b
+d
+l
+s
+e
+safe access to and egress fro
+r
+m
+t
+s
+J
+th
+e
+ea
+u
+M ainli
+P
+n -e or the Ormeau Stabling in conjunction with Queensland Rail
+Limited operations. em F
+o b O r R
+R
+(
+5.5.2 The Contractor must supnp ly, nin stall and commission:
+h o
+J
+o ati
+(a) all signalling equipment ancd track circuits for the Depot; and
+cifi
+(b) appropriate signage, caebling, control equipment and visual display unit/s for yard control within the Depot, in
+p
+S
+accordance with the
+e
+S ignalling and Telecommunications standards listed in Section 2.
+c
+n
+a
+m
+r
+o
+rf
+e
+P
+-
+1
+C
+e
+ul
+d
+e
+h
+c
+S
+2
+1.
+3.
+3
+0
+3.
+6
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 26 -
+--- PAGE 28 ---
+)
+y
+5.6 ETCS/PSD interface test facility cilit
+a
+F
+u
+5.6.1 The Depot must include a through road of sufficient length to place wayside ETCS and PSD intaerfaces to
+e
+check for functionality between wayside and the Multiple Unit. m
+r
+O
+(
+n
+o
+5.7 Automated vehicle inspection system ati
+c
+cifi
+e
+5.7.1 The Ormeau Facility must include an automated vehicle inspection system (AVIS),p at a location (or multiple
+S
+locations suited to the modules provided) that maximise the through put of trains
+e
+through the system.
+c
+n
+a
+5.7.2 The AVIS consists of a weatherproof shed / structure. m
+r
+o
+rf
+e
+5.7.3 The AVIS will measure wheel profile, pantograph carbon thickness, brakeP pad thickness, check for graffiti
+and provide any issues to the maintainers prior to them undertaking the
+1
+-ir maintenance.
+1C
+1
+2
+e
+5.7.4 To enable graffiti identified on the Fleet is to be reported based2 .on uitls defined category, the Depot must
+3 d
+include the functionality to photograph images of individual gr2affitie tags. Images must be able to be captured
+at right angles to the Multiple Unit with a minimum 100 lux
+lig5.
+ht oc
+h
+n the subject. The image quality is to be
+2S
+sufficient to allow identification of individual words / tags w 5. 2ith
+6
+in3 the graffiti to support police prosecution and
+restitution requirements.
+1
+6 8.
+o
+m df,
+1
+m
+c p a
+5 G
+5.8
+. e
+.
+8
+1
+n e
+(
+(
+a
+b
+r
+)
+)
+a l M
+s
+C
+T
+s
+t
+a
+h
+o
+e
+n
+e
+l
+e
+o
+a
+d
+l
+M
+u w
+p
+i
+r
+a
+i
+o
+b
+n
+c
+i
+r
+o
+n
+h
+t
+n
+a
+t
+t e
+p d
+l
+e
+n
+a
+f r
+s
+a
+n
+n
+a
+t
+n
+e e
+m
+c
+l e
+a
+;
+e
+e
+l
+n
+r
+s
+B
+o
+t
+u
+o
+r
+c
+u
+i
+f
+l
+i
+d
+c
+n
+e
+t
+i
+g
+n
+u r
+g
+w
+e
+B
+m
+,
+it h
+in
+u
+u
+c
+s
+b
+l
+t
+i
+i
+u
+r
+i
+o
+l
+d
+d
+n
+h
+d
+n
+i
+c
+p
+n
+.
+o
+rr o
+g
+i
+o F
+r
+b
+n
+p
+a
+e
+C
+o
+g
+c
+r
+o
+o
+t
+fi
+a s
+li
+n
+i
+g
+r
+t n
+l
+y
+@
+f
+a
+v
+i
+)
+d
+g
+t
+a
+e
+(
+2
+d
+e
+E
+,
+n
+0
+o
+n x
+t
+2 i R
+w i
+e
+t
+n
+a
+i
+3
+s
+o
+h
+n
+c
+l
+- s l
+u
+0
+e
+e
+l
+e
+i
+t
+6
+r
+un
+i g
+d
+o
+-
+g
+2
+l
+r
+f
+n
+s a
+o
+o0
+t
+p
+u V
+o
+t
+l
+0 p
+i
+c
+e
+u
+l
+1
+o
+.
+o
+k
+r :
+r
+s 3
+n
+wE
+i
+l
+o 2
+i
+x
+,
+n
+n
+i
+p G
+n
+)
+v
+s
+a . M
+g
+n
+a
+,
+s T
+p
+g
+i
+m
+o
+o
+i
+n
+r
+i
+u
+P
+t
+n
+s
+r
+r
+o
+i m
+g
+a
+b
+r
+n
+a
+u
+d
+r
+m
+r i
+f
+e
+a
+r
+r
+e
+s
+,
+q
+t
+a
+e
+u
+n
+n
+ir
+d
+e
+e
+r
+m
+s
+s
+a
+;
+e
+fe
+n
+t
+t
+y
+s :
+m esh support or suitable
+(c) natural lighting (levels of natur rta
+s
+l
+J
+lieg
+a
+h
+u
+ting mPu
+-
+st be in accordance with all Applicable Requirements, the Human
+em F
+Factors Integration Plan an
+o
+db W
+O
+orrkplaceR Health and Safety Management Plan);
+R
+(
+(d) additional artificial lightingn (arnt ificial lighting levels in all areas of the Maintenance Building, including the pits
+h o
+under the Maintenance
+J
+o Roaati ds and elevated maintenance platforms, must be in accordance with all
+c
+Applicable Requirement
+c
+s if iand be suitable for the relevant O&M Services required to be undertaken at night);
+e
+(e) pedestrian walking arSepas are to be suitably marked, finished with slip resistant surfaces and are to be well
+drained; e
+c
+n
+a
+(f) gutters and downmpipes; external wall cladding (Colourbond steel with insulation, vapour barrier, and mesh
+r
+support to insidoe face or suitable sandwich panel);
+rf
+e
+P
+(g) windows (po
+-
+wder coated aluminium framed, glazed with laminated glass);
+1
+(h) railings anCd / or barrier walls (‘Armco’ protective railings and / or reinforced concrete walls along both the
+e
+externaull and internal surfaces of the Maintenance Building to protect the structure, walls and its occupants
+d
+from efork lift truck damage);
+h
+c
+S
+(i) fir
+2
+e detection and suppression system (all areas to be protected in accordance with all Applicable
+1R . equirements including International Fire Engineering Guidelines 2005);
+3.
+3
+(j) 0ventilation levels (natural ventilation to be supplemented, if necessary, with mechanical ventilation in
+3.
+6 accordance with all Applicable Requirements);
+8.
+1
+(k) air conditioning (all office areas are to be air conditioned);
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 27 -
+--- PAGE 29 ---
+)
+y
+(l) public address/tannoy system (all areas to be covered by a public address system); cilit
+a
+(m) first aid room (an air conditioned, fully-equipped first aid room is to be provided); F
+u
+a
+(n) segregated work area for undertaking bogie overhauls, including any necessary cranage and espare bogie
+m
+storage areas; r
+O
+(
+(o) segregated work area for undertaking general mechanical fitting activities; n
+o
+ati
+(p) segregated clean room work area for undertaking electrical and electronic equipment rcepair work;
+cifi
+(q) a computer / diagnostic room for undertaking software downloads, uploads and datae logs analyses;
+p
+S
+(r) any other segregated work areas that the design of the Maintenance Building or et he delivery of the O&M
+c
+n
+Services may require; and a
+m
+r
+(s) any other relevant requirements as stipulated in the Building Code of Austraolia.
+rf
+e
+P
+5.8.2 The Contractor must ensure that the design of the Maintenance Buildin
+1
+g- prevents pollution (including
+spill/leak containment), management of trade waste including colle1ctioCn, treatment and discharge (including
+compliance with any license conditions). 2. 1
+2
+ul e
+3 d
+2 e
+Administration office
+5.
+c
+h
+2S
+5.
+2
+6
+3
+5.8.3 The Depot must include an air-conditioned office are
+o
+a
+m
+i n1 6 t
+d
+e
+f,
+g1 8r . al wi
+m
+th the Maintenance Building that:
+(a) is sized and equipped to accommodate the superviscory pand admainistrative staff performing O&M Services
+( (
+( (
+b c
+d e
+) )
+) )
+i i
+i i
+a u
+v
+n s
+s s
+i
+n n
+s
+c l
+l d
+d o o
+i
+i
+l
+n
+o
+u
+u
+b c t
+e
+n
+d
+s
+s h a
+d t
+e t e t
+o
+r e
+p
+s u
+a
+f
+a d
+r
+c
+n
+p
+a
+o
+s t r a
+d
+l
+o
+e s
+l
+o d
+f
+o
+y
+d
+i
+v
+e n
+j
+a
+c a i
+d
+v
+s
+s i
+r
+c a
+;
+i
+u
+d
+i e o e t
+l
+e w n
+a
+n
+a
+d
+t
+t
+r
+e
+o
+e
+w t h
+d
+f o
+a
+i e t a
+s
+h
+a
+t a
+;
+h i
+g
+w t n e
+a
+o l o t
+i
+m r h
+n
+a k e
+s
+a d s
+t
+j ; t M o a
+h
+r t
+e
+a io f
+a
+i
+o
+l n a n
+h t
+t
+n
+t e
+a .
+a
+r
+f
+o
+n
+n
+l n
+F b
+o a
+d a
+e
+dC o
+c
+r
+n o
+t
+i n
+s
+l
+r a n
+i
+c
+t y
+@
+f
+o
+a l ie
+)
+d l
+i
+r e
+(
+2 s
+d n
+E
+B en
+0
+o
+e
+x
+t
+2
+e
+R
+w a i u
+e
+a
+3; o
+c n
+c
+l
+-
+i
+l
+u
+0
+w e l
+l
+e
+i
+d t
+6
+r
+n
+i g s o i
+-
+g
+i
+2
+t r nn
+s
+s o h
+0
+t
+u V g
+o
+a i 0 p n
+c
+e ; 1 r .
+k
+r y : s 3 t
+E
+i o h 2 xs n p eG ) u a . M n p D s T p i o e o np r P o t r o t f g a t r o ci l a it l i l e o s w n s e u c p e e s r s v a is ry o r f y o r s t y a a f r f d a c c o le n a tr r o , l, along with
+(f) designed to comply with the re
+rt
+sq J ui
+e
+raeum ents
+P
+o - f people with disabilities and conform with Disability (Access to
+Premises - Buildings) Standaerdsm 2010 (DFAPS); and
+o b O r R
+(g) all joinery shall conform wiRth A(ustralian Standard AS 1428.2-1992 Enhanced and Additional Requirements –
+n n
+Buildings and Facilities. h o
+J
+o ati
+c
+Training and meeting
+roocif
+m
+i
+s
+e
+p
+S
+e
+5.8.4 The Depot must incclude sufficient and suitable training / meeting room facilities to enable the Contractor to
+n
+provide training toa Contractor's Personnel, the State’s Personnel and nominees in accordance with the
+m
+requirements of rthe Project Deed.
+o
+rf
+e
+P
+Storage area(s) -
+1
+C
+e
+5.8.5 The Deuplot must include sufficient storage area(s) which include racking and shelving suited to fork lift truck
+d
+handeling, to safely and securely house all equipment necessary for the performance of the services,
+h
+inclucding all Insurance Spares, Rotable Items, Consumables and Tools.
+S
+2
+1.
+5.8.6 3.The Depot must include appropriate facilities and infrastructure for the following in accordance with WH&S
+3 Legislation and Applicable Requirements:
+0
+3.
+(a6) safe storage of chemicals and Hazardous Materials;
+8.
+1
+(b) prevention of pollution (including spill / leak containment); and
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 28 -
+--- PAGE 30 ---
+)
+y
+(c) management of trade waste including collection, treatment and discharge (including compliance wi
+c
+t
+il
+h it any
+license conditions). a
+F
+u
+a
+Amenities area(s) e
+m
+r
+O
+(
+5.8.7 The Depot must include air-conditioned amenities area(s) as necessary as part of the Manin tenance Building
+o
+that include: ati
+c
+(a) toilet facilities;
+cifi
+e
+p
+(b) locker/change rooms and showers; and S
+e
+c
+(c) a meal room with associated food preparation equipment. n
+a
+m
+r
+o
+5.8.8 The amenities area(s) will be designed to comply with the requirements of rpfeople with disabilities and
+e
+conform with Disability (Access to Premises - Buildings) Standards 2010P (DAPS).
+-
+1
+1C
+5.8.9 All joinery shall conform with Australian Standard AS 1428.2-199
+1
+22 E
+e
+n hanced and Additional Requirements –
+Buildings and Facilities. 2. ul
+3 d
+2 e
+5.
+c
+h
+5.8.10 The amenities area(s) must be sized and equipped to meet2 theS forecast workforce numbers projected by the
+Contractor and the associated heat load, and any related5 .b
+2
+ui
+6
+l3d ings must conform to the requirements of all
+Applicable Requirements. 1 6 8.
+o
+m df,
+1
+m
+Maintenance Roads c p a
+5
+5
+.
+.
+8
+8
+.
+.
+1
+1
+1
+2 (
+(
+a
+b
+)
+)
+'
+h
+T t S
+T f
+a
+t
+h
+o h
+a
+t
+h
+h
+p a
+l r l
+e
+v
+e
+e
+e
+o o
+t
+e
+i
+c
+w
+t
+u
+t D
+M
+h
+h i
+a
+g
+f
+i
+e
+e
+i e
+n a
+c
+h
+r
+d
+p
+g i
+a D
+n
+e
+o
+s
+e
+t
+t f
+i e
+t
+s
+t
+n
+e e
+o
+y
+i
+p m
+d
+n a
+n
+g
+le
+o
+)
+t a
+n
+u
+u
+;
+'
+( t
+n
+O s
+( r
+c
+h
+c i e
+t
+.
+o
+& a
+e e s
+i
+m
+n s M
+. : R
+c
+c
+m
+s l
+o a
+S u u
+e
+a r
+d e f
+s
+n
+f
+d
+e r i c
+s
+v
+s w
+i s
+u
+i e c
+m i
+u
+r
+l
+n e
+l
+a
+f
+u
+t f s
+e
+t
+i
+e
+s
+c ) c
+e
+n
+.
+r
+t
+i a
+t
+t
+e
+w
+s
+e b
+p n
+J
+r
+i
+e
+m
+a
+o
+t
+t
+h
+h
+a
+e
+c
+e n
+m
+a
+t
+i
+.
+t
+u
+t
+n r
+h
+o
+y
+o
+u
+F
+c b
+e
+n
+l
+a
+e
+t C
+l
+t
+o c
+o
+r
+i
+e
+o
+d
+t
+p
+i s l s
+n
+i t
+e
+u u
+e y
+@
+f
+e
+F
+i
+)
+d
+s
+r n
+P
+n d
+e
+( 2
+p d
+i
+E
+d n
+d 0
+g
+-
+o o
+x
+t
+2 w
+R
+e w i
+n
+e
+a
+3
+s
+a
+o
+n
+c
+r l
+- i
+l
+u e
+0 t
+e t
+n
+o
+li h
+a t
+6
+r
+n
+i g
+d
+f
+o
+- g
+M
+i
+k
+2
+r n
+n s
+o
+t
+0
+e
+e t
+h
+u V
+o
+a 0
+t
+p
+x c
+e
+e
+h
+i t 1 .
+k
+rn
+i
+h : s
+t e
+3
+E
+M
+i t e o 2 e
+a
+x
+n
+M
+p G
+u
+) n
+t
+O a . M
+l
+n a
+a t
+t
+h
+&s T
+i
+n
+i
+p
+i
+n
+o
+e
+M c
+l
+n
+t
+e
+e
+e o
+P S r
+n
+U
+t
+o R
+h
+e
+a
+g
+n
+e
+r o r
+n
+i
+r
+v a
+t
+c ,
+s
+i d c
+e w
+a
+s e
+B i
+n
+s
+t
+w
+h u
+d
+a i
+i
+t
+t l
+w
+s h
+h d
+i
+i e
+i
+s n
+n
+th
+e
+g c
+t t h
+a
+t
+a
+h
+o e
+p n
+e
+u
+a
+M
+d
+t
+b
+m
+i a
+i m
+n
+l
+o
+i
+i
+t
+n
+u
+s
+t
+y
+h t
+s
+t
+e e
+o t
+e
+n
+f i
+f
+P
+n
+a
+f
+e
+i
+e
+c
+n
+c
+n o
+r
+i
+c
+t
+e
+f
+e r
+e o
+n
+p r
+r
+t
+i
+B
+o
+m
+n
+c
+r
+u
+g a
+a
+a
+i l
+t
+n
+p
+a
+d
+e
+c
+a
+n
+i n e
+t
+c
+d h
+g
+i t
+e e
+y
+s
+x
+u
+it
+c
+in
+h
+g
+throughput, including approop b riaOtre acces R s to either end of the Multiple Units, clear of any structures or points;
+R
+(
+n n
+(c) the centreline distance fohr moaintenance roads in the maintenance depot must be appropriate for the
+operations undertakenJ;
+o
+c
+ati
+cifi
+(d) the centreline distance emust be of sufficient width to enable safe transportation of maintenance equipment,
+p
+tooling and materials Salong the full length of the Maintenance Roads as far as practicable;
+e
+c
+(e) fork lift truck workinng access along the full length of both sides of each Maintenance Roads as far as
+a
+m
+practicable;
+r
+o
+rf
+(f) between-rail, edepressed pits providing full underframe access for the full train length for the servicing, repair
+P
+and replace-m ent of any/all underframe equipment;
+1
+C
+(g) pits will eb e provided with full length illumination and adequate drainage;
+ul
+d
+(h) sufficeient bogie removal facilities will be provided to cater for the expected level of wheel and bogie
+h
+maicntenance activities related to the whole of the Fleet. Such facilities will be positioned such that any bogie
+S
+ca2 n be accessed with minimal train movement(s);
+1.
+3.
+(i)
+3
+sufficient travelling cranage must be provided to suit the required maintenance activities for those
+3. 0Maintenance Roads where it is expected that heavy loads will be lifted. The cranes will be interlocked in
+8. 6 respect of associated work platforms and the Overhead Traction Line Equipment status;
+1
+(j) grades must be designed such that Multiple Units will not roll away due to gravity;
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 29 -
+
+[TABLE 1 on page 30]
+n n the centreline distance fohr moaintenance roads in the maintenance depot must be appropriate for the i
+operations undertaken;
+
+[TABLE 2 on page 30]
+c the centreline distance emust be of sufficient width to enable safe transportation of maintenance equipment,
+p tooling and materials Salong the full length of the Maintenance Roads as far as practicable;
+--- PAGE 31 ---
+)
+y
+(k) sufficient elevated fixed platforms or mobile gantry platforms for maintenance access to roof moun
+c
+te ilitd
+equipment. Adequate fall protection is to be provided in accordance with all Applicable Requiremeants and
+F
+the Workplace Health and Safety Management Plan; u
+a
+e
+(l) the access platforms will cater for the expected level of roof mounted equipment removal andm replacement
+r
+related to the whole of the Fleet. All necessary hoisting machinery must be capable of liftingO the heaviest
+(
+roof-mounted components on the Multiple Units plus associated lifting frames, slings, etc.n Movement and
+o
+operation of the hoists will only be possible when interlocked with the correct disconnecatt i ion and earth
+c
+bonding of the Overhead Traction Line Equipment above the associated Maintenanc
+c
+eifi Road;
+e
+p
+(m) access to maintenance platforms may be by stairways or gates and where requireSd protected by gates,
+e
+interlocked to control access; c
+n
+a
+(n) supply from the Overhead Traction Line Equipment will be provided to each Mmaintenance Road, with a safety
+r
+interlocking, disconnection and earth bonding system at each end of each
+r
+Mf oaintenance Road;
+e
+P
+(o) 415 Volt, three-phase power outlets will be provided on both sides of ea
+-
+c h Maintenance Road for the
+1
+operation of portable power tools and welding equipment along th1e fuCll length of each Maintenance Road;
+1
+2
+e
+(p) 240 Volt, single-phase power outlets will be provided on both s2id.esu lof each Maintenance Road at regular
+3 d
+intervals for the operation of portable power tools and lightin
+5
+g
+.
+2 al
+c
+ohneg the full length of each Maintenance
+Road; 2S
+5.
+2
+6
+3
+(q) fixed or mobile power outlets will be provided on both si
+1
+d6es
+8
+o.f each Maintenance Road at convenient
+intervals for the charging of Multiple Unit batteries;
+o
+m df,
+1
+m
+c p a
+5.8.13
+( (
+(
+r s
+t)
+) )
+r
+s w p t
+o
+U T
+o
+e
+t e
+n
+h
+a
+n
+e
+t
+p r
+i
+e
+t
+i
+p
+c
+b
+s
+t
+e e
+s
+u
+s
+o
+o
+C
+r r /
+l
+t
+n f
+t
+p
+a
+o
+o
+h
+o
+o
+n
+t
+l
+n
+u r a
+e
+s
+e
+s
+m
+t
+t t
+d
+i
+r
+l l
+h
+f
+d
+e
+a
+o t
+o
+t
+e
+g
+t o
+c
+r h s
+p
+s
+m
+e
+t
+e s
+o
+w
+n
+a
+o
+s a
+r
+O
+e
+i
+i
+f
+f
+r
+l
+w
+m e
+r
+l &
+e
+a
+a
+b l
+i
+y
+a
+u
+l
+M
+l
+l l
+e
+o
+s
+c
+s
+e
+a
+n
+t
+h
+e
+p S
+n
+n
+g
+b
+r
+r e
+s
+d
+M
+v
+o e
+u t
+r
+i
+v
+h
+e
+c
+a
+v
+r
+p i
+e
+e
+i
+e
+f d
+i
+c
+n
+r f i e o e
+f
+t
+t
+c
+c
+u
+e
+h
+d v s
+o
+ie
+l
+n
+a
+i ;
+l
+m
+d a n
+a
+t
+a
+l
+e t
+e
+t
+p
+n
+t
+n l d
+h
+s
+n
+y
+o
+r
+c
+d
+h
+e
+e
+e
+g
+e
+o
+n
+a
+s
+l
+t .
+e n
+d r
+c
+h
+s
+R
+o
+c
+F
+c
+e b
+e
+a
+o a
+o e
+t C e
+s
+d
+e
+c
+r
+l
+f
+a
+o
+t
+s l
+i i
+s
+l g
+d n
+i e t
+d
+a
+s M
+y
+@
+f
+n
+i
+a)
+d
+i
+l
+f
+r
+o t a e
+(
+2
+d
+c
+o
+h
+E
+p
+n
+0
+c o
+s
+i
+h
+x
+t
+2
+r
+n e
+r R
+w i a
+e u
+a
+3 e o
+t n
+c
+t
+l
+-M
+t
+p
+e M
+h
+l
+u
+v
+0
+e
+l
+i
+i
+o t
+6
+r
+n
+p
+n
+e
+e
+i g
+a
+o u
+-
+g
+n
+2
+r
+l
+a n
+n s
+o
+i
+y
+l
+0
+o
+n
+s
+t
+t u n V
+t
+o
+i 0
+p
+s
+p
+t
+i
+p
+c
+e c
+s
+1
+e
+i .
+k
+r
+e
+n l : e s
+p
+3 e
+n
+E
+i
+t
+r
+c o 2
+o
+ox
+a
+a
+R n l U p G u
+l
+)
+t
+n
+a
+l
+.
+b
+o
+i
+M
+u
+d n n
+o
+c
+e
+a s T
+t
+i i
+n
+e
+i
+i
+n t o d
+o
+s
+p
+n g
+o
+R
+s
+n
+r
+P f
+f
+o
+t o
+o
+r t
+(
+h o o
+p
+v
+i
+r
+a
+g
+n
+e
+i
+n
+r p
+d
+d
+e
+c
+e
+e e
+.
+e
+n
+l u
+u
+n r
+d
+a
+d
+f
+m
+d o b
+i
+w
+s
+n
+r l
+a
+e m
+i
+g
+t
+o
+t
+i
+h
+m
+c
+a f
+s
+n t
+p
+p
+t
+a h
+o
+c
+n
+i
+i e
+l
+n
+o
+e
+l
+e
+/
+t
+l
+l
+M
+u
+s
+e
+e o
+m
+a
+n f a
+a
+k
+a t
+a
+i
+n
+h n n
+t
+d
+c
+e t
+i
+c e
+c
+o
+c
+e s n
+n
+q
+o
+e a
+t
+a
+u
+n
+a
+r n n
+i
+v
+n
+i
+c
+c
+n
+d i
+e
+k
+c e
+m
+c
+e p
+c
+B
+t
+e
+s r
+i
+o
+e
+o
+n
+; u
+n
+s
+n
+t
+i
+)
+n
+l e d
+,
+o
+e
+n i
+m
+n
+f
+c
+t a g
+M
+t
+a
+i
+t
+o
+n
+i n
+u
+o
+n
+a
+e
+l
+n
+t
+g
+i
+c
+o
+p
+e
+e
+u
+le
+m
+s
+tl
+s
+e
+e
+a
+t
+n
+s
+ry
+t
+o
+co
+f
+n
+tr
+d
+a
+i
+d
+ti
+e
+o n
+w
+s
+a
+).
+s te including colle
+e
+c
+rt
+t
+s
+i o J
+m
+n
+e
+,
+a
+tur eatm
+F P
+e n- t and discharge (including compliance with any license
+o b O r R
+R
+(
+n n
+5.9 Underfloor whheoel lathe facility
+J
+o ati
+c
+cifi
+5.9.1 The Depot must includee an enclosed underfloor wheel lathe facility and associated equipment and facilities
+p
+as a minimum, the deSsign of the underfloor wheel lathe must incorporate the same features stipulated above
+e
+for the Maintenancec Building that are relevant to the underfloor wheel lathe facility’s physical and operational
+n
+environments. a
+m
+r
+o
+5.9.2 The
+underflooerrf
+wheel lathe facility must have the capacity to service the Multiple Units such that they will
+P
+travel along
+-
+that road only in a uni-directional manner. The Contractor will establish a pick-up point along this
+road at an1 a ppropriate location to the underfloor wheel lathe facility.
+C
+e
+ul
+5.9.3 The undderfloor wheel lathe facility must include:
+e
+h
+c
+(a) all Snecessary clamping equipment for the Multiple Units;
+2
+(b) 1a.ll trackwork necessary to operate the underfloor wheel lathe facility and to move all Multiple Units through it;
+3.
+3 and
+0
+(c6 3) . a system for gathering and disposing of all swarf from the underfloor wheel lathe facility.
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 30 -
+--- PAGE 32 ---
+)
+5.9.4 T
+m
+h
+a
+e
+n a
+C
+g
+o
+e
+n
+m
+tr
+e
+a
+n
+ct
+t
+o
+o
+r
+f
+m
+tr
+u
+a
+s
+d
+t
+e
+e
+w
+ns
+a
+u
+s
+r
+te
+e
+i
+t
+n
+h
+c
+a
+l
+t
+u
+t
+d
+h
+in
+e
+g
+d e
+co
+s
+l
+ig
+le
+n
+c t
+p
+io
+re
+n
+v
+,
+e
+tr
+n
+e
+t
+a
+s
+t m
+po
+e
+l
+n
+lu
+t
+t i
+a
+o
+n
+n
+d
+( i
+d
+n
+i
+c
+s
+l
+c
+u
+h
+d
+a
+in
+rg
+g
+e
+s
+(
+p
+in
+ill
+c
+/
+lu
+le
+d
+a
+in
+k
+g
+c
+c
+o
+o
+n
+m
+ta
+p
+in
+li
+m
+an
+e
+c
+n
+e
+t )
+w
+a
+ict
+n
+il
+h
+i
+dt y
+any
+a
+license conditions). F
+u
+a
+e
+m
+5.10 Multiple Unit cleaning facility O r
+(
+n
+o
+ati
+5.10.1 The Contractor must ensure that the Depot includes all necessary Multiple Unit cleanincg facilities to perform
+Multiple Unit cleaning in accordance with the Performance Specification (O&M Serviccife i s), including:
+e
+p
+(a) Multiple Unit floor and roof level access for cleaning activities requiring exterior acScess and interior access;
+e
+c
+(b) a facility for cleaning under-Multiple Units which may be a combination of automnated and/or manual high
+a
+m
+pressure hot water spray cleaning devices that enable the cleaning of Multiple Unit;
+r
+o
+rf
+(c) a graffiti cleaning facility which allows unhindered access to both sides of eMultiple Units for the efficient
+P
+removal of exterior graffiti; -
+1
+1C
+(d) an interior cleaning facility with the necessary plant, tools, equip1m2enet and consumables to enable regular wet
+vacuum cleaning of Multiple Unit flooring; and 3
+2.
+d
+ul
+2 e
+(e) a cab external cleaning facility, with the necessary access p2 5la . n
+S
+tc, h tools, equipment and consumables to
+permit external cleaning of cab fronts, windscreens, side
+5
+w.
+2
+in
+6
+d3o ws, rear view mirrors, headlights, visibility and
+marker lights. 1 6 8.
+o
+m df,
+1
+m
+5.10.2 The Multiple Unit cleaning facilities must include wacstewpater maanagement collection and biological/
+5
+5
+5
+.
+.
+1
+1
+.
+0
+1
+1
+.
+.
+3
+1
+1 F
+h T r
+T
+e a h
+h
+l
+i
+z a e
+e
+x
+a t e M
+C
+r d d
+e
+o
+u o
+n
+f lt a
+d
+u
+t
+ip
+r
+t s a
+a
+l e s l
+c
+a
+i t u
+t
+U i
+o
+e b
+n
+r
+n s s
+m
+. i t t
+d
+a c
+u
+n l
+s
+c e
+t
+u
+e a
+e
+n s
+n
+n
+i e n
+s
+p g
+u
+f
+a
+r
+i
+f
+e
+r a
+x
+a c
+t
+t
+h
+i i
+e
+l o
+a
+it n y
+t
+d
+o
+,
+,
+h
+s
+u
+i
+n
+n h
+. p r
+c
+o
+e
+a
+o
+F
+b
+l l
+a
+u
+e
+n
+C l
+q
+c
+r
+d o
+t
+b
+i
+s
+l t
+n
+it
+i e
+h
+y
+@
+f n
+u
+i
+)
+d
+e
+g e
+(
+2
+e d
+E
+n
+0
+i
+o q
+D
+x
+o t
+2
+R
+w i
+e
+p
+a
+3
+u i
+oa
+n
+c
+l
+-
+l
+l
+u
+0
+ie
+lt
+p
+i
+s t
+6
+r
+m
+n e
+i g o
+-
+g
+p e
+2
+r n
+s
+o
+o
+0
+e p
+t
+u V
+o
+f
+0 d a p
+ec
+e 1 .
+k
+O
+r r : s t 3 a
+E
+i
+n
+o o 2
+r
+x
+tn
+m
+i p G ) c o a .
+t
+M
+e
+l n n e s T
+a
+. i ao
+u
+n n P
+F
+a r o
+a
+n g
+c
+r d
+i li
+m
+ty
+a
+C
+na
+o
+g
+m
+e
+p
+M
+let
+u
+io
+lt
+n
+ip
+,
+le
+a ll
+U
+e
+n
+q
+it
+u
+s
+i p
+in
+m
+v
+e
+o
+n
+lv
+t
+e
+n
+d
+e
+i
+c
+n
+e
+N
+ss
+e
+a
+tw
+ry
+o
+t
+r
+o
+k
+u
+S
+n
+it
+d
+e
+e
+.
+rtake all relevant services
+rt
+s
+a Jt
+e
+t
+a
+hue Dep
+P
+o t
+-
+, has been supplied, installed and commissioned at the Depot
+em F
+o b O r R
+5.11.2 The Contractor must be abRle to( demonstrate in the purchase or hire of new plant compliance with Chapter 5,
+n n
+Part 5.1, General duties hfor polant and structures Work Health and Safety Regulation 2011 (Qld).
+J
+o ati
+c
+5.11.3 At a minimum, the
+followciif
+n
+i
+g fixed equipment will be required to be installed or located at the Depot for the
+e
+purposes of performingp the O&M Services:
+S
+e
+(a) shop air compressocr and associated compressed air storage and delivery equipment;
+n
+a
+m
+(b) vehicle lifting and jacking equipment (including lifting and jacking system for Multiple Unit (six car vehicle)
+r
+o
+lifting system arfnd/ or an in floor body support for six car vehicle listing system);
+e
+P
+(c) elevated wo- rk platforms, fixed or mobile;
+1
+C
+(d) externale wash plant;
+ul
+d
+(e) underefloor wash plant equipment;
+h
+c
+(f) oil Streatment plant (including oil/water separator tank but excluding pumps and controls);
+2
+1.
+(g) 3.cranes and hoists;
+3
+(h) 0spares storage racking;
+3.
+6
+8(.i) automated visual inspection system;
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 31 -
+--- PAGE 33 ---
+)
+y
+(j) ground to vehicle access devices (e.g. access steps); cilit
+a
+(k) ETCS / PSD interface test road; F
+u
+a
+(l) pumping equipment (e.g., washing, pollution control); e
+m
+r
+(m) wheel lathe and waste material handling equipment; O
+(
+n
+(n) security equipment (e.g. CCTV system, security access system); o
+ati
+c
+(o) depot public address/tannoy system; cifi
+e
+(p) safety systems (e.g. fire detection, fire suppression, visual and audible emergencyp warning systems,
+S
+emergency exits, eye wash and body shower stations, etc); e
+c
+n
+a
+(q) security, communications, fire protection, mechanical, electrical, lighting, hydmraulic, water, sewer equipment
+r
+and any other associated equipment supporting the operation of the site anod buildings.
+rf
+e
+P
+(r) drinking water fountains;
+-
+1
+(s) water supply and treatment plant;
+1
+2 1
+e
+C
+2. ul
+(t) bogie turntable; 3 d
+2 e
+(u) bogie drop system; 2
+5.
+S c
+h
+(v) gates and fences;
+1
+6
+5.
+2
+8. 6
+3
+(w) track assembly and components;
+o
+m df,
+1
+m
+c p a
+5.11.4
+( ( (
+( (
+x y z
+a b
+) ) )
+) )
+s D o
+i w
+A
+o
+n
+i v
+f
+t
+e
+e
+g
+s
+e
+p
+a
+u
+n p
+ld
+r
+e
+a
+l
+o h
+m
+a i
+r
+n
+t l e
+f
+l
+t
+o
+i
+g
+i
+i
+p a n
+n
+n
+r
+e g d
+g
+i
+a
+m
+m
+r
+n
+s l e
+o
+i
+i
+u
+n
+d
+n o q
+i
+m
+l
+g
+e n u
+c t
+a
+e
+,
+i
+u
+t
+a p
+h
+l
+s
+t
+t
+s m
+h
+t
+e
+p
+t i
+s
+i n
+e
+n
+r e
+O
+e o
+g g
+n
+f
+m t
+o
+&
+e t
+e a
+l
+b
+M
+c
+l
+a
+q n
+o
+l t n
+u
+y
+d
+i
+w
+o
+S
+d
+i p
+a
+i
+n
+f
+e
+n
+i m
+n a
+l
+r
+g
+t
+s d s
+v
+r e
+y
+a
+s
+i
+u
+c
+n
+a s
+t
+o
+n
+i
+e
+t
+t s
+o
+c e
+f
+s
+s
+( n
+i
+i m
+x
+e
+a
+:
+o
+o
+e
+. h e
+t c ;
+g
+e
+n
+d
+q
+i
+.
+a
+.
+a d
+r ou
+e
+n
+oF
+t
+b
+s e
+i a
+e
+q
+d
+x
+C
+p c
+u
+r
+d o
+u
+y
+t
+m i
+s
+l
+p n
+i t
+i
+s
+y
+@
+f
+p
+a e
+i p
+)
+d u
+m
+c
+e
+(
+2 n
+o d
+E
+p n
+0 e
+o r
+t
+x
+t
+2
+e
+R
+p
+;
+w i t
+t
+e
+a
+3
+i
+yo
+n
+n
+c
+o l n
+- l
+u
+0
+e
+l l
+t
+i
+r g
+e
+t
+6
+r
+n
+i g t o
+w
+-
+g n
+i
+2
+r nn c
+s
+o
+0
+e
+i
+t
+u V o
+o
+g
+l
+0
+l
+p
+,
+c
+e m 1 .
+k
+b
+r c
+p
+: s 3
+E
+i
+e
+o p
+l
+o 2
+a
+x
+n m o p G
+r
+)
+s
+a .
+e
+n M
+m
+n p
+q
+e s T o i
+a
+o
+u
+n n n
+,
+i
+t
+r
+e r P
+M
+e
+y r n o
+d
+;
+I
+g t
+G
+r r
+t
+y
+o
+,
+.
+T
+b
+I
+e
+G
+i
+,
+n
+s
+s
+p
+ta
+o
+l
+t
+le
+,
+d
+e t
+a
+c
+t
+) ;
+t he Depot for the purposes
+(c) material transport equipment (rte
+s
+.
+J
+g.e
+a
+t
+u
+ru cks, Pf o
+-
+rklifts, pallet jacks, trolleys, trailers, lifting slings/chains, etc);
+em F
+(d) electronic test and measurRe o m b eOn r t equipm R ent (e.g. power supplies, oscilloscopes, multimeters, chart
+(
+recorders, data loggers, tnh ermn al imagers, etc);
+h o
+J
+o ati
+(e) mobile external vehicle acccess devices (e.g. scissor lifts);
+cifi
+(f) general workshop equpipement (e.g. hydraulic presses, bench grinders, drill presses, lathes, sheet metal
+S
+working machines, s
+e
+a w benches, electric power tools, pneumatic power tools, battery power tools);
+c
+n
+(g) general workbencahes, vices, etc;
+m
+r
+(h) battery chargingo equipment;
+rf
+e
+P
+(i) specialised
+-
+t raction system testing and maintenance devices;
+1
+C
+(j) general office furniture (e.g. desks, chairs, cupboards, etc);
+e
+ul
+(k) generadl office IT equipment (e.g. PCs, laptops, printers, fax machines, scanners, photocopiers, etc);
+e
+h
+(l) cleSacning equipment (e.g. vehicle vacuuming nozzles/hoses, floor sweepers, vacuum cleaners, high pressure
+cl2e aners, etc);
+1.
+3.
+(m)
+3
+lubricant dispensing equipment (e.g. oil pumps, grease pumps, etc);
+0
+(n6 3) . lockable storage lockers for staff personal belongings e.g. clothing lockers in the change room, tool lockers,
+8.
+etc);
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 32 -
+--- PAGE 34 ---
+)
+y
+(o) Hazardous Materials storage and handling equipment; cilit
+a
+(p) mobile train weigher; F
+u
+a
+(q) emergency generator supply unit; e
+m
+r
+(r) specialist items of test equipment inclusive of brake equipment, control electronics, etc. (incOluding wheel
+(
+profile monitoring system (WPMS), brake pad monitoring system (BPMS), pantograph mon nitoring system
+o
+(PWMS), axle bearing temperature monitoring system (AETMS) and wheel damage moatn i itoring system
+c
+(WDMS)); cifi
+e
+p
+(s) road/rail shunting unit; S
+e
+(t) sand vehicles; n c
+a
+m
+(u) roof level portable steps; r
+o
+rf
+(v) diagnostics equipment; and P e
+-
+(w) precast elements. 1
+1C
+1
+2
+e
+2. ul
+3 d
+2 e
+5.
+c
+h
+2S
+5.
+2
+6
+3
+1
+6 8.
+o
+m df,
+1
+m
+c p a
+o h
+n. r
+o
+F
+b
+a
+e
+C
+c
+r
+o
+t
+i
+s
+l
+n
+it y
+@
+fi
+)
+d e
+(
+2
+d
+E
+n
+0
+o
+x
+t
+2
+R
+w i
+e
+a
+3
+o
+n
+c
+l
+-
+l
+u
+0
+e
+li
+t
+6
+r
+n
+i g o
+-
+g
+2
+r n
+s
+o
+0
+t
+u V
+o
+0 p
+c
+e 1 .
+k
+r : s 3
+E
+i o 2
+x
+n p G ) a . M n s T i o n P r o g r
+rt
+s
+J
+e
+a
+u
+P
+-
+em F
+o b O r R
+R
+(
+n n
+h o
+J
+o ati
+c
+cifi
+e
+p
+S
+e
+c
+n
+a
+m
+r
+o
+rf
+e
+P
+-
+1
+C
+e
+ul
+d
+e
+h
+c
+S
+2
+1.
+3.
+3
+0
+3.
+6
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 33 -
+--- PAGE 35 ---
+)
+y
+cilit
+a
+6. Ormeau Stabling Works F
+u
+a
+e
+m
+r
+O
+6.1 Scope (
+n
+o
+ati
+c
+6.1.1 The requirements set out in this Section 6 apply to the Ormeau Stabling Works comp cifoinent of the Ormeau
+Facility Works only. e
+p
+S
+e
+c
+6.2 General n
+a
+m
+r
+o
+rf
+6.2.1 The Ormeau Stabling is to be designed and constructed in accordance wPieth MD-12-708 Stabling Yards and
+Facilities in Network SEQ – Design Guide and the relevant design and c- onstruction SEMs set out in
+1
+Appendix 1. 1C
+1
+2
+e
+2. ul
+6.2.2 The Ormeau Stabling must: 2 3 e d
+5.
+c
+h
+(a) i
+r
+n
+o
+c
+a
+l
+d
+u d
+in
+e
+a
+e
+n
+n o
+e
+u
+n
+g
+d
+h
+t o
+S t
+e
+a
+n
+b
+d
+li n
+c
+g
+o n
+R
+fi
+o
+g
+a
+u
+d
+ra
+s
+t
+t
+io
+o
+n
+s
+;
+t able 20 x 6-car Tra
+1
+in
+6 5 .
+C2 2
+8
+o
+. 6
+n
+3
+s Sists, in a maximum of 2 x Train Consists per
+(b) not preclude 9-car stabling in the future
+o
+m df,
+1
+m
+c p a
+( ( ( (
+(
+(
+c d e f
+g
+h
+) ) ) )
+)
+)
+p i a s
+b
+i
+b
+n
+n
+a r l
+e
+e
+c l
+c
+o o n l
+l
+u
+d
+v u
+u
+w d
+e
+n
+i d
+d
+d i n
+s
+d
+f e
+e
+e o g
+i
+e
+g
+r a
+p
+s
+r
+n
+o
+t
+d
+r
+u
+a
+T
+e
+o
+n e f
+k
+f
+d
+r
+v
+c i b a
+e
+c
+i
+a
+s
+t
+o c
+n
+i
+o
+e
+i
+n k t
+o
+h
+s
+n t
+p
+n
+i M
+e
+t n
+r
+t h
+o
+p
+i
+g s a
+n
+e
+v
+a
+t i o a n
+t
+i
+r
+d
+h
+s r n
+a
+t a e
+e
+i
+e
+d
+t
+d g
+e
+n e
+c
+d
+w
+l
+e a
+y
+a
+s
+e
+n a t
+p
+f
+s
+o o c
+r
+t
+a
+i
+e
+o
+e f
+g
+s
+b
+r
+m
+t
+n
+u V r
+i
+f
+l
+a
+i
+p i
+o
+e
+t
+l
+t
+i l
+y
+p
+h
+n
+r
+i h
+o
+n o
+h
+a
+s
+f
+e
+i g
+n
+c
+o
+r
+t
+q .
+t t l
+r
+r
+e
+o
+o
+o
+o
+u F
+a
+b
+t
+f
+f
+ai
+e h
+R a Cl
+p c
+l
+t
+r
+t o
+et
+h
+l
+i
+r
+m
+s
+l
+o c l n
+i
+a
+t
+ey
+@ f l a S
+r
+i e
+e
+i
+)
+d
+e
+n d e
+(
+2
+t
+M
+d a
+n
+Em
+a n s
+0
+o
+x
+n
+t
+t
+2
+i
+R
+bw
+a
+i n e a
+3
+t
+o
+p
+i
+o
+n c o l l
+i
+n
+- n
+i
+l
+u
+0 t
+e
+r
+a
+l
+n
+i
+e
+g t
+6
+r
+n o
+l
+i ag d o
+i
+-
+g
+g
+2
+n
+r
+v
+n l
+i
+s
+a o d 0
+s
+l
+te
+i
+u R V
+o
+n
+d
+i
+o
+S 0 pt
+c
+e 1 d
+e
+o .i
+a
+k l
+r o t : s
+a
+3 a
+d
+a E
+n
+i n o l 2
+t
+xi b d
+d
+i
+n g p
+t
+o
+G )t l
+o
+s a . h i o M
+n
+t
+n n ;
+h
+t s T
+c
+g t i
+a
+e
+o m h
+a
+n
+n
+R e
+t
+D
+a P
+e
+d
+o r i
+r
+S
+e
+o n
+e
+a g
+p
+f
+t t r
+o
+a
+d a e
+o
+r
+r
+s b n
+t
+t
+.
+;
+p
+l
+h
+a in
+l
+i
+n
+a
+n
+g c
+n
+g
+e R
+n
+o
+e
+a o
+f
+d
+c a
+t
+t
+h
+d
+a
+iv
+e
+s
+n
+i t
+d
+T
+a ie s
+r
+u
+s
+a
+;
+n
+s
+c
+e
+p
+ti
+t
+l
+o
+a
+o
+n
+n
+u
+n
+P
+t
+e
+o
+in
+d
+w
+S
+i
+e
+n
+e
+r
+t e
+c
+o
+r
+t
+f
+r
+i o
+u
+th
+n
+p
+e
+t
+6
+i o
+D
+.4
+n
+e
+;
+s
+p
+t
+o
+o
+t
+t
+t
+h
+o
+e
+Traction Power supply.
+rt
+s
+J
+e
+a
+u
+P
+-
+(i) provide separate (split) faciliteies m(e.g. faciFlity office, dry & wet, stores, lockers etc) for the NGR Fleet and
+Multiple Units. R o b O r R
+(
+n n
+h o
+J
+o ati
+c
+cifi
+e
+p
+S
+e
+c
+n
+a
+m
+r
+o
+rf
+e
+P
+-
+1
+C
+e
+ul
+d
+e
+h
+c
+S
+2
+1.
+3.
+3
+0
+3.
+6
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 34 -
+--- PAGE 36 ---
+)
+6.2.3 A
+fle
+ll
+x
+s
+ib
+ta
+il
+b
+ity
+lin
+.
+g roads must connect to the Mainline from both the north and from the south to enable op
+ci
+e lit yrational
+a
+F
+u
+a
+e
+6.3 Rail Traffic Crew Building and facilities m
+r
+O
+(
+n
+6.3.1 The Ormeau Stabling must provide staff facilities, including toilets, to suit the predominanot and occasional
+ati
+users of the Ormeau Stabling in accordance with MD-12-708 Stabling Yards and Facilcities in Network SEQ –
+Design Guide.
+cifi
+e
+p
+S
+6.3.2 The predominant users of the Rail Traffic Crew Building are the rail traffic crew, pe resentation staff and
+c
+security staff. Occasional users will include Network maintenance staff, safety annd environment
+a
+representatives, train service delivery representatives and visitors attending tmraining.
+r
+o
+rf
+e
+6.3.3 The location and orientation of the Rail Traffic Crew Building and parkingP relative to the Stabling Roads shall
+minimise the time required for rail traffic crew to park, sign-on, collect in
+1
+f- ormation/equipment and access the
+stabled trains, with preferred maximum walking time of 15 minutes1. C
+1
+2
+e
+2. ul
+3 d
+6.3.4 The following staffing assumptions should be used to design 2the Reail Traffic Crew Building:
+5.
+c
+h
+2S
+(a) Q
+de
+u
+li
+e
+v
+e
+e
+n
+ry
+s l
+r
+a
+e
+n
+p
+d
+r e
+R
+s
+a
+e
+i
+n
+l
+t
+r
+a
+a
+t
+i
+i
+l
+v
+t
+e
+ra
+s
+f f
+–
+ic
+a
+c
+ll
+r
+o
+e
+w
+w ,
+1
+p
+0
+r
+0
+e
+;
+s entation staff, mai
+1
+n
+6 5
+te
+.
+2n
+8
+a
+. 6 3
+n ce rovers, security staff and train service
+(b) Queensland Rail occasional users including Network
+o
+mm a
+d
+inf,
+1
+tenanc
+m
+e staff, safety and environment
+6
+B 6
+.
+.
+3
+3 u
+.
+.
+5
+6 i ld
+(c
+i
+)
+n gs
+N r T r
+D
+I
+c
+n
+e e
+l
+h G
+e
+e
+p q
+a r
+e
+a
+p
+r u R
+d o
+e
+n
+o
+C ir
+d
+s
+t
+i
+n
+o
+e
+n
+)
+o
+i
+e
+t
+.
+i d
+g
+i
+n g
+m
+n
+o
+t h t t
+o
+n
+r a o t a
+f
+s
+t
+t
+s c i p
+N
+o
+v h t e e o
+a
+G
+t
+i r f
+h
+s r f t
+n
+R
+o
+e
+m t a r r
+d
+F
+a
+p
+n m u
+r
+l
+d i s
+e
+n
+o f
+O t
+e
+v
+v i
+c a
+x
+i &
+t
+i
+s l
+s
+l e
+U
+s M i
+t i
+t a
+o
+o
+u
+o
+n
+n
+n S r
+i
+p
+t
+r s
+s i
+s
+n e r
+e
+o – g
+o
+r
+s
+v
+s
+v
+f
+r t
+a s
+t
+i i
+as
+M
+c d t l
+J
+b
+a l e e o
+o D
+l
+f s
+h
+e e
+w f
+n
+a
+-
+a d
+.
+a a
+1 u r
+p
+o
+8 n t
+2 F
+p
+a
+b
+;
+a
+e
+O d
+-
+C r
+t
+c 7
+r
+a o o
+t
+i
+O
+s
+l
+r r
+0
+n
+i
+n
+t
+p m o
+y
+@
+fi
+8
+d
+r
+)
+d r l
+P m
+e l i e
+(
+2 ,
+d i a
+E
+n
+0
+n
+-
+o a
+t
+x
+e
+t
+2
+t
+Rh
+w i g
+e
+e a u
+3
+a
+o
+n
+c
+l
+e -
+s
+l
+u
+0
+e
+u
+l
+f S
+i
+t t
+6
+r
+n
+a i
+C
+g o o
+-
+g
+t
+S
+2
+r cn
+s
+c a o
+o
+0
+t
+i u V
+t
+o
+k b l
+n
+0
+a
+p i
+c
+e t 1 l .
+k
+r
+t
+i t
+b
+c i : s e
+r
+e n 3
+E
+i
+a
+l
+o 2 s
+i
+c g
+x
+n
+n
+c
+p G h ) a f
+g
+.
+t
+( M p o n
+o
+n t
+,
+o s T r i
+r
+i c
+i
+o
+n
+i
+m
+t n i t h a
+c
+s P
+u
+e n
+l
+r
+u
+c o
+s
+s g
+d
+l e
+t
+e r a t
+i
+x
+n
+p
+o a t
+g
+r
+e n h
+o
+:
+n in a
+v
+t g
+i
+v
+d
+t e h
+e
+s e t a a
+s
+s
+e
+f s e f
+p
+, e f
+a
+s p a e
+r
+a c
+a
+c i r l
+t
+a u i
+e
+t t i r e e i
+f
+t
+a
+s y lo
+c
+a s
+i
+c
+l
+r t
+i
+k a e
+ti
+e
+e
+f f n r
+s
+o a r
+t
+o n t
+o
+o d p
+c
+m r t o
+a
+e v
+t
+– c
+e
+i h d
+r
+a n e
+f
+ll
+o
+i d o c
+r
+w i a a
+th
+t n 1 t
+e
+s h 3 e .
+em F
+(a) an additional maintenance oo b fficOer (3m x 3 R m), including desk office chair and two lockers;
+R
+(
+n n
+(b) an additional cleaners whet stoore (2.5m x 2.5m);
+J
+o ati
+c
+(c) an additional cleaners dr
+c
+y ifi store (2.5m x 3.5m);
+e
+(d) an additional maintenapnce store (3m x 4m); and
+S
+e
+(e) a separate locker rocom for the NGR staff set out in Section 6.3.4(c) and the Contractor’s staff set out in
+n
+Section 6.3.5. m a
+r
+o
+rf
+e
+P
+-
+1
+C
+e
+ul
+d
+e
+h
+c
+S
+2
+1.
+3.
+3
+0
+3.
+6
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 35 -
+--- PAGE 37 ---
+)
+6.3.7 T
+re
+h
+q
+e
+u
+s
+ir
+e
+e
+p
+a
+a
+c
+r
+c
+a
+e
+te
+s s
+fa
+t
+c
+h
+i
+r
+li
+o
+ti
+u
+e
+g
+s
+h
+r e
+a
+q
+re
+u
+a
+ir
+s
+e d
+o f
+b
+t
+y
+h e
+s e
+R
+c
+a
+ti
+i
+o
+l
+n
+T r
+6
+a
+.
+f
+3
+fi
+.
+c
+6 ,
+C
+m
+re
+u
+w
+s t
+B
+b
+u
+e
+i ld
+re
+in
+a
+g
+d i
+p
+ly
+r e
+a
+d
+c
+o
+c
+m
+es
+in
+s
+a
+ib
+t
+l
+e
+e
+l y
+t o
+f o
+t
+r
+h e
+th
+S
+e
+t
+u
+a
+s
+b
+e
+li n
+o
+g
+f Q
+Ro
+u
+a
+e
+d
+e
+s
+n sc
+a
+il l
+n
+a
+it yd
+n d
+n o
+R
+t
+a il
+a
+staff (QR offices, training rooms, quiet room, TV room and rail traffic crew locker room, and commFunication
+u
+equipment room). a
+e
+m
+r
+6.3.8 The Contractor must design the Rail Traffic Crew Building to enable shared access to the luOnchroom and
+(
+change room and toilet facilities for all users. n
+o
+ati
+c
+Car parking cifi
+e
+p
+S
+6.3.9 The number of car parking spaces is to be calculated assuming the following: e
+c
+n
+a
+(a) no provision for public transport; m
+r
+o
+(b) full daytime occupancy of the Rail Traffic Crew Building, including both 6.3r.f4 (a) and (b); and
+e
+P
+(c) a vehicle to occupancy ratio of 1:1. -
+1
+1C
+1
+2
+e
+2. ul
+6.4 Track Maintenance Vehicle Road3 d
+2 e
+5.
+c
+h
+2S
+6.4.1 The Ormeau Stabling must include a separate road used5 f.
+2
+or 6s3t oring QR Track Maintenance Vehicles.
+1
+6 8.
+6.4.2 The Track Maintenance Vehicle Road shall: o m df,
+1
+m
+c p a
+( ( (
+(
+(
+(
+a b c
+d
+e
+f)
+) ) )
+)
+)
+i
+b b b
+i
+p
+c
+V
+h
+n
+n
+l e e e
+r o
+e
+e
+c
+c
+o l
+h
+l
+o
+a
+d
+d u a
+v
+u
+i
+r
+r
+i
+c e n
+i
+c
+d
+n
+a
+p
+d
+c w s
+l
+e
+g
+n
+e
+o
+e
+e i g i c
+r
+r
+a
+s
+c r
+R
+a
+e n e
+o
+s
+l
+t
+e
+h
+o
+e d
+e
+a
+i l b
+a
+e
+a
+i
+d ;
+d
+r
+a
+l
+r
+a
+n
+d
+e
+a
+t
+v
+i
+g o
+R
+l
+s
+n
+f
+e
+t r
+a
+h
+c
+h
+M
+e
+h
+o
+c
+a
+e
+n
+i
+m o
+c
+A
+c
+l
+s
+l
+l
+f
+l
+e
+e
+R
+e
+u
+n
+b 1
+s
+n
+r
+o
+o
+e
+s
+6
+o
+e
+g
+t
+t
+n
+0
+u
+h
+t
+p
+t
+i
+h t
+m h
+m
+t
+o
+r
+s
+t
+; y
+a h
+i
+i
+p
+n
+a
+d
+a t e
+a
+a
+t
+n
+e
+s s
+n
+c
+n
+o
+d
+h
+e
+d
+a
+t
+t
+o
+ur
+h
+u
+t
+t
+s
+r
+t
+e
+m
+e
+n
+h
+s
+t
+J
+h
+x
+m
+t
+e
+o
+i
+i
+D
+i
+d
+h i
+n e n
+e
+t n
+o
+a
+e
+a
+i r g
+. a
+m
+u r
+n
+p
+n o
+o
+t F
+b
+o
+e
+u
+g
+a
+a
+e
+f
+b
+Cf
+r
+c
+m
+e
+r
+n o
+t
+a t
+o i
+T
+s
+l
+h
+r
+n
+it
+d
+t
+;
+t
+y
+@
+f r
+Fe
+i
+h
+i
+Z)
+d
+o
+a a
+P
+s e
+(
+2
+d
+o
+n E
+c
+T
+e
+n n
+0
+o
+-
+o
+x
+n
+t
+2
+k
+s
+R
+r
+d
+n
+w i u
+e
+a
+3
+a
+e
+o
+n
+c
+d
+l
+-
+t M
+o
+l
+u
+0
+e
+c
+h
+l i s
+t
+6
+r
+f
+r
+n
+i
+k
+g a e o
+-
+u g
+t2
+r n
+o
+s
+o r i
+h
+n
+0
+M
+n
+t
+u n V
+f
+o e
+n
+0 p t
+c
+e
+a
+t
+1 . e
+k
+cr
+i
+h
+: s
+D
+n
+i
+3 n
+E
+o i
+n
+e
+o 2
+g
+x e
+a n n
+t
+p G
+e
+)
+R
+p
+n a n
+p
+. M
+n
+n
+o
+c
+M
+e
+a
+s T
+a
+e
+t
+i c
+r
+o
+,
+A
+n
+a
+n t V
+O
+i
+c
+l
+R
+P o
+le
+e
+e r
+r
+n o
+,
+m
+l
+h g
+o
+V
+r t
+o
+i o
+e
+c
+r
+e
+n
+l
+a
+t
+h
+e t
+u
+h
+b
+u
+i
+s
+c
+r
+e
+o
+n
+S
+l
+i
+t
+e
+n
+a
+M
+h
+t
+t
+a
+r
+R
+o
+o
+a
+s
+b
+o
+i
+u
+i a
+l
+d
+n
+i
+a
+n
+n
+n
+e
+li
+d
+d
+g
+d n
+s
+;
+e
+s
+o
+o
+o
+a
+t
+r
+u a
+f
+a
+n
+M
+t
+t
+n
+b
+d
+h
+o d
+l
+a
+i
+e
+n
+f
+i
+h
+n
+g
+t
+t
+h a
+r
+l
+a
+i
+l
+e v
+n
+e
+c
+e
+e
+n
+T
+k
+;
+g
+a r
+f
+a
+a
+t
+o
+h
+t
+n
+c r
+r
+.
+a k
+d
+t
+i
+h
+n M
+e
+h a
+f
+o i
+u
+n l
+l
+d t
+l
+e
+t
+in
+r
+n
+a
+g a
+i n
+n ce
+o b O r R
+R
+(
+n n
+h o
+J
+o ati
+c
+cifi
+e
+p
+S
+e
+c
+n
+a
+m
+r
+o
+rf
+e
+P
+-
+1
+C
+e
+ul
+d
+e
+h
+c
+S
+2
+1.
+3.
+3
+0
+3.
+6
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 36 -
+--- PAGE 38 ---
+)
+y
+6.5 Decant facilities cilit
+a
+F
+u
+6.5.1 Stabled Train Consists equipped with toilet facilities require waste material to be decanted. a
+e
+m
+r
+6.5.2 All stabling positions shall include decant facilities suitably aligned with fittings and connectOion points on both
+(
+the NGR Fleet and Multiple Units, arranged in any stabling configuration. n
+o
+ati
+c
+6.5.3 The Contractor must provide a system for decanted effluent to be transported to a lo
+c
+c ifail reticulated sewer
+system. Alternately, an on-site treatment system must be provided by the Contractoer.
+p
+S
+e
+c
+n
+6.6 Sand storage silo a
+m
+r
+o
+rf
+e
+6.6.1 The Contractor must design, construct and commission sand storage siloP facilities in accordance with
+Schedule D1 (Performance Specification (O&M Services)) at the Orme
+1
+a - u Stabling Site.
+1C
+1
+2
+e
+6.6.2 The sand storage silo will be used for storage of sand, with trai2n. onubloard sanders filled manually using carts
+3 d
+or an alternative system. 2 e
+5.
+c
+h
+2S
+6.6.3 In locating the sand storage silo, the design is to conside5r.
+2
+the
+6
+3 t rain sanding operation and minimise the
+distance between the silo and stabled Train Consists. 1 6 8.
+o
+m df,
+1
+m
+c p a
+6 6
+6
+6
+.
+.
+.
+7
+7
+7
+. .
+.
+.
+7 1
+2
+3
+P S r
+A
+p
+T
+e
+o
+h
+t
+ll
+g a
+i
+e
+o
+n
+s
+u b
+t
+t
+C
+l l
+a
+s
+a e t
+o
+b
+r d a
+o
+l
+n
+b
+i
+n
+T
+n
+t
+b a
+r
+g
+r
+b
+a
+s a
+o
+i
+c
+l
+p
+i s n
+t
+t
+e
+o
+.
+h
+o
+s
+C
+r
+t
+i
+h
+t
+o
+m
+w
+i
+e
+o
+n
+u
+n
+s
+N
+s
+a
+s
+is
+t
+G
+t
+s
+p
+t s
+R
+h
+r
+e
+o
+e
+a
+F
+v
+q
+l
+r
+l
+i
+l
+u
+e
+d
+i n
+i
+e
+e
+f p
+c
+t
+p i
+l
+a
+u
+a
+l e
+d
+n
+s
+l d
+e
+y o
+i
+d
+h
+w
+s
+n
+n
+p
+M
+t .
+i
+e r
+o
+t
+o
+g h
+u
+F m b
+t
+a
+a
+el
+C
+t
+p
+c
+r
+b
+i
+o
+t
+i f
+p
+s
+l
+o n
+i o t
+l
+y
+@
+f
+e
+l
+t i
+e
+r )
+da e
+(
+2
+w
+d
+p
+b
+E
+n
+U
+0
+o
+x
+o
+t
+2
+l
+R
+a
+w i e
+e
+a
+n
+3 t o
+n
+c
+t
+l
+- a
+i
+l
+u
+0
+e
+e
+l
+w
+t
+i
+t
+6
+r
+b n
+s
+i
+r
+g o
+-
+g
+a
+,
+2
+l
+r n
+s
+f
+e
+o
+0
+t
+i
+t
+a
+u V
+o
+l
+e 0
+l
+p
+w
+c
+e
+r
+i
+1 r .
+nk
+r
+r
+: s
+a
+a
+3 f
+E
+g
+i o a2
+n
+t
+x
+n
+e
+p c G
+f
+)
+g
+a
+a
+.
+r
+i M n
+e
+l
+c
+i s
+t
+T t
+d
+o
+i
+i
+i o
+l
+e
+i
+n
+t
+i
+b
+s
+i
+n
+P
+e
+e
+r s o
+s
+a
+g h
+p
+n
+r
+s
+a
+i
+y
+p
+u
+l l
+e
+i
+s
+t
+r
+a
+d
+t
+e
+a
+b
+q
+f
+b
+l
+r
+y
+u
+o
+li
+i
+n
+m
+a
+re
+g
+l i g
+t
+d
+c
+h
+n
+o
+r
+e
+i
+e
+n
+n
+d
+l
+k
+f
+o
+i g
+i
+c
+w
+n
+u
+a
+g
+it
+r
+l
+h
+a
+w
+r
+t
+e
+f
+i
+a
+i
+o
+t
+t
+i
+t
+t
+c
+n
+e
+in
+u
+.
+r
+g
+la
+p
+s
+t
+r
+e
+o
+a
+d
+v
+n
+i
+d
+s
+w
+i o
+a
+c
+n
+o
+te
+e
+n
+r
+d
+n
+n
+e
+o
+e
+c
+n
+t
+t
+w
+i o
+a
+o
+n
+r k.
+rt
+s
+J
+e
+a
+u
+P
+-
+6.8 Train Wash em F
+o b O r R
+R
+(
+n n
+h o
+6.8.1 A Train Wash must be
+J
+ionco
+a
+rtiporated within the Ormeau Stabling and shall include a Train Wash Building and
+Train Wash Plant. c
+cifi
+e
+p
+6.8.2 The Train Wash mustS be fully automated and capable of servicing both Multiple Units and NGR Fleet Units.
+e
+c
+n
+6.8.3 The Train Wash maust be located and configured within the Ormeau Stabling to:
+m
+r
+o
+(a) so far as is rea rfsonably practicable to enable Train Consists to be washed either directly after coming out or
+e
+entering servPice or during the stabled period without impeding the operational requirements set out in
+-
+Section 3.21 of this performance specification.
+C
+(b) ensure
+u
+lteh at it will not impede the operations of the Ormeau Stabling;
+d
+e
+(c) limit hthe shunting moves for transfer between Stabling Roads and the Train Wash; and
+c
+S
+(d) a2ll ow for clear physical separation between Train Wash Plant and people, including ensuring a clear line of
+3. 1s . ight between the driver and any pedestrian walkway.
+3
+0
+6.8.4 3. The Contractor must design, construct, test and commission all supporting infrastructure and services
+6
+8. required to enable reliable operation of the Train Wash, including:
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 37 -
+--- PAGE 39 ---
+)
+y
+(a) raw water supply and storage; cilit
+a
+(b) detergent and storage and delivery; F
+u
+a
+(c) recycled water sump; e
+m
+r
+(d) approved discharge point connected into a sewer network or onsite facility; O
+(
+n
+(e) stormwater management; o
+ati
+c
+(f) electrical supply and control systems; cifi
+e
+(g) mechanical pumps, pipes and controls; and S p
+e
+(h) water recycling plant/ infrastructure. c
+n
+a
+m
+r
+6.8.5 The Train Wash Plant must: o
+rf
+e
+P
+(a) provide for the exterior washing (front, back and sides to cant level) of th
+-
+e Multiple Units and NGR Fleet
+Units; 1C 1
+1
+2
+e
+(b) achieve a cleanliness of the windscreen and exterior surfaces (2i.ncluulding headlights, destination indicator,
+3 d
+cab side windows, mirrors, bodyside cameras etc.) in accorda2ncee with Good Industry Practice;
+5.
+c
+h
+2S
+(c) be bi-directional and configured for detergent wash;
+5.
+2
+6
+3
+(d) be capable of the following wash modes: 1
+6 8.
+(i) detergent body side wash; o
+m df,
+1
+m
+c p a
+(
+(
+( (
+e
+f
+g h
+)
+)
+) )
+p
+p
+i h
+( (
+e
+n
+i i
+r
+r
+a
+i i
+x
+) i
+c
+o
+o )
+i
+v l
+t
+v
+v
+u
+s
+e
+i
+i
+d
+d
+d
+t
+s
+h
+e
+e
+e n m
+e
+e
+o
+a n
+e
+f a o
+T
+s
+l
+w n
+f
+e
+r
+a o
+r
+u
+c
+a
+a
+s
+r il
+a
+t
+s
+t s
+i
+-
+r
+n
+r
+s
+l
+i
+h a
+c
+t a
+m
+o
+W
+i m g
+f
+a
+e
+o
+s
+h
+a
+i
+o
+r
+d
+t
+t
+s
+o a
+d e
+k
+t
+h
+r r
+e h
+n
+;
+t
+;
+m /
+; r
+i
+s
+f
+o a
+e
+t a
+u
+o
+n
+n
+b
+g
+p
+d
+u
+l
+h
+o
+a t h
+w
+w
+l e i
+e
+a
+n
+r
+c
+s
+t
+s
+e l
+h
+e o r
+t
+i
+h a v
+n
+o
+n e n
+g
+. r
+r
+n i o
+e
+nF
+w
+b t a
+m
+e
+g i
+C
+o c
+i
+r
+ot
+t
+i
+s
+l
+o
+h
+n p
+n
+it y
+@
+f
+v
+r
+i
+)
+d
+s
+a
+o
+e
+e
+(
+2
+d
+y
+E
+u
+c
+n
+0
+o
+x
+r
+s
+t
+2
+t
+eR
+w i
+ee
+a o
+3 t o
+n
+c
+s
+l
+- e
+s
+m
+l
+u
+0
+e
+l s i m
+t
+6
+r
+i
+n
+i g
+d
+o
+-
+g
+a
+2
+a
+r n
+s ;
+u
+o
+0
+t
+t n
+u V i
+o
+a
+c 0 p
+c
+e
+d
+1 .
+l
+k
+r :w s 3
+rE
+p
+i o
+i
+2
+x
+a
+n
+r
+n p G
+o
+) s
+s
+a . M
+v
+n h
+e
+s T
+i
+i i
+d
+n o
+w
+n
+e
+g
+a
+P
+l
+t
+r o
+o
+o
+e
+f g
+g
+r
+r v
+i
+f
+c
+e
+r o
+h
+c
+m
+i
+o
+c
+n
+le
+t
+t
+h
+r o
+b
+e
+l
+o
+v
+f
+d
+o
+e
+y
+r
+h
+s
+i
+t
+c
+h
+id
+l
+e
+e
+e
+w
+b
+s,
+o
+a
+s
+d
+s
+k
+i
+h
+e
+i
+i
+r
+s
+n
+ts
+g
+a
+a
+s
+p
+n
+r
+t
+o
+d
+h
+c
+e
+c
+e
+a
+T
+s
+n
+r
+s
+a
+t
+;
+i
+r
+n
+a i
+C
+ls
+o
+;
+nsist
+(i) include a control panel to enabrt
+s
+l e
+J
+me
+a
+a
+u
+nual, Pa
+-
+u tomatic or pre-programmed wash selections;
+em F
+o b O r R
+(j) be designed and configureRd for:
+(
+n n
+h o
+(i) an optimal wash
+J
+oper
+a
+f
+t
+oirmance operating speed of 2 to 3 km/h when the Train Wash is in operation;
+c
+(ii) a through speed o ciff i8 km/h when a Train Consist is travelling through the Train Wash but the Train
+e
+Wash is not in opperation;
+S
+e
+(k) achieve a peak wasch throughput of 10 Train Consists for 1 hour, including wash cycle times of 4.5 minutes
+n
+for straight througah washing;
+m
+r
+o
+(l) minimise wate
+r
+rf consumption and include wastewater treatment disposal and functionality;
+e
+P
+(m) comply with
+-
+the minimum requirements for noise management at Queensland Rail Limited sites defined in
+1
+MD-15-31C6 and not exceed the following levels:
+e
+(i) 6ul5 dB(A), assessed as a 24 hour average equivalent continuous A-weighted sound pressure level;
+d
+e
+hand
+c
+S
+(i2i) 87 dB(A), assessed as a single event maximum sound pressure level.
+1.
+3.
+6.8.6 3 The Train Wash Plant must be accommodated in a Train Wash Building, which must:
+0
+3.
+(a6) be a suitable permanent structure with a Design Life of the period of years specified in Schedule A36
+8.
+1 (Design Life);
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 38 -
+--- PAGE 40 ---
+)
+y
+(b) include all statutory and operational signage and line marking; cilit
+a
+(c) have internal finishes that are fit for purpose in wet environments; F
+u
+a
+(d) provide access to all components of the wash plant to facilitate maintenance without affecting eadjacent
+m
+operational roads; r
+O
+(
+(e) have provision for a secure store area for the storage of cleaning agents and other consunm ables required;
+o
+ati
+(f) provide vehicle access for maintenance of the Train Wash; c
+cifi
+(g) include appropriate sectioning of the overhead traction wiring with switches to enabele isolation of the Train
+p
+S
+Wash for maintenance/repairs without affecting any other areas of the Ormeau F
+e
+a cility;
+c
+n
+(h) wash for maintenance/repairs without affecting any other areas of the Ormeaua Facility, including the Depot
+m
+or the Ormeau Stabling; r
+o
+rf
+(i) include the provision for Spares storage necessary where there is a highP reisk of a part failure that may cause
+downtime of the Train Wash. The classification of high risk parts shall b
+1
+e- completed with the manufacturer
+1C
+during the design process;
+1
+2
+e
+2. ul
+(j) be consistent with the Mainline signalling plan for the Ormeau3 Stabdling Site to efficiently and safely move
+2 e
+Train Consists through the wash from either direction; 5.
+c
+h
+2S
+(k) be positioned within the track layout so as not to prevent 5o.
+2
+r h
+6
+i3n der the Mainline or stabling operations in the
+event that the wash road itself is unavailable to traffic; 1
+6 8.
+(l) provide safety showers and eyewash stations; o
+m df,
+1
+m
+c p a
+6 6.9 . . 9 1
+( ( m n) )
+F
+i h p m
+T
+u
+n a r
+n
+h
+c a o
+i
+d
+v
+e
+l i c u n
+x
+e
+e
+e
+C
+d t
+r
+a t s
+t
+e
+e o
+r
+a
+i s a n
+n
+k
+s ;
+d
+i n
+t
+e
+e r a
+r
+e
+a
+c n r
+a
+q e u
+c
+d
+a
+l
+u
+l
+t
+c r
+o
+i
+r
+i o t
+n
+r
+e
+r
+y r e
+l
+d
+m
+e
+d a
+d
+i
+v
+n u
+u
+w
+a
+t g
+s
+o a
+n
+t u
+s m s
+t
+e
+y h
+s
+n
+a
+n
+s i
+e
+s
+t n t e
+r
+e
+u
+g
+f
+v
+d m
+r i
+i
+e
+s
+c
+a
+x
+c
+e
+R
+t
+c h
+h
+s r
+e
+c a
+t s
+e
+a
+e
+a
+d
+J
+d
+t d
+s
+o
+t
+i
+,
+o u
+h
+e
+s
+t
+u n
+a
+l
+h
+i
+.
+F
+p u
+t
+r
+n
+e
+o e
+o r
+o F
+g
+b
+e
+a
+e
+O
+n
+C e .
+q c
+r
+q o
+t
+i
+n
+s
+l
+r
+t
+n
+i
+u
+t
+m
+h
+s
+y
+@
+f
+u
+ie
+)
+d
+e
+u
+P e
+e
+(
+2
+n d
+E
+r n
+0
+-
+i
+o
+a
+D
+c e
+x
+t
+2 R
+w i
+e
+p
+a
+u
+3
+y
+o a
+n
+c
+l
+-
+s
+l
+u
+0
+e
+l t
+I
+S
+i
+e t
+6
+r
+m n e
+d i g o
+-
+g
+p
+t
+2
+r ne
+s
+a
+o
+o
+0
+a
+t
+u V n
+o
+b
+f
+0 p r
+e
+c
+e t 1 .
+l
+a
+k
+O
+r i
+i
+: s f
+n
+3 t
+E
+i i
+n
+oi 2
+r
+c
+g
+x
+o n
+m
+p a G )
+,
+n a .
+t
+M t
+e
+n
+h
+i os bT
+a
+a
+i o n e
+u
+s
+n t P f w
+b
+F
+u r o
+e
+e
+a
+n g
+e
+e
+c
+c r
+n
+i
+n t
+l
+i
+i
+o
+t
+s
+p
+y
+n
+u
+l a a
+C
+p
+n li
+p
+o
+t t y
+m
+l i
+a
+e
+t
+p
+n o
+d
+l
+d
+,
+e
+i d
+i
+t
+p
+n
+i
+e
+o
+e
+s
+n
+n
+o
+ta
+t
+,
+p i f
+l
+a
+l
+l y
+e
+e
+l l
+d
+a d
+e
+n
+a
+u
+q
+d r
+n
+u
+i
+d
+n r
+ip
+e g
+c
+m
+c
+o
+t o h
+e
+m
+r e
+n
+d
+m
+t
+w t
+n
+r
+is
+a a
+e
+s
+i s
+c
+n
+i
+h
+o
+e
+s i
+n
+s
+n a
+s
+e
+g n
+a
+d
+d
+r y
+a t
+t o
+em F
+the Ormeau Stabling Site. o b O r R
+R
+(
+n n
+6.9.2 The Contractor must comhplyo with QR type approval process for any equipment that is not defined in a QR
+standard. J
+o ati
+c
+cifi
+e
+6.9.3 Contractor must be abple to demonstrate in the purchase or hire of new plant compliance with Chapter 5, Part
+S
+5.1, General duties f
+e
+o r plant and structures Work Health and Safety Regulation 2011 (Qld).
+c
+n
+a
+6.9.4 It is expected thamt at least the following fixed equipment will be required to be installed or located for the
+r
+Ormeau Stablinog:
+rf
+e
+P
+(a) Rail Traffic
+-
+C rew Building and facilities;
+1
+C
+(b) Train Wash equipment;
+e
+ul
+(c) groundd to vehicle access devices (e.g. access steps);
+e
+h
+c
+(d) puSmping equipment (e.g., washing, pollution control);
+2
+(e) 1s.ecurity equipment (e.g. CCTV system, security access system);
+3.
+3
+(f) 0stabling public address/tannoy system;
+3.
+6
+8
+(.g) safety systems (e.g. fire detection, fire suppression, visual and audible emergency warning systems,
+1
+emergency exits, eye wash and body shower stations, etc);
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 39 -
+--- PAGE 41 ---
+)
+y
+(h) security, communications, fire protection, mechanical, electrical, lighting, hydraulic, water, sewer eq
+cil
+u itipment
+and any other associated equipment supporting the operation of the site and buildings; a
+F
+u
+(i) drinking water fountains; a
+e
+m
+(j) gates and fences; r
+O
+(
+(k) overhead line assembly and associated supporting componentry; n
+o
+ati
+(l) track assembly and components; and c
+cifi
+(m) signalling equipment and associated supporting componentry. e
+p
+S
+e
+6.9.5 It is expected that at least the following unfixed equipment will be required to ben c installed at the Ormeau
+a
+Stabling for the purposes of performing the O&M Services: m
+r
+o
+(n) general office furniture (e.g. desks, chairs, cupboards, etc); rf
+e
+P
+(o) general office IT equipment (e.g. PCs, laptops, printers, fax machines,
+1
+s - canners, photocopiers, etc);
+1C
+(p) cleaning equipment (e.g. vehicle vacuuming nozzles/hoses, floo1r
+2
+swee epers, vacuum cleaners, high pressure
+2. ul
+cleaners, etc); 3 d
+2 e
+(q) lubricant dispensing equipment (e.g. oil pumps, grease pum2 5 p . s,S ce h tc);
+(r) lockable storage lockers for staff personal belongings e
+1
+.6g 5 . .
+2
+c
+8
+l
+.
+o6 3 th ing lockers in the change room, tool lockers,
+etc);
+o
+m df,
+1
+m
+(s) Hazardous Materials storage and handling equipmecnt; p a
+( ( t u ) ) d p e re c c a a n s ti t n e g l e s m ys e t n e t m s. ; and
+o h
+n. r
+o
+F
+b
+a
+e
+C
+c
+r
+o
+t
+i
+s
+l
+n
+it y
+@
+fi
+)
+d e
+(
+2
+d
+E
+n
+0
+o
+x
+t
+2
+R
+w i
+e
+a
+3
+o
+n
+c
+l
+-
+l
+u
+0
+e
+li
+t
+6
+r
+n
+i g o
+-
+g
+2
+r n
+s
+o
+0
+t
+u V
+o
+0 p
+c
+e 1 .
+k
+r : s 3
+E
+i o 2
+x
+n p G ) a . M n s T i o n P r o g r
+rt
+s
+J
+e
+a
+u
+P
+-
+em F
+o b O r R
+R
+(
+n n
+h o
+J
+o ati
+c
+cifi
+e
+p
+S
+e
+c
+n
+a
+m
+r
+o
+rf
+e
+P
+-
+1
+C
+e
+ul
+d
+e
+h
+c
+S
+2
+1.
+3.
+3
+0
+3.
+6
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 40 -
+--- PAGE 42 ---
+)
+y
+cilit
+a
+Appendix 1 – Ormeau Stabling SEMS List F
+u
+a
+e
+m
+SEMS No. Title rVersion No.
+O
+(
+Civil-SR-12 Collision Protection of Supporting Elements Adjacent to Railways n C.1
+o
+MD-10-107 General Operational Safety Manual c
+ati
+5.2
+MD-10-109 Observance of Signals Manual e
+cifi
+5.2
+p
+S
+MD-10-115 Level Crossing Safety
+e
+4.1
+c
+n
+MD-10-142 Signalling – Train Operations Spatial Directions a 3.0
+m
+MD-10-148 Telecommunications - Managing the Effects of Radio Frequency o r 6.0
+Electromagnetic Energy in QR e
+rf
+P
+MD-10-155 Telecommunications – Access to Antenna support structures
+-
+5.0
+1
+1C
+MD-10-156 Telecommunications – Design, Safety features and life
+1
+2cyc
+e
+l e of antenna support 5.1
+structures 2. ul
+3 d
+MD-10-161 Civil - Fencing and Signage of the Right of Way and2 Eleectrification Infrastructure 5.0
+5.
+c
+h
+MD-10-169 Signalling – Change Management of Signalling an2d OSperational Systems 4.0
+Infrastructure 5.
+2
+6 3
+M
+M
+D
+D
+-
+-
+1
+1
+0
+0
+-
+-
+1
+1
+9
+9
+1
+2
+E
+E
+l
+l
+e
+e
+c
+c
+t
+t
+r
+r
+i
+i
+c
+c a
+T
+l
+r
+-
+a
+I
+c
+n
+t
+t
+io
+e
+n
+rf a
+S
+c
+y
+in
+s
+g
+te
+o
+m
+f
+s
+E
+(
+a
+E
+r
+T
+th
+S
+in
+S
+g
+)
+Systems
+c
+o:
+m
+E l
+1
+p
+e
+6
+dc
+f,
+t
+1
+r
+8
+ic
+.
+ity
+a
+D m istribution MEN & the
+4
+3
+.
+.
+1
+1
+M M M
+M
+M
+M M
+D D D
+D
+D
+D D
+- - -
+-
+-
+- -
+1 1 1
+1
+1
+1 1
+0 0 0
+0
+0
+0 1
+- - -
+-
+-
+- -
+1 2 7
+8
+9
+9 1
+9 1 6
+6
+5
+6 1
+4 6
+9 2
+H I T S
+T
+S
+S T
+n e
+e
+e
+i
+t
+i
+V t g
+g
+a
+e l
+l
+s
+e
+e
+n
+n
+n
+r E
+t
+c
+c
+i
+f a
+a
+d
+n
+a l o
+o
+e l
+l
+a
+g
+l
+l
+c m i
+m
+i
+c
+r
+n
+n
+e
+d
+o
+t g
+g
+m
+m
+r
+f
+S i
+–
+c P
+L T
+s
+u
+t a
+a
+S
+T
+n
+r
+r
+V i
+a
+n
+y
+i
+r n
+i
+c
+g
+o a
+c
+d
+o
+c
+a
+n
+i
+t
+c a
+u
+c i
+i
+t
+p
+a
+o
+t r
+i
+t
+e i
+o
+d l o
+n
+l
+e
+D
+l
+n
+i
+s R n
+n
+s
+E r
+s
+e
+a
+g
+S
+a
+-
+w
+c y
+r
+P
+o
+M
+ot i
+s
+h n
+o
+h
+r t
+n
+d
+o
+i
+s
+g
+e
+n . r
+b
+i
+i
+s o
+m n
+g
+t
+F b
+i
+i o
+l
+g
+a
+e
+C
+e
+a c
+rn
+o
+t
+i
+s
+n l
+n
+i
+V
+i
+t
+n
+y
+@
+f
+d
+i
+)
+d
+o
+g
+e
+(
+2
+d
+B
+i
+E
+n
+0
+c
+o
+P x
+t
+2 Ro
+w
+e
+i
+e
+a
+3
+r
+o
+n
+c
+n
+l
+-
+i
+l
+u
+0
+e
+R
+l
+n
+d i
+t
+6
+r
+n
+i g o
+c -
+a
+g i
+2
+r
+n
+n
+s
+o
+i
+0 d
+p
+t
+u V
+g
+o
+0
+i
+p
+l c
+e
+o
+e
+1 .
+k
+r
+S
+: s
+s
+3
+EC
+i o
+p
+2
+x
+n p
+e
+o
+G ) a . M
+c
+m
+n
+i
+s T
+f
+m
+i o
+ic
+n
+u
+a
+P
+n
+t
+r o
+io
+i
+g
+c
+r
+n
+a tions Systems
+6 3 4
+5
+4
+3 3
+. . .
+.
+.
+. .
+1 0 0
+0
+0
+0 2
+MD-11-1213 Traction Earthing anrdt
+s
+J
+Boe
+a
+n
+u
+d ing SPp
+-
+ecification 2.0
+em F
+MD-11-1338 Risk ManagemenR ot b O r R 7.4
+(
+n n
+MD-11-219 Signalling Mainhtenaonce – Vital Signalling Relays 5.0
+J
+o ati
+MD-11-4461 Testing of Trac
+c
+t
+if
+ii con Bonds 4.0
+e
+MD-11-5237 Risk Assessmpent – Live (Low Voltage) Electrical Work 2.1
+S
+MD-11-5239 Checklist –e Pre-live (Low Voltage) Electrical Work 1.4
+c
+n
+a
+MD-11-780 GSS - Tmest/Design Report Log 2.1
+r
+o
+MD-11-872 GSS
+r
+f- Circuit / Data Modification Sheet 2.1
+e
+P
+MD-12-189 Qu
+-
+eensland Network Rules and Procedures (QNRP) 8.0
+1
+MD-12-252 CSignal Sighting Committee 4.0
+e
+ul
+MD-12-349 d Signal Sighting Checklist 2.0
+e
+h
+MD-12-708 c Stabling Yards and Facilities in Network SEQ – Design Guide 5.0
+S
+MD-12-954 1. 2 CoreGRC Derogation/Departure Paper – For External Users 8.0
+3.
+MD-13-41
+3
+5 Telecommunications - Power Protection Systems 1.0
+0
+MD-13-34 . 16 Telecommunications Equipment Rooms 7.0
+6
+8.
+MD-113-417 Telecommunications - Rack Cabinets 1.1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 41 -
+
+[TABLE 1 on page 42]
+SEMS No. | Title |  |  | m rVersion No. O
+Civil-SR-12 | Collision Protection of Supporting Elements Adjacent to Railways n o i |  |  | ( C.1
+MD-10-107 | at General Operational Safety Manual c fi |  |  | 5.2
+MD-10-109 | ci Observance of Signals Manual e p |  |  | 5.2
+MD-10-115 | S Level Crossing Safety e c |  |  | 4.1
+MD-10-142 | n Signalling – Train Operations Spatial Directions a m |  |  | 3.0
+MD-10-148 |  | Telecommunications - Managing the Effects of Radio Frequency o r |  | 6.0
+ |  | rf Electromagnetic Energy in QR e |  | 
+MD-10-155 | P Telecommunications – Access to Antenna support structures - 1 | P Telecommunications – Access to Antenna support structures - |  | 5.0
+MD-10-156 |  | 1C Telecommunications – Design, Safety features and life 2cycl e of antenna support |  | 5.1
+ |  | 1 e structures 2. ul |  | 
+MD-10-161 | 3 d Civil - Fencing and Signage of the Right of Way and2 Eleectrification Infrastructure . h | 3 d Civil - Fencing and Signage of the Right of Way and2 Eleectrification Infrastructure |  | 5.0
+MD-10-169 |  | 5 c Signalling – Change Management of Signalling an2d OSperational Systems 2 |  | 4.0
+ |  | Infrastructure 5. 6 3 |  | 
+MD-10-191 | 6 8. Electric Traction Systems (ETSS) 1 1 | 6 8. Electric Traction Systems (ETSS) 1 1 |  | 4.1
+MD-10-192 |  | m f, Electrical - Interfacing of Earthing Systemso: Eledc tricity D m istribution MEN & the |  | 3.1
+ |  | c p a HV Electric Traction System p. n ). g r |  | 
+MD-10-194 | Interface Standards ti al g r o u r si o M T P r o | Interface Standards al r o u i o T r o |  | 6.1
+MD-10-216 | Telecomms Voice Recording d e n n e r V e 2 G si o n i n |  |  | 3.0
+MD-10-76 | Signalling Principles C o nf d o w uti o 0 1: 3 p a n |  |  | 4.0
+MD-10-86 | Telecommunications - Mobile V @ oic ee c R a2 0 d io EC x ommunications Systems s x - k |  |  | 5.0
+MD-10-95 | Standard – Signalling Posit ioe rn t in g ( E P r i0n 6 c ip ol c es b y ) 3 - s t |  |  | 4.0
+MD-10-96 | o cilit 2 g Signalling Layout Drawin g. rs 0 n n 2 lli a |  |  | 3.0
+MD-11-1192 | Testing of Traction Earoth h ingF and BRo o nding Specification Ju - |  |  | 3.2
+MD-11-1213 | s a Traction Earthing anrdt Boe nding SPp ecification em F b |  |  | 2.0
+MD-11-1338 | Risk ManagemenR ot O r R ( |  |  | 7.4
+MD-11-219 | n n Signalling Mainhtenaonce – Vital Signalling Relays o ati |  |  | 5.0
+MD-11-4461 | J Testing of Trac t ii con Bonds if c |  |  | 4.0
+MD-11-5237 | e Risk Assessmpent – Live (Low Voltage) Electrical Work S |  |  | 2.1
+MD-11-5239 | Checklist –e Pre-live (Low Voltage) Electrical Work c n |  |  | 1.4
+MD-11-780 | a GSS - Tmest/Design Report Log r |  |  | 2.1
+MD-11-872 | o GSS f- Circuit / Data Modification Sheet r e |  |  | 2.1
+MD-12-189 | P Qu eensland Network Rules and Procedures (QNRP) - 1 |  |  | 8.0
+MD-12-252 | CSignal Sighting Committee e |  |  | 4.0
+u MD-12-349 d e | l Signal Sighting Checklist |  |  | 2.0
+h MD-12-708 c S | Stabling Yards and Facilities in Network SEQ – Design Guide |  |  | 5.0
+MD-12-954 1. 2 . | CoreGRC Derogation/Departure Paper – For External Users |  |  | 8.0
+3 MD-13-41 5 3 0 | Telecommunications - Power Protection Systems |  |  | 1.0
+MD-13-34 . 16 6 . | Telecommunications Equipment Rooms |  |  | 7.0
+8 MD-113-417 | Telecommunications - Rack Cabinets |  |  | 1.1
+--- PAGE 43 ---
+)
+y
+SEMS No. Title Versio
+ci
+n lit No.
+MD-13-418 Telecommunications Telemetry Bearers - UTC
+F
+3a.1
+u
+MD-13-419 Telecommunications Telemetry Bearers - Power Supervisory a3.1
+e
+m
+MD-13-420 Telecommunications Structures for Mounting Radio Communications Antennas r 3.0
+O
+(
+MD-13-421 Telecommunications ELV DC Power Systems Design n 6.0
+o
+MD-13-422 Telecommunications Cabling - Generic Systems for Voice and Data Distribut
+c
+iao
+ti
+n 4.0
+MD-13-423 Telecommunications - Optical Fibre Cabling Design and Installation e
+cifi
+4.1
+p
+S
+MD-13-424 Telecommunications – LAN / WAN design
+e
+2.1
+c
+MD-13-425 Lan/WAN infrastructure selection a n 2.1
+m
+MD-13-427 Telecommunications Network naming convention o r 4.0
+rf
+e
+MD-13-550 Signalling and Operational systems Asset Governance and AssPurance Principle 2.0
+(SAGA)
+1
+-
+MD-13-561 Risk Assessment Criteria
+1
+2 1
+e
+C 6.6
+MD-13-654 Signalling - Management of Externally Delivered Pro
+3
+j2e . ctsd u l 5.0
+2 e
+MD-14-36 General Appendix - Queensland Network Rules a
+2
+n5d . P
+S
+cr h ocedures (QNRP) 20.0
+MD-14-4 Telecommunications – Operational Bearers and5 .
+2
+Cr6it3i cal Sites 2.1
+1
+6 8.
+MD-14-40 Signalling – Project Delivery Standard
+o
+m df,
+1
+m
+3.0
+MD-14-499 Signalling Sighting Committee Recommencdatipon a 3.0
+M M M
+M
+M
+M M
+M
+D D D
+D
+D
+D D
+D
+- - -
+-
+-
+- -
+-
+1 1 1
+1
+1
+1 1
+1
+5 5 5
+5
+5
+5 5
+5
+- - -
+-
+-
+- -
+-
+1 1 1
+2
+3
+3 3
+3
+0 0 9
+1
+1 1
+1
+4 5 1
+7
+5 6
+7
+R S T
+G
+V
+N N
+N
+e i
+e
+a
+o o
+o
+S
+g l
+g
+i
+i i
+i
+e n
+S
+s s
+s
+l
+e
+c e
+e e
+e
+a
+t
+P
+o q l
+a
+l
+M a
+a
+i m
+a
+u
+t
+n
+n
+n
+i
+r
+o
+a
+i g m p
+d
+d
+t
+n
+n
+m
+2
+a u
+V
+V
+a
+M
+8
+n n e
+g i
+i
+b
+b
+d i n
+-
+e
+a
+c
+r
+r
+t
+n
+m
+P
+a
+a
+a
+O t
+a
+t
+t
+t
+n
+y
+e
+p i
+i
+i
+o
+g
+o
+o
+p
+e
+n
+e n
+e
+n
+n
+e
+u
+t
+r s
+m
+a
+m
+r
+( A
+Mt
+a
+s
+E
+t –
+e
+i
+s
+p
+a
+J
+o
+a
+n
+n
+os
+t
+p C n
+n
+h
+i
+v
+e
+t
+e
+c
+r
+n
+a
+a
+a
+o
+i
+o
+. s r
+u
+r
+g
+C
+l
+o
+m
+o
+v
+sF b
+S
+e
+n
+a
+m
+o
+a
+e
+p C
+m
+c
+y
+m
+r
+l
+n
+o
+t
+e
+i e
+s
+l
+s n
+i
+t
+t
+e
+t
+e y
+@
+n
+r
+f t e i
+)
+d
+o
+e
+n
+n
+P
+t
+e
+(
+2
+n d
+l
+m
+E
+t
+t
+n
+0 (
+-
+o c
+a
+x
+U
+t
+2 E
+(
+R
+w i
+e
+s a e
+3
+E
+l o
+n
+)
+c
+n
+n
+l
+- l
+u
+0
+e
+n
+C
+l
+M
+v i S
+i
+t
+6
+r
+n
+t
+i g
+v
+o
+-
+i g
+o
+t
+2
+r
+r
+-
+a n
+s
+i
+o
+a
+0
+o
+r
+m
+t
+u V n
+‘
+o
+o
+n
+0
+A
+n
+p
+c
+e a p 1
+n
+.
+d
+k
+r
+m
+’
+: s g e 3
+m
+E
+a
+i
+S
+o 2 e
+e
+x
+t
+r
+n e p
+e
+G
+t
+d
+)
+n
+m
+y
+a . n M
+n
+n
+t
+l
+)
+e
+e
+c s T
+t )
+i o n e
+V
+n
+P
+t M P
+a
+r
+r
+o
+o
+l
+a
+v
+g
+c
+n
+e
+r
+e
+a
+d
+g
+u
+e
+r
+m
+e
+ent 3 7 7
+1
+1
+3 3
+3
+. . .
+.
+.
+. .
+.
+0 1 1
+0
+1
+0 0
+0
+em F
+MD-15-49 GSS Part 01 - In
+R
+troo b duOc r tion R 8.0
+(
+n n
+MD-15-50 GSS Part 02 –h Traoction Bonding and Immunisation 4.0
+J
+o ati
+MD-15-51 GSS Part 03 0
+c i
+S
+fi
+cignals and Level Crossings 7.0
+MD-15-52 GSS Part 03Ap e – LED Signals 3.0
+S
+MD-15-53 GSS Part 0e 4 Points 4.0
+c
+n
+MD-15-549 Telecomm amunications Maintenance 2.1
+r
+o
+MD-15-55 GSS
+r
+fPart 05 – Track Circuits Axle Counters and DEDs 5.0
+e
+P
+MD-15-551 Te
+-
+lecommunications DC Power Systems Commissioning and Maintenance 2.0
+1
+MD-15-557 CTelecommunications Rectifier Alarm Configuration and Wiring 2.0
+e
+MD-15-56
+d
+ul
+GSS Part 5A – Bonding and Track Clearance 6.0
+e
+h
+MD-15-58 c GSS Part 06 – Cables and Cable Routes 5.0
+S
+MD-15-59
+1.
+2 GSS Part 07 – Equipment Housing 5.1
+3.
+MD-15-60
+3
+GSS Part 08 Power Supply Requirements 6.0
+0
+MD-15-36.1 GSS Part 08A – Surge Reduction Filters 3.0
+6
+8.
+MD-115-62 GSS Part 08B Uninterruptable Power Supplies 3.0
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 42 -
+
+[TABLE 1 on page 43]
+SEMS No. | Title |  |  | ) y Versio n lit No. i
+MD-13-418 | Telecommunications Telemetry Bearers - UTC |  |  | c 3a.1 F
+MD-13-419 | Telecommunications Telemetry Bearers - Power Supervisory |  |  | u a3.1 e
+MD-13-420 | Telecommunications Structures for Mounting Radio Communications Antennas |  |  | m r 3.0 O
+MD-13-421 | Telecommunications ELV DC Power Systems Design n o i |  |  | ( 6.0
+MD-13-422 | Telecommunications Cabling - Generic Systems for Voice and Data Distribut iao t n c fi |  |  | 4.0
+MD-13-423 | ci Telecommunications - Optical Fibre Cabling Design and Installation e p |  |  | 4.1
+MD-13-424 | S Telecommunications – LAN / WAN design e c |  |  | 2.1
+MD-13-425 | Lan/WAN infrastructure selection a n m |  |  | 2.1
+MD-13-427 | Telecommunications Network naming convention o r rf |  |  | 4.0
+MD-13-550 |  | e Signalling and Operational systems Asset Governance and AssPurance Principle |  | 2.0
+ |  | (SAGA) - 1 |  | 
+MD-13-561 | Risk Assessment Criteria 2 1 C 1 e | Risk Assessment Criteria 2 1 C |  | 6.6
+MD-13-654 | Signalling - Management of Externally Delivered Pro j2e . ctsd u l 3 2 e |  |  | 5.0
+MD-14-36 | General Appendix - Queensland Network Rules a n5d . P cr h ocedures (QNRP) 2 S 2 |  |  | 20.0
+MD-14-4 | Telecommunications – Operational Bearers and5 .Cr6it3i cal Sites 6 . |  |  | 2.1
+MD-14-40 | 1 8 Signalling – Project Delivery Standard 1 m f, |  |  | 3.0
+MD-14-499 | o d m Signalling Sighting Committee Recommencdatipon a p. ). r g |  |  | 3.0
+MD-15-104 | Rail equipment type approval ti al g r o u r si o n M T P r o |  |  | 3.0
+MD-15-105 | Signalling and Operational Syst d eem n s n eC r om V e pe 2 t e G nc si oe n Management i |  |  | 7.1
+MD-15-191 | Telecommunications – Comp oent f e n oc w e M oa n n a1:g 3 e ma n ent C d u ti 0 p |  |  | 7.1
+MD-15-217 | GSS Part 28 - Pneumatic Con t @ rol Ue c nit -0 ‘ A ’ ES x tyle Valve 2 s x - k |  |  | 1.0
+MD-15-3 | rt E 6 c Vegetation Management e ( 0 o b y ) 3 - st |  |  | 1.1
+MD-15-315 | o ilit 2 g Noise Management (Env i rro n m en t0a l) Sn tandard n . c 2 li l |  |  | 3.0
+MD-15-316 | Noise and Vibration A s os h es sFm a ent ( ER o nvironment) J u - |  |  | 3.0
+MD-15-317 | s a Noise and Vibration rMt anea gemenP t (Environment) Procedure em F |  |  | 3.0
+MD-15-49 | GSS Part 01 - In troo b duOc r tion R R ( |  |  | 8.0
+MD-15-50 | n n GSS Part 02 –h Traoction Bonding and Immunisation o ti |  |  | 4.0
+MD-15-51 | J a GSS Part 03 0 S cignals and Level Crossings fi c i |  |  | 7.0
+MD-15-52 | GSS Part 03Ap e – LED Signals S |  |  | 3.0
+MD-15-53 | GSS Part 0e 4 Points c n |  |  | 4.0
+MD-15-549 | Telecomm amunications Maintenance r |  |  | 2.1
+MD-15-55 | o GSS fPart 05 – Track Circuits Axle Counters and DEDs r e |  |  | 5.0
+MD-15-551 | P Te lecommunications DC Power Systems Commissioning and Maintenance - |  |  | 2.0
+MD-15-557 | 1 CTelecommunications Rectifier Alarm Configuration and Wiring e |  |  | 2.0
+MD-15-56 u d e | l GSS Part 5A – Bonding and Track Clearance |  |  | 6.0
+h MD-15-58 c S | GSS Part 06 – Cables and Cable Routes |  |  | 5.0
+MD-15-59 2 1. | GSS Part 07 – Equipment Housing |  |  | 5.1
+3. MD-15-60 3 | GSS Part 08 Power Supply Requirements |  |  | 6.0
+0 MD-15-36.1 6 . | GSS Part 08A – Surge Reduction Filters |  |  | 3.0
+8 MD-115-62 | GSS Part 08B Uninterruptable Power Supplies |  |  | 3.0
+--- PAGE 44 ---
+)
+y
+SEMS No. Title Versio
+ci
+n lit No.
+MD-15-64 GSS Part 08D – Power Conditioners
+F
+1a.0
+u
+MD-15-65 GSS Part 08E - Alternators a3.0
+e
+m
+MD-15-66 GSS Part 08F – Single Phase Transformers
+O
+r 1.1
+(
+MD-15-67 GSS Part 08G – DC Power Supplies n 2.0
+o
+MD-15-68 GSS Part 08H – Points Power Supply
+c
+ati
+3.0
+MD-15-69 GSS Part 10 - Telemetry e
+cifi
+7.0
+p
+S
+MD-15-70 GSS Part 11 – Construction Equipment and Materials
+e
+3.0
+c
+MD-15-71 GSS Part 12 – Wiring and Earthing a n 6.0
+m
+MD-15-72 GSS Part 13 – Test and Commissioning Planning o r 4.1
+rf
+e
+MD-15-73 GSS Part 13A – Test and Inspection P 3.1
+-
+MD-15-75 GSS Part 14 – Design and Drawings 1C 1 6.1
+1
+2
+e
+MD-15-76 GSS Part 14A – Drawing Practice 2. ul 8.0
+3 d
+MD-15-77 GSS Part 15 – ATP Interface 5. 2
+c
+h e 3.0
+2S
+MD-15-78 GSS Part 16 – Type Approval
+5.
+2
+6
+3
+3.0
+MD-15-79 GSS Part 17 – Solid State Interlockings 1
+6 8.
+3.0
+MD-15-80 GSS Part 18 – Processor Based Signallingo m E q udfi , p
+1
+ment m 4.0
+c p a
+M M M M
+M
+M
+M
+D D D D
+D
+D
+D
+- - - -
+-
+-
+-
+1 1 1 1
+1
+1
+1
+5 5 5 5
+5
+5
+5
+- - - -
+-
+-
+-
+8 8 8 8
+8
+8
+8
+1 2 4 5
+6
+7
+8
+G G G G
+G
+G
+G
+S S S S
+S
+S
+S
+S S S S
+S
+S
+S
+P P P P
+P
+P
+P
+a a a a
+a
+a
+a
+r r r r
+r
+r
+r
+t t t t
+t
+t
+t
+1 2 2 2
+2
+2
+2
+9 0 2 3
+4
+5
+6
+– - – –
+-
+-
+-
+T
+S
+C
+A
+S S S r
+i
+i
+o
+p
+g
+r
+i i a g g
+m
+a
+n
+C
+i n n n r
+a
+p
+o
+a a i e n
+l
+r
+l l
+l
+m
+s
+e
+l l
+i
+g i i
+n
+n n
+s
+o p
+a
+g
+o
+h
+g g
+s
+r
+n
+n
+f
+e
+e
+E
+.
+d P P
+r
+S
+s
+od
+q
+F
+b
+r r
+s
+T t
+a
+e u
+i i C a
+A
+n n
+o c
+r
+e o
+it
+i
+f
+s
+i
+l
+c c
+r
+p
+n
+i
+f s
+rt
+s
+y
+@ fi i
+m
+t ip p
+)
+d
+S
+f
+e
+(
+2
+E l l d
+e
+o
+E
+y
+e e n
+0
+o
+x
+q t
+2
+n
+r
+s
+R
+s s w i e a
+3
+u
+t
+t
+o
+n c
+P
+l
+- e
+– –
+l
+u
+0
+e i
+l
+N
+i
+p
+o
+t
+6
+r
+n
+m
+i g o
+-
+g
+B R
+i
+m
+u
+2 r n
+n
+s
+o
+s
+0 r
+m
+t
+e u V
+o
+t
+e i 0 p
+s
+s
+c
+e
+f
+g 1
+b
+n .
+o
+k
+r b : i s 3 t
+e
+o E
+r
+i a o 2 xn
+r
+n
+P
+n p G
+i
+)
+n
+a a .
+o
+e M n
+g
+l
+i
+s T
+n
+S i o
+t
+n u
+s
+P b r o u g r r ban Area 3 3 9 4
+7
+2
+2
+. . . .
+.
+.
+.
+0 0 0 0
+0
+0
+0
+MD-16-106 Telecommunications
+rt
+se
+J
+qu
+e
+ai
+u
+p ment
+P
+r o- om and sites 2.0
+em F
+MD-16-16 Telecommunicatio
+o
+nbs
+O
+HrandoveRr Checklist 2.0
+R
+(
+MD-16-163 GSS – Data Apnp rovna l Form 2.1
+h o
+MD-16-164 GSS – TechnJ
+o
+ica
+c
+la Q
+ti
+uery Form 2.1
+MD-16-191 Hazardous
+checi
+m
+fi
+icals and explosives management 3.1
+e
+p
+S
+MD-16-375 Telecomm
+e
+u nications Cable Support Request 2.0
+c
+MD-16-376 Telecom
+a
+mnunications Cable Location 1.2
+m
+MD-16-529 Telecoormmunications – Enhanced Train Radio System Terminals 2.0
+rf
+e
+MD-16-548 SigPnalling Testing – Detection Setting for M23, D84M, HW Machines and 2.0
+H
+1
+M- X&HML Detectors
+MD-16-666 CTelecommunications Change Management 3
+e
+MD-16-667
+ul
+Telecommunications Change Request 3.0
+d
+e
+h
+MD-16-668 c Telecommunications Decommissioning Checklist 3.0
+S
+MD-16-690
+1.
+2 Electrical Low Voltage Installations Overview and Introduction 1.2
+3.
+MD-16-69
+3
+1 Electrical Low Voltage Installations - Part 1 - Legislative Compliance 2.1
+0
+MD-16-36.92 Electrical Low Voltage Infrastructure Systems - Part 2 - Change Management 1.0
+6
+8.
+MD-116-693 Electrical Low Voltage Installations - Part 3 -Design, Implementation and 1.1
+verification
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 43 -
+
+[TABLE 1 on page 44]
+SEMS No. | Title |  |  | ) y Versio n lit No. i
+MD-15-64 | GSS Part 08D – Power Conditioners |  |  | c 1a.0 F
+MD-15-65 | GSS Part 08E - Alternators |  |  | u a3.0 e
+MD-15-66 | GSS Part 08F – Single Phase Transformers |  |  | m r 1.1 O
+MD-15-67 | GSS Part 08G – DC Power Supplies n o i |  |  | ( 2.0
+MD-15-68 | at GSS Part 08H – Points Power Supply c fi |  |  | 3.0
+MD-15-69 | ci GSS Part 10 - Telemetry e p |  |  | 7.0
+MD-15-70 | S GSS Part 11 – Construction Equipment and Materials e c |  |  | 3.0
+MD-15-71 | GSS Part 12 – Wiring and Earthing a n m |  |  | 6.0
+MD-15-72 | GSS Part 13 – Test and Commissioning Planning o r rf |  |  | 4.1
+MD-15-73 | e GSS Part 13A – Test and Inspection P - |  |  | 3.1
+MD-15-75 | GSS Part 14 – Design and Drawings 1C 1 2 |  |  | 6.1
+MD-15-76 | 1 e GSS Part 14A – Drawing Practice 2. ul 3 d |  |  | 8.0
+MD-15-77 | GSS Part 15 – ATP Interface 5. 2 h e c |  |  | 3.0
+MD-15-78 | 2S GSS Part 16 – Type Approval 2 5. 3 6 |  |  | 3.0
+MD-15-79 | 6 8. GSS Part 17 – Solid State Interlockings 1 1 |  |  | 3.0
+MD-15-80 | GSS Part 18 – Processor Based Signallingo m Equdfi , pment m c p a . . |  |  | 4.0
+MD-15-81 | GSS Part 19 – Spares and Test Eq a u l ipm o ue p nt i o n ) T r o g r |  |  | 3.0
+MD-15-82 | GSS Part 20 - Training of Staff e nti e r g r V e r s G M o n P |  |  | 3.0
+MD-15-84 | GSS Part 22 – Signalling Prin c nfiip d le sw n – Bn ris b 3a 2 n en sS i uburban Area o o i o 1 : a |  |  | 9.0
+MD-15-85 | C d –ut 0 p GSS Part 23 – Signalling Pri nc@ip l es e c R 2 0 e gio E xn al |  |  | 4.0
+MD-15-86 | GSS Part 24 - Signalling Eq u it sp m eE x nt N6 - um cbk ering e r ( 0 o - |  |  | 7.0
+MD-15-87 | GSS Part 25 - Compresse od b A i rt y ) Sy 2s 3 te mg ss t for Points . r i li 0 n |  |  | 2.0
+MD-15-88 | n c 2 oPlli GSS Part 26 - Air Com phr es sao rs f or oints o F R |  |  | 2.0
+MD-16-106 | J u Telecommunications se qu ai pment r o- om and sites rt e P |  |  | 2.0
+MD-16-16 | em F Telecommunicatio nbs HrandoveRr Checklist o O |  |  | 2.0
+MD-16-163 | R ( GSS – Data Apnp rovna l Form h o |  |  | 2.1
+MD-16-164 | o ti GSS – TechnJ ica la Q uery Form c i |  |  | 2.1
+MD-16-191 | checi f Hazardous m icals and explosives management e p |  |  | 3.1
+MD-16-375 | S Telecomm u nications Cable Support Request e |  |  | 2.0
+MD-16-376 | c Telecom mnunications Cable Location a |  |  | 1.2
+MD-16-529 | m Telecoormmunications – Enhanced Train Radio System Terminals rf |  |  | 2.0
+MD-16-548 |  | e SigPnalling Testing – Detection Setting for M23, D84M, HW Machines and |  | 2.0
+ |  | H M- X&HML Detectors |  | 
+MD-16-666 | 1 CTelecommunications Change Management e | 1 CTelecommunications Change Management |  | 3
+MD-16-667 u d e | l Telecommunications Change Request |  |  | 3.0
+h MD-16-668 c S | Telecommunications Decommissioning Checklist |  |  | 3.0
+MD-16-690 2 1. | Electrical Low Voltage Installations Overview and Introduction |  |  | 1.2
+3. MD-16-69 1 3 | Electrical Low Voltage Installations - Part 1 - Legislative Compliance |  |  | 2.1
+0 MD-16-36.92 6 . | Electrical Low Voltage Infrastructure Systems - Part 2 - Change Management |  |  | 1.0
+8 MD-116-693 |  | Electrical Low Voltage Installations - Part 3 -Design, Implementation and |  | 1.1
+ |  | verification |  | 
+--- PAGE 45 ---
+)
+y
+SEMS No. Title Versio
+ci
+n lit No.
+MD-16-694 Electrical Low Voltage Installations - Part 4 - Periodic verification and 1a.0
+F
+maintenance u
+a
+MD-16-695 Electrical Low Voltage Installations - Part 5- Management of competency e1.0
+m
+r
+MD-16-696 Electrical Low Voltage Installations - Part 6 -Working on and near low voltage O 1.2
+(
+installations n
+o
+MD-16-697 Network - Isolation of low voltage electrical energy ati 1.0
+MD-16-698 Network - Electrical risk management for works on and near low voltage e
+cifi
+c
+1.0
+p
+infrastructure systems S
+MD-16-711 Telecommunications Measuring Radio Coverage
+c
+e 2.0
+n
+a
+MD-17-244 GSS Part 29 - Design Alerts m 5.1
+r
+o
+MD-17-260 Electric Traction Operating Procedures (ETOP) Part 1 - Overview rf of General 2.0
+e
+Requirements P
+MD-17-261 Electric Traction Operating Procedures (ETOP) Part 2 - Plann
+1
+i-n g Safe Access to 2.0
+1C
+Electric Traction Infrastructure
+1
+2
+e
+MD-17-266 Electric Traction Operating Procedures (ETOP) Part 72. - Eusltablishment and 1.1
+3 d
+Management of Electrically Disconnected Construct2ion eAreas
+MD-17-267 ETOP - Part 8 - Change Management of High Vo
+2
+lt5a . ge
+S
+c h Systems Operational 1.0
+Documentation 5. 2
+6
+3
+MD-17-493 Signalling - Train Location and Detection
+1
+6 8. 4.1
+MD-17-50 Traction Power Systems Specifications (TP
+o
+mS S )
+d
+f-,
+1
+Part 1m - Overview and General 2.0
+M M M
+M
+M
+M M
+D D D
+D
+D
+D D
+- - -
+-
+-
+- -
+1 1 1
+1
+1
+1 1
+7 7 7
+7
+7
+7 7
+- - -
+-
+-
+- -
+5 5 5
+5
+5
+5 5
+1 4 5
+6
+6
+6 7
+4
+5
+R
+T T T
+T
+G
+G T
+P P P
+P
+P
+e
+S
+S
+q
+S S S
+S
+S
+S
+S
+u
+S S S
+S
+S
+i
+P
+P
+r
+- - -
+-
+-
+e
+a
+a
+P P P
+P
+P
+m
+r
+r
+t
+t
+a a a
+a
+a
+e
+1
+1
+r r r
+r
+r
+n
+t t t
+t
+t
+3
+3
+t
+B
+C
+2 5 6
+7
+8
+s ;
+- - -
+-
+-
+–
+–
+T
+H
+P P
+S
+T
+S
+h o o
+w
+V
+e
+i
+r w w
+g
+i
+s
+e
+t
+E n
+c
+e e
+t
+e
+i
+l a
+h
+n
+r r
+e
+P
+l
+y
+o
+g
+T E
+c h T
+a
+h
+t
+r
+n
+l
+C
+r
+e
+r
+a
+e
+a
+. i r
+d
+c o
+c
+h
+n
+s
+s
+F b a
+t
+t
+s
+E
+e
+e
+a
+e
+r C
+i l c n
+r
+f o
+c
+o
+a
+t
+i
+o
+S
+3
+s
+l g
+n
+i
+n
+k
+t
+r
+r
+y
+@
+3 f
+e
+t
+ii m
+)
+d c
+h
+M
+k
+r
+e
+(
+2
+d
+E
+v
+Vn
+0
+e o E
+G
+a x
+t
+2 i R
+w i r
+e
+c
+a
+3
+r
+q s I
+o
+n
+rc
+l
+k
+- e
+n
+l
+u
+i
+0
+e u
+l
+d
+i
+s
+t
+6
+s
+r
+n
+d i g i o
+-
+g
+p
+;
+2
+r o
+R
+n
+s
+o
+0
+m
+t
+o u V
+o
+e
+0 p
+c
+er e 1 .
+q
+k
+r
+c
+: s G n3
+E u
+i o 2
+x
+t
+i
+n I p
+r
+GS ) f a
+e
+. o M
+p
+n
+m
+r S s T i o R w
+e
+n
+n
+a i P t
+t
+r c i
+s
+o lw h g r g
+a
+a e y a T r raction Supply 2 1 1
+2
+2
+2 2
+. . .
+.
+.
+. .
+0 0 0
+0
+0
+1 0
+MD-17-58 TPSS - Part 9 - HV T
+rt
+sr a
+J
+c
+e
+taio
+u
+n Indo
+P
+o- r GIS Switchgear 1.0
+em F
+MD-17-59 TPSS - Part 10 - Po bre-
+O
+farbricateRd Switchroom Buildings 1.0
+R
+(
+MD-17-60 TPSS - Part 11 n- Prno tection, Control & Metering Equipment 1.0
+h o
+MD-17-61 TPSS - Part 1J
+o
+2 -c a4
+ti
+8V DC Supply Systems for Protection, Metering and Control 1.0
+Equipment
+cifi
+e
+MD-17-62 TPSS - Part 1p3 - Switching Station Interfaces 1.0
+S
+MD-17-63 TPSS - Pa
+c
+er t 14 - HV Cable and Accessories 1.0
+n
+a
+MD-17-64 TPSS -m Part 15 - Booster Transformers 1.0
+r
+o
+MD-17-65 TPSS rf - Part 16 – Autotransformers 2.0
+e
+P
+MD-17-66 TP
+-
+SS - Part 17 - Auxiliary Supply Transformers 2.0
+1
+C
+MD-17-68
+e
+TPSS - Part 19 - Typical Installation Photographs 1.0
+ul
+MD-17-69 d TPSS - Part 20 - Commissioning of Traction Power Systems; 1.0
+e
+h
+MD-17-83 c GSS Part 13E – Test Log Modification 7.0
+S
+2
+MD-18-154 1. GSS Part 08J – Three Phase Transformers 2.0
+3.
+MD-18-15
+3
+8 Signalling Testing – Rollingstock Acceptance DC Track Circuit 1.0
+0
+MD-18
+6
+-31 . 60 Overhead Line Equipment Specifications (OLES) - Part 1 - Overview and 1.1
+8. General Requirements
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 44 -
+
+[TABLE 1 on page 45]
+SEMS No. |  |  | Title |  |  | ) y Versio n lit No. i
+MD-16-694 |  |  |  | Electrical Low Voltage Installations - Part 4 - Periodic verification and |  | c 1a.0 F u
+ |  |  |  | maintenance |  | 
+MD-16-695 |  |  | Electrical Low Voltage Installations - Part 5- Management of competency | Electrical Low Voltage Installations - Part 5- Management of competency |  | a e1.0 m
+ | MD-16-696 |  |  | Electrical Low Voltage Installations - Part 6 -Working on and near low voltage | n | r O 1.2 (
+ |  |  |  | installations |  | 
+ | MD-16-697 |  | o Network - Isolation of low voltage electrical energy ati c fi | o Network - Isolation of low voltage electrical energy ati |  | 1.0
+ |  |  |  |  |  | 
+MD-16-698 | MD-16-698 |  |  | ci Network - Electrical risk management for works on and near low voltage e |  | 1.0
+ |  |  |  | p infrastructure systems S |  | 
+MD-16-711 |  |  | Telecommunications Measuring Radio Coverage e c n | Telecommunications Measuring Radio Coverage e c |  | 2.0
+MD-17-244 |  |  | a GSS Part 29 - Design Alerts m r |  |  | 5.1
+MD-17-260 |  |  |  | o Electric Traction Operating Procedures (ETOP) Part 1 - Overview rf of General |  | 2.0
+ |  |  |  | e Requirements P |  | 
+MD-17-261 |  |  |  | Electric Traction Operating Procedures (ETOP) Part 2 - Plann i-n g Safe Access to 1 |  | 2.0
+ |  |  |  | 1C Electric Traction Infrastructure 2 |  | 
+MD-17-266 |  |  |  | 1 e Electric Traction Operating Procedures (ETOP) Part 72. - Eusltablishment and |  | 1.1
+ |  |  |  | 3 d Management of Electrically Disconnected Construct2ion eAreas |  | 
+MD-17-267 |  |  |  | ETOP - Part 8 - Change Management of High Volt5a . gec h Systems Operational 2 |  | 1.0
+ |  |  |  | S Documentation . 2 3 |  | 
+MD-17-493 |  |  | 56 Signalling - Train Location and Detection 6 8. 1 1 | 56 Signalling - Train Location and Detection 6 8. 1 |  | 4.1
+MD-17-50 |  |  |  | Traction Power Systems Specifications (TPmS S) f-, Part 1m - Overview and General |  | 2.0
+ |  |  |  | o d Requirements; c p a . . r |  | 
+MD-17-51 |  |  | TPSS - Part 2 - Power Transforme i r a s l r o u p i o n ) T r o g | TPSS - Part 2 - Power Transformers l u p o n ) o g |  | 2.0
+MD-17-54 |  |  | TPSS - Part 5 - Three Phase 33 k Vnt In rd g oo err s GI GS M S wn i P tchgear d e e V o |  |  | 1.0
+MD-17-55 |  |  | TPSS - Part 6 - Power Electro nnfiic Ewq n u i pnm e n3 2 t f onr s i Railway Traction Supply o o ti o 1: a |  |  | 1.0
+MD-17-56 |  |  | C d u 0 p TPSS - Part 7 - Switchyard E a r@th G rc id R0 e q uxi rements e 2 E |  |  | 2.0
+MD-17-564 |  |  | GSS Part 13B – Testing Che rct s k M Ea x rk s6 - c k e ( 0 o ) - t |  |  | 2.0
+MD-17-565 |  |  | GSS Part 13C – Signal Te os b tin g it y 2 3 g s . r il 0 n i |  |  | 2.1
+MD-17-57 |  |  | TPSS - Part 8 - HV Ele cht n ric aal c Ser 2 vi coell s; o F R J |  |  | 2.0
+MD-17-58 |  |  | u TPSS - Part 9 - HV T sr ac taio n Indo o- r GIS Switchgear rt e P e |  |  | 1.0
+MD-17-59 |  |  | m F TPSS - Part 10 - Po bre- farbricateRd Switchroom Buildings O R |  |  | 1.0
+MD-17-60 |  |  | ( TPSS - Part 11 n- Prno tection, Control & Metering Equipment h o i |  |  | 1.0
+MD-17-61 |  |  |  | TPSS - Part 1J o 2 -c a4 t 8V DC Supply Systems for Protection, Metering and Control |  | 1.0
+ |  |  |  | cifi Equipment |  | 
+MD-17-62 |  |  | e TPSS - Part 1p3 - Switching Station Interfaces S | e TPSS - Part 1p3 - Switching Station Interfaces |  | 1.0
+MD-17-63 |  |  | TPSS - Pa er t 14 - HV Cable and Accessories c n |  |  | 1.0
+MD-17-64 |  |  | a TPSS -m Part 15 - Booster Transformers r |  |  | 1.0
+MD-17-65 |  |  | o TPSS rf - Part 16 – Autotransformers e |  |  | 2.0
+MD-17-66 |  |  | P TP SS - Part 17 - Auxiliary Supply Transformers - 1 |  |  | 2.0
+MD-17-68 |  |  | C TPSS - Part 19 - Typical Installation Photographs e |  |  | 1.0
+u MD-17-69 d e |  |  | l TPSS - Part 20 - Commissioning of Traction Power Systems; |  |  | 1.0
+h MD-17-83 c S |  |  | GSS Part 13E – Test Log Modification |  |  | 7.0
+2 MD-18-154 1. . |  |  | GSS Part 08J – Three Phase Transformers |  |  | 2.0
+3 MD-18-15 8 3 0 |  |  | Signalling Testing – Rollingstock Acceptance DC Track Circuit |  |  | 1.0
+MD-18 -31 . 60 6 8. |  |  |  | Overhead Line Equipment Specifications (OLES) - Part 1 - Overview and |  | 1.1
+ |  |  |  | General Requirements |  | 
+--- PAGE 46 ---
+)
+y
+SEMS No. Title Versio
+ci
+n lit No.
+MD-18-162 Overhead Line Equipment Specifications (OLES) Part 3 - Ceramic Insulators;
+F
+1a.0
+u
+MD-18-163 Overhead Line Equipment Specifications (OLES) Part 4 - Masts and Associated a1.0
+e
+Steelwork; m
+r
+MD-18-164 Overhead Line Equipment Specifications (OLES) Part 5 – Conductors; O 1.0
+(
+n
+MD-18-165 Overhead Line Equipment Specifications (OLES) Part 6 - Ferrous Castings; o 1.0
+ati
+MD-18-166 O
+Ne
+v
+u
+e
+t
+r
+r
+h
+a
+e
+l
+a
+S
+d
+e
+L
+ct
+in
+io
+e
+n
+E
+s;
+q uipment Specifications (OLES) Part 7 - Section Insulato
+e
+r
+c
+s if i cand 1.0
+p
+MD-18-167 Overhead Line Equipment Specifications (OLES) Part 8 - Drop Out FuseSs; 1.0
+e
+MD-18-168 Overhead Line Equipment Specifications (OLES) Part 9 – Isolators; n c 1.0
+a
+m
+MD-18-169 Overhead Line Equipment Specifications (OLES) Part 10 – Fasten
+r
+ers; 1.0
+o
+MD-18-170 Overhead Line Equipment Specifications (OLES) Part 11 - Stainelre f ss Steel Wire; 1.0
+P
+MD-18-171 Overhead Line Equipment Specifications (OLES) Part 12 - C
+1
+o -m posite 1.0
+Insulators;
+1
+2 1
+e
+C
+MD-18-172 Overhead Line Equipment Specifications (OLES) Par
+2
+t. 13 u-l Line Fittings; 1.0
+3 d
+2 e
+MD-18-173 Overhead Line Equipment Specifications (OLES) P 5.art
+c
+1h4 - Surge Arresters; and 1.0
+2S
+MD-18-175 Overhead Line Equipment Specifications (OLES
+5.
+)2 P
+6
+a3r t 16 - Conductor Rail. 1.0
+M
+M
+D
+D
+-
+-
+1
+1
+8
+8
+-
+-
+1
+1
+8
+8
+0
+3
+O
+Te
+v
+l
+e
+e
+r
+c
+h
+o
+e
+m
+ad
+m
+T
+un
+ra
+ic
+c
+a
+ti
+t
+o
+io
+n
+n
+W
+s -
+ir
+C
+in
+a
+g
+b
+D
+le
+r a
+re
+w
+t
+i
+i
+n
+c
+g
+u
+s
+la tion o
+m
+1
+6
+df,
+1
+8.
+m
+1
+1
+.
+.
+0
+0
+c p a
+M M M
+M
+M
+M M
+D D D
+D
+D
+D D
+- - -
+-
+-
+- -
+1 1 1
+1
+1
+1 1
+8 8 8
+8
+8
+8 8
+- - -
+-
+-
+- -
+1 3 3
+3
+3
+3 3
+8 0 0
+6
+6
+6 6
+6 3 5
+6
+7
+8 9
+T C C
+G
+S
+P P
+e
+t
+l l
+i i
+S
+a a
+r
+v v l
+a
+e i i
+n n
+S
+l l
+t
+c
+e
+- –
+- -
+P
+o
+g
+T
+S S
+T m
+a
+y
+r
+i i
+r
+r
+a
+g g
+m
+t
+a
+-
+c
+n n
+c
+1
+S
+u k
+a a
+k
+3
+n
+i
+l l
+g
+C
+D
+l l
+i D
+i i
+c
+n
+n n
+o a e
+–
+a
+g g
+n t s
+l
+i s
+l
+C
+T T
+o i
+i
+g
+n
+t
+e e
+n
+o
+r n
+g
+u
+s s
+s
+r r
+c
+t t
+T
+e
+i i
+– t
+n n
+e
+i
+l
+o
+o
+a
+g g
+E
+s
+h
+n
+t
+n
+t
+x
+i
+a
+i
+.
+o
+r
+n
+t
+on
+e
+n
+F
+g
+b d a
+r
+e
+C n
+o
+c
+r a
+o
+t
+i C
+s
+l
+a
+f
+n
+i
+n
+t y
+@
+f l
+o
+S
+i
+d
+)
+d d
+m
+e
+(
+2
+i
+d
+E
+g
+n
+0
+C
+r o
+x
+t
+2
+a
+m R
+n
+w i
+e
+a
+3
+o
+o
+n f
+ca
+l
+-
+t
+i l
+u
+0 m
+e
+l s
+i
+i
+l
+t
+6
+r
+n
+n
+l
+i g
+s
+o
+i
+-
+g
+m
+n 2
+r g n
+s i
+o
+0
+o t
+g
+u V
+o i
+o 0
+s
+p
+n
+c
+e 1 .
+R
+k
+f
+s
+r
+i
+: s
+n
+3
+E
+i
+n i
+e
+o
+o
+2
+g
+x
+no
+c
+p
+n
+G ) a n .
+-
+o
+M
+i
+n
+n
+-
+r
+S
+s T s
+g
+d
+i o
+h
+e
+s
+n
+o
+c P u
+r
+r o
+t
+r g i
+F
+r ty
+o r
+d
+m
+ra wings 1 2 3
+1
+1
+1 1
+. . .
+.
+.
+. .
+0 0 0
+1
+0
+0 0
+MD-18-370 Plan - Signalling Tes
+rt
+tsi n
+J
+g
+e
+aa
+u
+n d Co
+P
+m - missioning 1.0
+em F
+MD-18-372 Professional Engi
+o
+nbee
+O
+rirng ServRices (RPEQ) for Queensland Rail 3.0
+R
+(
+MD-18-393 Amendments ton then Safety and Environment Management System 3.0
+h o
+MD-18-76 Signalling – VJ
+o
+ita
+c
+l aD
+ti
+isabling Panels 4.0
+MD-19-126 Signalling -
+“Aenci
+o
+fi
+ther Train Coming” Indicator 2.0
+p
+S
+MD-19-183 GSS Part 0
+e
+8K – Smart Circuit Breaker System requirements 1.0
+c
+MD-19-272 HVI Tracnk Circuits - Installation and Maintenance 1.0
+a
+m
+MD-19-342 Railwoary Infrastructure – Structure Clearances 1.0
+rf
+e
+MD-20-100 SigPnal testing - ATP - TC11 1.0
+-
+MD-20-101
+C
+S1 ignal testing – Power – TC12 1.1
+e
+MD-20-102 ulSignal testing - Level crossings - TC13 1.0
+d
+e
+MD-20-103 h Signal testing – SA1 / SA2 – TC14 1.0
+c
+S
+MD-20-104
+2
+Signal testing – Miscellaneous – TC15 1.0
+1.
+MD-20-1053. Signal testing – Construction handover to test – TC16 1.0
+3
+MD-20-
+3
+1
+.
+006 Signal testing – Through testing – TC17 1.0
+6
+MD-280.-107 Signal testing – PBI – TC18 1.0
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 45 -
+
+[TABLE 1 on page 46]
+SEMS No. | Title |  |  | ) y Versio n lit No. i
+MD-18-162 | Overhead Line Equipment Specifications (OLES) Part 3 - Ceramic Insulators; |  |  | c 1a.0 F
+MD-18-163 |  | Overhead Line Equipment Specifications (OLES) Part 4 - Masts and Associated |  | u a1.0 e m
+ |  | Steelwork; |  | 
+MD-18-164 | Overhead Line Equipment Specifications (OLES) Part 5 – Conductors; | Overhead Line Equipment Specifications (OLES) Part 5 – Conductors; |  | r O 1.0 (
+MD-18-165 | n Overhead Line Equipment Specifications (OLES) Part 6 - Ferrous Castings; o ati |  |  | 1.0
+MD-18-166 |  | Overhead Line Equipment Specifications (OLES) Part 7 - Section Insulators f i cand |  | 1.0
+ |  | ci Neutral Sections; e |  | 
+MD-18-167 | p Overhead Line Equipment Specifications (OLES) Part 8 - Drop Out FuseSs; | p Overhead Line Equipment Specifications (OLES) Part 8 - Drop Out FuseSs; |  | 1.0
+MD-18-168 | e Overhead Line Equipment Specifications (OLES) Part 9 – Isolators; n c a |  |  | 1.0
+MD-18-169 | m Overhead Line Equipment Specifications (OLES) Part 10 – Fasten ers; r o |  |  | 1.0
+MD-18-170 | Overhead Line Equipment Specifications (OLES) Part 11 - Stainelre f ss Steel Wire; P |  |  | 1.0
+MD-18-171 |  | Overhead Line Equipment Specifications (OLES) Part 12 - C o -m posite 1 |  | 1.0
+ |  | Insulators; 2 1 C |  | 
+MD-18-172 | 1 e Overhead Line Equipment Specifications (OLES) Par t. 13 u-l Line Fittings; 2 3 d | 1 e Overhead Line Equipment Specifications (OLES) Par t. 13 u-l Line Fittings; 2 |  | 1.0
+MD-18-173 | 2 e Overhead Line Equipment Specifications (OLES) P 5.art 1h4 - Surge Arresters; and c |  |  | 1.0
+MD-18-175 | 2S Overhead Line Equipment Specifications (OLES )2 P a3r t 16 - Conductor Rail. 5. 6 |  |  | 1.0
+MD-18-180 | 6 8. Overhead Traction Wiring Drawings 1 1 |  |  | 1.0
+MD-18-183 | m df, Telecommunications - Cable reticulation o m c p a . . r |  |  | 1.0
+MD-18-186 | Telecommunications – External dra f ting uo p f n no ) n- secu or g ity drawings a l o i o T r |  |  | 1.0
+MD-18-303 | Civil - Track Construction e nti e r g r V e r s G M o n P |  |  | 2.0
+MD-18-305 | d n 2 si Civil – Track Design o nfi o w i o n 1: 3 a n |  |  | 3.0
+MD-18-366 | C d u t 0 p GSS Part 13D – Correlation of @S i gn ca l lin g R exc ords e 2 0 E |  |  | 1.1
+MD-18-367 | Strategy - Signalling Testing at s n d EC x o m6 - m isc k s ioning e r ( 0 o - |  |  | 1.0
+MD-18-368 | Plan - Signalling Testing a on b d C lit yo ) m 2m 3 is sg s io t ning - Short Form . r i 0 n |  |  | 1.0
+MD-18-369 | n c 2 olli Plan - Signalling Testin gh a o F R J |  |  | 1.0
+MD-18-370 | u Plan - Signalling Tes tsi ng aa nd Co m - missioning rt e P |  |  | 1.0
+MD-18-372 | em F Professional Engi nbee rirng ServRices (RPEQ) for Queensland Rail o O |  |  | 3.0
+MD-18-393 | R ( Amendments ton then Safety and Environment Management System h o i |  |  | 3.0
+MD-18-76 | Signalling – VJ o ita l aD t isabling Panels c fi |  |  | 4.0
+MD-19-126 | “Aenci Signalling - other Train Coming” Indicator p |  |  | 2.0
+MD-19-183 | S GSS Part 0 8K – Smart Circuit Breaker System requirements e |  |  | 1.0
+MD-19-272 | c HVI Tracnk Circuits - Installation and Maintenance a m |  |  | 1.0
+MD-19-342 | Railwoary Infrastructure – Structure Clearances rf |  |  | 1.0
+MD-20-100 | e SigPnal testing - ATP - TC11 - |  |  | 1.0
+MD-20-101 | S1 ignal testing – Power – TC12 C |  |  | 1.1
+MD-20-102 u d | e lSignal testing - Level crossings - TC13 |  |  | 1.0
+e MD-20-103 h c | Signal testing – SA1 / SA2 – TC14 |  |  | 1.0
+S MD-20-104 2 . | Signal testing – Miscellaneous – TC15 |  |  | 1.0
+1 MD-20-1053. | Signal testing – Construction handover to test – TC16 |  |  | 1.0
+3 MD-20- 1 006 3 . | Signal testing – Through testing – TC17 |  |  | 1.0
+6 MD-280.-107 1 | Signal testing – PBI – TC18 |  |  | 1.0
+--- PAGE 47 ---
+)
+y
+SEMS No. Title Versio
+ci
+n lit No.
+MD-20-108 Signal testing – Disconnections / recoveries – TC19
+F
+1a.0
+u
+MD-20-109 Signal testing – Principles / control tables – TC20 a1.0
+e
+m
+MD-20-110 Signal testing – Remote Monitor – TC21
+O
+r 1.0
+(
+MD-20-144 GSS Part 22A - Level Crossing Principles n 1.0
+o
+MD-20-247 Signalling - Level Crossing Heavy Vehicle Design
+c
+ati
+1.0
+MD-20-252 Signalling - Level Crossing Additional Principles e
+cifi
+1.0
+p
+S
+MD-20-348 Civil - Queensland Rail Underground Services
+e
+1.1
+c
+MD-20-354 Telecommunications - Enhanced Radio System (ERS) a n 1.0
+m
+MD-20-44 Civil - Insulated Joint Assembly Supply o r 1.0
+rf
+e
+MD-20-75 Signalling testing – Power Distribution Feeder Fault Loop ImpePdance (FLI) 1.0
+-
+MD-20-77 Civil – Project Delivery 1C 1 1.0
+1
+2
+e
+MD-20-90 Signal testing – Testing management – MTC and TC1 2. ul 1.1
+3 d
+MD-20-91 Signal testing – Pre-wire – TC2 5. 2
+c
+h e 1.0
+2S
+MD-20-92 Signal testing – Cables – TC3
+5.
+2
+6
+3
+1.0
+M
+M
+D
+D
+-
+-
+2
+2
+0
+0
+-
+-
+9
+9
+3
+4
+S
+S
+i
+i
+g
+g
+n
+n
+a
+a
+l
+l
+t
+t
+e
+e
+s
+s
+t
+t
+i
+i
+n
+n
+g
+g
+–
+– T
+S
+r
+E
+a
+R
+in
+’s
+d
+,
+e
+H
+te
+u
+c
+ts
+ti o
+a
+n
+n d
+–
+L
+T
+o
+C
+c
+5
+a tions
+o
+m
+– 1T 6
+d
+C
+f,
+4
+1
+8 .
+m
+1
+2
+.
+.
+0
+0
+c p a
+M M M M
+M
+M M
+D D D D
+D
+D D
+- - - -
+-
+- -
+2 2 2 2
+2
+2 2
+0 0 0 0
+0
+1 1
+- - - -
+-
+- -
+9 9 9 9
+9
+1 2
+5 6 7 8
+9
+6 4 0 7
+S S S S
+S
+C S
+i i i i
+i
+t i
+g g g g
+g
+a v
+n n n n
+n
+i n l
+a a a a
+a
+d -
+l l l l
+l
+a E
+t t t t
+t
+r
+e e e e
+e
+x d
+s s s s
+s
+t e -
+t t t t
+t
+i i i i
+i
+r
+n n n n
+n
+R n
+g g g g
+g
+a a i l
+– – – –
+–
+lw C
+P L
+G
+S A
+a o
+o o i W
+r
+y
+g
+m
+i
+o
+c n n
+C
+S a
+u
+t
+p
+s a l
+n
+e o
+– l p – s
+d
+t n o e
+a
+h
+T
+f
+a T
+F
+n n i
+n
+g
+C
+.
+n C
+r
+c r
+e
+o u
+a
+d 8
+y F b
+l 6
+r
+m
+a
+e
+C –
+a
+I
+M c
+r
+o n
+t
+i
+e
+t
+s
+l
+n
+i
+T
+i t
+d
+a o y
+@
+s
+fi
+)
+d C i
+n n
+c e
+(
+2
+–
+d
+E
+a
+9 n
+0
+a o
+C
+x
+t
+2g R
+w
+T
+i t e a
+3
+o
+o
+n
+h
+c
+e
+l
+-
+C
+l
+u
+0
+e r
+l m a i
+t
+6
+r
+n
+s i
+1
+g o
+-
+n g
+2 r n
+e
+0
+s
+o – 0
+g t
+u V
+n
+o
+0
+e
+p
+c
+eT
+t
+1 .
+k
+r : s C 3 E i o 2 x 7 n p G ) a . M n s T i o n P r o g r 1 1 1 1
+1
+1 1
+. . . .
+.
+. .
+0 0 0 0
+0
+0 0
+MD-21-248 Railway Configuratio
+rt
+ns
+J
+C
+e
+haa
+u
+nge L
+P
+i f-e cycle Specification 1.0
+em F
+MD-21-249 Procedure - Railw
+o
+aby C
+O
+ronfiguraRtion Change 1.0
+R
+(
+MD-21-6 Civil - Design ofn Bufnf er Stops and Over-run Protection 1.0
+h o
+MD-21-71 Field Survey J
+o
+c
+ati
+1.0
+MD-22-224 Civil - Earthwo
+e
+cr i k
+fi
+s, Drainage and RMAR Design 1.0
+p
+S
+S.03.4218.24 Design Re
+e
+q uirements for Stabling Yard Lighting 1.0
+c
+S.03.4218.25 Network
+a
+n- Electrical Low Voltage Design 1.3
+m
+r
+o
+rf
+e
+P
+-
+1
+C
+e
+ul
+d
+e
+h
+c
+S
+2
+1.
+3.
+3
+0
+3.
+6
+8.
+1
+Queensland Train Manufacturing Program
+Performance Specification (Ormeau Facility) - 46 -
+
+[TABLE 1 on page 47]
+SEMS No. | Title | ) y Versio n lit No. i
+MD-20-108 | Signal testing – Disconnections / recoveries – TC19 | c 1a.0 F
+MD-20-109 | Signal testing – Principles / control tables – TC20 | u a1.0 e
+MD-20-110 | Signal testing – Remote Monitor – TC21 | m r 1.0 O
+MD-20-144 | GSS Part 22A - Level Crossing Principles n o i | ( 1.0
+MD-20-247 | at Signalling - Level Crossing Heavy Vehicle Design c fi | 1.0
+MD-20-252 | ci Signalling - Level Crossing Additional Principles e p | 1.0
+MD-20-348 | S Civil - Queensland Rail Underground Services e c | 1.1
+MD-20-354 | Telecommunications - Enhanced Radio System (ERS) a n m | 1.0
+MD-20-44 | Civil - Insulated Joint Assembly Supply o r rf | 1.0
+MD-20-75 | e Signalling testing – Power Distribution Feeder Fault Loop ImpePdance (FLI) - | 1.0
+MD-20-77 | Civil – Project Delivery 1C 1 2 | 1.0
+MD-20-90 | 1 e Signal testing – Testing management – MTC and TC1 2. ul 3 d | 1.1
+MD-20-91 | Signal testing – Pre-wire – TC2 5. 2 h e c | 1.0
+MD-20-92 | 2S Signal testing – Cables – TC3 2 5. 3 6 | 1.0
+MD-20-93 | Signal testing – SER’s, Huts and Locations – 1T 6 C 4 8 . 1 | 1.0
+MD-20-94 | m df, Signal testing – Train detection – TC5 o m c p a . . | 2.0
+MD-20-95 | Signal testing –Points – TC6 al o u p i o n ) T r o g r | 1.0
+MD-20-96 | Signal testing – Signals and Indic nati to rrsg r – eTr s C7 G M n P e e V o | 1.0
+MD-20-97 | d n 2 si Signal testing – AWS – TC8 o nfi o w i o n 1: 3 a n | 1.0
+MD-20-98 | C d ut 0 p Signal testing – Local panel – T@C 9 e c 2 0 E x | 1.0
+MD-20-99 | Signal testing – Ground Fram rtes s –E x T C 61 - 0 c k e ( 0 o - | 1.0
+MD-21-160 | Civil - External Competen c oy b M ilitay ) na 2g 3 em gest nt . r 0 n | 1.0
+MD-21-247 | Standard - Railway Con hf n igu raa c tion 2 C ohlla i nge o F R | 1.0
+MD-21-248 | J u Railway Configuratio ns C haa nge L i f-e cycle Specification rt e P | 1.0
+MD-21-249 | em F Procedure - Railw aby C ronfiguraRtion Change o O | 1.0
+MD-21-6 | R ( Civil - Design ofn Bufnf er Stops and Over-run Protection h o | 1.0
+MD-21-71 | o ati Field Survey J c i | 1.0
+MD-22-224 | Civil - Earthwo cr i k f s, Drainage and RMAR Design e p | 1.0
+S.03.4218.24 | S Design Re q uirements for Stabling Yard Lighting e | 1.0
+S.03.4218.25 | c Network n- Electrical Low Voltage Design a | 1.3
