@@ -1805,8 +1805,6 @@ class EDFEditorApp(tk.Tk):
             
         obj = self.tree.item_map[item_id]
         
-        from .dialogs import EditTorqueDialog, EditParamDialog
-        from ..core.models import TorqueRow, Parameter
         
         if isinstance(obj, TorqueRow):
             # FR-035: block tree-view editing while interactive plot is open
@@ -1902,7 +1900,6 @@ class EDFEditorApp(tk.Tk):
             messagebox.showinfo("Already open", "An interactive plot is already open.")
             return
         try:
-            from ..utils.interactive_plot import DraggableTorquePlot
             self._interactive_plot_open = True
             self._interactive_plot = DraggableTorquePlot(
                 parent=self,
@@ -1930,7 +1927,6 @@ class EDFEditorApp(tk.Tk):
             messagebox.showinfo("Already open", "An interactive plot is already open.")
             return
         try:
-            from ..utils.interactive_plot import DraggableTorquePlot
             self._interactive_plot_open = True
             self._interactive_plot = DraggableTorquePlot(
                 parent=self,

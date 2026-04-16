@@ -59,7 +59,10 @@ def build():
         new_lines = []
         in_import = False
         for line in lines:
-            if line.startswith("import ") or line.startswith("from "):
+            clean_line = line.lstrip()
+            is_global_import = line.startswith("import ") or line.startswith("from ")
+            is_relative_import = clean_line.startswith("from .")
+            if is_global_import or is_relative_import:
                 if '(' in line and ')' not in line:
                     in_import = True
                 continue
