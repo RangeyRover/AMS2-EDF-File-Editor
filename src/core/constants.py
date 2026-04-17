@@ -1,20 +1,27 @@
 import struct
+import re
 
 # -------- Signatures (little-endian) --------
-SIG_0RPM   = b'\x24\x8B\x0A\xB7\x71\x83\x02'  # byte, float, float
-SIG_ROW_I  = b'\x24\x8B\x0A\xB7\x71\x93\x02'  # int32, float, float
-SIG_ROW_F  = b'\x24\x8B\x0A\xB7\x71\xA3\x02'  # float, float, float
-SIG_ENDVAR = b'\x24\x8B\x0A\xB7\x71\x93\x00'  # int32, float, byte (rare)
+SIG_0RPM     = b'\x24\x8B\x0A\xB7\x71\x83\x02'  # byte, float, float
+SIG_0RPM_ALT = b'\x24\x8B\x0A\xB7\x71\x03\x02'  # byte, float (compression only)
+SIG_ROW_I    = b'\x24\x8B\x0A\xB7\x71\x93\x02'  # int32, float, float
+SIG_ROW_F    = b'\x24\x8B\x0A\xB7\x71\xA3\x02'  # float, float, float
+SIG_ENDVAR   = b'\x24\x8B\x0A\xB7\x71\x93\x00'  # int32, float, byte (rare)
+
+# Flexible fuzzy matching for anomalous explicit-RPM ROW_I blocks overriding row0
+# Specifically \x03\x02 variant as found in forc.edfbin
+SIG_ROW_I_FLEX = re.compile(b'\\x24\x8b\x0a\xb7\x71\x03\x02', re.DOTALL)
 
 # Boost table signatures
 SIG_BOOST_0RPM = b'\x24\x51\x5F\x5E\x83\x86\xAA'  # byte, 5 floats (throttle positions)
 SIG_BOOST_ROW  = b'\x24\x51\x5F\x5E\x83\x96\xAA'  # int32, 5 floats (throttle positions)
 
 # Torque table structures
-ROW0_STRUCT   = struct.Struct('<Bff')
-ROWI_STRUCT   = struct.Struct('<iff')
-ROWF_STRUCT   = struct.Struct('<fff')
-ENDVAR_STRUCT = struct.Struct('<ifB')
+ROW0_STRUCT     = struct.Struct('<Bff')
+ROW0_ALT_STRUCT = struct.Struct('<BBf')
+ROWI_STRUCT     = struct.Struct('<iff')
+ROWF_STRUCT     = struct.Struct('<fff')
+ENDVAR_STRUCT   = struct.Struct('<ifB')
 
 # Boost table structures
 BOOST0_STRUCT = struct.Struct('<Bfffff')  # byte + 5 floats
