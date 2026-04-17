@@ -20,6 +20,7 @@ from typing import List, Callable, Optional, Dict, Tuple
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
 from matplotlib.figure import Figure
 from matplotlib.lines import Line2D
+from matplotlib.widgets import RadioButtons
 
 from ..core.models import TorqueTable, TorqueRow, DragTransaction
 from .plotting import extract_curve_data, TORQUE_COLORS, POWER_COLORS
@@ -84,6 +85,9 @@ class DraggableTorquePlot:
         self._drag_start_torque: Optional[float] = None
         self._drag_start_compression: Optional[float] = None
         self._original_markersize: Optional[float] = None
+
+        # ── Display Options ─────────────────────────────────────────
+        self.display_units = "HP"  # 'HP' or 'kW'
 
         # ── Undo stack ──────────────────────────────────────────────
         self._undo_stack: List[DragTransaction] = []
@@ -158,7 +162,7 @@ class DraggableTorquePlot:
 
                 # Power line — NOT draggable (no picker)
                 self.ax2.plot(
-                    rpms, powers,
+                    rpms, [p * self._get_power_multiplier() for p in powers],
                     marker='s', linewidth=2, markersize=4,
                     linestyle='--', color=pc,
                     label=f'Table {t_idx} Power',
@@ -167,7 +171,7 @@ class DraggableTorquePlot:
         self.ax1.set_xlabel('RPM', fontsize=12)
         self.ax1.set_ylabel('Torque (Nm)', fontsize=12, color='tab:blue')
         self.ax1.tick_params(axis='y', labelcolor='tab:blue')
-        self.ax2.set_ylabel('Power (kW)', fontsize=12, color='tab:orange')
+        self.ax2.set_ylabel(f'Power ({self.display_units})', fontsize=12, color='tab:orange')
         self.ax2.tick_params(axis='y', labelcolor='tab:orange')
         self.ax1.set_title(f'Interactive Torque & Power — drag points vertically', fontsize=13)
         self.ax1.grid(True, alpha=0.3)
@@ -182,6 +186,30 @@ class DraggableTorquePlot:
             bbox=dict(boxstyle='round,pad=0.3', facecolor='yellow', alpha=0.85),
             visible=False,
         )
+
+        # Add RadioButtons for Unit Toggling
+        self.rax = self.fig.add_axes([0.02, 0.9, 0.08, 0.08])
+        self.radio = RadioButtons(self.rax, ('HP', 'kW'))
+        self.radio.on_clicked(self._unit_changed)
+
+    def _get_power_multiplier(self) -> float:
+        return 1.34102 if self.display_units == 'HP' else 1.0
+
+    def _unit_changed(self, label):
+        self.display_units = label
+        self.ax2.set_ylabel(f'Power ({self.display_units})', fontsize=12, color='tab:orange')
+        self._update_all_power_curves()
+        self.canvas.draw_idle()
+
+    def _update_all_power_curves(self):
+        if self.mode != "torque" or self.ax2 is None:
+            return
+        mult = self._get_power_multiplier()
+        power_lines = [l for l in self.ax2.get_lines()]
+        for t_idx, table in enumerate(self.tables):
+            if t_idx < len(power_lines):
+                rpms, _, _, powers = extract_curve_data(table)
+                power_lines[t_idx].set_data(rpms, [p * mult for p in powers])
 
     def _plot_compression_mode(self):
         """Plot Compression vs RPM with draggable compression markers."""
@@ -489,7 +517,7 @@ class DraggableTorquePlot:
         power_line = power_lines[table_idx]
         ydata = list(power_line.get_ydata())
         if point_idx < len(ydata):
-            ydata[point_idx] = (torque * rpm) / 9549.3
+            ydata[point_idx] = ((torque * rpm) / 9549.3) * self._get_power_multiplier()
             power_line.set_ydata(ydata)
 
     def _replot_line(self, table_idx: int):
@@ -510,9 +538,10 @@ class DraggableTorquePlot:
 
         # Update power line if in torque mode
         if self.mode == "torque" and self.ax2 is not None:
+            mult = self._get_power_multiplier()
             power_lines = [l for l in self.ax2.get_lines()]
             if table_idx < len(power_lines):
-                power_lines[table_idx].set_data(rpms, powers)
+                power_lines[table_idx].set_data(rpms, [p * mult for p in powers])
 
     def _on_window_close(self):
         """Handle plot window close — cancel drag, cleanup, notify app."""

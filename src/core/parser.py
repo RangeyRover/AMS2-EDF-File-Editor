@@ -2,9 +2,9 @@ import struct
 from typing import List, Tuple, Optional, Generator, Union
 
 from .constants import (
-    SIG_0RPM, SIG_ROW_I, SIG_ROW_F, SIG_ENDVAR,
+    SIG_0RPM, SIG_0RPM_ALT, SIG_ROW_I, SIG_ROW_F, SIG_ENDVAR,
     SIG_BOOST_0RPM, SIG_BOOST_ROW,
-    ROW0_STRUCT, ROWI_STRUCT, ROWF_STRUCT, ENDVAR_STRUCT,
+    ROW0_STRUCT, ROW0_ALT_STRUCT, ROWI_STRUCT, ROWF_STRUCT, ENDVAR_STRUCT,
     BOOST0_STRUCT, BOOSTI_STRUCT,
     PARAMS, ENGINE_LAYOUT_CODES
 )
@@ -43,39 +43,135 @@ def read_by_fmt(data: bytes, pos: int, fmtseq: Tuple[str, ...]) -> Tuple[Optiona
 def plausible_rpm(x: float) -> bool:
     return 0 <= x <= 25000
 
-def plausible_comp(x: float) -> bool:
-    return -300 <= x <= 300
+def plausible_comp(val):
+    return -500.0 <= val <= 250.0  # Some older V8 engines have deep negative scaling
 
 def plausible_torque(x: float) -> bool:
     return -4000 <= x <= 10000
 
 def parse_torque_tables(data: bytes) -> List[TorqueTable]:
+    from .constants import SIG_ROW_I_FLEX
     tables = []
-    for off0 in find_all(data, SIG_0RPM):
+    
+    # We must scan for standard headers, alt headers, and explicit row_i orphans
+    starts_0rpm = [(pos, '0rpm', None) for pos in find_all(data, SIG_0RPM)]
+    starts_0rpm_alt = [(pos, '0rpm_alt', None) for pos in find_all(data, SIG_0RPM_ALT)]
+    starts_row_i = [(pos, 'row_i_native', None) for pos in find_all(data, SIG_ROW_I)]
+    starts_row_f = [(pos, 'row_f_native', None) for pos in find_all(data, SIG_ROW_F)]
+    
+    starts_flex = []
+    for match in SIG_ROW_I_FLEX.finditer(data):
+        idx = match.start()
+        if idx >= 4:
+            rpm_bytes = data[idx-4:idx]
+            try:
+                rpm, = struct.unpack('<I', rpm_bytes)
+                if 0 < rpm <= 25000:
+                    starts_flex.append((idx - 4, 'row_i_flex', match.group(0)))
+            except struct.error:
+                pass
+
+    all_starts = starts_0rpm + starts_0rpm_alt + starts_row_i + starts_row_f + starts_flex
+    all_starts.sort(key=lambda x: x[0])
+
+    last_parsed_byte = 0
+    
+    for off0, kind, exact_sig in all_starts:
+        if off0 < last_parsed_byte:
+            continue
+            
         rows = []
-        p = off0 + len(SIG_0RPM)
-        if p + ROW0_STRUCT.size > len(data): continue
-        b0, comp0, tq0 = ROW0_STRUCT.unpack_from(data, p)
-        # tolerate odd b0 values seen in the wild
-        if not (plausible_comp(comp0) and plausible_torque(tq0)): continue
+        is_alt = (kind == '0rpm_alt')
         
-        rows.append(TorqueRow(0.0, comp0, tq0, off0, '0rpm'))
+        if kind == '0rpm_alt':
+            p = off0 + len(SIG_0RPM_ALT)
+            if p + ROW0_ALT_STRUCT.size > len(data): continue
+            b0, b1, comp0 = ROW0_ALT_STRUCT.unpack_from(data, p)
+            if not plausible_comp(comp0): continue
+            rows.append(TorqueRow(0.0, comp0, None, off0, '0rpm_alt'))
+            q = p + ROW0_ALT_STRUCT.size
+        elif kind == '0rpm':
+            p = off0 + len(SIG_0RPM)
+            if p + ROW0_STRUCT.size > len(data): continue
+            b0, comp0, tq0 = ROW0_STRUCT.unpack_from(data, p)
+            if not (plausible_comp(comp0) and plausible_torque(tq0)): continue
+            rows.append(TorqueRow(0.0, comp0, tq0, off0, '0rpm'))
+            q = p + ROW0_STRUCT.size
+        elif kind == 'row_i_flex':
+            p = off0 + 4 + len(exact_sig)
+            # Accommodate the 1-byte b0 variant padding (like standard 0RPM rows have)
+            if p + 9 > len(data): continue
+            b0, comp, tq = struct.unpack_from('<Bff', data, p)
+            rpm_val = struct.unpack_from('<I', data, off0)[0]
+            if not (plausible_comp(comp) and plausible_torque(tq)): continue
+            row = TorqueRow(float(rpm_val), comp, tq, off0, 'row_i')
+            row.exact_signature = exact_sig + bytes([b0])
+            rows.append(row)
+            q = p + 9
+        elif kind == 'row_i_native':
+            # Missing 0RPM header completely, starting organically on an intermediate row struct
+            sig_off = off0
+            p = off0 + len(SIG_ROW_I)
+            if p + ROWI_STRUCT.size > len(data): continue
+            rpm_i, comp, tq = ROWI_STRUCT.unpack_from(data, p)
+            rpm = float(rpm_i)
+            if not (plausible_rpm(rpm) and plausible_comp(comp) and plausible_torque(tq)): continue
+            rows.append(TorqueRow(rpm, comp, tq, sig_off, 'row_i'))
+            q = p + ROWI_STRUCT.size
+        elif kind == 'row_f_native':
+            # Missing 0RPM header completely, starting organically on an end row struct (like fer312)
+            sig_off = off0
+            p = off0 + len(SIG_ROW_F)
+            if p + ROWF_STRUCT.size > len(data): continue
+            rpm_i, comp, tq = ROWF_STRUCT.unpack_from(data, p)
+            rpm = float(rpm_i)
+            if not (plausible_rpm(rpm) and plausible_comp(comp) and plausible_torque(tq)): continue
+            rows.append(TorqueRow(rpm, comp, tq, sig_off, 'row_f'))
+            q = p + ROWF_STRUCT.size
         
-        q = p + ROW0_STRUCT.size
         while q < len(data):
-            if data[q:q+len(SIG_0RPM)] == SIG_0RPM:
-                # next table begins
+            if data[q:q+len(SIG_0RPM)] == SIG_0RPM or data[q:q+len(SIG_0RPM_ALT)] == SIG_0RPM_ALT:
                 break
-            if data[q:q+len(SIG_ROW_I)] == SIG_ROW_I:
+                
+            # Internal rows might also use flex signatures in anomalous engines!
+            # So we check if a flex signature naturally resides exactly here.
+            flex_match = SIG_ROW_I_FLEX.match(data, pos=q+4) if (q+4) < len(data) else None
+            
+            # Legacy robust parsing loop:
+            if data[q:q+len(SIG_ROW_I)] == SIG_ROW_I or flex_match:
                 sig_off = q
-                q += len(SIG_ROW_I)
-                if q + ROWI_STRUCT.size > len(data): break
-                rpm_i, comp, tq = ROWI_STRUCT.unpack_from(data, q)
+                
+                if flex_match:
+                    # Anomalous engine: RPM is implicitly first BEFORE the flex match
+                    if q + 4 > len(data): break
+                    fuzz_sig = flex_match.group(0)
+                    rpm_i = struct.unpack_from('<I', data, sig_off)[0]
+                    
+                    q += 4 + len(fuzz_sig)
+                    if q + 9 > len(data): break
+                    b0, comp, tq = struct.unpack_from('<Bff', data, q)
+                    jump_bytes = 9
+                    fuzz_sig_full = fuzz_sig + bytes([b0])
+                else:
+                    # Standard engine: Signature is first BEFORE the RPM and payload
+                    fuzz_sig_full = None
+                    q += len(SIG_ROW_I)
+                    
+                    if q + ROWI_STRUCT.size > len(data): break
+                    rpm_i, comp, tq = ROWI_STRUCT.unpack_from(data, q)
+                    jump_bytes = ROWI_STRUCT.size
+                    
                 rpm = float(rpm_i)
                 if not (plausible_rpm(rpm) and plausible_comp(comp) and plausible_torque(tq)): break
-                rows.append(TorqueRow(rpm, comp, tq, sig_off, 'row_i'))
-                q += ROWI_STRUCT.size
+                
+                row = TorqueRow(rpm, comp, tq, sig_off, 'row_i')
+                if fuzz_sig_full:
+                    row.exact_signature = fuzz_sig_full
+                rows.append(row)
+                
+                q += jump_bytes
                 continue
+                
             if data[q:q+len(SIG_ROW_F)] == SIG_ROW_F:
                 sig_off = q
                 q += len(SIG_ROW_F)
@@ -85,8 +181,8 @@ def parse_torque_tables(data: bytes) -> List[TorqueTable]:
                 rows.append(TorqueRow(rpm, comp, tq, sig_off, 'row_f'))
                 q += ROWF_STRUCT.size
                 continue
+                
             if data[q:q+len(SIG_ENDVAR)] == SIG_ENDVAR:
-                # terminal oddball, read & stop
                 sig_off = q
                 q += len(SIG_ENDVAR)
                 if q + ENDVAR_STRUCT.size > len(data): break
@@ -94,15 +190,18 @@ def parse_torque_tables(data: bytes) -> List[TorqueTable]:
                 rows.append(TorqueRow(float(rpm_i), comp, None, sig_off, 'endvar'))
                 q += ENDVAR_STRUCT.size
                 break
+                
             # no known row signature -> end this table
+            # DEBUG ONLY
+            print(f"DEBUG: No known row signature matched at q={q}. hex: {data[q:q+16].hex()}")
             break
-        if len(rows) >= 2:  # must have at least 0rpm + one row
-            # Sort by RPM just for display clarity (source order is generally increasing already)
-            # rows.sort(key=lambda r: r.rpm) # Keep original order? No, sort is fine.
-            # But wait, verification requires checking offsets. If we sort, we might lose order?
-            # models.py says "rows: List[TorqueRow]".
+            
+        if len(rows) >= 2:  # must have at least 0rpm/row_i + one more row
             rows.sort(key=lambda r: r.rpm)
             tables.append(TorqueTable(off0, rows))
+            # Protect next iter from crawling inside our correctly parsed boundary
+            last_parsed_byte = q
+            
     return tables
 
 def parse_boost_tables(data: bytes) -> List[BoostTable]:

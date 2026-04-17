@@ -3,9 +3,9 @@ from typing import List, Tuple, cast
 
 from .models import TorqueRow, TorqueTable, BoostRow, BoostTable, Parameter
 from .constants import (
-    SIG_0RPM, SIG_ROW_I, SIG_ROW_F, SIG_ENDVAR,
+    SIG_0RPM, SIG_0RPM_ALT, SIG_ROW_I, SIG_ROW_F, SIG_ENDVAR,
     SIG_BOOST_0RPM, SIG_BOOST_ROW,
-    ROW0_STRUCT, ROWI_STRUCT, ROWF_STRUCT, ENDVAR_STRUCT,
+    ROW0_STRUCT, ROW0_ALT_STRUCT, ROWI_STRUCT, ROWF_STRUCT, ENDVAR_STRUCT,
     BOOST0_STRUCT, BOOSTI_STRUCT,
     PARAMS
 )
@@ -23,11 +23,34 @@ def write_torque_row(data: bytearray, row: TorqueRow) -> None:
         b0 = data[data_offset]
         struct.pack_into('<Bff', data, data_offset, b0, row.compression, row.torque)
 
+    elif row.kind == '0rpm_alt':
+        data_offset = row.offset + len(SIG_0RPM_ALT)
+        # Preserve formatting bytes
+        b0 = data[data_offset]
+        b1 = data[data_offset+1]
+        struct.pack_into('<BBf', data, data_offset, b0, b1, row.compression)
+
     elif row.kind == 'row_i':
         if row.torque is None:
             return
-        data_offset = row.offset + len(SIG_ROW_I)
-        struct.pack_into('<iff', data, data_offset, int(row.rpm), row.compression, row.torque)
+            
+        if hasattr(row, 'exact_signature') and row.exact_signature:
+            # Anomalous structures encode the RPM *before* the signature
+            # Structure: <int32 rpm> <flex_signature> <float comp> <float torque>
+            rpm_bytes = struct.pack('<I', int(row.rpm))
+            data[row.offset:row.offset+4] = rpm_bytes
+            
+            sig_start = row.offset + 4
+            sig_len = len(row.exact_signature)
+            data[sig_start:sig_start+sig_len] = row.exact_signature
+            
+            payload_start = sig_start + sig_len
+            struct.pack_into('<ff', data, payload_start, row.compression, row.torque)
+        else:
+            # Standard structures encode the signature *before* the RPM
+            # Structure: <signature> <int32 rpm> <float comp> <float torque>
+            data_offset = row.offset + len(SIG_ROW_I)
+            struct.pack_into('<iff', data, data_offset, int(row.rpm), row.compression, row.torque)
 
     elif row.kind == 'row_f':
         if row.torque is None:

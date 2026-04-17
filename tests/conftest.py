@@ -145,3 +145,86 @@ def drag_transaction_fixture():
         start_compression=10.0,
         end_compression=13.333333015441895,  # Proportional: 10 * (200/150)
     )
+
+@pytest.fixture
+def synthetic_f309_torque_data():
+    """
+    Creates a synthetic binary blob containing one f309 alternate Torque table.
+    Table structure:
+    - 0RPM_ALT Row (6-byte struct)
+    - Row I (Int RPM)
+    - Row F (Float RPM)
+    - EndVar Row
+    """
+    from src.core.constants import SIG_0RPM_ALT, ROW0_ALT_STRUCT
+    data = bytearray()
+    
+    # Padding
+    data.extend(b'\x00' * 10)
+    
+    # 1. Alternate 0RPM Row
+    data.extend(SIG_0RPM_ALT)
+    # Struct <BBf: Byte, Byte, Float(Comp) - NO TORQUE
+    # 0, 0, 10.0
+    data.extend(ROW0_ALT_STRUCT.pack(0, 0, 10.0))
+    
+    # 2. Row I 
+    data.extend(SIG_ROW_I)
+    # 1000, 10.0, 150.0
+    data.extend(ROWI_STRUCT.pack(1000, 10.0, 150.0))
+    
+    # 3. Row F 
+    data.extend(SIG_ROW_F)
+    # 2000.5, 10.0, 200.0
+    data.extend(ROWF_STRUCT.pack(2000.5, 10.0, 200.0))
+    
+    # 4. EndVar
+    data.extend(SIG_ENDVAR)
+    # 3000, 10.0, 0
+    data.extend(ENDVAR_STRUCT.pack(3000, 10.0, 0))
+    
+    data.extend(b'\xFF' * 5)
+    
+    return bytes(data)
+
+@pytest.fixture
+def synthetic_orphan_rowi_torque_data():
+    """
+    Creates a synthetic binary blob containing one Torque table that completely 
+    omits the 0RPM header row (e.g. BMW_LMR or aston_martin_db11_rac style).
+    It starts immediately at a ROW_I struct.
+    """
+    from src.core.constants import ROWI_STRUCT, ROWF_STRUCT, ENDVAR_STRUCT, SIG_ROW_F, SIG_ENDVAR
+    data = bytearray()
+    
+    # Padding
+    data.extend(b'\x00' * 15)
+    
+    # 1. Native ROW_I start with explicit RPM
+    # We'll use a slightly fuzzy signature matching forc.edfbin -> \x03\x02 padding
+    fuzz_sig = b'\x24\x8b\x0a\xb7\x71\x03\x02'
+    
+    # Int(RPM) of 1350
+    rpm = struct.pack('<I', 1350) 
+    
+    data.extend(rpm)
+    data.extend(fuzz_sig)
+    
+    # b0 explicit padding byte found natively inside anomalous structures
+    data.extend(b'\x00')
+    
+    # Float(Comp), Float(Torque) -> 12.0, 180.0
+    comp_tq = struct.pack('<ff', 12.0, 180.0)
+    data.extend(comp_tq)
+    
+    # 2. Row F 
+    data.extend(SIG_ROW_F)
+    data.extend(ROWF_STRUCT.pack(2000.5, 10.0, 200.0))
+    
+    # 3. EndVar
+    data.extend(SIG_ENDVAR)
+    data.extend(ENDVAR_STRUCT.pack(3000, 10.0, 0))
+    
+    data.extend(b'\xFF' * 5)
+    
+    return bytes(data)

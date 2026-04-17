@@ -1,9 +1,9 @@
 from dataclasses import dataclass
 from typing import Tuple, Optional, List, Union
 from .constants import (
-    SIG_0RPM, SIG_ROW_I, SIG_ROW_F, SIG_ENDVAR,
+    SIG_0RPM, SIG_0RPM_ALT, SIG_ROW_I, SIG_ROW_F, SIG_ENDVAR,
     SIG_BOOST_0RPM, SIG_BOOST_ROW,
-    ROW0_STRUCT, ROWI_STRUCT, ROWF_STRUCT, ENDVAR_STRUCT,
+    ROW0_STRUCT, ROW0_ALT_STRUCT, ROWI_STRUCT, ROWF_STRUCT, ENDVAR_STRUCT,
     BOOST0_STRUCT, BOOSTI_STRUCT, PARAMS
 )
 
@@ -13,12 +13,16 @@ class TorqueRow:
     compression: float
     torque: Optional[float]
     offset: int
-    kind: str  # '0rpm', 'row_i', 'row_f', 'endvar'
+    kind: str  # '0rpm', '0rpm_alt', 'row_i', 'row_f', 'endvar'
+    exact_signature: Optional[bytes] = None  # Caches anomalous explicit row_i signatures
 
     @property
     def size(self) -> int:
         if self.kind == '0rpm': return len(SIG_0RPM) + ROW0_STRUCT.size
-        if self.kind == 'row_i': return len(SIG_ROW_I) + ROWI_STRUCT.size
+        if self.kind == '0rpm_alt': return len(SIG_0RPM_ALT) + ROW0_ALT_STRUCT.size
+        if self.kind == 'row_i': 
+            sig_len = len(self.exact_signature) if self.exact_signature else len(SIG_ROW_I)
+            return sig_len + ROWI_STRUCT.size
         if self.kind == 'row_f': return len(SIG_ROW_F) + ROWF_STRUCT.size
         if self.kind == 'endvar': return len(SIG_ENDVAR) + ENDVAR_STRUCT.size
         return 0

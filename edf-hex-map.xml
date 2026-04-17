@@ -257,9 +257,9 @@
   <!-- ======================= -->
   <torque-tables>
     <row-signatures>
-      <row0  sig="24 8B 0A B7 71 83 02"/>
-      <row0-alt sig="24 8B 0A B7 71 03 02"/>
-      <row-i sig="24 8B 0A B7 71 93 02"/>
+      <row0  sig="padding only (9 bytes)"/>
+      <row0-alt sig="03 02 00 00 00 00 (6 bytes)"/>
+      <row-i sig="24 8B 0A B7 71 ** 02 ** (where ** are flex-padding bytes, usually 83/93/A3 00)"/>
       <row-f sig="24 8B 0A B7 71 A3 02"/>
       <endvar sig="24 8B 0A B7 71 93 00"/>
     </row-signatures>
@@ -296,12 +296,14 @@
     </row-struct>
 
     <!-- Table boundary rule:
-         A table begins at a row0 or row0-alt signature; subsequent rows are row-i or row-f;
-         optional endvar may appear; the next row0/row0-alt or unmatched sequence starts a new table. -->
+         A table begins typically at a row0 or row0-alt sequence (RPM implicitly 0).
+         HOWEVER, roughly 10% of physical engines (e.g. aston_martin_db11_rac) omit row0 
+         entirely and open immediately into a standard row-i block at idle RPM. -->
     <rules>
-      <rule>table-start = row0.sig OR row0-alt.sig</rule>
+      <rule>table-start = row0 OR row0-alt OR explicitly anchored row-i</rule>
       <rule>row sequence ∈ {row-i,row-f}*, optionally followed by endvar</rule>
-      <rule>new table when next row0.sig or row0-alt.sig encountered or no further row signature matches</rule>
+      <rule>new table when next row0, row0-alt, or un-chained row-i is encountered</rule>
+      <note>The f309.edfbin physics utilize row0-alt. The BMW_LMR and Aston Martin physics bypass row0 completely.</note>
     </rules>
   </torque-tables>
 
