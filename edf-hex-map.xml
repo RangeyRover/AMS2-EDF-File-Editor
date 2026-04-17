@@ -258,6 +258,7 @@
   <torque-tables>
     <row-signatures>
       <row0  sig="24 8B 0A B7 71 83 02"/>
+      <row0-alt sig="24 8B 0A B7 71 03 02"/>
       <row-i sig="24 8B 0A B7 71 93 02"/>
       <row-f sig="24 8B 0A B7 71 A3 02"/>
       <endvar sig="24 8B 0A B7 71 93 00"/>
@@ -267,6 +268,13 @@
       <field name="b0"   type="byte"/>
       <field name="comp" type="float" unit="-Nm" min="-300" max="300"/>
       <field name="tq"   type="float" unit="Nm"  min="-4000" max="10000"/>
+    </row-struct>
+
+    <row-struct name="row0-alt">
+      <field name="b0"   type="byte"/>
+      <field name="pad"  type="byte"/>
+      <field name="comp" type="float" unit="-Nm" min="-300" max="300"/>
+      <!-- Note: f309.edfbin variant omits torque on the 0 RPM row -->
     </row-struct>
 
     <row-struct name="row-i">
@@ -288,12 +296,12 @@
     </row-struct>
 
     <!-- Table boundary rule:
-         A table begins at a row0 signature; subsequent rows are row-i or row-f;
-         optional endvar may appear; the next row0 or unmatched sequence starts a new table. -->
+         A table begins at a row0 or row0-alt signature; subsequent rows are row-i or row-f;
+         optional endvar may appear; the next row0/row0-alt or unmatched sequence starts a new table. -->
     <rules>
-      <rule>table-start = row0.sig</rule>
+      <rule>table-start = row0.sig OR row0-alt.sig</rule>
       <rule>row sequence ∈ {row-i,row-f}*, optionally followed by endvar</rule>
-      <rule>new table when next row0.sig encountered or no further row signature matches</rule>
+      <rule>new table when next row0.sig or row0-alt.sig encountered or no further row signature matches</rule>
     </rules>
   </torque-tables>
 
