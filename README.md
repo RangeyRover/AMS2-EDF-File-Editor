@@ -1,38 +1,40 @@
-# EDF File Editor
+# AMS2 EDF File Editor
 
-Minimal desktop viewer/editor for **Madness-engine** `EDF/EDFBIN` engine files. Quickly inspect, plot, and lightly edit torque curves and common engine parameters using JDougNY's *Project CARS Engine translation* mapping (v1.01).
+A robust desktop viewer and graphical editor for **Automobilista 2 (Madness-engine)** `EDF/EDFBIN` engine files. Quickly inspect, interactively plot, and edit torque curves, compression maps, and engine parameters using JDougNY's *Project CARS Engine translation* mapping—no hex editor required.
 
-> **Why**: Open an EDF, see what's inside, export a curve to CSV, tweak values (or scale the whole torque table), and save a copy — no hex editor required.
+> **Why**: Open an EDF, visually sculpt a torque curve directly on a graph, export data to CSV, tweak parameter values, and save your changes back to a binary-perfect file ready for the game.
 
 ---
 
-## Features
+## Features (v0.5.1 Beta)
 
-- **Open** `*.edf` files
-- **Parse & display**
-  - **Torque tables** (RPM, compression, torque) with plausibility checks
-  - **Turbo boost tables** (RPM vs throttle 0/25/50/75/100%)
-  - **51 common parameters** with human-readable labels, types, and units
-  - **Engine layout** hint (best‑effort from 9 known code sequences)
-  - **Hex view** with highlighting for selected items
-- **Plotting** (optional, via `matplotlib`)
-  - **Interactive drag-editable** Torque & Power vs RPM (dual-axis)
-  - **Interactive drag-editable** Compression vs RPM
-  - Real-time precision quantisation (float32) and Power recalculation during drag
-  - Topmost-curve selection aware, per-table isolation
-- **Editing**
-  - **Visual editing**: Drag points vertically to alter torque or compression values
-  - **Modifer Keys**: Hold `Shift` for fine drag (÷10), hold `Ctrl` to snap to nearest 10Nm
-  - **Proportional compression scaling**: Compression automatically scales proportionately when torque is dragged
-  - **Actionable Undo**: `Ctrl+Z` undoes drag operations (50-deep stack)
-  - Numeric fallback: Double‑click items in the tree view to edit manually
-  - **Scale torque** globally by a percentage
+- **Deep Parser & Viewer**
+  - Extract and display all **Torque tables** (RPM, compression, torque) with safety and plausibility checks.
+  - Parse **Turbo boost tables** (RPM vs throttle 0/25/50/75/100%).
+  - Detects **51 common engine parameters** automatically with human-readable labels, typed data definitions, and units.
+  - Heuristic Engine layout detection.
+  - Synchronised **Hex view** traceability—click any item to see its exact bytes highlighted.
+
+- **Interactive Visual Plotting (Drag & Drop)**
+  - View **Dual-axis Torque + Power vs RPM** and **Compression maps**.
+  - **Drag-Editable Curves:** Visually reshape engine output by dragging torque or compression data points directly on the graph.
+  - **Proportional Scaling:** Changing torque dynamically scales row compression proportionally, keeping the engine model valid (or isolate them for independent tracking).
+  - **Precision Controls:** Hold `Shift` for fine adjustment (÷10 sensitivity) or `Ctrl` to snap to exact 10Nm increments.
+  - **Robust Undo/Redo System:** Hit `Ctrl+Z` to reverse drag actions via a 50-step undo stack.
+  - Safe modifications: Interactive adjustments are strictly quantised to the nearest valid EDF encoding step to ensure binary fidelity.
+
+- **Data Editing & Management**
+  - **Direct Numeric Editing**: Double‑click any tree view parameter to manually edit numbers with context-aware clamping.
+  - **Scale torque globally**: Increase or decrease entire torque maps by a defined overall percentage.
+  - Unsaved dirtystate indicator (`*`) and safe Save/Save As operations.
+  - **Verified Lossless Architecture**: The tool operates using a verified round-trip standard. Loading and saving without changes preserves 100% of the byte structure.
+
 - **Export/Save**
-  - Export torque tables to **CSV**
-  - Unsaved dirtystate indicator (`*`) in the window title
-  - **Save** (overwrite) or **Save As** to a new file (Ctrl+S)
-  - **Close** file to reset UI
-- **Verified lossless** — round-trip tested: drag → quantise → save → reopen → reinstate → byte-identical ✅
+  - Export full torque tables directly to CSV for spreadsheet analysis.
+
+---
+
+## Screenshots
 
 ![EDF Main Window](https://raw.githubusercontent.com/RangeyRover/AMS2-EDF-File-Editor/refs/heads/main/EDF-Main%20Window.png)
 ![EDF PlotWindow](https://raw.githubusercontent.com/RangeyRover/AMS2-EDF-File-Editor/refs/heads/main/EDF-Plots.png)
@@ -42,135 +44,58 @@ Minimal desktop viewer/editor for **Madness-engine** `EDF/EDFBIN` engine files. 
 ## Requirements
 
 - **Python 3.9+**
-- Standard library: `tkinter`, `struct`, `csv`, `pathlib`
-- **Optional for plots**: `pip install matplotlib`
+- Standard libraries: `tkinter`, `struct`, `csv`, `pathlib`
+- **Plotting & Interaction**: `matplotlib` (*Strongly Recommended*: `pip install matplotlib`)
 
 ---
 
 ## Quick Start
 
-### Monolithic (single file — easiest)
-```bash
-python ams2_edf_editor.py
-```
-
-### Modular (package structure)
+### Running from source (Modular package)
 ```bash
 python run.py
 ```
 
 ### Running Tests
+The project maintains a rigorous, non-regression test suite for the EDF parser.
 ```bash
 pip install pytest
 pytest tests/ -v
 ```
 
-1. **File → Open EDF…**
-2. Explore torque/boost tables and parameters in the tree
-3. (Optional) **Tools → Plot Torque/Power** (requires `matplotlib`)
-4. **Edit** a value: double‑click → change → **Save**
-5. **Tools → Scale Torque Tables…** to apply a global percentage
-6. **Tools → Export CSV…**
-7. **File → Save** or **File → Save As…**
+### Basic Workflow
+1. **File → Open EDF…** (load standard `.edf` or nested `.edfbin`)
+2. Explore tables and parameters in the structured tree menu.
+3. (Optional) **Tools → Plot Torque/Power**. Your engine's curves will map out. Click and drag nodes vertically to adjust torque.
+4. **Edit** a static value: double‑click any row metric or parameter → change → hit enter.
+5. **Tools → Scale Torque Tables…** to apply global percentages.
+6. **Tools → Export CSV…** (if desired).
+7. **File → Save** or **File → Save As…** to commit binary back to disk.
 
-> Changes are applied to an **in‑memory** copy until you save.
-
----
-
-## What the parser understands
-
-### Torque tables
-- Detects **0‑RPM** rows and subsequent rows (`int32/float/float` or `float/float/float`)
-- Handles `endvar` terminal rows
-- Plausibility checks: RPM `0–25,000`, Torque `−4,000–10,000 Nm`
-- Shows **hex offsets** for traceability
-
-### Boost tables
-- Throttle columns: **0/25/50/75/100%** per RPM
-- Typical values: **0.5–3.0 bar**
-
-### Parameters (51 signatures)
-- Known signatures → names with **labels and type annotations**
-- Groups: fuel, idle/launch RPM, rev limit, engine maps, cooling, oil/water, lifetime stats, emissions, starter, air restrictor, boost/wastegate
-- Each field shows its **label**, **type** (float/int/byte), and **unit** where known
-
-### Engine layout detection
-- 9 known patterns: Single Cylinder, Flat 4/6, Straight 4/5/6, V8/V10/V12
-
----
-
-## Menus
-
-### File
-| Item | Shortcut | Description |
-|------|----------|-------------|
-| Open EDF… | | Load an EDF file |
-| Save | Ctrl+S | Overwrite current file |
-| Save As… | | Save to a new path |
-| Close | | Close file, reset UI |
-| Exit | | Quit |
-
-### Tools
-| Item | Description |
-|------|-------------|
-| Plot Torque/Power | Dual-axis torque + power vs RPM |
-| Plot Compression | Compression vs RPM |
-| Scale Torque Tables… | Global percentage scaling |
-| Export CSV… | Torque tables to CSV |
-
-### Tree interactions
-- Double‑click **torque rows** or **parameters** to edit
-- Single‑click highlights the item's bytes in the hex view
-
----
-
-## CSV Export
-
-Columns: `table_index`, `row_index`, `rpm`, `compression`, `torque`, `row_kind`, `payload_offset_hex`, `source_file`
+*(Note: Data is held in an in‑memory safety copy until you explicitly save it.)*
 
 ---
 
 ## Project Structure
 
 ```
-├── ams2_edf_editor.py     # Monolithic single-file (846 lines)
-├── run.py                 # Launcher for modular version
-├── edf-hex-map.xml        # Binary format reference
-├── spec.md                # Functional requirements
+├── ams2_edf_editor.py     # Legacy onefile executable build script (if present)
+├── run.py                 # Application launcher
+├── spec.md                # Latest functional specification
 ├── src/
-│   ├── core/
-│   │   ├── constants.py   # Signatures, PARAMS, PARAM_META
-│   │   ├── models.py      # TorqueRow, BoostRow, Parameter
-│   │   ├── parser.py      # Torque, boost, param parsers
-│   │   └── writer.py      # Binary write-back
-│   ├── gui/
-│   │   ├── app.py         # Main application window
-│   │   ├── dialogs.py     # Edit dialogs with labels
-│   │   ├── hex_view.py    # Hex viewer with highlighting
-│   │   └── tree_view.py   # TreeView with type annotations
-│   └── utils/
-│       ├── formatting.py  # Float display (never scientific)
-│       └── plotting.py    # Matplotlib charts
-└── tests/                 # 30 unit tests (pytest)
+│   ├── core/              # Parsers, writers, binary constants
+│   ├── gui/               # Tree menus, hex viewer, dialogs
+│   └── utils/             # Interactive Matplotlib plotting 
+└── tests/                 # Deep suite coverage of binary operations
 ```
 
 ---
 
 ## Troubleshooting
 
-- **No plots** → `pip install matplotlib`
-- **"No torque tables parsed"** → file variant may differ; inspect hex view
-- **Edits didn't save** → use **File → Save** or **Save As…**
-
----
-
-## Roadmap Ideas
-
-- Per‑table/selection scaling
-- Side‑by‑side file comparison & delta plots
-- Editable **boost** tables
-- Signature discovery helpers
-- Dark mode/UI theming
+- **No plots** → Make sure matplotlib is loaded: `pip install matplotlib`
+- **"No torque tables parsed"** → File variant may differ structurally from standard patterns; inspect the hex view manually to track data drift.
+- **Edits didn't save** → Make sure you hit **File → Save** or **Save As…** since the app applies an in-memory modification initially.
 
 ---
 
