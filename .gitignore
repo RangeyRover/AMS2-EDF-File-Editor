@@ -30,6 +30,7 @@ walkthrough.md
 # EDF data files and archives (Binary/Large)
 *.edf
 *.edfbin
+f309.edfbin
 edf_examples/
 Extracted_EDFs/
 *.7z
