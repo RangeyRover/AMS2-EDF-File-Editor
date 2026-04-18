@@ -6,7 +6,7 @@ A robust desktop viewer and graphical editor for **Automobilista 2 (Madness-engi
 
 ---
 
-## Features (v0.5.1 Beta)
+## Features (v0.5.1)
 
 - **Deep Parser & Viewer**
   - Extract and display all **Torque tables** (RPM, compression, torque) with safety and plausibility checks.
