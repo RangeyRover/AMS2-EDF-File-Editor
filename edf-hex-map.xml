@@ -242,11 +242,16 @@
       <field name="float2" type="float"/>
     </block>
 
-    <block name="Unknown_Float_3" signature="22 92 C7 CD 7C">
+    <block name="Engine_Displacement" signature="22 92 C7 CD 7C">
       <field name="value" type="float"/>
     </block>
 
     <block name="Unknown_2300005" signature="23 00 00 50 C3">
+      <field name="byte1" type="byte"/>
+      <field name="byte2" type="byte"/>
+    </block>
+    
+    <block name="Unknown_2300005_Alt" signature="23 00 00 50 C3 47">
       <field name="byte1" type="byte"/>
       <field name="byte2" type="byte"/>
     </block>

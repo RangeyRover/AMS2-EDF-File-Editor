@@ -69,7 +69,7 @@ PARAMS = {
     b'\x20\x11\x8B\xA3\x81': ('OnboardStarter?', ('b',)),
     b'\x26\xAF\x00\xB3\xBA': ('EDF_UNKN_005', ('b',)),
     b'\x24\x52\x17\xFB\x41\xA3\x02': ('StarterTiming', ('f','f','f')),
-    b'\x22\x92\xC7\xCD\x7C': ('Unknown_Float_3', ('f',)),  # Unknown with float 3.00
+    b'\x22\x92\xC7\xCD\x7C': ('EngineDisplacement', ('f',)),  # Engine displacement in liters
     # Air restrictor
     b'\x24\xFC\x89\xE8\x9C\xA3\x00': ('AirRestrictorRange', ('f','f','b')),
     b'\x20\xC5\xB4\x08\xFE': ('AirRestrictorSetting', ('b',)),
@@ -83,6 +83,7 @@ PARAMS = {
     b'\x20\xDF\x86\x64\xFC': ('WasteGateSetting_OLD', ('b',)),
     b'\x28\xDF\x86\x64\xFC': ('WasteGateSetting_OLD_NoValue', ()),
     b'\x23\x00\x00\x50\xC3': ('Unknown_2300005', ('b','b')),
+    b'\x23\x00\x00\x50\xC3\x47': ('Unknown_2300005_Alt', ('b','b')),
     # Boost control (current)
     b'\x24\xD7\x74\x45\x1A\x83\x00': ('BoostRange', ('b','f','b')),
     b'\x20\xCA\x2F\xD1\x34': ('BoostSetting', ('b',)),
@@ -138,7 +139,7 @@ PARAM_META = {
     'OnboardStarter?':          (('Present', 'byte'),),
     'EDF_UNKN_005':             (('Value', 'byte'),),
     'StarterTiming':            (('T1', 'float'), ('T2', 'float'), ('T3', 'float')),
-    'Unknown_Float_3':          (('Value', 'float'),),
+    'EngineDisplacement':       (('Liters', 'float'),),
     'AirRestrictorRange':       (('Min', 'float'), ('Max', 'float'), ('Steps', 'byte')),
     'AirRestrictorSetting':     (('Setting', 'byte'),),
     'AirRestrictorSetting_NoValue': (),
@@ -149,6 +150,7 @@ PARAM_META = {
     'WasteGateSetting_OLD':     (('Setting', 'byte'),),
     'WasteGateSetting_OLD_NoValue': (),
     'Unknown_2300005':          (('Byte 1', 'byte'), ('Byte 2', 'byte')),
+    'Unknown_2300005_Alt':      (('Byte 1', 'byte'), ('Byte 2', 'byte')),
     'BoostRange':               (('Min', 'byte'), ('Max (bar)', 'float'), ('Steps', 'byte')),
     'BoostSetting':             (('Setting', 'byte'),),
     'BoostSetting_NoValue':     (),

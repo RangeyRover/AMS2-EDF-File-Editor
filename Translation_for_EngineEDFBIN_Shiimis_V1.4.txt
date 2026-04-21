@@ -1,0 +1,185 @@
+Project cars
+Engine translation
+by Shiimis with additional decode by JDougNY
+Version 1.4 - 6/27/2016 - Revised/corrected engine layout data.  Renumbered "Unknown" parameters
+Version 1.3 - 3/1/2016 - Added 2 new unknown parameters seen in Lmp_Rwd_P30 per TheSloth
+Version 1.2 - 2/21/2016 - Corrected info on engine layout data 3byte vs 4byte
+Version 1.1 - 2/18/2016 - Corrected hex string syntax error for air restrictor. Clarification on Engine Layout Bytes
+Version 1.0 - 2/16/2016 - Cleanup and additional decode by JDougNY (AirRestrictor, wastegate, 3 rotor layout)
+Version 0.1 - x/xx/xxxx - Shiimis Release for Python Scripting
+
+####################################################################################################
+# EDFBIN DATA FILE V1.0                                                                            #
+#                                                                                                  #
+# There is a hex string before every parameter in [] and type of value in {}. Do not alter these.  #
+# Allowed values for "byte" type: 0 to 255;                                                        #
+# Allowed values for "int" type: -2,147,483,648 to 2,147,483,647                                   #
+# Allowed values for "float" type: -3.4 x 10^38 to 3.4x 10^38                                      #
+# Unknown parameters are marked as EDF_UNKN_XXX                                                    #
+#                                                                                                  #
+#                                                                                                  #
+#                                                                                                  #                     
+####################################################################################################
+# use this translation as a general guide to locate data in the file
+# search the hex strings []
+# Sometimes there is no data entered after the hex string.
+# When that occurs the strings begins with [28....]
+
+There are varying amounts of data after each string as defined by how
+the bytes are set for the end of the string.
+Some examples of hex string endings are....
+03 00] = byte, byte, byte
+03 02] = byte, byte, float
+23 00] = float, byte, byte
+83 00] = byte, float, byte
+83 02] = byte, float, float
+A3 00] = float, float, byte
+A3 02] = float, float, float
+A2] = float, float
+
+******Additional notes******
+When adding/removing bytes, you must change 3 registers at the top of the
+file at addresses 0x08-0x0B, 0x14-0x17 and 0x24-0x27.
+For engines other than V10 and V12, there are 3 bytes following WasteGateSetting
+(and any setting value) that are dedicated to engine layout as noted in this translation.
+That byte count of 3 is indicated at address 0x20.
+
+****Additional notes Rev 1.2 ****
+For engine types V10 and V12, there are 4 bytes following WasteGateSetting
+(and any setting value) that are dedicated to engine layout as noted in this translation.
+That byte count of 4 is indicated at address 0x20.
+
+** Hex String 7bytes *** RPM Step 2bytes ** Padding 2bytes (don't edit) ** Compression *** Torque *****
+************************************************************************* 32bit word **** 32bit word **
+************************ Little Endian ******************************** Little Endian * Little Endian *
+[24 8B 0A B7 71 83 02] RPMTorque=({byte}0,                              {float}-58.40,  {float}-58.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}250,   {int}0000 (do not change) {float}-33.00,  {float}-9.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}500,   {int}0000 (do not change) {float}-13.70,  {float}60.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}750,   {int}0000 (do not change) {float}-22.00,  {float}150.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}1000,  {int}0000 (do not change) {float}-30.40,  {float}300.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}1250,  {int}0000 (do not change) {float}-35.00,  {float}320.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}1500,  {int}0000 (do not change) {float}-40.00,  {float}340.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}1750,  {int}0000 (do not change) {float}-48.00,  {float}360.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}2000,  {int}0000 (do not change) {float}-49.60,  {float}365.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}2250,  {int}0000 (do not change) {float}-53.00,  {float}365.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}2500,  {int}0000 (do not change) {float}-55.20,  {float}365.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}2750,  {int}0000 (do not change) {float}-60.00,  {float}365.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}3000,  {int}0000 (do not change) {float}-65.20,  {float}365.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}3250,  {int}0000 (do not change) {float}-70.00,  {float}365.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}3500,  {int}0000 (do not change) {float}-75.70,  {float}365.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}3750,  {int}0000 (do not change) {float}-80.00,  {float}365.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}4000,  {int}0000 (do not change) {float}-88.00,  {float}365.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}4250,  {int}0000 (do not change) {float}-96.00,  {float}365.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}4500,  {int}0000 (do not change) {float}-104.90, {float}365.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}4750,  {int}0000 (do not change) {float}-112.00, {float}365.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}5000,  {int}0000 (do not change) {float}-120.10, {float}364.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}5250,  {int}0000 (do not change) {float}-130.00, {float}362.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}5500,  {int}0000 (do not change) {float}-140.60, {float}360.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}5750,  {int}0000 (do not change) {float}-150.00, {float}358.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}6000,  {int}0000 (do not change) {float}-160.50, {float}356.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}6250,  {int}0000 (do not change) {float}-170.00, {float}354.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}6500,  {int}0000 (do not change) {float}-180.70, {float}352.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}6750,  {int}0000 (do not change) {float}-193.00, {float}350.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}7000,  {int}0000 (do not change) {float}-200.20, {float}348.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}7250,  {int}0000 (do not change) {float}-213.00, {float}346.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}7500,  {int}0000 (do not change) {float}-226.00, {float}343.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}7750,  {int}0000 (do not change) {float}-238.00, {float}340.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}8000,  {int}0000 (do not change) {float}-252.20, {float}320.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}8250,  {int}0000 (do not change) {float}-275.00, {float}300.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}8500,  {int}0000 (do not change) {float}-298.80, {float}275.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}8750,  {int}0000 (do not change) {float}-315.00, {float}150.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}9000,  {int}0000 (do not change) {float}-330.00, {float}20.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}9250,  {int}0000 (do not change) {float}-365.00, {float}0.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}9500,  {int}0000 (do not change) {float}-400.00, {float}-20.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}9750,  {int}0000 (do not change) {float}-450.00, {float}-30.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}10000, {int}0000 (do not change) {float}-475.00, {float}-40.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}10250, {int}0000 (do not change) {float}-500.00, {float}-50.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}10500, {int}0000 (do not change) {float}-525.00, {float}-60.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}10750, {int}0000 (do not change) {float}-550.00, {float}-80.00)
+[24 8B 0A B7 71 93 02] RPMTorque=({int}11000, {int}0000 (do not change) {float}-590.00, {float}-100.00)
+[22 4A E2 DD 6C]       FuelConsumption={float}3.60e-5
+[22 D2 A2 92 32]       FuelEstimate={float}1.00
+[22 46 65 AE 87]       EngineInertia={float}0.300
+[22 40 F1 D2 B9]       {float}0.00	// EDF_UNKN_001  
+[24 4D 23 97 54 A2]    IdleRPMLogic=({float}1000.0, {float}1050.0)
+[22 21 98 99 AE]       LaunchEfficiency={float}0.969
+[24 79 02 B6 BD A2]    LaunchRPMLogic=({float}4500.0, {float}5500.0)
+[24 DE A7 2E B7 23 00] RevLimitRange=({float}8000.0, {byte}0, {byte}0 )
+[28 A5 5C C1 C4]       RevLimitSetting=		// Probably this, no value
+[22 19 66 8A F9]       RevLimitLogic={float}150.0
+[24 83 15 2F 20 03 00] EngineMapRange=({byte}0, {byte}1, {byte}5)
+[20 C4 44 73 F5]       EngineMapSetting={byte}2
+[24 BF 84 7C F1 A3 00] EngineBrakingMapRange=({float}0.0, {float}0.00077, {byte}6)
+[20 BE 71 ED 67]       EngineBrakingMapSetting={byte}2
+[22 AF D7 8A DD]       OptimumOilTemp={float}95.0
+[22 54 10 6D B1]       CombustionHeat={float}40.0
+[22 F6 E3 9F D9]       EngineSpeedHeat={float}12.000e-004
+[22 B3 0F 25 FC]       OilMinimumCooling={float}7.50e-003        
+[24 A7 00 D2 3A A2]    OilWaterHeatTransfer=({float}3.962e-001,{float}7.925e-005)  
+[22 67 17 15 86]       WaterMinimumCooling={float}3.962e-003
+[24 6A DA 2B 3A A2]    RadiatorCooling=({float}1.592e-004, {float}10.039e-005)
+[24 D3 94 64 AF A2]    LifetimeEngineRPM=({float}8400.0, {float}95.0)
+[24 0A CE A8 58 A2]    LifetimeOilTemp=({float}100.00, {float}3.00)
+#[24 05 71 C7 19 A2]   ({float}100000.0, {float}50000.0) // EDF_UNKN_002. Present in Lmp_Rwd_P30
+[22 F7 5F 82 2B]       LifetimeAvg={float}300000000.00
+[22 52 7B 76 CD]       LifetimeVar={float}2250.00
+#[24 C1 F4 54 3C 83 02]({byte}0, {float}0.53, {float}0.77) // EDF_UNKN_003. Present in Lmp_Rwd_P30
+[24 CE B1 75 25 A3 02] EngineEmission=({float}0.0, {float}0.53, {float}0.77)
+[20 11 8B A3 81]       {byte}1		// ? OnboardStarter= ? EDF_UNKN_004
+[26 AF 00 B3 BA]       {byte}0		// EDF_UNKN_005
+[24 52 17 FB 41 A3 02] StarterTiming=({float}1.4, {float}0.4, {float}1.5)
+[22 92 C7 CD 7C]       {float}3.00	// EDF_UKNN_006
+[24 FC 89 E8 9C A3 00] AirRestrictorRange={float}0.08, {float}0.001, {byte}20)
+#[20 C5 B4 08 FE]      AirRestrictorSetting={byte}20 // not included in all files
+#[28 C5 B4 08 FE]      AirRestrictorSetting= //no setting value
+[20 2B 3E D3 40]       {byte}2		// EDF_UKNN_007
+[22 BA 65 DD 60]       {float}6e-06	// EDF_UKNN_008
+[22 81 92 17 E0]       {float}295.00	// EDF_UKNN_009
+#[24 63 23 3A 14 A3 00] WasteGateRange=({float}175000.00, {float}0.000623273, {byte}20) // Value is pascal units
+#[20 DF 86 64 FC]      WasteGateSetting={byte}10 // not included in all files
+#[28 DF 86 64 FC]      WasteGateSetting= // no value
+#[23 00 00 50 C3 47]    ({byte}0, {byte}0) // EDF_UKNN_010
+[3 bytes following WasteGateSetting and any setting value] EngineLayout={byte}10, {byte}182, {byte}39 // see values for engine layout below
+#[4 bytes following WasteGateSetting and any setting value] EngineLayout={byte}15, {byte}177, {byte}21, {byte}155  // see values for engine layout below
+*****V10 and V12 engines have a 4 byte engine layout*****
+
+############################################################################
+# VALUES FOR ENGINE LAYOUT                                                 #
+# NOTE: these values have to be converted to                               #
+# Decimal, prior to entering into the code                                 #
+#                                                                          #
+# Single Cylinder = 0A C9 69 DC A9 99 AB in Hex code                       #
+# Twin Cylinder = 0D D7 6E D5 E5 in Hex code                               #
+# 3 Rotor = {byte}31, {byte}180, {byte}39 // 1F B4 27 in Hex code          #
+# NOTE: 3 Rotor has same engine layout as Flat 4 per SMS??                 #
+# Straight 4 = {byte}10, {byte}180, {byte}39 // 0A B4 27 in Hex code       #
+# Straight 5 = {byte}10, {byte}181, {byte}39 // 0A B5 27 in Hex code       #
+# Straight 6 = {byte}10, {byte}182, {byte}39 // 0A B6 27 in Hex code       #
+# Flat 4 = {byte}31, {byte}180, {byte}39  // 1F B4 27 in Hex code          #
+# Flat 6 = {byte}31, {byte}182, {byte}39 // 1F B6 27 in Hex code           #
+# V6 = {byte}15, {byte}182, {byte}39 // 0F B6 27 in Hex code               #
+# V8 = {byte}15, {byte}184, {byte}39 // 0F B8 27 in Hex code               #
+# V10 ={byte}15, {byte}177, {byte}23, {byte}155 // 0F B1 17 9B in Hex code #
+# V12 ={byte}15, {byte}177, {byte}21, {byte}155 // 0F B1 15 9B in Hex code #
+############################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
