@@ -31,6 +31,7 @@
       <field name="inertia" type="float" unit="kg·m²" min="0.0" max="2.0"/>
     </block>
 
+    <!-- Found in 445/476 cars between EngineInertia and IdleRPMLogic, value ~0.01. Likely coasting friction / throttle damping near idle. -->
     <block name="Unknown_EngineFreeRevs" signature="22 40 F1 D2 B9">
       <field name="value" type="float"/>
     </block>
@@ -172,15 +173,18 @@
       <field name="steps" type="byte"/>
     </block>
 
+    <!-- Speculation: Values 1, 2, 4. Sits near AirRestrictor. Might represent Restrictor Plate Count or Turbo Bypass Valve Count. -->
     <block name="Unknown_Byte_2B3ED340" signature="20 2B 3E D3 40">
       <field name="value" type="byte"/>
     </block>
 
-    <block name="Unknown_Float_2265DD60" signature="22 BA 65 DD 60">
+    <!-- Speculation: Very small values (e.g. 8.85e-06). Next to EngineDisplacement. Highly likely Engine Pumping Loss (Friction) or Injector Flow scale. -->
+    <block name="Unknown_Float_6e-06" signature="22 BA 65 DD 60">
       <field name="value" type="float"/>
     </block>
 
-    <block name="Unknown_Float_229217E0" signature="22 81 92 17 E0">
+    <!-- Speculation: Values perfectly align with Peak BHP (e.g. Stock_USA_SS = 455.0, Stock_USA_LM = 655.0). Likely a Hardcoded Horsepower / Restrictor Target override. -->
+    <block name="Unknown_Float_295" signature="22 81 92 17 E0">
       <field name="value" type="float"/>
     </block>
 
@@ -222,7 +226,7 @@
       <!-- No value variant -->
     </block>
 
-    <!-- Unknown chunk signatures -->
+    <!-- Unknown chunk signatures (Found in 400+ cars immediately following RadiatorCooling. Likely thermodynamics/cooling related) -->
     <block name="Unknown_Chunk_213F6B" signature="21 3F 6B 7B E7 82 00">
       <field name="byte1" type="byte"/>
       <field name="byte2" type="byte"/>
@@ -232,10 +236,12 @@
     </block>
 
     <!-- Unknown parameters found in specific EDF files (e.g. LMP_RWD_P30) -->
+    <!-- Unknown_LMP_RWD_P30_A: Present in LMP_RWD_P30 and 168 other cars next to LifetimeEngineRPM. Values often 60000/70000. Likely distance milestones for engine rebuild/degradation. -->
     <block name="Unknown_LMP_RWD_P30_A" signature="24 05 71 C7 19 A2">
       <field name="value1" type="float"/>
       <field name="value2" type="float"/>
     </block>
+    <!-- Speculation: First byte always 0. Floats vary (e.g. 0.40, 1.30). Could be ignition cut times, starter torque map, or engine modifiers. -->
     <block name="Unknown_LMP_RWD_P30_B" signature="24 C1 F4 54 3C 83 02">
       <field name="byte1"  type="byte"/>
       <field name="float1" type="float"/>
@@ -246,6 +252,7 @@
       <field name="value" type="float"/>
     </block>
 
+    <!-- EDF_UKNN_010: Not found in any of the 476 extracted AMS2 files. Likely deprecated PCars2 parameter. -->
     <block name="Unknown_2300005" signature="23 00 00 50 C3">
       <field name="byte1" type="byte"/>
       <field name="byte2" type="byte"/>
