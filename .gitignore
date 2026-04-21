@@ -36,8 +36,8 @@ Extracted_EDFs/
 *.7z
 *.zip
 
-# PyInstaller Build Specs (Keep only the final/main spec file if desired)
-AMS2-EDF-Editor-Beta-*.spec
+# PyInstaller Build Specs
+*.spec
 
 # Built Release Packages
 Releases/
