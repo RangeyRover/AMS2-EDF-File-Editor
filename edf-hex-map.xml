@@ -174,17 +174,17 @@
     </block>
 
     <!-- Speculation: Values 1, 2, 4. Sits near AirRestrictor. Might represent Restrictor Plate Count or Turbo Bypass Valve Count. -->
-    <block name="Unknown_Byte_2B3ED340" signature="20 2B 3E D3 40">
+    <block name="Restrictor_Plate_Bypass_Count" signature="20 2B 3E D3 40">
       <field name="value" type="byte"/>
     </block>
 
     <!-- Speculation: Very small values (e.g. 8.85e-06). Next to EngineDisplacement. Highly likely Engine Pumping Loss (Friction) or Injector Flow scale. -->
-    <block name="Unknown_Float_6e-06" signature="22 BA 65 DD 60">
+    <block name="Engine_Pumping_Loss_Friction" signature="22 BA 65 DD 60">
       <field name="value" type="float"/>
     </block>
 
     <!-- Speculation: Values perfectly align with Peak BHP (e.g. Stock_USA_SS = 455.0, Stock_USA_LM = 655.0). Likely a Hardcoded Horsepower / Restrictor Target override. -->
-    <block name="Unknown_Float_295" signature="22 81 92 17 E0">
+    <block name="Peak_BHP_Target_Override" signature="22 81 92 17 E0">
       <field name="value" type="float"/>
     </block>
 
@@ -227,25 +227,33 @@
     </block>
 
     <!-- Unknown chunk signatures (Found in 400+ cars immediately following RadiatorCooling. Likely thermodynamics/cooling related) -->
+    <!-- Speculation: Null padding after cooling block -->
     <block name="Unknown_Chunk_213F6B" signature="21 3F 6B 7B E7 82 00">
       <field name="byte1" type="byte"/>
       <field name="byte2" type="byte"/>
     </block>
-    <block name="Unknown_Chunk_206D47" signature="20 6D 47 C1 B2">
+    <!-- Speculation: RadiatorMaxTemp - Radiator boiling point / Max Water Temp. Values: 115 (GT), 110 (Formula), 70 (Kart) -->
+    <block name="RadiatorMaxTemp" signature="20 6D 47 C1 B2">
       <field name="value" type="byte"/>
     </block>
 
     <!-- Unknown parameters found in specific EDF files (e.g. LMP_RWD_P30) -->
     <!-- Unknown_LMP_RWD_P30_A: Present in LMP_RWD_P30 and 168 other cars next to LifetimeEngineRPM. Values often 60000/70000. Likely distance milestones for engine rebuild/degradation. -->
-    <block name="Unknown_LMP_RWD_P30_A" signature="24 05 71 C7 19 A2">
+    <!-- Speculation: Engine Milestones/Rebuilds -->
+    <block name="Engine_Rebuild_Milestones" signature="24 05 71 C7 19 A2">
       <field name="value1" type="float"/>
       <field name="value2" type="float"/>
     </block>
     <!-- Speculation: First byte always 0. Floats vary (e.g. 0.40, 1.30). Could be ignition cut times, starter torque map, or engine modifiers. -->
-    <block name="Unknown_LMP_RWD_P30_B" signature="24 C1 F4 54 3C 83 02">
+    <block name="Ignition_Starter_Map" signature="24 C1 F4 54 3C 83 02">
       <field name="byte1"  type="byte"/>
       <field name="float1" type="float"/>
       <field name="float2" type="float"/>
+    </block>
+
+    <!-- Speculation: Always 0 in 468 cars. Sits after OnboardStarter. Likely a reserved boolean flag like RequiresExternalJumpStart. -->
+    <block name="Reserved_Boolean_Flag" signature="26 AF 00 B3 BA">
+      <field name="value" type="byte"/>
     </block>
 
     <block name="Engine_Displacement" signature="22 92 C7 CD 7C">

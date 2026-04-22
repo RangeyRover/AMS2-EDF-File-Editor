@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 class EDFEditorApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("AMS2 EDF File Editor v0.5.3")
+        self.title("AMS2 EDF File Editor v0.5.4")
         self.geometry("1200x800")
         
         self.current_file = None
@@ -368,7 +368,7 @@ class EDFEditorApp(tk.Tk):
     def _set_dirty(self, dirty: bool):
         """Update the dirty state and the window title."""
         self._dirty = dirty
-        title = "AMS2 EDF File Editor v0.5.3"
+        title = "AMS2 EDF File Editor v0.5.4"
         if self.current_file:
             title += f" - {self.current_file}"
         if self._dirty:

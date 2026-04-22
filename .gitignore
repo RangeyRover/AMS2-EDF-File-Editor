@@ -42,3 +42,6 @@ Extracted_EDFs/
 # Built Release Packages
 Releases/
 releases/
+
+# Translation Files
+Translation_for_EngineEDFBIN*.txt

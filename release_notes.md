@@ -1,21 +1,23 @@
-# AMS2 EDF File Editor v0.5.3
+# AMS2 EDF File Editor v0.5.4 (Hotfix)
 
 ## What's New
-This release focuses on reverse-engineering the hidden Madness Engine physics constants by statistically mapping parameter placement and values across all 476 extracted AMS2 vehicles. 
+This hotfix canonises the "Unknown" parameter discoveries from `v0.5.3` by directly updating the Editor's parser logic and XML definitions. 
 
-### Newly Discovered Parameter Hypotheses
-* **`Unknown_Chunk_206D47`** has been reclassified as **`RadiatorMaxTemp`**. Analysis shows it sits strictly at `115°C` for GTs, `110°C` for Formula cars, and `70°C` for Karts.
-* **`Unknown_Float_295`** aligns perfectly with maximum BHP limits (e.g. `455.0` for Super Speedway stock cars, `655.0` for Garage 56 LM variants). It is speculated to act as an overriding **Hardcoded Horsepower/Restrictor Target**.
-* **`Unknown_Float_6e-06`** (magnitude ~`8.85e-06`) is mapped directly next to `EngineDisplacement` and acts as a dynamic **Engine Pumping Loss (Friction)** or Injector scale.
-* **`Unknown_EngineFreeRevs`** is placed securely between `EngineInertia` and `IdleRPMLogic`, functioning as a tiny frictional coefficient (~`0.01`) for **Coasting Friction / Throttle Damping**.
-* **`Unknown_LMP_RWD_P30_A`** features massive `(150000.0, 70000.0)` variants directly adjacent to `LifetimeEngineRPM`, likely representing **Engine Mileage/Rebuild Milestones**.
+When you parse an engine file, the GUI will now natively display the explicit parameters instead of cryptic unknowns!
 
-*(These remain annotated as "Speculation" in the XML/constants, but have massive statistical backing).*
+### Upgraded UI Parameter Definitions:
+- **`RadiatorMaxTemp`** (formerly `Unknown_Chunk_206D47` / `115` max water temp threshold)
+- **`Peak_BHP_Target_Override`** (formerly `Unknown_Float_295` / Explicit horsepower scaling factor)
+- **`Engine_Pumping_Loss_Friction`** (formerly `Unknown_Float_6e-06` / Micro-float friction curve)
+- **`Restrictor_Plate_Bypass_Count`** (formerly `Unknown_Byte_2B3ED340` / Values `1`, `2`, `4`)
+- **`Engine_Rebuild_Milestones`** (formerly `Unknown_LMP_RWD_P30_A` / Distance targets e.g. `60,000`)
+- **`Ignition_Starter_Map`** (formerly `Unknown_LMP_RWD_P30_B` / Ignition cuts/torques)
+- **`Reserved_Boolean_Flag`** (formerly `EDF_UNKN_005` / Re-added to the XML payload to prevent silent parsing drops)
 
-### Bug Fixes & Refinements
-* Removed the PCars2-era `EDF_UKNN_010` (`2300005`) as it no longer exists in any AMS2 engine file.
-* Git builds now globally `.gitignore` all `*.spec` compilation files to maintain a clean workspace.
+### Under the Hood
+- Both `constants.py` and `edf-hex-map.xml` have been meticulously synchronised. 
+- The translation documentation has been bumped to `v1.5` and `.gitignored` to prevent bloating the source tracking.
 
 ### Assets
-- `AMS2-EDF-Editor-v0.5.3.exe` (Single Portable Executable)
-- `AMS2-EDF-Editor-v0.5.3-portable.zip` (Portable Directory version for faster startup)
+- `AMS2-EDF-Editor-v0.5.4.exe` (Single Portable Executable)
+- `AMS2-EDF-Editor-v0.5.4-portable.zip` (Portable Directory version for faster startup)

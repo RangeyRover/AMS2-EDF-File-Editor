@@ -57,21 +57,21 @@ PARAMS = {
     b'\x24\x6A\xDA\x2B\x3A\xA2': ('RadiatorCooling', ('f','f')),
     # Unknown chunk signatures (Found in 400+ cars immediately following RadiatorCooling. Likely thermodynamics/cooling related)
     b'\x21\x3F\x6B\x7B\xE7\x82\x00': ('Unknown_Chunk_213F6B', ('b','b')),
-    b'\x20\x6D\x47\xC1\xB2': ('Unknown_Chunk_206D47', ('b',)),
+    b'\x20\x6D\x47\xC1\xB2': ('RadiatorMaxTemp', ('b',)),
     # Lifetime parameters
     b'\x24\xD3\x94\x64\xAF\xA2': ('LifetimeEngineRPM', ('f','f')),
     b'\x24\xD3\x94\x64\xAF\x52': ('LifetimeEngineRPM', ('i','i')),
     b'\x24\x0A\xCE\xA8\x58\xA2': ('LifetimeOilTemp', ('f','f')),
     # Present in LMP_RWD_P30 and 168 other cars next to LifetimeEngineRPM. Values often 60000/70000. Likely distance milestones for engine rebuild/degradation.
-    b'\x24\x05\x71\xC7\x19\xA2': ('Unknown_LMP_RWD_P30_A', ('f','f')),
+    b'\x24\x05\x71\xC7\x19\xA2': ('Engine_Rebuild_Milestones', ('f','f')),
     b'\x22\xF7\x5F\x82\x2B': ('LifetimeAvg', ('f',)),
     b'\x22\x52\x7B\x76\xCD': ('LifetimeVar', ('f',)),
     # Speculation: First byte always 0. Floats vary (e.g. 0.40, 1.30). Could be ignition cut times, starter torque map, or engine modifiers.
-    b'\x24\xC1\xF4\x54\x3C\x83\x02': ('Unknown_LMP_RWD_P30_B', ('b','f','f')),  # Present in LMP_RWD_P30
+    b'\x24\xC1\xF4\x54\x3C\x83\x02': ('Ignition_Starter_Map', ('b','f','f')),  # Present in LMP_RWD_P30
     b'\x24\xCE\xB1\x75\x25\xA3\x02': ('EngineEmission', ('f','f','f')),
     b'\x20\x11\x8B\xA3\x81': ('OnboardStarter?', ('b',)),
     # Speculation: Always 0 in 468 cars. Sits after OnboardStarter. Likely a reserved boolean flag like RequiresExternalJumpStart.
-    b'\x26\xAF\x00\xB3\xBA': ('EDF_UNKN_005', ('b',)),
+    b'\x26\xAF\x00\xB3\xBA': ('Reserved_Boolean_Flag', ('b',)),
     b'\x24\x52\x17\xFB\x41\xA3\x02': ('StarterTiming', ('f','f','f')),
     b'\x22\x92\xC7\xCD\x7C': ('EngineDisplacement', ('f',)),  # Engine displacement in liters
     # Air restrictor
@@ -80,11 +80,11 @@ PARAMS = {
     b'\x28\xC5\xB4\x08\xFE': ('AirRestrictorSetting_NoValue', ()),  # No value variant
     # Other unknowns
     # Speculation: Values 1, 2, 4. Sits near AirRestrictor. Might represent Restrictor Plate Count or Turbo Bypass Valve Count.
-    b'\x20\x2B\x3E\xD3\x40': ('Unknown_Byte_2B3ED340', ('b',)),
+    b'\x20\x2B\x3E\xD3\x40': ('Restrictor_Plate_Bypass_Count', ('b',)),
     # Speculation: Very small values (e.g. 8.85e-06). Next to EngineDisplacement. Highly likely Engine Pumping Loss (Friction) or Injector Flow scale.
-    b'\x22\xBA\x65\xDD\x60': ('Unknown_Float_6e-06', ('f',)),
+    b'\x22\xBA\x65\xDD\x60': ('Engine_Pumping_Loss_Friction', ('f',)),
     # Speculation: Values perfectly align with Peak BHP (e.g. Stock_USA_SS = 455.0, Stock_USA_LM = 655.0). Likely a Hardcoded Horsepower / Restrictor Target override.
-    b'\x22\x81\x92\x17\xE0': ('Unknown_Float_295', ('f',)),
+    b'\x22\x81\x92\x17\xE0': ('Peak_BHP_Target_Override', ('f',)),
     # Old WasteGate parameters (replaced by boost control)
     b'\x24\x63\x23\x3A\x14\xA3\x00': ('WasteGateRange_OLD', ('f','f','b')),
     b'\x20\xDF\x86\x64\xFC': ('WasteGateSetting_OLD', ('b',)),
