@@ -1,19 +1,12 @@
-"""Launch the AMS2 EDF File Editor."""
 import sys
 import os
-import ctypes
 
-# Windows High DPI awareness (FR11) — must be called before any Tkinter init
-try:
-    ctypes.windll.shcore.SetProcessDpiAwareness(1)
-except Exception:
-    pass
+# Ensure the project root is in sys.path so 'src' can be imported natively
+project_root = os.path.dirname(os.path.abspath(__file__))
+if project_root not in sys.path:
+    sys.path.insert(0, project_root)
 
-# Ensure project root is on sys.path
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from src.main import main
 
-from src.gui.app import EDFEditorApp
-
-if __name__ == "__main__":
-    app = EDFEditorApp()
-    app.mainloop()
+if __name__ == '__main__':
+    main()

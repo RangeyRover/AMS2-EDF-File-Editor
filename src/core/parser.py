@@ -191,9 +191,7 @@ def parse_torque_tables(data: bytes) -> List[TorqueTable]:
                 q += ENDVAR_STRUCT.size
                 break
                 
-            # no known row signature -> end this table
-            # DEBUG ONLY
-            print(f"DEBUG: No known row signature matched at q={q}. hex: {data[q:q+16].hex()}")
+            # no known row signature -> end this table naturally
             break
             
         if len(rows) >= 2:  # must have at least 0rpm/row_i + one more row

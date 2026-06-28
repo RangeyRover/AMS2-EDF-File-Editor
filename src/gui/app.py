@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 class EDFEditorApp(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("AMS2 EDF File Editor v0.5.4")
+        self.title("AMS2 EDF File Editor v0.5.5")
         self.geometry("1200x800")
         
         self.current_file = None
@@ -79,7 +79,7 @@ class EDFEditorApp(tk.Tk):
         self.tree.bind("<Double-1>", self.on_tree_double_click)
         
     def load_file(self):
-        path = filedialog.askopenfilename(filetypes=[("EDF files", "*.edf"), ("All files", "*.*")])
+        path = filedialog.askopenfilename(filetypes=[("EDF files", "*.edf *.edfbin"), ("All files", "*.*")])
         if not path:
             return
             
@@ -130,7 +130,7 @@ class EDFEditorApp(tk.Tk):
             return
         path = filedialog.asksaveasfilename(
             defaultextension=".edf",
-            filetypes=[("EDF files", "*.edf"), ("All files", "*.*")]
+            filetypes=[("EDF files", "*.edf *.edfbin"), ("All files", "*.*")]
         )
         if not path:
             return
@@ -368,7 +368,7 @@ class EDFEditorApp(tk.Tk):
     def _set_dirty(self, dirty: bool):
         """Update the dirty state and the window title."""
         self._dirty = dirty
-        title = "AMS2 EDF File Editor v0.5.4"
+        title = "AMS2 EDF File Editor v0.5.5"
         if self.current_file:
             title += f" - {self.current_file}"
         if self._dirty:
