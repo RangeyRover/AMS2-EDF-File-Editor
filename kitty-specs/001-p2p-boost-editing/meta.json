@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-06-30T14:15:56.463410+00:00",
+  "feature_number": "001",
+  "feature_slug": "001-p2p-boost-editing",
+  "friendly_name": "p2p boost editing",
+  "mission": "software-dev",
+  "slug": "001-p2p-boost-editing",
+  "target_branch": "feature/boost-table-variants"
+}
