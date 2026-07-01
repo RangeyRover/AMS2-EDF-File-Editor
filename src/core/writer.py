@@ -1,12 +1,11 @@
 import struct
 from typing import List, Tuple, cast
 
-from .models import TorqueRow, TorqueTable, BoostRow, BoostTable, Parameter
+from .models import TorqueRow, TorqueTable, BoostRow, BoostTable, P2PRow, P2PTable, Parameter
 from .constants import (
-    SIG_0RPM, SIG_0RPM_ALT, SIG_ROW_I, SIG_ROW_F, SIG_ENDVAR,
-    SIG_BOOST_0RPM, SIG_BOOST_ROW,
     ROW0_STRUCT, ROW0_ALT_STRUCT, ROWI_STRUCT, ROWF_STRUCT, ENDVAR_STRUCT,
-    BOOST0_STRUCT, BOOSTI_STRUCT,
+    BOOST_4F_STRUCT, BOOST_5F_STRUCT, BOOST_I_4F_STRUCT, BOOST_I_5F_STRUCT, BOOST_I_5B_STRUCT,
+    P2P_FULL_STRUCT, P2P_ZERO_STRUCT,
     PARAMS
 )
 
@@ -18,13 +17,13 @@ def write_torque_row(data: bytearray, row: TorqueRow) -> None:
     if row.kind == '0rpm':
         if row.torque is None:
             return
-        data_offset = row.offset + len(SIG_0RPM)
+        data_offset = row.offset + 7
         # Preserve the leading byte
         b0 = data[data_offset]
         struct.pack_into('<Bff', data, data_offset, b0, row.compression, row.torque)
 
     elif row.kind == '0rpm_alt':
-        data_offset = row.offset + len(SIG_0RPM_ALT)
+        data_offset = row.offset + 7
         # Preserve formatting bytes
         b0 = data[data_offset]
         b1 = data[data_offset+1]
@@ -49,17 +48,17 @@ def write_torque_row(data: bytearray, row: TorqueRow) -> None:
         else:
             # Standard structures encode the signature *before* the RPM
             # Structure: <signature> <int32 rpm> <float comp> <float torque>
-            data_offset = row.offset + len(SIG_ROW_I)
+            data_offset = row.offset + 7
             struct.pack_into('<iff', data, data_offset, int(row.rpm), row.compression, row.torque)
 
     elif row.kind == 'row_f':
         if row.torque is None:
             return
-        data_offset = row.offset + len(SIG_ROW_F)
+        data_offset = row.offset + 7
         struct.pack_into('<fff', data, data_offset, row.rpm, row.compression, row.torque)
 
     elif row.kind == 'endvar':
-        data_offset = row.offset + len(SIG_ENDVAR)
+        data_offset = row.offset + 7
         # ENDVAR_STRUCT is <ifB: (int rpm, float compression, byte)
         # Preserve the trailing byte
         trailing_byte = data[data_offset + ENDVAR_STRUCT.size - 1]
@@ -69,19 +68,32 @@ def write_torque_row(data: bytearray, row: TorqueRow) -> None:
 def write_boost_row(data: bytearray, row: BoostRow) -> None:
     """
     Writes boost row values back to the binary data.
-    Handles boost_0rpm and boost_row kinds.
     """
-    if row.kind == 'boost_0rpm':
-        data_offset = row.offset + len(SIG_BOOST_0RPM)
-        # BOOST0_STRUCT is <Bfffff: (byte, 5 floats)
-        # Preserve the leading byte
+    data_offset = row.offset + 7
+    if row.kind == 'boost_0rpm_5f':
         b0 = data[data_offset]
         struct.pack_into('<Bfffff', data, data_offset, b0, row.t0, row.t25, row.t50, row.t75, row.t100)
-
-    elif row.kind == 'boost_row':
-        data_offset = row.offset + len(SIG_BOOST_ROW)
-        # BOOSTI_STRUCT is <ifffff: (int rpm, 5 floats)
+    elif row.kind == 'boost_0rpm_4f':
+        b0 = data[data_offset]
+        struct.pack_into('<Bffff', data, data_offset, b0, row.t0, row.t25, row.t50, row.t75)
+    elif row.kind == 'boost_row_5f':
         struct.pack_into('<ifffff', data, data_offset, int(row.rpm), row.t0, row.t25, row.t50, row.t75, row.t100)
+    elif row.kind == 'boost_row_4f':
+        b1 = data[data_offset + 4] # preserve byte after int
+        struct.pack_into('<iBffff', data, data_offset, int(row.rpm), b1, row.t0, row.t25, row.t50, row.t75)
+    elif row.kind == 'boost_row_5b':
+        pass # Not editable
+
+
+def write_p2p_row(data: bytearray, row: P2PRow) -> None:
+    """
+    Writes p2p row values back to the binary data.
+    """
+    data_offset = row.offset + 7
+    if row.kind == 'p2p_full':
+        struct.pack_into('<BBBf', data, data_offset, row.mode, int(row.rpm), int(row.throttle), row.multiplier)
+    elif row.kind == 'p2p_zero':
+        struct.pack_into('<BBBB', data, data_offset, row.mode, int(row.rpm), int(row.throttle), row.pad)
 
 
 def write_param(data: bytearray, param: Parameter) -> None:

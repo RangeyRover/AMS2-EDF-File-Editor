@@ -3,7 +3,7 @@ from tkinter import ttk, filedialog, messagebox, simpledialog
 import logging
 import csv
 
-from ..core.parser import parse_torque_tables, parse_boost_tables, parse_params, detect_engine_layout
+from ..core.parser import parse_torque_tables, parse_boost_tables, parse_p2p_tables, parse_params, detect_engine_layout
 from ..core.writer import write_torque_row, write_param, scale_torque_tables
 from ..utils import plotting
 from .tree_view import EDFTreeView
@@ -40,6 +40,8 @@ class EDFEditorApp(tk.Tk):
         menubar.add_cascade(label="File", menu=self.file_menu)
         
         tools_menu = tk.Menu(menubar, tearoff=0)
+        tools_menu.add_command(label="Interactive P2P Editor", command=self.plot_p2p_interactive)
+        tools_menu.add_command(label="Interactive Boost Editor", command=self.plot_boost_interactive)
         tools_menu.add_command(label="Interactive Torque/Power", command=self.plot_torque_interactive)
         tools_menu.add_command(label="Interactive Compression", command=self.plot_compression_interactive)
         tools_menu.add_separator()
@@ -93,10 +95,11 @@ class EDFEditorApp(tk.Tk):
             # Parse
             self.tables = parse_torque_tables(self.data)
             self.boost = parse_boost_tables(self.data)
+            self.p2p_tables = parse_p2p_tables(self.data)
             self.params = parse_params(self.data)
             
             # Populate UI
-            self.tree.populate(self.tables, self.boost, self.params)
+            self.tree.populate(self.tables, self.boost, self.p2p_tables, self.params)
             self.hex_view.load_data(self.data)
             
             # Enable save
@@ -149,8 +152,9 @@ class EDFEditorApp(tk.Tk):
         self.current_file = None
         self.tables = []
         self.boost = []
+        self.p2p_tables = []
         self.params = []
-        self.tree.populate([], [], [])
+        self.tree.populate([], [], [], [])
         self.hex_view.load_data(bytearray())
         
         self.current_file = None
@@ -186,30 +190,29 @@ class EDFEditorApp(tk.Tk):
         elif isinstance(obj, Parameter):
             EditParamDialog(self, obj, self.on_param_update)
             
-    def on_row_update(self, row):
-        # callback from dialog
-        # 1. Write to binary
-        write_torque_row(self.data, row)
-        # 2. Refresh UI
-        # We need to refresh the tree item and hex view
-        # For simplicity, reload hex view entirely? Efficient enough for 2MB files.
+    def on_row_update(self, rows):
+        from ..core.writer import write_torque_row, write_boost_row, write_p2p_row
+        from ..core.models import TorqueRow, BoostRow, P2PRow
+
+        if not isinstance(rows, list):
+            rows = [rows]
+            
+        for row in rows:
+            if isinstance(row, TorqueRow):
+                write_torque_row(self.data, row)
+            elif isinstance(row, BoostRow):
+                write_boost_row(self.data, row)
+            elif isinstance(row, P2PRow):
+                write_p2p_row(self.data, row)
+            
         self.hex_view.load_data(self.data)
-        # Refresh tree item logic?
-        # self.tree.item(item_id, values=...)
-        # We need to find item_id for this row object.
-        # TreeView doesn't support reverse lookup easily unless we store it.
-        # But we can just Repopulate or ask TreeView to refresh specific item if we pass ID.
-        # Dialog doesn't know ID.
-        # We could pass ID to dialog?
-        # Or just repopulate entire tree? (Slower but safer)
-        # Or update data and re-populate.
-        self.tree.populate(self.tables, self.boost, self.params)
+        self.tree.populate(self.tables, self.boost, self.p2p_tables, self.params)
         self._set_dirty(True)
 
     def on_param_update(self, param):
         write_param(self.data, param)
         self.hex_view.load_data(self.data)
-        self.tree.populate(self.tables, self.boost, self.params)
+        self.tree.populate(self.tables, self.boost, self.p2p_tables, self.params)
         self._set_dirty(True)
 
     def on_tree_select(self, event):
@@ -314,6 +317,54 @@ class EDFEditorApp(tk.Tk):
             self._interactive_plot_open = False
             logger.exception("Interactive plot failed")
             messagebox.showerror("Error", f"Interactive plot failed: {e}")
+
+    def plot_boost_interactive(self):
+        """Launch an interactive drag-editable Boost plot."""
+        if not self.data or not hasattr(self, 'boost') or not self.boost:
+            messagebox.showwarning("No data", "No Boost tables found.")
+            return
+        if self._interactive_plot_open:
+            messagebox.showinfo("Already open", "An interactive plot is already open.")
+            return
+        try:
+            from ..utils.interactive_boost_plot import DraggableBoostPlot
+            self._interactive_plot_open = True
+            self._interactive_plot = DraggableBoostPlot(
+                parent=self,
+                tables=self.boost,
+                data=self.data,
+                filename=self.current_file or "EDF File",
+                on_row_changed=self.on_row_update,
+                on_close=self._on_interactive_plot_close,
+            )
+        except Exception as e:
+            self._interactive_plot_open = False
+            logger.exception("Boost Interactive plot failed")
+            messagebox.showerror("Error", f"Boost plot failed: {e}")
+
+    def plot_p2p_interactive(self):
+        """Launch an interactive drag-editable P2P plot."""
+        if not self.data or not hasattr(self, 'p2p_tables') or not self.p2p_tables:
+            messagebox.showwarning("No data", "No P2P tables found.")
+            return
+        if self._interactive_plot_open:
+            messagebox.showinfo("Already open", "An interactive plot is already open.")
+            return
+        try:
+            from ..utils.interactive_p2p_plot import DraggableP2PPlot
+            self._interactive_plot_open = True
+            self._interactive_plot = DraggableP2PPlot(
+                parent=self,
+                tables=self.p2p_tables,
+                data=self.data,
+                filename=self.current_file or "EDF File",
+                on_row_changed=self.on_row_update,
+                on_close=self._on_interactive_plot_close,
+            )
+        except Exception as e:
+            self._interactive_plot_open = False
+            logger.exception("P2P Interactive plot failed")
+            messagebox.showerror("Error", f"P2P plot failed: {e}")
 
     def _on_interactive_plot_close(self):
         """Callback from DraggableTorquePlot when its window is closed (FR-036)."""

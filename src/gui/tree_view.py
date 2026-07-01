@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from typing import List, Optional
 
-from ..core.models import TorqueTable, BoostTable, Parameter
+from ..core.models import TorqueTable, BoostTable, P2PTable, Parameter
 from ..core.constants import PARAM_META
 from ..utils.formatting import format_float
 
@@ -34,12 +34,13 @@ class EDFTreeView(ttk.Treeview):
         self.delete(*self.get_children())
         self.item_map.clear()
         
-    def populate(self, tables: List[TorqueTable], boost_tables: List[BoostTable], params: List[Parameter]):
+    def populate(self, tables: List[TorqueTable], boost_tables: List[BoostTable], p2p_tables: List[P2PTable], params: List[Parameter]):
         self.clear()
         
         # Root nodes
         tt_root = self.insert('', 'end', text=f"Torque tables found: {len(tables)}", open=True)
         bt_root = self.insert('', 'end', text=f"Boost tables found: {len(boost_tables)}", open=True)
+        pt_root = self.insert('', 'end', text=f"P2P tables found: {len(p2p_tables)}", open=True)
         pr_root = self.insert('', 'end', text=f"Parameters found: {len(params)}", open=True)
         
         # Torque Tables
@@ -69,8 +70,27 @@ class EDFTreeView(ttk.Treeview):
                 item_id = self.insert(bnode, 'end',
                                      text=f"Row {i:02d} [{row.kind}] @ 0x{row.offset:X}",
                                      values=(format_float(row.t0, 3), format_float(row.t25, 3), format_float(row.t50, 3)))
+                
+                t100_str = "N/A" if row.t100 is None else format_float(row.t100, 3)
                 self.insert(bnode, 'end',
-                           text=f"  → Throttle 75%={format_float(row.t75, 3)}, 100%={format_float(row.t100, 3)}",
+                           text=f"  → Throttle 75%={format_float(row.t75, 3)}, 100%={t100_str}",
+                           values=('', '', ''))
+                self.item_map[item_id] = row
+
+        # P2P Tables
+        for p_idx, table in enumerate(p2p_tables):
+            pnode = self.insert(pt_root, 'end', 
+                                text=f"P2P Table {p_idx} @ 0x{table.offset:X} (rows={len(table.rows)})", 
+                                values=('', '', ''))
+            
+            self.insert(pnode, 'end', text="Columns: Mode (N), RPM (X), Throttle (Y), Multiplier (V)", values=('', '', ''))
+            
+            for i, row in enumerate(table.rows):
+                item_id = self.insert(pnode, 'end',
+                                     text=f"Row {i:02d} [{row.kind}] @ 0x{row.offset:X}",
+                                     values=(f"Mode: {row.mode}", f"RPM: {format_float(row.rpm, 1)}", f"Thr: {format_float(row.throttle, 1)}"))
+                self.insert(pnode, 'end',
+                           text=f"  → Multiplier={format_float(row.multiplier, 3)}",
                            values=('', '', ''))
                 self.item_map[item_id] = row
 

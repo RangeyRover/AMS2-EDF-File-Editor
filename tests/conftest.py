@@ -1,73 +1,72 @@
 import pytest
 import struct
 from src.core.constants import (
-    SIG_0RPM, SIG_ROW_I, SIG_ROW_F, SIG_ENDVAR,
-    SIG_BOOST_0RPM, SIG_BOOST_ROW,
-    ROW0_STRUCT, ROWI_STRUCT, ROWF_STRUCT, ENDVAR_STRUCT,
-    BOOST0_STRUCT, BOOSTI_STRUCT
+    HASH_TORQUE, HASH_BOOST, HASH_P2P,
+    ROW0_STRUCT, ROW0_ALT_STRUCT, ROWI_STRUCT, ROWF_STRUCT, ENDVAR_STRUCT,
+    BOOST_5F_STRUCT, BOOST_I_5F_STRUCT,
+    P2P_FULL_STRUCT, P2P_ZERO_STRUCT
 )
 
 @pytest.fixture
 def synthetic_torque_data():
     """
     Creates a synthetic binary blob containing one Torque table.
-    Table structure:
-    - 0RPM Row
-    - Row I (Int RPM)
-    - Row F (Float RPM)
-    - EndVar Row
     """
     data = bytearray()
-    
-    # Padding
     data.extend(b'\x00' * 10)
     
-    # 1. 0RPM Row (Offset 10)
-    data.extend(SIG_0RPM)
-    # Struct: Byte, Float(Comp), Float(Torque)
-    # 0, 10.0, 100.0
+    # 1. 0RPM Row
+    data.extend(b'\x24' + HASH_TORQUE + b'\x83\x02')
     data.extend(ROW0_STRUCT.pack(0, 10.0, 100.0))
     
-    # 2. Row I (Offset 10 + 7 + 9 = 26)
-    data.extend(SIG_ROW_I)
-    # Struct: Int(RPM), Float(Comp), Float(Torque)
-    # 1000, 10.0, 150.0
+    # 2. Row I
+    data.extend(b'\x24' + HASH_TORQUE + b'\x93\x02')
     data.extend(ROWI_STRUCT.pack(1000, 10.0, 150.0))
     
-    # 3. Row F (Offset 26 + 7 + 12 = 45)
-    data.extend(SIG_ROW_F)
-    # Struct: Float(RPM), Float(Comp), Float(Torque)
-    # 2000.5, 10.0, 200.0
+    # 3. Row F
+    data.extend(b'\x24' + HASH_TORQUE + b'\xA3\x02')
     data.extend(ROWF_STRUCT.pack(2000.5, 10.0, 200.0))
     
-    # 4. EndVar (Offset 45 + 7 + 12 = 64)
-    data.extend(SIG_ENDVAR)
-    # Struct: Int(RPM), Float(Comp), Byte
-    # 3000, 10.0, 0
+    # 4. EndVar
+    data.extend(b'\x24' + HASH_TORQUE + b'\x93\x00')
     data.extend(ENDVAR_STRUCT.pack(3000, 10.0, 0))
     
-    # Trailing bytes
     data.extend(b'\xFF' * 5)
-    
     return bytes(data)
 
 @pytest.fixture
 def synthetic_boost_data():
     """
-    Creates a synthetic binary blob containing one Boost table.
+    Creates a synthetic binary blob containing one Boost table (5F variant).
     """
     data = bytearray()
     data.extend(b'\x00' * 20)
     
     # 1. Boost 0RPM
-    data.extend(SIG_BOOST_0RPM)
-    # Struct: Byte, 5 floats
-    data.extend(BOOST0_STRUCT.pack(0, 1.0, 1.2, 1.5, 1.8, 2.0))
+    data.extend(b'\x24' + HASH_BOOST + b'\x86\xAA')
+    data.extend(BOOST_5F_STRUCT.pack(0, 1.0, 1.2, 1.5, 1.8, 2.0))
     
     # 2. Boost Row
-    data.extend(SIG_BOOST_ROW)
-    # Struct: Int, 5 floats
-    data.extend(BOOSTI_STRUCT.pack(2000, 1.1, 1.3, 1.6, 1.9, 2.1))
+    data.extend(b'\x24' + HASH_BOOST + b'\x96\xAA')
+    data.extend(BOOST_I_5F_STRUCT.pack(2000, 1.1, 1.3, 1.6, 1.9, 2.1))
+    
+    return bytes(data)
+
+@pytest.fixture
+def synthetic_p2p_data():
+    """
+    Creates synthetic P2P data.
+    """
+    data = bytearray()
+    data.extend(b'\x00' * 10)
+    
+    # Full Row
+    data.extend(b'\x24' + HASH_P2P + b'\x04\x08')
+    data.extend(P2P_FULL_STRUCT.pack(1, 2, 50, 1.5))
+    
+    # Zero Row
+    data.extend(b'\x24' + HASH_P2P + b'\x04\x00')
+    data.extend(P2P_ZERO_STRUCT.pack(1, 2, 50, 0))
     
     return bytes(data)
 
@@ -95,46 +94,37 @@ def synthetic_param_data():
 def synthetic_multi_table_data():
     """
     Creates a synthetic binary blob containing TWO torque tables.
-    Used for cross-table isolation testing.
     """
     data = bytearray()
-    
-    # Padding before table 0
     data.extend(b'\x00' * 10)
     
     # Table 0: 0RPM + Row I + EndVar
-    data.extend(SIG_0RPM)
+    data.extend(b'\x24' + HASH_TORQUE + b'\x83\x02')
     data.extend(ROW0_STRUCT.pack(0, 5.0, 50.0))
     
-    data.extend(SIG_ROW_I)
+    data.extend(b'\x24' + HASH_TORQUE + b'\x93\x02')
     data.extend(ROWI_STRUCT.pack(1000, 8.0, 120.0))
     
-    data.extend(SIG_ENDVAR)
+    data.extend(b'\x24' + HASH_TORQUE + b'\x93\x00')
     data.extend(ENDVAR_STRUCT.pack(2000, 6.0, 0))
     
-    # Separator
     data.extend(b'\xAA' * 10)
     
     # Table 1: 0RPM + Row I + EndVar
-    data.extend(SIG_0RPM)
+    data.extend(b'\x24' + HASH_TORQUE + b'\x83\x02')
     data.extend(ROW0_STRUCT.pack(0, 3.0, 30.0))
     
-    data.extend(SIG_ROW_I)
+    data.extend(b'\x24' + HASH_TORQUE + b'\x93\x02')
     data.extend(ROWI_STRUCT.pack(1500, 7.0, 180.0))
     
-    data.extend(SIG_ENDVAR)
+    data.extend(b'\x24' + HASH_TORQUE + b'\x93\x00')
     data.extend(ENDVAR_STRUCT.pack(3000, 4.0, 0))
     
-    # Trailing bytes
     data.extend(b'\xFF' * 5)
-    
     return bytes(data)
 
 @pytest.fixture
 def drag_transaction_fixture():
-    """
-    Creates a sample DragTransaction for undo testing.
-    """
     from src.core.models import DragTransaction
     return DragTransaction(
         table_index=0,
@@ -143,88 +133,49 @@ def drag_transaction_fixture():
         start_torque=150.0,
         end_torque=200.0,
         start_compression=10.0,
-        end_compression=13.333333015441895,  # Proportional: 10 * (200/150)
+        end_compression=13.333333015441895,
     )
 
 @pytest.fixture
 def synthetic_f309_torque_data():
-    """
-    Creates a synthetic binary blob containing one f309 alternate Torque table.
-    Table structure:
-    - 0RPM_ALT Row (6-byte struct)
-    - Row I (Int RPM)
-    - Row F (Float RPM)
-    - EndVar Row
-    """
-    from src.core.constants import SIG_0RPM_ALT, ROW0_ALT_STRUCT
     data = bytearray()
-    
-    # Padding
     data.extend(b'\x00' * 10)
     
-    # 1. Alternate 0RPM Row
-    data.extend(SIG_0RPM_ALT)
-    # Struct <BBf: Byte, Byte, Float(Comp) - NO TORQUE
-    # 0, 0, 10.0
+    data.extend(b'\x24' + HASH_TORQUE + b'\x03\x02')
     data.extend(ROW0_ALT_STRUCT.pack(0, 0, 10.0))
     
-    # 2. Row I 
-    data.extend(SIG_ROW_I)
-    # 1000, 10.0, 150.0
+    data.extend(b'\x24' + HASH_TORQUE + b'\x93\x02')
     data.extend(ROWI_STRUCT.pack(1000, 10.0, 150.0))
     
-    # 3. Row F 
-    data.extend(SIG_ROW_F)
-    # 2000.5, 10.0, 200.0
+    data.extend(b'\x24' + HASH_TORQUE + b'\xA3\x02')
     data.extend(ROWF_STRUCT.pack(2000.5, 10.0, 200.0))
     
-    # 4. EndVar
-    data.extend(SIG_ENDVAR)
-    # 3000, 10.0, 0
+    data.extend(b'\x24' + HASH_TORQUE + b'\x93\x00')
     data.extend(ENDVAR_STRUCT.pack(3000, 10.0, 0))
     
     data.extend(b'\xFF' * 5)
-    
     return bytes(data)
 
 @pytest.fixture
 def synthetic_orphan_rowi_torque_data():
-    """
-    Creates a synthetic binary blob containing one Torque table that completely 
-    omits the 0RPM header row (e.g. BMW_LMR or aston_martin_db11_rac style).
-    It starts immediately at a ROW_I struct.
-    """
-    from src.core.constants import ROWI_STRUCT, ROWF_STRUCT, ENDVAR_STRUCT, SIG_ROW_F, SIG_ENDVAR
     data = bytearray()
-    
-    # Padding
     data.extend(b'\x00' * 15)
     
-    # 1. Native ROW_I start with explicit RPM
-    # We'll use a slightly fuzzy signature matching forc.edfbin -> \x03\x02 padding
-    fuzz_sig = b'\x24\x8b\x0a\xb7\x71\x03\x02'
-    
-    # Int(RPM) of 1350
     rpm = struct.pack('<I', 1350) 
+    fuzz_sig = b'\x24' + HASH_TORQUE + b'\x03\x02'
     
     data.extend(rpm)
     data.extend(fuzz_sig)
-    
-    # b0 explicit padding byte found natively inside anomalous structures
     data.extend(b'\x00')
     
-    # Float(Comp), Float(Torque) -> 12.0, 180.0
     comp_tq = struct.pack('<ff', 12.0, 180.0)
     data.extend(comp_tq)
     
-    # 2. Row F 
-    data.extend(SIG_ROW_F)
+    data.extend(b'\x24' + HASH_TORQUE + b'\xA3\x02')
     data.extend(ROWF_STRUCT.pack(2000.5, 10.0, 200.0))
     
-    # 3. EndVar
-    data.extend(SIG_ENDVAR)
+    data.extend(b'\x24' + HASH_TORQUE + b'\x93\x00')
     data.extend(ENDVAR_STRUCT.pack(3000, 10.0, 0))
     
     data.extend(b'\xFF' * 5)
-    
     return bytes(data)

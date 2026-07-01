@@ -1,7 +1,7 @@
 import pytest
 from src.core.parser import parse_torque_tables
 from src.core.writer import write_torque_row
-from src.core.constants import SIG_0RPM_ALT
+from src.core.constants import HASH_TORQUE
 
 def test_f309_torque_table_parsing(synthetic_f309_torque_data):
     """
@@ -38,7 +38,7 @@ def test_f309_torque_table_serialization(synthetic_f309_torque_data):
     write_torque_row(data, table.rows[0])
     
     # The 13 bytes of the packed table should match the alternate signature and packed bytes
-    expected_row0 = SIG_0RPM_ALT + b'\x00\x00\x00\x00pA' # 15.0 is 00 00 70 41 in little-endian float (<f)
+    expected_row0 = b'\x24' + HASH_TORQUE + b'\x03\x02' + b'\x00\x00\x00\x00pA' # 15.0 is 00 00 70 41 in little-endian float (<f)
     
     offset = table.rows[0].offset
     assert data[offset:offset+13] == expected_row0, "Alternate row signature and payload must be exactly preserved"

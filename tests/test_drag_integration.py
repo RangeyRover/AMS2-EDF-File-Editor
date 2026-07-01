@@ -62,8 +62,7 @@ class TestDragUpdatesBinary:
 
         # Snapshot RPM bytes before drag
         # Row I struct: Int(RPM), Float(Comp), Float(Torque) — RPM is first 4 bytes after signature
-        from src.core.constants import SIG_ROW_I
-        rpm_offset = row.offset + len(SIG_ROW_I)
+        rpm_offset = row.offset + 7
         rpm_bytes_before = bytes(data[rpm_offset:rpm_offset + 4])
 
         # Simulate drag

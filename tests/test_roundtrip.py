@@ -278,3 +278,67 @@ class TestRoundTrip:
                         )
         finally:
             os.unlink(modified_path)
+
+# ---------------------------------------------------------------------------
+# P2P Roundtrip
+# ---------------------------------------------------------------------------
+
+def _record_p2p(tables: List[Any]) -> List[Dict[str, Any]]:
+    ledger = []
+    for ti, table in enumerate(tables):
+        for ri, row in enumerate(table.rows):
+            entry = {
+                "entity": "p2p", "table": ti, "row": ri,
+                "kind": row.kind, "offset": row.offset,
+                "old_mode": row.mode, "old_rpm": row.rpm, "old_thr": row.throttle,
+                "old_v": getattr(row, 'multiplier', 0.0)
+            }
+            # Modify the multiplier slightly
+            entry["new_v"] = entry["old_v"] * 1.05 if entry["old_v"] != 0 else 1.5
+            ledger.append(entry)
+    return ledger
+
+def _apply_p2p(tables: List[Any], ledger: List[Dict[str, Any]], use_old: bool) -> None:
+    for entry in ledger:
+        row = tables[entry["table"]].rows[entry["row"]]
+        if use_old:
+            if hasattr(row, 'multiplier'): row.multiplier = entry["old_v"]
+        else:
+            if hasattr(row, 'multiplier'): row.multiplier = entry["new_v"]
+
+@pytest.mark.skipif(
+    not os.path.isfile(os.path.join(_PROJECT_ROOT, "Extracted_EDFs", "Stock_Corolla_24.bff", "01a075c0.edf")),
+    reason="Stock Corolla EDF not found"
+)
+def test_p2p_json_ledger_roundtrip():
+    """Verify that editing P2P tables and writing back exactly matches the file structure."""
+    edf_path = os.path.join(_PROJECT_ROOT, "Extracted_EDFs", "Stock_Corolla_24.bff", "01a075c0.edf")
+    with open(edf_path, 'rb') as f:
+        orig_data = f.read()
+
+    from src.core.parser import parse_p2p_tables
+    from src.core.writer import write_p2p_row
+    
+    tables = parse_p2p_tables(orig_data)
+    assert len(tables) > 0, "Expected to find P2P tables"
+    
+    ledger = _record_p2p(tables)
+    _apply_p2p(tables, ledger, use_old=False)
+    
+    mutated = bytearray(orig_data)
+    for t in tables:
+        for r in t.rows:
+            write_p2p_row(mutated, r)
+            
+    assert bytes(mutated) != orig_data, "Mutation failed"
+    
+    tables2 = parse_p2p_tables(bytes(mutated))
+    _apply_p2p(tables2, ledger, use_old=True)
+    
+    reinstated = bytearray(mutated)
+    for t in tables2:
+        for r in t.rows:
+            write_p2p_row(reinstated, r)
+            
+    assert bytes(reinstated) == orig_data, "P2P Roundtrip failed"
+

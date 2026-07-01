@@ -1,10 +1,9 @@
 from dataclasses import dataclass
 from typing import Tuple, Optional, List, Union
 from .constants import (
-    SIG_0RPM, SIG_0RPM_ALT, SIG_ROW_I, SIG_ROW_F, SIG_ENDVAR,
-    SIG_BOOST_0RPM, SIG_BOOST_ROW,
     ROW0_STRUCT, ROW0_ALT_STRUCT, ROWI_STRUCT, ROWF_STRUCT, ENDVAR_STRUCT,
-    BOOST0_STRUCT, BOOSTI_STRUCT, PARAMS
+    BOOST_4F_STRUCT, BOOST_5F_STRUCT, BOOST_I_4F_STRUCT, BOOST_I_5F_STRUCT, BOOST_I_5B_STRUCT,
+    P2P_FULL_STRUCT, P2P_ZERO_STRUCT, PARAMS
 )
 
 @dataclass
@@ -18,13 +17,14 @@ class TorqueRow:
 
     @property
     def size(self) -> int:
-        if self.kind == '0rpm': return len(SIG_0RPM) + ROW0_STRUCT.size
-        if self.kind == '0rpm_alt': return len(SIG_0RPM_ALT) + ROW0_ALT_STRUCT.size
-        if self.kind == 'row_i': 
-            sig_len = len(self.exact_signature) if self.exact_signature else len(SIG_ROW_I)
-            return sig_len + ROWI_STRUCT.size
-        if self.kind == 'row_f': return len(SIG_ROW_F) + ROWF_STRUCT.size
-        if self.kind == 'endvar': return len(SIG_ENDVAR) + ENDVAR_STRUCT.size
+        if self.kind == '0rpm': return 7 + ROW0_STRUCT.size
+        elif self.kind == '0rpm_alt': return 7 + ROW0_ALT_STRUCT.size
+        elif self.kind == 'row_i': 
+            if self.exact_signature:
+                return 4 + len(self.exact_signature) + 8 # 4 for rpm, 8 for comp+tq
+            return 7 + ROWI_STRUCT.size
+        elif self.kind == 'row_f': return 7 + ROWF_STRUCT.size
+        elif self.kind == 'endvar': return 7 + ENDVAR_STRUCT.size
         return 0
 
 @dataclass
@@ -43,14 +43,18 @@ class BoostRow:
     t25: float
     t50: float
     t75: float
-    t100: float
+    t100: Optional[float]
     offset: int
-    kind: str # 'boost_0rpm', 'boost_row'
+    kind: str # 'boost_0rpm_5f', 'boost_0rpm_4f', 'boost_row_5f', 'boost_row_4f', 'boost_row_5b'
     
     @property
     def size(self) -> int:
-        if self.kind == 'boost_0rpm': return len(SIG_BOOST_0RPM) + BOOST0_STRUCT.size
-        if self.kind == 'boost_row': return len(SIG_BOOST_ROW) + BOOSTI_STRUCT.size
+        marker_hash_len = 5 # \x24 + 4 byte hash
+        if self.kind == 'boost_0rpm_5f': return marker_hash_len + 2 + BOOST_5F_STRUCT.size # suffix is 2 bytes
+        if self.kind == 'boost_0rpm_4f': return marker_hash_len + 2 + BOOST_4F_STRUCT.size
+        if self.kind == 'boost_row_5f': return marker_hash_len + 2 + BOOST_I_5F_STRUCT.size
+        if self.kind == 'boost_row_4f': return marker_hash_len + 2 + BOOST_I_4F_STRUCT.size
+        if self.kind == 'boost_row_5b': return marker_hash_len + 2 + BOOST_I_5B_STRUCT.size
         return 0
 
 @dataclass
@@ -58,6 +62,32 @@ class BoostTable:
     offset: int
     rows: List[BoostRow]
     
+    @property
+    def size(self) -> int:
+        return sum(r.size for r in self.rows)
+
+@dataclass
+class P2PRow:
+    mode: int       # N
+    rpm: float      # X
+    throttle: float # Y
+    multiplier: float # V
+    offset: int
+    kind: str       # 'p2p_full', 'p2p_zero'
+    pad: int = 0    # Preserved 4th byte in p2p_zero
+
+    @property
+    def size(self) -> int:
+        marker_hash_len = 5 # \x24 + 4 byte hash
+        if self.kind == 'p2p_full': return marker_hash_len + 2 + P2P_FULL_STRUCT.size
+        if self.kind == 'p2p_zero': return marker_hash_len + 2 + P2P_ZERO_STRUCT.size
+        return 0
+
+@dataclass
+class P2PTable:
+    offset: int
+    rows: List[P2PRow]
+
     @property
     def size(self) -> int:
         return sum(r.size for r in self.rows)

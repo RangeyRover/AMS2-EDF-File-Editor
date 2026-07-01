@@ -1,31 +1,33 @@
 import struct
 import re
 
-# -------- Signatures (little-endian) --------
-SIG_0RPM     = b'\x24\x8B\x0A\xB7\x71\x83\x02'  # byte, float, float
-SIG_0RPM_ALT = b'\x24\x8B\x0A\xB7\x71\x03\x02'  # byte, float (compression only)
-SIG_ROW_I    = b'\x24\x8B\x0A\xB7\x71\x93\x02'  # int32, float, float
-SIG_ROW_F    = b'\x24\x8B\x0A\xB7\x71\xA3\x02'  # float, float, float
-SIG_ENDVAR   = b'\x24\x8B\x0A\xB7\x71\x93\x00'  # int32, float, byte (rare)
+# -------- Hash IDs --------
+HASH_TORQUE = b'\x8B\x0A\xB7\x71'
+HASH_BOOST = b'\x51\x5F\x5E\x83'
+HASH_P2P = b'\x04\x45\x49\x29'
 
 # Flexible fuzzy matching for anomalous explicit-RPM ROW_I blocks overriding row0
 # Specifically \x03\x02 variant as found in forc.edfbin
-SIG_ROW_I_FLEX = re.compile(b'\\x24\x8b\x0a\xb7\x71\x03\x02', re.DOTALL)
+SIG_ROW_I_FLEX = b'\x24' + HASH_TORQUE + b'\x03\x02'
 
-# Boost table signatures
-SIG_BOOST_0RPM = b'\x24\x51\x5F\x5E\x83\x86\xAA'  # byte, 5 floats (throttle positions)
-SIG_BOOST_ROW  = b'\x24\x51\x5F\x5E\x83\x96\xAA'  # int32, 5 floats (throttle positions)
-
+# -------- Structural Payloads (little-endian) --------
 # Torque table structures
-ROW0_STRUCT     = struct.Struct('<Bff')
-ROW0_ALT_STRUCT = struct.Struct('<BBf')
-ROWI_STRUCT     = struct.Struct('<iff')
-ROWF_STRUCT     = struct.Struct('<fff')
-ENDVAR_STRUCT   = struct.Struct('<ifB')
+ROW0_STRUCT     = struct.Struct('<Bff')    # suffix: 83 02
+ROW0_ALT_STRUCT = struct.Struct('<BBf')    # suffix: 03 02
+ROWI_STRUCT     = struct.Struct('<iff')    # suffix: 93 02
+ROWF_STRUCT     = struct.Struct('<fff')    # suffix: A3 02
+ENDVAR_STRUCT   = struct.Struct('<ifB')    # suffix: 93 00
 
 # Boost table structures
-BOOST0_STRUCT = struct.Struct('<Bfffff')  # byte + 5 floats
-BOOSTI_STRUCT = struct.Struct('<ifffff')  # int32 + 5 floats
+BOOST_4F_STRUCT = struct.Struct('<Bffff')    # 0RPM: byte + 4 floats (06 AA, 06 2A)
+BOOST_5F_STRUCT = struct.Struct('<Bfffff')   # 0RPM: byte + 5 floats (86 AA, 86 2A)
+BOOST_I_4F_STRUCT = struct.Struct('<iBffff') # ROWI: int32 + byte + 4 floats (16 AA)
+BOOST_I_5F_STRUCT = struct.Struct('<ifffff') # ROWI: int32 + 5 floats (96 AA)
+BOOST_I_5B_STRUCT = struct.Struct('<iBBBBB') # ROWI: int32 + 5 bytes (16 00)
+
+# P2P table structures
+P2P_FULL_STRUCT = struct.Struct('<BBBf') # suffix: 04 08
+P2P_ZERO_STRUCT = struct.Struct('<BBBB') # suffix: 04 00 (V implicitly 0.0, extra byte padding)
 
 # Common single/dual-value parameter markers (per JDougNY notes)
 # Format codes: 'f' float, 'i' int, 'b' byte, tuples represent sequences

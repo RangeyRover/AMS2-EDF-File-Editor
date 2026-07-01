@@ -1,10 +1,9 @@
 import pytest
 from src.core.parser import (
     find_all, read_by_fmt, 
-    parse_torque_tables, parse_boost_tables, parse_params,
+    parse_torque_tables, parse_boost_tables, parse_p2p_tables, parse_params,
     plausible_rpm, plausible_torque
 )
-from src.core.constants import SIG_0RPM
 
 def test_find_all():
     data = b'\x01\x02\x03\x01\x02\x03\x00'
@@ -52,7 +51,7 @@ def test_parse_torque_tables(synthetic_torque_data):
     
     t = tables[0]
     # Check offset
-    # SIG_0RPM starts at 10
+    # marker starts at 10
     assert t.offset == 10
     
     rows = t.rows
@@ -95,6 +94,30 @@ def test_parse_boost_tables(synthetic_boost_data):
     # Row 1
     assert rows[1].rpm == 2000
     assert rows[1].t100 == pytest.approx(2.1)
+
+def test_parse_p2p_tables(synthetic_p2p_data):
+    tables = parse_p2p_tables(synthetic_p2p_data)
+    assert len(tables) == 1
+    
+    t = tables[0]
+    assert t.offset == 10
+    
+    rows = t.rows
+    assert len(rows) == 2
+    
+    # Full Row
+    assert rows[0].kind == 'p2p_full'
+    assert rows[0].mode == 1
+    assert rows[0].rpm == 2.0
+    assert rows[0].throttle == 50.0
+    assert rows[0].multiplier == pytest.approx(1.5)
+    
+    # Zero Row
+    assert rows[1].kind == 'p2p_zero'
+    assert rows[1].mode == 1
+    assert rows[1].rpm == 2.0
+    assert rows[1].throttle == 50.0
+    assert rows[1].multiplier == pytest.approx(0.0)
 
 def test_parse_params(synthetic_param_data):
     params = parse_params(synthetic_param_data)

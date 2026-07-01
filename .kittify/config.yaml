@@ -1,0 +1,13 @@
+vcs:
+  type: git
+agents:
+  available:
+  - gemini
+  selection:
+    preferred_implementer:
+    preferred_reviewer:
+  auto_commit: true
+project:
+  uuid: 78d00e66-ce5c-4e45-a304-74592abb6952
+  slug: ams2-edf-file-editor
+  node_id: 7a4f46ebb70e
