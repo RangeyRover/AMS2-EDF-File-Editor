@@ -26,8 +26,15 @@ logging.basicConfig(
 )
 
 def main():
+    if "--dry-run" in sys.argv:
+        logging.info("Dry run successful, imports resolved.")
+        sys.exit(0)
+        
     app = EDFEditorApp()
     app.mainloop()
+
+if __name__ == "__main__":
+    main()
 
 if __name__ == "__main__":
     main()
