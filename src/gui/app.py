@@ -2,9 +2,11 @@ import tkinter as tk
 from tkinter import ttk, filedialog, messagebox, simpledialog
 import logging
 import csv
+import os
 
 from ..core.parser import parse_torque_tables, parse_boost_tables, parse_p2p_tables, parse_params, detect_engine_layout
 from ..core.writer import write_torque_row, write_param, scale_torque_tables
+from ..core.docs_provider import DocumentationProvider
 from ..utils import plotting
 from .tree_view import EDFTreeView
 from .hex_view import HexView
@@ -76,9 +78,16 @@ class EDFEditorApp(tk.Tk):
         self.hex_view = HexView(right_frame)
         self.hex_view.pack(fill=tk.BOTH, expand=True)
         
+        # Setup Docs Provider
+        proj_root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+        xml_path = os.path.join(proj_root, "edf-hex-map.xml")
+        txt_path = os.path.join(proj_root, "Translation_for_EngineEDFBIN_Shiimis_Rangeyrover_V1.5.txt")
+        self.docs_provider = DocumentationProvider(xml_path, txt_path)
+        
         # Bind events
         self.tree.bind("<<TreeviewSelect>>", self.on_tree_select)
         self.tree.bind("<Double-1>", self.on_tree_double_click)
+        self.tree.bind("<Button-3>", self.on_tree_right_click)
         
     def load_file(self):
         path = filedialog.askopenfilename(filetypes=[("EDF files", "*.edf *.edfbin"), ("All files", "*.*")])
@@ -164,6 +173,42 @@ class EDFEditorApp(tk.Tk):
         self.file_menu.entryconfig("Save As...", state='disabled')
         self.file_menu.entryconfig("Close", state='disabled')
 
+    def on_tree_right_click(self, event):
+        item_id = self.tree.identify_row(event.y)
+        if not item_id or item_id not in self.tree.item_map:
+            return
+            
+        self.tree.selection_set(item_id)
+        obj = self.tree.item_map[item_id]
+        
+        # Create a context menu
+        menu = tk.Menu(self, tearoff=0)
+        menu.add_command(label="Help / View Definition", command=lambda: self.show_help_dialog(obj))
+        menu.tk_popup(event.x_root, event.y_root)
+        
+    def show_help_dialog(self, obj):
+        from ..core.models import TorqueRow, BoostRow, P2PRow, Parameter
+        from .dialogs import HelpDialog
+        
+        key = None
+        if isinstance(obj, TorqueRow):
+            key = "RPMTorque"
+        elif isinstance(obj, BoostRow):
+            key = "BoostTable"
+        elif isinstance(obj, P2PRow):
+            key = "P2PTable"
+        elif isinstance(obj, Parameter):
+            key = obj.name
+            
+        doc = None
+        if key:
+            # Check docs_provider
+            doc = self.docs_provider.get_documentation(key)
+            if not doc and key == "BoostTable":
+                doc = "XML Definition:\n<boost-tables>\n  <row-struct name='row-i'>\n    <field name='rpm' type='int32'/>\n    <field name='t0' type='float'/>\n    ...\n  </row-struct>\n</boost-tables>"
+            
+        HelpDialog(self, obj, doc, key if key else "Unknown Element")
+
     def on_tree_double_click(self, event):
         sel = self.tree.selection()
         if not sel:
@@ -175,8 +220,8 @@ class EDFEditorApp(tk.Tk):
             
         obj = self.tree.item_map[item_id]
         
-        from .dialogs import EditTorqueDialog, EditParamDialog
-        from ..core.models import TorqueRow, Parameter
+        from .dialogs import EditTorqueDialog, EditParamDialog, EditP2PDialog
+        from ..core.models import TorqueRow, Parameter, P2PRow
         
         if isinstance(obj, TorqueRow):
             # FR-035: block tree-view editing while interactive plot is open
@@ -189,6 +234,14 @@ class EDFEditorApp(tk.Tk):
             EditTorqueDialog(self, obj, self.on_row_update)
         elif isinstance(obj, Parameter):
             EditParamDialog(self, obj, self.on_param_update)
+        elif isinstance(obj, P2PRow):
+            if self._interactive_plot_open:
+                messagebox.showinfo(
+                    "Interactive Plot Active",
+                    "Close the interactive plot before editing P2P rows in the tree view."
+                )
+                return
+            EditP2PDialog(self, obj, self.on_row_update)
             
     def on_row_update(self, rows):
         from ..core.writer import write_torque_row, write_boost_row, write_p2p_row

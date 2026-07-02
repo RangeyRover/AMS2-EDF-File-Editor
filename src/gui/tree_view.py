@@ -15,17 +15,19 @@ class EDFTreeView(ttk.Treeview):
         style.configure("Treeview", rowheight=28)
         
         # Columns must be declared BEFORE configuring headings
-        self['columns'] = ("col1", "col2", "col3")
+        self['columns'] = ("col1", "col2", "col3", "col4")
         
         self.heading("#0", text="Item", anchor=tk.W)
         self.heading("col1", text="Value 1", anchor=tk.W)
         self.heading("col2", text="Value 2", anchor=tk.W)
         self.heading("col3", text="Value 3", anchor=tk.W)
+        self.heading("col4", text="Value 4", anchor=tk.W)
         
         self.column("#0", width=300)
-        self.column("col1", width=150)
-        self.column("col2", width=150)
-        self.column("col3", width=150)
+        self.column("col1", width=120)
+        self.column("col2", width=120)
+        self.column("col3", width=120)
+        self.column("col4", width=120)
         
         # Mapping from item_id to data object (for editing)
         self.item_map = {} 
@@ -47,51 +49,48 @@ class EDFTreeView(ttk.Treeview):
         for t_idx, table in enumerate(tables):
             tnode = self.insert(tt_root, 'end', 
                                 text=f"Table {t_idx} @ 0x{table.offset:X} (rows={len(table.rows)})", 
-                                values=('', '', ''))
+                                values=('', '', '', ''))
             
-            self.insert(tnode, 'end', text="Columns: RPM, Compression (-Nm), Torque (Nm)", values=('', '', ''))
+            self.insert(tnode, 'end', text="Columns: RPM [Float], Compression (-Nm) [Float], Torque (Nm) [Float]", values=('', '', '', ''))
             
             for i, row in enumerate(table.rows):
                 tq_str = '' if row.torque is None else format_float(row.torque, 3)
                 item_id = self.insert(tnode, 'end',
                                      text=f"Row {i:02d} [{row.kind}] @ 0x{row.offset:X}",
-                                     values=(format_float(row.rpm, 1), format_float(row.compression, 3), tq_str))
+                                     values=(format_float(row.rpm, 1), format_float(row.compression, 3), tq_str, ''))
                 self.item_map[item_id] = row
 
         # Boost Tables
         for b_idx, table in enumerate(boost_tables):
             bnode = self.insert(bt_root, 'end', 
                                 text=f"Boost Table {b_idx} @ 0x{table.offset:X} (rows={len(table.rows)})", 
-                                values=('', '', ''))
+                                values=('', '', '', ''))
             
-            self.insert(bnode, 'end', text="Columns: RPM, Throttle 0%, 25%, 50%, 75%, 100% (bar)", values=('', '', ''))
+            self.insert(bnode, 'end', text="Columns: RPM [Float], Throttle 0%, 25%, 50%, 75%, 100% (bar) [Float]", values=('', '', '', ''))
             
             for i, row in enumerate(table.rows):
                 item_id = self.insert(bnode, 'end',
                                      text=f"Row {i:02d} [{row.kind}] @ 0x{row.offset:X}",
-                                     values=(format_float(row.t0, 3), format_float(row.t25, 3), format_float(row.t50, 3)))
+                                     values=(format_float(row.t0, 3), format_float(row.t25, 3), format_float(row.t50, 3), ''))
                 
                 t100_str = "N/A" if row.t100 is None else format_float(row.t100, 3)
                 self.insert(bnode, 'end',
                            text=f"  → Throttle 75%={format_float(row.t75, 3)}, 100%={t100_str}",
-                           values=('', '', ''))
+                           values=('', '', '', ''))
                 self.item_map[item_id] = row
 
         # P2P Tables
         for p_idx, table in enumerate(p2p_tables):
             pnode = self.insert(pt_root, 'end', 
                                 text=f"P2P Table {p_idx} @ 0x{table.offset:X} (rows={len(table.rows)})", 
-                                values=('', '', ''))
+                                values=('', '', '', ''))
             
-            self.insert(pnode, 'end', text="Columns: Mode (N), RPM (X), Throttle (Y), Multiplier (V)", values=('', '', ''))
+            self.insert(pnode, 'end', text="Columns: Mode [Byte], RPM [Float], Throttle [Float], Multiplier [Float]", values=('', '', '', ''))
             
             for i, row in enumerate(table.rows):
                 item_id = self.insert(pnode, 'end',
                                      text=f"Row {i:02d} [{row.kind}] @ 0x{row.offset:X}",
-                                     values=(f"Mode: {row.mode}", f"RPM: {format_float(row.rpm, 1)}", f"Thr: {format_float(row.throttle, 1)}"))
-                self.insert(pnode, 'end',
-                           text=f"  → Multiplier={format_float(row.multiplier, 3)}",
-                           values=('', '', ''))
+                                     values=(f"Mode: {row.mode}", f"RPM: {format_float(row.rpm, 1)}", f"Thr: {format_float(row.throttle, 1)}", f"Mult: {format_float(row.multiplier, 3)}"))
                 self.item_map[item_id] = row
 
         # Parameters — with labels and type annotations
@@ -113,11 +112,11 @@ class EDFTreeView(ttk.Treeview):
                         return format_float(v, 6)
                     return str(v)
             
-            v1 = _fmt_field(vals[0], 0) if len(vals) > 0 else ''
-            v2 = _fmt_field(vals[1], 1) if len(vals) > 1 else ''
-            v3 = _fmt_field(vals[2], 2) if len(vals) > 2 else ''
-            
-            item_id = self.insert(pr_root, 'end', 
-                                 text=f"{param.name} @ 0x{param.offset:X}", 
-                                 values=(v1, v2, v3))
+            labels = [_fmt_field(v, i) for i, v in enumerate(vals)]
+            if len(labels) == 1:
+                val_str = labels[0]
+            else:
+                val_str = " | ".join(labels)
+                
+            item_id = self.insert(pr_root, 'end', text=f"{param.name} @ 0x{param.offset:X}", values=(val_str, '', '', ''))
             self.item_map[item_id] = param
